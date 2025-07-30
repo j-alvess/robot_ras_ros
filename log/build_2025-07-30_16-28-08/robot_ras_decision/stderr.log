@@ -1,0 +1,14 @@
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/motor_controller_node.cpp:[m[K In member function ‘[01m[Kvoid MotorControllerNode::movement_callback()[m[K’:
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/motor_controller_node.cpp:108:31:[m[K [01;31m[Kerror: [m[K‘[01m[Ktopic[m[K’ was not declared in this scope
+  108 |         motor2.data[0] = vel2;[01;31m[Ktopic[m[K echo /motor1/commands
+      |                               [01;31m[K^~~~~[m[K
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/decision_node.cpp:[m[K In member function ‘[01m[Kvoid DecisionNode::movement_callback()[m[K’:
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/decision_node.cpp:84:46:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K/[m[K’ token
+   84 |                 instruction.direcao = "left";[01;31m[K/[m[K
+      |                                              [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/DecisionNode.dir/build.make:76: CMakeFiles/DecisionNode.dir/src/decision_node.cpp.o] Erro 1
+gmake[1]: *** [CMakeFiles/Makefile2:624: CMakeFiles/DecisionNode.dir/all] Erro 2
+gmake[1]: ** Esperando que outros processos terminem.
+gmake[2]: *** [CMakeFiles/MotorControllerNode.dir/build.make:76: CMakeFiles/MotorControllerNode.dir/src/motor_controller_node.cpp.o] Erro 1
+gmake[1]: *** [CMakeFiles/Makefile2:596: CMakeFiles/MotorControllerNode.dir/all] Erro 2
+gmake: *** [Makefile:146: all] Erro 2

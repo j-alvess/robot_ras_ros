@@ -1,0 +1,7 @@
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/decision_node.cpp:[m[K In member function ‘[01m[Kvoid DecisionNode::movement_callback()[m[K’:
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/decision_node.cpp:81:44:[m[K [01;31m[Kerror: [m[K‘[01m[Ktopic[m[K’ was not declared in this scope
+   81 |                 instruction.distancia = 0;;[01;31m[Ktopic[m[K echo /motor1/commands
+      |                                            [01;31m[K^~~~~[m[K
+gmake[2]: *** [CMakeFiles/DecisionNode.dir/build.make:76: CMakeFiles/DecisionNode.dir/src/decision_node.cpp.o] Erro 1
+gmake[1]: *** [CMakeFiles/Makefile2:624: CMakeFiles/DecisionNode.dir/all] Erro 2
+gmake: *** [Makefile:146: all] Erro 2

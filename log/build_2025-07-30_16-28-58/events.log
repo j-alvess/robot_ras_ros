@@ -1,0 +1,168 @@
+[0.000000] (-) TimerEvent: {}
+[0.000864] (robot_ras_decision) JobQueued: {'identifier': 'robot_ras_decision', 'dependencies': OrderedDict()}
+[0.001002] (robot_ras_ros) JobQueued: {'identifier': 'robot_ras_ros', 'dependencies': OrderedDict()}
+[0.001087] (robot_ras_decision) JobStarted: {'identifier': 'robot_ras_decision'}
+[0.005223] (robot_ras_ros) JobStarted: {'identifier': 'robot_ras_ros'}
+[0.010526] (robot_ras_decision) JobProgress: {'identifier': 'robot_ras_decision', 'progress': 'cmake'}
+[0.011234] (robot_ras_decision) JobProgress: {'identifier': 'robot_ras_decision', 'progress': 'build'}
+[0.011894] (robot_ras_decision) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/alves/ros2_ws/build/robot_ras_decision', '--', '-j16', '-l16'], 'cwd': '/home/alves/ros2_ws/build/robot_ras_decision', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'pt_BR:en'), ('USER', 'alves'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/alves/ros2_ws/install/robot_ras_decision/lib:/home/alves/ros2_ws/install/count_action_cpp/lib:/home/alves/ros2_ws/install/count_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/alves'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.102.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '2136'), ('SYSTEMD_EXEC_PID', '2497'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3843'), ('COLCON_PREFIX_PATH', '/home/alves/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'alves'), ('JOURNAL_STREAM', '8:2963'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'alves'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/alves/.local/bin:/opt/ros/humble/bin:/home/alves/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/alves-Nitro-ANV15-51:@/tmp/.ICE-unix/2474,unix/alves-Nitro-ANV15-51:/tmp/.ICE-unix/2474'), ('INVOCATION_ID', '6dbd9f16b4a04e15bc6dd03585a1d437'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'pt_BR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-6f692281ea.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/alves/ros2_ws/install/robot_ras_ros:/home/alves/ros2_ws/install/robot_ras_decision:/home/alves/ros2_ws/install/dep_example_cpp:/home/alves/ros2_ws/install/count_action_cpp:/home/alves/ros2_ws/install/count_interfaces:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/alves/ros2_ws/build/robot_ras_decision'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/home/alves/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/alves/ros2_ws/install/robot_ras_decision/local/lib/python3.10/dist-packages:/home/alves/ros2_ws/install/count_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/alves/ros2_ws/install/robot_ras_ros:/home/alves/ros2_ws/install/robot_ras_decision:/home/alves/ros2_ws/install/dep_example_cpp:/home/alves/ros2_ws/install/count_action_cpp:/home/alves/ros2_ws/install/count_interfaces:/opt/ros/humble')]), 'shell': False}
+[0.014850] (robot_ras_ros) JobProgress: {'identifier': 'robot_ras_ros', 'progress': 'cmake'}
+[0.015448] (robot_ras_ros) JobProgress: {'identifier': 'robot_ras_ros', 'progress': 'build'}
+[0.016089] (robot_ras_ros) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/alves/ros2_ws/build/robot_ras_ros', '--', '-j16', '-l16'], 'cwd': '/home/alves/ros2_ws/build/robot_ras_ros', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'pt_BR:en'), ('USER', 'alves'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/alves/ros2_ws/install/robot_ras_decision/lib:/home/alves/ros2_ws/install/count_action_cpp/lib:/home/alves/ros2_ws/install/count_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/alves'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.102.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '2136'), ('SYSTEMD_EXEC_PID', '2497'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3843'), ('COLCON_PREFIX_PATH', '/home/alves/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'alves'), ('JOURNAL_STREAM', '8:2963'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'alves'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/alves/.local/bin:/opt/ros/humble/bin:/home/alves/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/alves-Nitro-ANV15-51:@/tmp/.ICE-unix/2474,unix/alves-Nitro-ANV15-51:/tmp/.ICE-unix/2474'), ('INVOCATION_ID', '6dbd9f16b4a04e15bc6dd03585a1d437'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'pt_BR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-6f692281ea.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/alves/ros2_ws/install/robot_ras_ros:/home/alves/ros2_ws/install/robot_ras_decision:/home/alves/ros2_ws/install/dep_example_cpp:/home/alves/ros2_ws/install/count_action_cpp:/home/alves/ros2_ws/install/count_interfaces:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/alves/ros2_ws/build/robot_ras_ros'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/home/alves/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/alves/ros2_ws/install/robot_ras_decision/local/lib/python3.10/dist-packages:/home/alves/ros2_ws/install/count_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/alves/ros2_ws/install/robot_ras_ros:/home/alves/ros2_ws/install/robot_ras_decision:/home/alves/ros2_ws/install/dep_example_cpp:/home/alves/ros2_ws/install/count_action_cpp:/home/alves/ros2_ws/install/count_interfaces:/opt/ros/humble')]), 'shell': False}
+[0.066936] (robot_ras_ros) CommandEnded: {'returncode': 0}
+[0.069035] (robot_ras_ros) JobProgress: {'identifier': 'robot_ras_ros', 'progress': 'install'}
+[0.081690] (robot_ras_decision) StdoutLine: {'line': b'[  2%] Built target robot_ras_decision__cpp\n'}
+[0.083359] (robot_ras_decision) StdoutLine: {'line': b'[ 11%] Built target robot_ras_decision__rosidl_generator_c\n'}
+[0.092529] (robot_ras_ros) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/alves/ros2_ws/build/robot_ras_ros'], 'cwd': '/home/alves/ros2_ws/build/robot_ras_ros', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'pt_BR:en'), ('USER', 'alves'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/alves/ros2_ws/install/robot_ras_decision/lib:/home/alves/ros2_ws/install/count_action_cpp/lib:/home/alves/ros2_ws/install/count_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/alves'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.102.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '2136'), ('SYSTEMD_EXEC_PID', '2497'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3843'), ('COLCON_PREFIX_PATH', '/home/alves/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'alves'), ('JOURNAL_STREAM', '8:2963'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'alves'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/alves/.local/bin:/opt/ros/humble/bin:/home/alves/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/alves-Nitro-ANV15-51:@/tmp/.ICE-unix/2474,unix/alves-Nitro-ANV15-51:/tmp/.ICE-unix/2474'), ('INVOCATION_ID', '6dbd9f16b4a04e15bc6dd03585a1d437'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'pt_BR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-6f692281ea.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/alves/ros2_ws/install/robot_ras_ros:/home/alves/ros2_ws/install/robot_ras_decision:/home/alves/ros2_ws/install/dep_example_cpp:/home/alves/ros2_ws/install/count_action_cpp:/home/alves/ros2_ws/install/count_interfaces:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/alves/ros2_ws/build/robot_ras_ros'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/home/alves/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/alves/ros2_ws/install/robot_ras_decision/local/lib/python3.10/dist-packages:/home/alves/ros2_ws/install/count_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/alves/ros2_ws/install/robot_ras_ros:/home/alves/ros2_ws/install/robot_ras_decision:/home/alves/ros2_ws/install/dep_example_cpp:/home/alves/ros2_ws/install/count_action_cpp:/home/alves/ros2_ws/install/count_interfaces:/opt/ros/humble')]), 'shell': False}
+[0.099815] (-) TimerEvent: {}
+[0.104252] (robot_ras_decision) StdoutLine: {'line': b'[ 11%] Built target ament_cmake_python_symlink_robot_ras_decision\n'}
+[0.105311] (robot_ras_ros) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.106291] (robot_ras_ros) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.106934] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/urdf/chassis.xacro\n'}
+[0.107209] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/urdf/gazebo_elementos.xacro\n'}
+[0.107717] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/urdf/lidar.xacro\n'}
+[0.107887] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/urdf/materiais.xacro\n'}
+[0.108016] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/urdf/propriedades.xacro\n'}
+[0.108130] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/urdf/robot.urdf.xacro\n'}
+[0.108301] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/urdf/roda.xacro\n'}
+[0.108451] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/urdf/roda_boba.xacro\n'}
+[0.108535] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/launch/gazebo.launch.py\n'}
+[0.108607] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/launch/spawn.launch.py\n'}
+[0.108845] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/worlds/hacka_labirinth.world\n'}
+[0.109186] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/worlds/labirinth.world\n'}
+[0.109515] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/params/ros2_control.yaml\n'}
+[0.109908] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/rviz/default.rviz\n'}
+[0.110335] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/models/hacka_labirinth/model.config\n'}
+[0.110628] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/models/hacka_labirinth/model.sdf\n'}
+[0.110940] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/models/hacka_wall/model.config\n'}
+[0.111188] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/models/hacka_wall/model.sdf\n'}
+[0.111421] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/models/labirinth/model.config\n'}
+[0.111661] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/models/labirinth/model.sdf\n'}
+[0.111849] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/models/walls/model.config\n'}
+[0.112024] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/models/walls/model.sdf\n'}
+[0.112310] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/package.xml\n'}
+[0.112481] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_ros/share/ament_index/resource_index/package_run_dependencies/robot_ras_ros\n'}
+[0.112677] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_ros/share/ament_index/resource_index/parent_prefix_path/robot_ras_ros\n'}
+[0.112783] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/environment/ament_prefix_path.sh\n'}
+[0.112929] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/environment/ament_prefix_path.dsv\n'}
+[0.113072] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/environment/path.sh\n'}
+[0.113170] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/environment/path.dsv\n'}
+[0.113298] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/local_setup.bash\n'}
+[0.113396] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/local_setup.sh\n'}
+[0.113729] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/local_setup.zsh\n'}
+[0.113937] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/local_setup.dsv\n'}
+[0.114092] (robot_ras_ros) StdoutLine: {'line': b'-- Symlinking: /home/alves/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/package.dsv\n'}
+[0.119969] (robot_ras_decision) StdoutLine: {'line': b'[ 20%] Built target robot_ras_decision__rosidl_typesupport_fastrtps_cpp\n'}
+[0.122278] (robot_ras_decision) StdoutLine: {'line': b'[ 37%] Built target robot_ras_decision__rosidl_typesupport_cpp\n'}
+[0.122543] (robot_ras_decision) StdoutLine: {'line': b'[ 39%] Built target robot_ras_decision__rosidl_typesupport_c\n'}
+[0.122768] (robot_ras_decision) StdoutLine: {'line': b'[ 48%] Built target robot_ras_decision__rosidl_typesupport_introspection_c\n'}
+[0.123271] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_ros/share/ament_index/resource_index/packages/robot_ras_ros\n'}
+[0.123414] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/cmake/robot_ras_rosConfig.cmake\n'}
+[0.123555] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/cmake/robot_ras_rosConfig-version.cmake\n'}
+[0.123900] (robot_ras_decision) StdoutLine: {'line': b'[ 58%] Built target robot_ras_decision__rosidl_typesupport_introspection_cpp\n'}
+[0.124049] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/package.xml\n'}
+[0.126055] (robot_ras_ros) CommandEnded: {'returncode': 0}
+[0.133770] (robot_ras_decision) StdoutLine: {'line': b'[ 67%] Built target robot_ras_decision__rosidl_typesupport_fastrtps_c\n'}
+[0.139163] (robot_ras_ros) JobEnded: {'identifier': 'robot_ras_ros', 'rc': 0}
+[0.150218] (robot_ras_decision) StdoutLine: {'line': b'[ 67%] Built target robot_ras_decision\n'}
+[0.161452] (robot_ras_decision) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target DecisionNode\x1b[0m\n'}
+[0.163047] (robot_ras_decision) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target MotorControllerNode\x1b[0m\n'}
+[0.166980] (robot_ras_decision) StdoutLine: {'line': b'[ 69%] Built target robot_ras_decision__py\n'}
+[0.175121] (robot_ras_decision) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/DecisionNode.dir/src/decision_node.cpp.o\x1b[0m\n'}
+[0.176328] (robot_ras_decision) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/MotorControllerNode.dir/src/motor_controller_node.cpp.o\x1b[0m\n'}
+[0.184652] (robot_ras_decision) StdoutLine: {'line': b'[ 81%] Built target robot_ras_decision__rosidl_generator_py\n'}
+[0.199916] (-) TimerEvent: {}
+[0.200312] (robot_ras_decision) StdoutLine: {'line': b'[ 86%] Built target robot_ras_decision__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.200568] (robot_ras_decision) StdoutLine: {'line': b'[ 90%] Built target robot_ras_decision__rosidl_typesupport_c__pyext\n'}
+[0.200666] (robot_ras_decision) StdoutLine: {'line': b'[ 95%] Built target robot_ras_decision__rosidl_typesupport_introspection_c__pyext\n'}
+[0.275954] (robot_ras_decision) StdoutLine: {'line': b'running egg_info\n'}
+[0.276371] (robot_ras_decision) StdoutLine: {'line': b'writing robot_ras_decision.egg-info/PKG-INFO\n'}
+[0.276564] (robot_ras_decision) StdoutLine: {'line': b'writing dependency_links to robot_ras_decision.egg-info/dependency_links.txt\n'}
+[0.276710] (robot_ras_decision) StdoutLine: {'line': b'writing top-level names to robot_ras_decision.egg-info/top_level.txt\n'}
+[0.278334] (robot_ras_decision) StdoutLine: {'line': b"reading manifest file 'robot_ras_decision.egg-info/SOURCES.txt'\n"}
+[0.278732] (robot_ras_decision) StdoutLine: {'line': b"writing manifest file 'robot_ras_decision.egg-info/SOURCES.txt'\n"}
+[0.300032] (-) TimerEvent: {}
+[0.303602] (robot_ras_decision) StdoutLine: {'line': b'[ 95%] Built target ament_cmake_python_build_robot_ras_decision_egg\n'}
+[0.400133] (-) TimerEvent: {}
+[0.500480] (-) TimerEvent: {}
+[0.600996] (-) TimerEvent: {}
+[0.701357] (-) TimerEvent: {}
+[0.801621] (-) TimerEvent: {}
+[0.901932] (-) TimerEvent: {}
+[1.002245] (-) TimerEvent: {}
+[1.102600] (-) TimerEvent: {}
+[1.202994] (-) TimerEvent: {}
+[1.303285] (-) TimerEvent: {}
+[1.403573] (-) TimerEvent: {}
+[1.503967] (-) TimerEvent: {}
+[1.604372] (-) TimerEvent: {}
+[1.704874] (-) TimerEvent: {}
+[1.805237] (-) TimerEvent: {}
+[1.905709] (-) TimerEvent: {}
+[1.966576] (robot_ras_decision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/alves/ros2_ws/src/robot_ras_decision/src/decision_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid DecisionNode::movement_callback()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.966815] (robot_ras_decision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/alves/ros2_ws/src/robot_ras_decision/src/decision_node.cpp:84:46:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K/\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[1.966919] (robot_ras_decision) StderrLine: {'line': b'   84 |                 instruction.direcao = "left";\x1b[01;31m\x1b[K/\x1b[m\x1b[K\n'}
+[1.967012] (robot_ras_decision) StderrLine: {'line': b'      |                                              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.005840] (-) TimerEvent: {}
+[2.106184] (-) TimerEvent: {}
+[2.206511] (-) TimerEvent: {}
+[2.306828] (-) TimerEvent: {}
+[2.407220] (-) TimerEvent: {}
+[2.507670] (-) TimerEvent: {}
+[2.608032] (-) TimerEvent: {}
+[2.708374] (-) TimerEvent: {}
+[2.808791] (-) TimerEvent: {}
+[2.909122] (-) TimerEvent: {}
+[3.009513] (-) TimerEvent: {}
+[3.109853] (-) TimerEvent: {}
+[3.210339] (-) TimerEvent: {}
+[3.310688] (-) TimerEvent: {}
+[3.411139] (-) TimerEvent: {}
+[3.511571] (-) TimerEvent: {}
+[3.612050] (-) TimerEvent: {}
+[3.712403] (-) TimerEvent: {}
+[3.812811] (-) TimerEvent: {}
+[3.913217] (-) TimerEvent: {}
+[4.013482] (-) TimerEvent: {}
+[4.048285] (robot_ras_decision) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/DecisionNode.dir/build.make:76: CMakeFiles/DecisionNode.dir/src/decision_node.cpp.o] Erro 1\n'}
+[4.048510] (robot_ras_decision) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:624: CMakeFiles/DecisionNode.dir/all] Erro 2\n'}
+[4.048568] (robot_ras_decision) StderrLine: {'line': b'gmake[1]: ** Esperando que outros processos terminem.\n'}
+[4.113571] (-) TimerEvent: {}
+[4.213904] (-) TimerEvent: {}
+[4.314255] (-) TimerEvent: {}
+[4.414495] (-) TimerEvent: {}
+[4.514753] (-) TimerEvent: {}
+[4.615023] (-) TimerEvent: {}
+[4.715353] (-) TimerEvent: {}
+[4.815679] (-) TimerEvent: {}
+[4.915898] (-) TimerEvent: {}
+[5.016135] (-) TimerEvent: {}
+[5.116381] (-) TimerEvent: {}
+[5.216601] (-) TimerEvent: {}
+[5.316941] (-) TimerEvent: {}
+[5.417224] (-) TimerEvent: {}
+[5.517480] (-) TimerEvent: {}
+[5.617716] (-) TimerEvent: {}
+[5.717974] (-) TimerEvent: {}
+[5.818241] (-) TimerEvent: {}
+[5.918478] (-) TimerEvent: {}
+[6.018729] (-) TimerEvent: {}
+[6.119069] (-) TimerEvent: {}
+[6.219341] (-) TimerEvent: {}
+[6.319634] (-) TimerEvent: {}
+[6.419855] (-) TimerEvent: {}
+[6.520166] (-) TimerEvent: {}
+[6.620469] (-) TimerEvent: {}
+[6.720775] (-) TimerEvent: {}
+[6.821096] (-) TimerEvent: {}
+[6.921497] (-) TimerEvent: {}
+[6.958233] (robot_ras_decision) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking CXX executable MotorControllerNode\x1b[0m\n'}
+[7.021576] (-) TimerEvent: {}
+[7.121925] (-) TimerEvent: {}
+[7.222428] (-) TimerEvent: {}
+[7.304721] (robot_ras_decision) StdoutLine: {'line': b'[ 97%] Built target MotorControllerNode\n'}
+[7.306028] (robot_ras_decision) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Erro 2\n'}
+[7.308019] (robot_ras_decision) CommandEnded: {'returncode': 2}
+[7.313760] (robot_ras_decision) JobEnded: {'identifier': 'robot_ras_decision', 'rc': 2}
+[7.322517] (-) TimerEvent: {}
+[7.324383] (-) EventReactorShutdown: {}

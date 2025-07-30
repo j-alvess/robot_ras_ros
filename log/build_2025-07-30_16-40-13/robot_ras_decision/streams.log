@@ -1,0 +1,34 @@
+[0.010s] Invoking command in '/home/alves/ros2_ws/build/robot_ras_decision': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/alves/ros2_ws/build/robot_ras_decision -- -j16 -l16
+[0.055s] [  9%] Built target robot_ras_decision__rosidl_generator_c
+[0.064s] [ 11%] Built target robot_ras_decision__cpp
+[0.075s] [ 11%] Built target ament_cmake_python_symlink_robot_ras_decision
+[0.089s] [ 20%] Built target robot_ras_decision__rosidl_typesupport_c
+[0.093s] [ 30%] Built target robot_ras_decision__rosidl_typesupport_introspection_c
+[0.098s] [ 39%] Built target robot_ras_decision__rosidl_typesupport_fastrtps_c
+[0.098s] [ 48%] Built target robot_ras_decision__rosidl_typesupport_cpp
+[0.102s] [ 58%] Built target robot_ras_decision__rosidl_typesupport_fastrtps_cpp
+[0.107s] [ 67%] Built target robot_ras_decision__rosidl_typesupport_introspection_cpp
+[0.124s] [ 67%] Built target robot_ras_decision
+[0.135s] [35m[1mConsolidate compiler generated dependencies of target DecisionNode[0m
+[0.139s] [ 69%] Built target robot_ras_decision__py
+[0.144s] [ 74%] Built target MotorControllerNode
+[0.150s] [ 76%] [32mBuilding CXX object CMakeFiles/DecisionNode.dir/src/decision_node.cpp.o[0m
+[0.161s] [ 83%] Built target robot_ras_decision__rosidl_generator_py
+[0.178s] [ 88%] Built target robot_ras_decision__rosidl_typesupport_fastrtps_c__pyext
+[0.179s] [ 93%] Built target robot_ras_decision__rosidl_typesupport_introspection_c__pyext
+[0.180s] [ 97%] Built target robot_ras_decision__rosidl_typesupport_c__pyext
+[0.252s] running egg_info
+[0.253s] writing robot_ras_decision.egg-info/PKG-INFO
+[0.253s] writing dependency_links to robot_ras_decision.egg-info/dependency_links.txt
+[0.253s] writing top-level names to robot_ras_decision.egg-info/top_level.txt
+[0.254s] reading manifest file 'robot_ras_decision.egg-info/SOURCES.txt'
+[0.255s] writing manifest file 'robot_ras_decision.egg-info/SOURCES.txt'
+[0.277s] [ 97%] Built target ament_cmake_python_build_robot_ras_decision_egg
+[1.824s] [01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/decision_node.cpp:[m[K In member function ‘[01m[Kvoid DecisionNode::movement_callback()[m[K’:
+[1.824s] [01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/decision_node.cpp:81:44:[m[K [01;31m[Kerror: [m[K‘[01m[Ktopic[m[K’ was not declared in this scope
+[1.824s]    81 |                 instruction.distancia = 0;;[01;31m[Ktopic[m[K echo /motor1/commands
+[1.824s]       |                                            [01;31m[K^~~~~[m[K
+[3.596s] gmake[2]: *** [CMakeFiles/DecisionNode.dir/build.make:76: CMakeFiles/DecisionNode.dir/src/decision_node.cpp.o] Erro 1
+[3.596s] gmake[1]: *** [CMakeFiles/Makefile2:624: CMakeFiles/DecisionNode.dir/all] Erro 2
+[3.596s] gmake: *** [Makefile:146: all] Erro 2
+[3.599s] Invoked command in '/home/alves/ros2_ws/build/robot_ras_decision' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/alves/ros2_ws/build/robot_ras_decision -- -j16 -l16

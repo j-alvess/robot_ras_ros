@@ -1,0 +1,8 @@
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/decision_node.cpp:[m[K In member function ‘[01m[Kvoid DecisionNode::movement_callback()[m[K’:
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/decision_node.cpp:84:46:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K/[m[K’ token
+   84 |                 instruction.direcao = "left";[01;31m[K/[m[K
+      |                                              [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/DecisionNode.dir/build.make:76: CMakeFiles/DecisionNode.dir/src/decision_node.cpp.o] Erro 1
+gmake[1]: *** [CMakeFiles/Makefile2:624: CMakeFiles/DecisionNode.dir/all] Erro 2
+gmake[1]: ** Esperando que outros processos terminem.
+gmake: *** [Makefile:146: all] Erro 2

@@ -1,0 +1,146 @@
+[0.009s] Invoking command in '/home/alves/ros2_ws/build/robot_ras_decision': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/alves/ros2_ws/build/robot_ras_decision -- -j16 -l16
+[0.076s] [  2%] Built target robot_ras_decision__cpp
+[0.076s] [ 11%] Built target robot_ras_decision__rosidl_generator_c
+[0.088s] [ 11%] Built target ament_cmake_python_symlink_robot_ras_decision
+[0.123s] [ 27%] Built target robot_ras_decision__rosidl_typesupport_cpp
+[0.123s] [ 30%] Built target robot_ras_decision__rosidl_typesupport_introspection_cpp
+[0.124s] [ 39%] Built target robot_ras_decision__rosidl_typesupport_fastrtps_c
+[0.125s] [ 48%] Built target robot_ras_decision__rosidl_typesupport_fastrtps_cpp
+[0.125s] [ 58%] Built target robot_ras_decision__rosidl_typesupport_introspection_c
+[0.128s] [ 67%] Built target robot_ras_decision__rosidl_typesupport_c
+[0.144s] [ 67%] Built target robot_ras_decision
+[0.159s] [35m[1mConsolidate compiler generated dependencies of target DecisionNode[0m
+[0.166s] [ 69%] Built target robot_ras_decision__py
+[0.167s] [ 74%] Built target MotorControllerNode
+[0.178s] [ 79%] Built target DecisionNode
+[0.189s] [ 86%] Built target robot_ras_decision__rosidl_generator_py
+[0.206s] [100%] Built target robot_ras_decision__rosidl_typesupport_fastrtps_c__pyext
+[0.206s] [100%] Built target robot_ras_decision__rosidl_typesupport_c__pyext
+[0.206s] [100%] Built target robot_ras_decision__rosidl_typesupport_introspection_c__pyext
+[0.280s] running egg_info
+[0.281s] writing robot_ras_decision.egg-info/PKG-INFO
+[0.281s] writing dependency_links to robot_ras_decision.egg-info/dependency_links.txt
+[0.281s] writing top-level names to robot_ras_decision.egg-info/top_level.txt
+[0.282s] reading manifest file 'robot_ras_decision.egg-info/SOURCES.txt'
+[0.282s] writing manifest file 'robot_ras_decision.egg-info/SOURCES.txt'
+[0.302s] [100%] Built target ament_cmake_python_build_robot_ras_decision_egg
+[0.315s] Invoked command in '/home/alves/ros2_ws/build/robot_ras_decision' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/alves/ros2_ws/build/robot_ras_decision -- -j16 -l16
+[0.316s] Invoking command in '/home/alves/ros2_ws/build/robot_ras_decision': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/alves/ros2_ws/build/robot_ras_decision
+[0.328s] -- Install configuration: ""
+[0.330s] -- Execute custom install script
+[0.330s] -- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_decision/share/ament_index/resource_index/rosidl_interfaces/robot_ras_decision
+[0.331s] -- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_decision/include/robot_ras_decision/robot_ras_decision/msg/detail/movement__functions.h
+[0.331s] -- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_decision/include/robot_ras_decision/robot_ras_decision/msg/detail/movement__struct.h
+[0.331s] -- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_decision/include/robot_ras_decision/robot_ras_decision/msg/detail/movement__type_support.h
+[0.331s] -- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_decision/include/robot_ras_decision/robot_ras_decision/msg/movement.h
+[0.331s] -- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_decision/include/robot_ras_decision/robot_ras_decision/msg/rosidl_generator_c__visibility_control.h
+[0.332s] -- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_decision/include/robot_ras_decision/robot_ras_decision/srv/detail/set_velocity__functions.h
+[0.332s] -- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_decision/include/robot_ras_decision/robot_ras_decision/srv/detail/set_velocity__struct.h
+[0.332s] -- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_decision/include/robot_ras_decision/robot_ras_decision/srv/detail/set_velocity__type_support.h
+[0.332s] -- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_decision/include/robot_ras_decision/robot_ras_decision/srv/set_velocity.h
+[0.332s] -- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_decision/share/robot_ras_decision/environment/library_path.sh
+[0.332s] -- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_decision/share/robot_ras_decision/environment/library_path.dsv
+[0.333s] -- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_decision/include/robot_ras_decision/robot_ras_decision/msg/detail/movement__rosidl_typesupport_fastrtps_c.h
+[0.333s] -- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_decision/include/robot_ras_decision/robot_ras_decision/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.333s] -- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_decision/include/robot_ras_decision/robot_ras_decision/srv/detail/set_velocity__rosidl_typesupport_fastrtps_c.h
+[0.335s] -- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_decision/include/robot_ras_decision/robot_ras_decision/msg/detail/movement__builder.hpp
+[0.335s] -- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_decision/include/robot_ras_decision/robot_ras_decision/msg/detail/movement__struct.hpp
+[0.336s] -- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_decision/include/robot_ras_decision/robot_ras_decision/msg/detail/movement__traits.hpp
+[0.336s] -- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_decision/include/robot_ras_decision/robot_ras_decision/msg/detail/movement__type_support.hpp
+[0.336s] -- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_decision/include/robot_ras_decision/robot_ras_decision/msg/movement.hpp
+[0.337s] -- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_decision/include/robot_ras_decision/robot_ras_decision/msg/rosidl_generator_cpp__visibility_control.hpp
+[0.337s] -- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_decision/include/robot_ras_decision/robot_ras_decision/srv/detail/set_velocity__builder.hpp
+[0.337s] -- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_decision/include/robot_ras_decision/robot_ras_decision/srv/detail/set_velocity__struct.hpp
+[0.337s] -- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_decision/include/robot_ras_decision/robot_ras_decision/srv/detail/set_velocity__traits.hpp
+[0.338s] -- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_decision/include/robot_ras_decision/robot_ras_decision/srv/detail/set_velocity__type_support.hpp
+[0.338s] -- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_decision/include/robot_ras_decision/robot_ras_decision/srv/set_velocity.hpp
+[0.340s] -- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_decision/include/robot_ras_decision/robot_ras_decision/msg/detail/movement__rosidl_typesupport_fastrtps_cpp.hpp
+[0.340s] -- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_decision/include/robot_ras_decision/robot_ras_decision/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.340s] -- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_decision/include/robot_ras_decision/robot_ras_decision/srv/detail/set_velocity__rosidl_typesupport_fastrtps_cpp.hpp
+[0.341s] -- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_decision/include/robot_ras_decision/robot_ras_decision/msg/detail/movement__rosidl_typesupport_introspection_c.h
+[0.342s] -- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_decision/include/robot_ras_decision/robot_ras_decision/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.342s] -- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_decision/include/robot_ras_decision/robot_ras_decision/srv/detail/set_velocity__rosidl_typesupport_introspection_c.h
+[0.343s] -- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_decision/include/robot_ras_decision/robot_ras_decision/msg/detail/movement__rosidl_typesupport_introspection_cpp.hpp
+[0.343s] -- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_decision/include/robot_ras_decision/robot_ras_decision/srv/detail/set_velocity__rosidl_typesupport_introspection_cpp.hpp
+[0.343s] -- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_decision/share/robot_ras_decision/environment/pythonpath.sh
+[0.343s] -- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_decision/share/robot_ras_decision/environment/pythonpath.dsv
+[0.344s] -- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_decision/local/lib/python3.10/dist-packages/robot_ras_decision-0.0.0-py3.10.egg-info/PKG-INFO
+[0.344s] -- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_decision/local/lib/python3.10/dist-packages/robot_ras_decision-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.344s] -- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_decision/local/lib/python3.10/dist-packages/robot_ras_decision-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.344s] -- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_decision/local/lib/python3.10/dist-packages/robot_ras_decision-0.0.0-py3.10.egg-info/top_level.txt
+[0.345s] -- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_decision/local/lib/python3.10/dist-packages/robot_ras_decision/__init__.py
+[0.345s] -- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_decision/local/lib/python3.10/dist-packages/robot_ras_decision/_robot_ras_decision_s.ep.rosidl_typesupport_c.c
+[0.346s] -- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_decision/local/lib/python3.10/dist-packages/robot_ras_decision/_robot_ras_decision_s.ep.rosidl_typesupport_fastrtps_c.c
+[0.346s] -- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_decision/local/lib/python3.10/dist-packages/robot_ras_decision/_robot_ras_decision_s.ep.rosidl_typesupport_introspection_c.c
+[0.346s] -- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_decision/local/lib/python3.10/dist-packages/robot_ras_decision/librobot_ras_decision__rosidl_generator_py.so
+[0.346s] -- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_decision/local/lib/python3.10/dist-packages/robot_ras_decision/msg/__init__.py
+[0.347s] -- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_decision/local/lib/python3.10/dist-packages/robot_ras_decision/msg/_movement.py
+[0.347s] -- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_decision/local/lib/python3.10/dist-packages/robot_ras_decision/msg/_movement_s.c
+[0.347s] -- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_decision/local/lib/python3.10/dist-packages/robot_ras_decision/robot_ras_decision_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.348s] -- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_decision/local/lib/python3.10/dist-packages/robot_ras_decision/robot_ras_decision_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.348s] -- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_decision/local/lib/python3.10/dist-packages/robot_ras_decision/robot_ras_decision_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.348s] -- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_decision/local/lib/python3.10/dist-packages/robot_ras_decision/srv/__init__.py
+[0.349s] -- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_decision/local/lib/python3.10/dist-packages/robot_ras_decision/srv/_set_velocity.py
+[0.349s] -- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_decision/local/lib/python3.10/dist-packages/robot_ras_decision/srv/_set_velocity_s.c
+[0.349s] -- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_decision/local/lib/python3.10/dist-packages/robot_ras_decision/robot_ras_decision_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.350s] -- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_decision/local/lib/python3.10/dist-packages/robot_ras_decision/robot_ras_decision_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.350s] -- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_decision/local/lib/python3.10/dist-packages/robot_ras_decision/robot_ras_decision_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.350s] -- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_decision/share/robot_ras_decision/msg/Movement.idl
+[0.351s] -- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_decision/share/robot_ras_decision/srv/SetVelocity.idl
+[0.351s] -- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_decision/share/robot_ras_decision/msg/Movement.msg
+[0.351s] -- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_decision/share/robot_ras_decision/srv/SetVelocity.srv
+[0.351s] -- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_decision/share/robot_ras_decision/srv/SetVelocity_Request.msg
+[0.351s] -- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_decision/share/robot_ras_decision/srv/SetVelocity_Response.msg
+[0.351s] -- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_decision/lib/robot_ras_decision/MotorControllerNode
+[0.351s] -- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_decision/lib/robot_ras_decision/DecisionNode
+[0.351s] -- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_decision/share/ament_index/resource_index/package_run_dependencies/robot_ras_decision
+[0.351s] -- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_decision/share/ament_index/resource_index/parent_prefix_path/robot_ras_decision
+[0.352s] -- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_decision/share/robot_ras_decision/environment/ament_prefix_path.sh
+[0.352s] -- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_decision/share/robot_ras_decision/environment/ament_prefix_path.dsv
+[0.352s] -- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_decision/share/robot_ras_decision/environment/path.sh
+[0.352s] -- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_decision/share/robot_ras_decision/environment/path.dsv
+[0.352s] -- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_decision/share/robot_ras_decision/local_setup.bash
+[0.352s] -- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_decision/share/robot_ras_decision/local_setup.sh
+[0.352s] -- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_decision/share/robot_ras_decision/local_setup.zsh
+[0.352s] -- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_decision/share/robot_ras_decision/local_setup.dsv
+[0.353s] -- Symlinking: /home/alves/ros2_ws/install/robot_ras_decision/share/robot_ras_decision/package.dsv
+[0.363s] -- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_decision/share/ament_index/resource_index/packages/robot_ras_decision
+[0.363s] -- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_decision/share/robot_ras_decision/cmake/rosidl_cmake-extras.cmake
+[0.363s] -- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_decision/share/robot_ras_decision/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.363s] -- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_decision/share/robot_ras_decision/cmake/ament_cmake_export_libraries-extras.cmake
+[0.364s] -- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_decision/share/robot_ras_decision/cmake/ament_cmake_export_targets-extras.cmake
+[0.364s] -- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_decision/share/robot_ras_decision/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.364s] -- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_decision/share/robot_ras_decision/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.364s] -- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_decision/share/robot_ras_decision/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.364s] -- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_decision/share/robot_ras_decision/cmake/robot_ras_decisionConfig.cmake
+[0.364s] -- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_decision/share/robot_ras_decision/cmake/robot_ras_decisionConfig-version.cmake
+[0.364s] -- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_decision/share/robot_ras_decision/package.xml
+[0.364s] -- Up-to-date: /home/alves/ros2_ws/install/robot_ras_decision/lib/librobot_ras_decision__rosidl_generator_c.so
+[0.364s] -- Up-to-date: /home/alves/ros2_ws/install/robot_ras_decision/lib/librobot_ras_decision__rosidl_typesupport_fastrtps_c.so
+[0.364s] -- Up-to-date: /home/alves/ros2_ws/install/robot_ras_decision/lib/librobot_ras_decision__rosidl_typesupport_fastrtps_cpp.so
+[0.365s] -- Up-to-date: /home/alves/ros2_ws/install/robot_ras_decision/lib/librobot_ras_decision__rosidl_typesupport_introspection_c.so
+[0.365s] -- Up-to-date: /home/alves/ros2_ws/install/robot_ras_decision/lib/librobot_ras_decision__rosidl_typesupport_c.so
+[0.365s] -- Up-to-date: /home/alves/ros2_ws/install/robot_ras_decision/lib/librobot_ras_decision__rosidl_typesupport_introspection_cpp.so
+[0.365s] -- Up-to-date: /home/alves/ros2_ws/install/robot_ras_decision/lib/librobot_ras_decision__rosidl_typesupport_cpp.so
+[0.388s] Listing '/home/alves/ros2_ws/install/robot_ras_decision/local/lib/python3.10/dist-packages/robot_ras_decision'...
+[0.388s] Listing '/home/alves/ros2_ws/install/robot_ras_decision/local/lib/python3.10/dist-packages/robot_ras_decision/msg'...
+[0.388s] Listing '/home/alves/ros2_ws/install/robot_ras_decision/local/lib/python3.10/dist-packages/robot_ras_decision/srv'...
+[0.391s] -- Up-to-date: /home/alves/ros2_ws/install/robot_ras_decision/lib/librobot_ras_decision__rosidl_generator_py.so
+[0.391s] -- Up-to-date: /home/alves/ros2_ws/install/robot_ras_decision/share/robot_ras_decision/cmake/export_robot_ras_decision__rosidl_generator_cExport.cmake
+[0.391s] -- Up-to-date: /home/alves/ros2_ws/install/robot_ras_decision/share/robot_ras_decision/cmake/export_robot_ras_decision__rosidl_generator_cExport-noconfig.cmake
+[0.391s] -- Up-to-date: /home/alves/ros2_ws/install/robot_ras_decision/share/robot_ras_decision/cmake/export_robot_ras_decision__rosidl_typesupport_fastrtps_cExport.cmake
+[0.392s] -- Up-to-date: /home/alves/ros2_ws/install/robot_ras_decision/share/robot_ras_decision/cmake/export_robot_ras_decision__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[0.392s] -- Up-to-date: /home/alves/ros2_ws/install/robot_ras_decision/share/robot_ras_decision/cmake/export_robot_ras_decision__rosidl_generator_cppExport.cmake
+[0.392s] -- Up-to-date: /home/alves/ros2_ws/install/robot_ras_decision/share/robot_ras_decision/cmake/export_robot_ras_decision__rosidl_typesupport_fastrtps_cppExport.cmake
+[0.392s] -- Up-to-date: /home/alves/ros2_ws/install/robot_ras_decision/share/robot_ras_decision/cmake/export_robot_ras_decision__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[0.392s] -- Up-to-date: /home/alves/ros2_ws/install/robot_ras_decision/share/robot_ras_decision/cmake/robot_ras_decision__rosidl_typesupport_introspection_cExport.cmake
+[0.392s] -- Up-to-date: /home/alves/ros2_ws/install/robot_ras_decision/share/robot_ras_decision/cmake/robot_ras_decision__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.392s] -- Up-to-date: /home/alves/ros2_ws/install/robot_ras_decision/share/robot_ras_decision/cmake/robot_ras_decision__rosidl_typesupport_cExport.cmake
+[0.392s] -- Up-to-date: /home/alves/ros2_ws/install/robot_ras_decision/share/robot_ras_decision/cmake/robot_ras_decision__rosidl_typesupport_cExport-noconfig.cmake
+[0.392s] -- Up-to-date: /home/alves/ros2_ws/install/robot_ras_decision/share/robot_ras_decision/cmake/robot_ras_decision__rosidl_typesupport_introspection_cppExport.cmake
+[0.392s] -- Up-to-date: /home/alves/ros2_ws/install/robot_ras_decision/share/robot_ras_decision/cmake/robot_ras_decision__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.392s] -- Up-to-date: /home/alves/ros2_ws/install/robot_ras_decision/share/robot_ras_decision/cmake/robot_ras_decision__rosidl_typesupport_cppExport.cmake
+[0.392s] -- Up-to-date: /home/alves/ros2_ws/install/robot_ras_decision/share/robot_ras_decision/cmake/robot_ras_decision__rosidl_typesupport_cppExport-noconfig.cmake
+[0.392s] -- Up-to-date: /home/alves/ros2_ws/install/robot_ras_decision/share/robot_ras_decision/cmake/export_robot_ras_decision__rosidl_generator_pyExport.cmake
+[0.392s] -- Up-to-date: /home/alves/ros2_ws/install/robot_ras_decision/share/robot_ras_decision/cmake/export_robot_ras_decision__rosidl_generator_pyExport-noconfig.cmake
+[0.393s] Invoked command in '/home/alves/ros2_ws/build/robot_ras_decision' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/alves/ros2_ws/build/robot_ras_decision

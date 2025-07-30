@@ -72,30 +72,26 @@ class DecisionNode : public rclcpp::Node
         {   
             auto instruction = robot_ras_decision::msg::Movement();
 
-            if(distancia[2].range> 0.3 && distancia[3].range> 0.15 && distancia[0].range > 0.6) {
-                instruction.direcao = "front";
-                instruction.distancia = distancia[0].range - 0.6;
-                instruction.angulo = 0.0;
-            } else if(distancia[2].range< 0.15 && distancia[3].range > 0.15) {
-                instruction.direcao = "right";
-                instruction.distancia = 0;
-                instruction.angulo = 0.15;
-            } else if(distancia[3].range< 0.1 && distancia[0].range > 0.15) {
-                instruction.direcao = "left";
-                instruction.distancia = 0;
-                instruction.angulo = -0.15;
-            } else if(distancia[2].range> 0.3) {                    
+            if(distancia[2].range< 0.4) {
+                if(distancia[0].range > 0.5) {
+                    instruction.direcao = "front";
+                    instruction.distancia = distancia[0].range - 0.5;
+                    instruction.angulo = 0.0;
+                } else {
+                    if(distancia[2].range< 0.25) {
+                        instruction.direcao = "right";
+                        instruction.distancia = 0;
+                        instruction.angulo = -0.15;
+                    } else if(distancia[3].range < 0.1) {
+                        instruction.direcao = "left";
+                        instruction.distancia = 0;
+                        instruction.angulo = 0.1;
+                    }   
+                }
+            } else {
                 instruction.direcao = "left";
                 instruction.distancia = 0;
                 instruction.angulo = 1.57;
-            } else if(distancia[3].range> 0.3) {
-                instruction.direcao = "rigth";
-                instruction.distancia = 0;
-                instruction.angulo = -1.57;
-            } else if (distancia[0].range < 0.1) {
-                instruction.direcao = "rear";
-                instruction.distancia = distancia[0].range - 0.4;
-                instruction.angulo = 0.0;
             }
             
 

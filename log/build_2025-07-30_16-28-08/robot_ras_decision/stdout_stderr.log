@@ -1,0 +1,39 @@
+[  2%] Built target robot_ras_decision__cpp
+[ 11%] Built target robot_ras_decision__rosidl_generator_c
+[ 11%] Built target ament_cmake_python_symlink_robot_ras_decision
+[ 20%] Built target robot_ras_decision__rosidl_typesupport_cpp
+[ 30%] Built target robot_ras_decision__rosidl_typesupport_fastrtps_cpp
+[ 39%] Built target robot_ras_decision__rosidl_typesupport_introspection_cpp
+[ 48%] Built target robot_ras_decision__rosidl_typesupport_c
+[ 58%] Built target robot_ras_decision__rosidl_typesupport_introspection_c
+[ 67%] Built target robot_ras_decision__rosidl_typesupport_fastrtps_c
+[ 67%] Built target robot_ras_decision
+[35m[1mConsolidate compiler generated dependencies of target MotorControllerNode[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/DecisionNode.dir/src/decision_node.cpp.o[0m
+[ 72%] Built target robot_ras_decision__py
+[ 74%] [32mBuilding CXX object CMakeFiles/MotorControllerNode.dir/src/motor_controller_node.cpp.o[0m
+[ 81%] Built target robot_ras_decision__rosidl_generator_py
+[ 95%] Built target robot_ras_decision__rosidl_typesupport_c__pyext
+[ 95%] Built target robot_ras_decision__rosidl_typesupport_fastrtps_c__pyext
+[ 95%] Built target robot_ras_decision__rosidl_typesupport_introspection_c__pyext
+running egg_info
+writing robot_ras_decision.egg-info/PKG-INFO
+writing dependency_links to robot_ras_decision.egg-info/dependency_links.txt
+writing top-level names to robot_ras_decision.egg-info/top_level.txt
+reading manifest file 'robot_ras_decision.egg-info/SOURCES.txt'
+writing manifest file 'robot_ras_decision.egg-info/SOURCES.txt'
+[ 95%] Built target ament_cmake_python_build_robot_ras_decision_egg
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/motor_controller_node.cpp:[m[K In member function ‘[01m[Kvoid MotorControllerNode::movement_callback()[m[K’:
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/motor_controller_node.cpp:108:31:[m[K [01;31m[Kerror: [m[K‘[01m[Ktopic[m[K’ was not declared in this scope
+  108 |         motor2.data[0] = vel2;[01;31m[Ktopic[m[K echo /motor1/commands
+      |                               [01;31m[K^~~~~[m[K
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/decision_node.cpp:[m[K In member function ‘[01m[Kvoid DecisionNode::movement_callback()[m[K’:
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/decision_node.cpp:84:46:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K/[m[K’ token
+   84 |                 instruction.direcao = "left";[01;31m[K/[m[K
+      |                                              [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/DecisionNode.dir/build.make:76: CMakeFiles/DecisionNode.dir/src/decision_node.cpp.o] Erro 1
+gmake[1]: *** [CMakeFiles/Makefile2:624: CMakeFiles/DecisionNode.dir/all] Erro 2
+gmake[1]: ** Esperando que outros processos terminem.
+gmake[2]: *** [CMakeFiles/MotorControllerNode.dir/build.make:76: CMakeFiles/MotorControllerNode.dir/src/motor_controller_node.cpp.o] Erro 1
+gmake[1]: *** [CMakeFiles/Makefile2:596: CMakeFiles/MotorControllerNode.dir/all] Erro 2
+gmake: *** [Makefile:146: all] Erro 2
