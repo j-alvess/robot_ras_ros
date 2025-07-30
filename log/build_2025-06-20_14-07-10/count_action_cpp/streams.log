@@ -1,0 +1,27 @@
+[0.018s] Invoking command in '/home/alves/ros2_ws/build/count_action_cpp': CMAKE_PREFIX_PATH=/home/alves/ros2_ws/install/count_interfaces:/home/alves/ros2_ws/install/robot_ras_ros:/home/alves/ros2_ws/install/robot_ras_decision:/home/alves/ros2_ws/install/dep_example_cpp:/opt/ros/humble /usr/bin/cmake --build /home/alves/ros2_ws/build/count_action_cpp -- -j16 -l16
+[0.067s] [35m[1mConsolidate compiler generated dependencies of target count_server[0m
+[0.071s] [35m[1mConsolidate compiler generated dependencies of target CountClient[0m
+[0.078s] [ 12%] [32mBuilding CXX object CMakeFiles/action_server.dir/src/count_server.cpp.o[0m
+[0.086s] [ 25%] [32mBuilding CXX object CMakeFiles/CountServer.dir/src/count_server.cpp.o[0m
+[0.089s] [ 50%] Built target count_server
+[0.089s] [ 62%] [32m[1mLinking CXX executable CountClient[0m
+[0.132s] [01m[K/home/alves/ros2_ws/src/count_action_cpp/src/count_server.cpp:5:10:[m[K [01;31m[Kfatal error: [m[Kcount_interfaces/action/Count.hpp: Arquivo ou diretório inexistente
+[0.132s]     5 | #include [01;31m[K"count_interfaces/action/Count.hpp"[m[K
+[0.132s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.132s] compilation terminated.
+[0.133s] gmake[2]: *** [CMakeFiles/action_server.dir/build.make:76: CMakeFiles/action_server.dir/src/count_server.cpp.o] Erro 1
+[0.133s] [01m[K/home/alves/ros2_ws/src/count_action_cpp/src/count_server.cpp:5:10:[m[K [01;31m[Kfatal error: [m[Kcount_interfaces/action/Count.hpp: Arquivo ou diretório inexistente
+[0.133s]     5 | #include [01;31m[K"count_interfaces/action/Count.hpp"[m[K
+[0.133s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.134s] compilation terminated.
+[0.134s] gmake[1]: *** [CMakeFiles/Makefile2:143: CMakeFiles/action_server.dir/all] Erro 2
+[0.134s] gmake[1]: ** Esperando que outros processos terminem.
+[0.134s] gmake[2]: *** [CMakeFiles/CountServer.dir/build.make:76: CMakeFiles/CountServer.dir/src/count_server.cpp.o] Erro 1
+[0.134s] gmake[1]: *** [CMakeFiles/Makefile2:195: CMakeFiles/CountServer.dir/all] Erro 2
+[0.135s] /usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: na função "_start":
+[0.135s] (.text+0x1b): referência não definida para "main"
+[0.137s] collect2: error: ld returned 1 exit status
+[0.138s] gmake[2]: *** [CMakeFiles/CountClient.dir/build.make:177: CountClient] Erro 1
+[0.138s] gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/CountClient.dir/all] Erro 2
+[0.138s] gmake: *** [Makefile:146: all] Erro 2
+[0.140s] Invoked command in '/home/alves/ros2_ws/build/count_action_cpp' returned '2': CMAKE_PREFIX_PATH=/home/alves/ros2_ws/install/count_interfaces:/home/alves/ros2_ws/install/robot_ras_ros:/home/alves/ros2_ws/install/robot_ras_decision:/home/alves/ros2_ws/install/dep_example_cpp:/opt/ros/humble /usr/bin/cmake --build /home/alves/ros2_ws/build/count_action_cpp -- -j16 -l16

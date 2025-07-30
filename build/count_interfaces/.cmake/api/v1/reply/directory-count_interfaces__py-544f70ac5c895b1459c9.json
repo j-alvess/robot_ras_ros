@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "count_interfaces__py",
+		"source" : "/home/alves/ros2_ws/build/count_interfaces/count_interfaces__py"
+	}
+}

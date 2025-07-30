@@ -1,0 +1,45 @@
+[0.008s] Invoking command in '/home/alves/ros2_ws/build/count_action_cpp': CMAKE_PREFIX_PATH=/home/alves/ros2_ws/install/count_interfaces:/home/alves/ros2_ws/install/robot_ras_ros:/home/alves/ros2_ws/install/robot_ras_decision:/home/alves/ros2_ws/install/dep_example_cpp:/opt/ros/humble /usr/bin/cmake --build /home/alves/ros2_ws/build/count_action_cpp -- -j16 -l16
+[0.051s] [35m[1mConsolidate compiler generated dependencies of target action_server[0m
+[0.052s] [35m[1mConsolidate compiler generated dependencies of target CountServer[0m
+[0.059s] [ 25%] Built target count_server
+[0.061s] [ 37%] [32m[1mLinking CXX executable CountClient[0m
+[0.063s] [ 50%] [32mBuilding CXX object CMakeFiles/CountServer.dir/src/count_server.cpp.o[0m
+[0.064s] [ 62%] [32mBuilding CXX object CMakeFiles/action_server.dir/src/count_server.cpp.o[0m
+[0.109s] /usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: na função "_start":
+[0.109s] (.text+0x1b): referência não definida para "main"
+[0.111s] collect2: error: ld returned 1 exit status
+[0.112s] gmake[2]: *** [CMakeFiles/CountClient.dir/build.make:177: CountClient] Erro 1
+[0.112s] gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/CountClient.dir/all] Erro 2
+[0.112s] gmake[1]: ** Esperando que outros processos terminem.
+[1.669s] [01m[K/home/alves/ros2_ws/src/count_action_cpp/src/count_server.cpp:[m[K In lambda function:
+[1.669s] [01m[K/home/alves/ros2_ws/src/count_action_cpp/src/count_server.cpp:45:27:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kclear[m[K’ in ‘[01m[K((std::__shared_ptr_access<count_interfaces::action::Count_Feedback_<std::allocator<void> >, __gnu_cxx::_S_atomic, false, false>*)(& feedback))->std::__shared_ptr_access<count_interfaces::action::Count_Feedback_<std::allocator<void> >, __gnu_cxx::_S_atomic, false, false>::operator->()->count_interfaces::action::Count_Feedback_<std::allocator<void> >::current[m[K’, which is of non-class type ‘[01m[Kcount_interfaces::action::Count_Feedback_<std::allocator<void> >::_current_type[m[K’ {aka ‘[01m[Kint[m[K’}
+[1.670s]    45 |         feedback->current.[01;31m[Kclear[m[K();
+[1.670s]       |                           [01;31m[K^~~~~[m[K
+[1.670s] [01m[K/home/alves/ros2_ws/src/count_action_cpp/src/count_server.cpp:46:27:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kpush_back[m[K’ in ‘[01m[K((std::__shared_ptr_access<count_interfaces::action::Count_Feedback_<std::allocator<void> >, __gnu_cxx::_S_atomic, false, false>*)(& feedback))->std::__shared_ptr_access<count_interfaces::action::Count_Feedback_<std::allocator<void> >, __gnu_cxx::_S_atomic, false, false>::operator->()->count_interfaces::action::Count_Feedback_<std::allocator<void> >::current[m[K’, which is of non-class type ‘[01m[Kcount_interfaces::action::Count_Feedback_<std::allocator<void> >::_current_type[m[K’ {aka ‘[01m[Kint[m[K’}
+[1.670s]    46 |         feedback->current.[01;31m[Kpush_back[m[K(i);
+[1.670s]       |                           [01;31m[K^~~~~~~~~[m[K
+[1.670s] [01m[K/home/alves/ros2_ws/src/count_action_cpp/src/count_server.cpp:55:21:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kclear[m[K’ in ‘[01m[K((std::__shared_ptr_access<count_interfaces::action::Count_Result_<std::allocator<void> >, __gnu_cxx::_S_atomic, false, false>*)(& result))->std::__shared_ptr_access<count_interfaces::action::Count_Result_<std::allocator<void> >, __gnu_cxx::_S_atomic, false, false>::operator->()->count_interfaces::action::Count_Result_<std::allocator<void> >::total[m[K’, which is of non-class type ‘[01m[Kcount_interfaces::action::Count_Result_<std::allocator<void> >::_total_type[m[K’ {aka ‘[01m[Kint[m[K’}
+[1.670s]    55 |       result->total.[01;31m[Kclear[m[K();
+[1.670s]       |                     [01;31m[K^~~~~[m[K
+[1.670s] [01m[K/home/alves/ros2_ws/src/count_action_cpp/src/count_server.cpp:56:21:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kpush_back[m[K’ in ‘[01m[K((std::__shared_ptr_access<count_interfaces::action::Count_Result_<std::allocator<void> >, __gnu_cxx::_S_atomic, false, false>*)(& result))->std::__shared_ptr_access<count_interfaces::action::Count_Result_<std::allocator<void> >, __gnu_cxx::_S_atomic, false, false>::operator->()->count_interfaces::action::Count_Result_<std::allocator<void> >::total[m[K’, which is of non-class type ‘[01m[Kcount_interfaces::action::Count_Result_<std::allocator<void> >::_total_type[m[K’ {aka ‘[01m[Kint[m[K’}
+[1.670s]    56 |       result->total.[01;31m[Kpush_back[m[K(sum);
+[1.670s]       |                     [01;31m[K^~~~~~~~~[m[K
+[1.671s] [01m[K/home/alves/ros2_ws/src/count_action_cpp/src/count_server.cpp:[m[K In lambda function:
+[1.671s] [01m[K/home/alves/ros2_ws/src/count_action_cpp/src/count_server.cpp:45:27:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kclear[m[K’ in ‘[01m[K((std::__shared_ptr_access<count_interfaces::action::Count_Feedback_<std::allocator<void> >, __gnu_cxx::_S_atomic, false, false>*)(& feedback))->std::__shared_ptr_access<count_interfaces::action::Count_Feedback_<std::allocator<void> >, __gnu_cxx::_S_atomic, false, false>::operator->()->count_interfaces::action::Count_Feedback_<std::allocator<void> >::current[m[K’, which is of non-class type ‘[01m[Kcount_interfaces::action::Count_Feedback_<std::allocator<void> >::_current_type[m[K’ {aka ‘[01m[Kint[m[K’}
+[1.671s]    45 |         feedback->current.[01;31m[Kclear[m[K();
+[1.671s]       |                           [01;31m[K^~~~~[m[K
+[1.671s] [01m[K/home/alves/ros2_ws/src/count_action_cpp/src/count_server.cpp:46:27:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kpush_back[m[K’ in ‘[01m[K((std::__shared_ptr_access<count_interfaces::action::Count_Feedback_<std::allocator<void> >, __gnu_cxx::_S_atomic, false, false>*)(& feedback))->std::__shared_ptr_access<count_interfaces::action::Count_Feedback_<std::allocator<void> >, __gnu_cxx::_S_atomic, false, false>::operator->()->count_interfaces::action::Count_Feedback_<std::allocator<void> >::current[m[K’, which is of non-class type ‘[01m[Kcount_interfaces::action::Count_Feedback_<std::allocator<void> >::_current_type[m[K’ {aka ‘[01m[Kint[m[K’}
+[1.671s]    46 |         feedback->current.[01;31m[Kpush_back[m[K(i);
+[1.671s]       |                           [01;31m[K^~~~~~~~~[m[K
+[1.671s] [01m[K/home/alves/ros2_ws/src/count_action_cpp/src/count_server.cpp:55:21:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kclear[m[K’ in ‘[01m[K((std::__shared_ptr_access<count_interfaces::action::Count_Result_<std::allocator<void> >, __gnu_cxx::_S_atomic, false, false>*)(& result))->std::__shared_ptr_access<count_interfaces::action::Count_Result_<std::allocator<void> >, __gnu_cxx::_S_atomic, false, false>::operator->()->count_interfaces::action::Count_Result_<std::allocator<void> >::total[m[K’, which is of non-class type ‘[01m[Kcount_interfaces::action::Count_Result_<std::allocator<void> >::_total_type[m[K’ {aka ‘[01m[Kint[m[K’}
+[1.671s]    55 |       result->total.[01;31m[Kclear[m[K();
+[1.671s]       |                     [01;31m[K^~~~~[m[K
+[1.671s] [01m[K/home/alves/ros2_ws/src/count_action_cpp/src/count_server.cpp:56:21:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kpush_back[m[K’ in ‘[01m[K((std::__shared_ptr_access<count_interfaces::action::Count_Result_<std::allocator<void> >, __gnu_cxx::_S_atomic, false, false>*)(& result))->std::__shared_ptr_access<count_interfaces::action::Count_Result_<std::allocator<void> >, __gnu_cxx::_S_atomic, false, false>::operator->()->count_interfaces::action::Count_Result_<std::allocator<void> >::total[m[K’, which is of non-class type ‘[01m[Kcount_interfaces::action::Count_Result_<std::allocator<void> >::_total_type[m[K’ {aka ‘[01m[Kint[m[K’}
+[1.671s]    56 |       result->total.[01;31m[Kpush_back[m[K(sum);
+[1.671s]       |                     [01;31m[K^~~~~~~~~[m[K
+[2.109s] gmake[2]: *** [CMakeFiles/action_server.dir/build.make:76: CMakeFiles/action_server.dir/src/count_server.cpp.o] Erro 1
+[2.109s] gmake[1]: *** [CMakeFiles/Makefile2:143: CMakeFiles/action_server.dir/all] Erro 2
+[2.113s] gmake[2]: *** [CMakeFiles/CountServer.dir/build.make:76: CMakeFiles/CountServer.dir/src/count_server.cpp.o] Erro 1
+[2.113s] gmake[1]: *** [CMakeFiles/Makefile2:195: CMakeFiles/CountServer.dir/all] Erro 2
+[2.114s] gmake: *** [Makefile:146: all] Erro 2
+[2.116s] Invoked command in '/home/alves/ros2_ws/build/count_action_cpp' returned '2': CMAKE_PREFIX_PATH=/home/alves/ros2_ws/install/count_interfaces:/home/alves/ros2_ws/install/robot_ras_ros:/home/alves/ros2_ws/install/robot_ras_decision:/home/alves/ros2_ws/install/dep_example_cpp:/opt/ros/humble /usr/bin/cmake --build /home/alves/ros2_ws/build/count_action_cpp -- -j16 -l16

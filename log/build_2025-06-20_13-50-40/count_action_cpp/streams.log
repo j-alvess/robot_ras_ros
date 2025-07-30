@@ -1,0 +1,23 @@
+[0.008s] Invoking command in '/home/alves/ros2_ws/build/count_action_cpp': CMAKE_PREFIX_PATH=/home/alves/ros2_ws/install/count_interfaces:/home/alves/ros2_ws/install/robot_ras_ros:/home/alves/ros2_ws/install/robot_ras_decision:/home/alves/ros2_ws/install/dep_example_cpp:/opt/ros/humble /usr/bin/cmake /home/alves/ros2_ws/src/count_action_cpp -DCMAKE_INSTALL_PREFIX=/home/alves/ros2_ws/install/count_action_cpp
+[0.017s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.108s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.129s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.131s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.135s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.141s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.149s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.169s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.170s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.247s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.278s] -- Found rclcpp_action: 16.0.12 (/opt/ros/humble/share/rclcpp_action/cmake)
+[0.298s] -- Found count_interfaces: 0.0.0 (/home/alves/ros2_ws/install/count_interfaces/share/count_interfaces/cmake)
+[0.308s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):
+[0.308s]   ament_target_dependencies() the passed package name 'rclcpp_components' was
+[0.308s]   not found before
+[0.308s] Call Stack (most recent call first):
+[0.308s]   CMakeLists.txt:21 (ament_target_dependencies)
+[0.308s] 
+[0.308s] -- Configuring incomplete, errors occurred!
+[0.308s] See also "/home/alves/ros2_ws/build/count_action_cpp/CMakeFiles/CMakeOutput.log".
+[0.308s] [0m
+[0.313s] Invoked command in '/home/alves/ros2_ws/build/count_action_cpp' returned '1': CMAKE_PREFIX_PATH=/home/alves/ros2_ws/install/count_interfaces:/home/alves/ros2_ws/install/robot_ras_ros:/home/alves/ros2_ws/install/robot_ras_decision:/home/alves/ros2_ws/install/dep_example_cpp:/opt/ros/humble /usr/bin/cmake /home/alves/ros2_ws/src/count_action_cpp -DCMAKE_INSTALL_PREFIX=/home/alves/ros2_ws/install/count_action_cpp

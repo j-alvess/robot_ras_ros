@@ -1,0 +1,1 @@
+/home/alves/ros2_ws/build/robot_ras_decision/rosidl_typesupport_fastrtps_c/robot_ras_decision/msg/rosidl_typesupport_fastrtps_c__visibility_control.h

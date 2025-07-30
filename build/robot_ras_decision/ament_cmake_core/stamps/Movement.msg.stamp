@@ -1,0 +1,4 @@
+struct Movement{
+    string direcao;
+    float distancia;
+};

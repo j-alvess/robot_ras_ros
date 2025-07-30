@@ -1,0 +1,9 @@
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/manager.cpp:[m[K In member function ‘[01m[Kvoid Manager::movement_callback()[m[K’:
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/manager.cpp:81:32:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kconst char*[m[K’ to ‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<char>, char>::value_type[m[K’ {aka ‘[01m[Kchar[m[K’} [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   81 |             mensagem.data[0] = [01;31m[K"front"[m[K;
+      |                                [01;31m[K^~~~~~~[m[K
+      |                                [01;31m[K|[m[K
+      |                                [01;31m[Kconst char*[m[K
+gmake[2]: *** [CMakeFiles/Manager.dir/build.make:76: CMakeFiles/Manager.dir/src/manager.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/Manager.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

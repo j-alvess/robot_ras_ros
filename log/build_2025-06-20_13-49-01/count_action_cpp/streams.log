@@ -1,0 +1,43 @@
+[0.008s] Invoking command in '/home/alves/ros2_ws/build/count_action_cpp': CMAKE_PREFIX_PATH=/home/alves/ros2_ws/install/count_interfaces:/home/alves/ros2_ws/install/robot_ras_ros:/home/alves/ros2_ws/install/robot_ras_decision:/home/alves/ros2_ws/install/dep_example_cpp:/opt/ros/humble /usr/bin/cmake /home/alves/ros2_ws/src/count_action_cpp -DCMAKE_INSTALL_PREFIX=/home/alves/ros2_ws/install/count_action_cpp
+[0.055s] -- The C compiler identification is GNU 11.4.0
+[0.099s] -- The CXX compiler identification is GNU 11.4.0
+[0.105s] -- Detecting C compiler ABI info
+[0.155s] -- Detecting C compiler ABI info - done
+[0.160s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.160s] -- Detecting C compile features
+[0.161s] -- Detecting C compile features - done
+[0.163s] -- Detecting CXX compiler ABI info
+[0.242s] -- Detecting CXX compiler ABI info - done
+[0.251s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.252s] -- Detecting CXX compile features
+[0.252s] -- Detecting CXX compile features - done
+[0.255s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.385s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.469s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.499s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.503s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.508s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.517s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.527s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.556s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.558s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.631s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.649s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.679s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.685s] -- Looking for pthread.h
+[0.762s] -- Looking for pthread.h - found
+[0.762s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.840s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.842s] -- Found Threads: TRUE  
+[0.881s] -- Found rclcpp_action: 16.0.12 (/opt/ros/humble/share/rclcpp_action/cmake)
+[0.907s] -- Found count_interfaces: 0.0.0 (/home/alves/ros2_ws/install/count_interfaces/share/count_interfaces/cmake)
+[0.916s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):
+[0.917s]   ament_target_dependencies() the passed package name 'rclcpp_components' was
+[0.917s]   not found before
+[0.917s] Call Stack (most recent call first):
+[0.917s]   CMakeLists.txt:21 (ament_target_dependencies)
+[0.917s] 
+[0.917s] [0m
+[0.917s] -- Configuring incomplete, errors occurred!
+[0.917s] See also "/home/alves/ros2_ws/build/count_action_cpp/CMakeFiles/CMakeOutput.log".
+[0.923s] Invoked command in '/home/alves/ros2_ws/build/count_action_cpp' returned '1': CMAKE_PREFIX_PATH=/home/alves/ros2_ws/install/count_interfaces:/home/alves/ros2_ws/install/robot_ras_ros:/home/alves/ros2_ws/install/robot_ras_decision:/home/alves/ros2_ws/install/dep_example_cpp:/opt/ros/humble /usr/bin/cmake /home/alves/ros2_ws/src/count_action_cpp -DCMAKE_INSTALL_PREFIX=/home/alves/ros2_ws/install/count_action_cpp

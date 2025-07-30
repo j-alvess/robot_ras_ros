@@ -1,0 +1,16 @@
+[0.011s] Invoking command in '/home/alves/ros2_ws/build/robot_ras_decision': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/alves/ros2_ws/build/robot_ras_decision -- -j16 -l16
+[0.086s] [35m[1mConsolidate compiler generated dependencies of target Manager[0m
+[0.101s] [ 50%] Built target MovementControl
+[0.105s] [ 75%] [32mBuilding CXX object CMakeFiles/Manager.dir/src/manager.cpp.o[0m
+[1.890s] [01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/manager.cpp:[m[K In member function ‘[01m[Kvoid Manager::movement_callback()[m[K’:
+[1.890s] [01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/manager.cpp:65:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kstring[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’; did you mean ‘[01m[KString[m[K’?
+[1.890s]    65 |             std_msgs::msg::[01;31m[Kstring[m[K mensagem;
+[1.890s]       |                            [01;31m[K^~~~~~[m[K
+[1.890s]       |                            [32m[KString[m[K
+[1.895s] [01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/manager.cpp:79:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kmensagem[m[K’ was not declared in this scope
+[1.895s]    79 |             [01;31m[Kmensagem[m[K.data = "front";
+[1.895s]       |             [01;31m[K^~~~~~~~[m[K
+[3.689s] gmake[2]: *** [CMakeFiles/Manager.dir/build.make:76: CMakeFiles/Manager.dir/src/manager.cpp.o] Error 1
+[3.689s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/Manager.dir/all] Error 2
+[3.689s] gmake: *** [Makefile:146: all] Error 2
+[3.691s] Invoked command in '/home/alves/ros2_ws/build/robot_ras_decision' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/alves/ros2_ws/build/robot_ras_decision -- -j16 -l16

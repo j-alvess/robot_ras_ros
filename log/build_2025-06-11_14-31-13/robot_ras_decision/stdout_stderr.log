@@ -1,0 +1,21 @@
+[35m[1mConsolidate compiler generated dependencies of target Manager[0m
+[ 50%] Built target MovementControl
+[ 75%] [32mBuilding CXX object CMakeFiles/Manager.dir/src/manager.cpp.o[0m
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/manager.cpp:[m[K In constructor ‘[01m[KManager::Manager()[m[K’:
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/manager.cpp:42:45:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KManager::create_wall_timer(double, std::_Bind_helper<false, void (Manager::*)(), Manager*>::type)[m[K’
+   42 |             timer_ = [01;31m[Kthis->create_wall_timer(0.1, std::bind(&Manager::movement_callback, this))[m[K;
+      |                      [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/manager.cpp:8[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:238:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class DurationRepT, class DurationT, class CallbackT> typename rclcpp::WallTimer<CallbackT>::SharedPtr rclcpp::Node::create_wall_timer(std::chrono::duration<_Rep1, _Period1>, CallbackT, rclcpp::CallbackGroup::SharedPtr)[m[K’
+  238 |   [01;36m[Kcreate_wall_timer[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:238:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/manager.cpp:42:45:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::chrono::duration<_Rep1, _Period1>[m[K’ and ‘[01m[Kdouble[m[K’
+   42 |             timer_ = [01;36m[Kthis->create_wall_timer(0.1, std::bind(&Manager::movement_callback, this))[m[K;
+      |                      [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/Manager.dir/build.make:76: CMakeFiles/Manager.dir/src/manager.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/Manager.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

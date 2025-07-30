@@ -1,0 +1,6 @@
+[35m[1mConsolidate compiler generated dependencies of target action_server[0m
+[35m[1mConsolidate compiler generated dependencies of target CountServer[0m
+[ 12%] [32m[1mLinking CXX executable CountClient[0m
+[ 37%] Built target count_server
+[ 50%] [32mBuilding CXX object CMakeFiles/action_server.dir/src/count_server.cpp.o[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/CountServer.dir/src/count_server.cpp.o[0m

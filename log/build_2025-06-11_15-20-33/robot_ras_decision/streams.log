@@ -1,0 +1,28 @@
+[0.012s] Invoking command in '/home/alves/ros2_ws/build/robot_ras_decision': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/alves/ros2_ws/build/robot_ras_decision -- -j16 -l16
+[0.062s] [35m[1mConsolidate compiler generated dependencies of target Manager[0m
+[0.074s] [ 50%] Built target MovementControl
+[0.080s] [ 75%] [32mBuilding CXX object CMakeFiles/Manager.dir/src/manager.cpp.o[0m
+[6.492s] [100%] [32m[1mLinking CXX executable Manager[0m
+[6.808s] [100%] Built target Manager
+[6.819s] Invoked command in '/home/alves/ros2_ws/build/robot_ras_decision' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/alves/ros2_ws/build/robot_ras_decision -- -j16 -l16
+[6.821s] Invoking command in '/home/alves/ros2_ws/build/robot_ras_decision': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/alves/ros2_ws/build/robot_ras_decision
+[6.828s] -- Install configuration: ""
+[6.828s] -- Execute custom install script
+[6.829s] -- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_decision/lib/robot_ras_decision/MovementControl
+[6.829s] -- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_decision/lib/robot_ras_decision/Manager
+[6.829s] -- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_decision/share/ament_index/resource_index/package_run_dependencies/robot_ras_decision
+[6.829s] -- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_decision/share/ament_index/resource_index/parent_prefix_path/robot_ras_decision
+[6.829s] -- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_decision/share/robot_ras_decision/environment/ament_prefix_path.sh
+[6.829s] -- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_decision/share/robot_ras_decision/environment/ament_prefix_path.dsv
+[6.829s] -- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_decision/share/robot_ras_decision/environment/path.sh
+[6.829s] -- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_decision/share/robot_ras_decision/environment/path.dsv
+[6.829s] -- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_decision/share/robot_ras_decision/local_setup.bash
+[6.830s] -- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_decision/share/robot_ras_decision/local_setup.sh
+[6.830s] -- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_decision/share/robot_ras_decision/local_setup.zsh
+[6.830s] -- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_decision/share/robot_ras_decision/local_setup.dsv
+[6.830s] -- Symlinking: /home/alves/ros2_ws/install/robot_ras_decision/share/robot_ras_decision/package.dsv
+[6.839s] -- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_decision/share/ament_index/resource_index/packages/robot_ras_decision
+[6.840s] -- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_decision/share/robot_ras_decision/cmake/robot_ras_decisionConfig.cmake
+[6.840s] -- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_decision/share/robot_ras_decision/cmake/robot_ras_decisionConfig-version.cmake
+[6.840s] -- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_decision/share/robot_ras_decision/package.xml
+[6.846s] Invoked command in '/home/alves/ros2_ws/build/robot_ras_decision' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/alves/ros2_ws/build/robot_ras_decision

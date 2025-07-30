@@ -1,0 +1,4 @@
+[ 12%] [32mBuilding CXX object CMakeFiles/action_server.dir/src/count_server.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/CountServer.dir/src/count_server.cpp.o[0m
+[ 37%] [32m[1mLinking CXX executable CountClient[0m
+[ 62%] Built target count_server

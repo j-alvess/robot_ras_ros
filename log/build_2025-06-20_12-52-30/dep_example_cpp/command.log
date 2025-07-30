@@ -1,0 +1,6 @@
+Invoking command in '/home/alves/ros2_ws/build/dep_example_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/alves/ros2_ws/src/dep_example_cpp -DCMAKE_INSTALL_PREFIX=/home/alves/ros2_ws/install/dep_example_cpp
+Invoked command in '/home/alves/ros2_ws/build/dep_example_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/alves/ros2_ws/src/dep_example_cpp -DCMAKE_INSTALL_PREFIX=/home/alves/ros2_ws/install/dep_example_cpp
+Invoking command in '/home/alves/ros2_ws/build/dep_example_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/alves/ros2_ws/build/dep_example_cpp -- -j16 -l16
+Invoked command in '/home/alves/ros2_ws/build/dep_example_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/alves/ros2_ws/build/dep_example_cpp -- -j16 -l16
+Invoking command in '/home/alves/ros2_ws/build/dep_example_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/alves/ros2_ws/build/dep_example_cpp
+Invoked command in '/home/alves/ros2_ws/build/dep_example_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/alves/ros2_ws/build/dep_example_cpp

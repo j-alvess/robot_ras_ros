@@ -1,0 +1,20 @@
+[0.014s] Invoking command in '/home/alves/ros2_ws/build/count_action_cpp': CMAKE_PREFIX_PATH=/home/alves/ros2_ws/install/count_interfaces:/home/alves/ros2_ws/install/robot_ras_ros:/home/alves/ros2_ws/install/robot_ras_decision:/home/alves/ros2_ws/install/dep_example_cpp:/opt/ros/humble /usr/bin/cmake /home/alves/ros2_ws/src/count_action_cpp -DCMAKE_INSTALL_PREFIX=/home/alves/ros2_ws/install/count_action_cpp
+[0.019s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.137s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.156s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.158s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.162s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.168s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.176s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.197s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.198s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.284s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.320s] -- Found rclcpp_action: 16.0.12 (/opt/ros/humble/share/rclcpp_action/cmake)
+[0.339s] -- Found count_interfaces: 0.0.0 (/home/alves/ros2_ws/install/count_interfaces/share/count_interfaces/cmake)
+[0.348s] [31mCMake Error at CMakeLists.txt:25 (rclcpp_components_register_node):
+[0.348s]   Unknown CMake command "rclcpp_components_register_node".
+[0.348s] 
+[0.348s] [0m
+[0.348s] -- Configuring incomplete, errors occurred!
+[0.348s] See also "/home/alves/ros2_ws/build/count_action_cpp/CMakeFiles/CMakeOutput.log".
+[0.352s] Invoked command in '/home/alves/ros2_ws/build/count_action_cpp' returned '1': CMAKE_PREFIX_PATH=/home/alves/ros2_ws/install/count_interfaces:/home/alves/ros2_ws/install/robot_ras_ros:/home/alves/ros2_ws/install/robot_ras_decision:/home/alves/ros2_ws/install/dep_example_cpp:/opt/ros/humble /usr/bin/cmake /home/alves/ros2_ws/src/count_action_cpp -DCMAKE_INSTALL_PREFIX=/home/alves/ros2_ws/install/count_action_cpp

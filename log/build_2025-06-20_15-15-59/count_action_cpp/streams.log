@@ -1,0 +1,38 @@
+[0.013s] Invoking command in '/home/alves/ros2_ws/build/count_action_cpp': CMAKE_PREFIX_PATH=/home/alves/ros2_ws/install/count_interfaces:/home/alves/ros2_ws/install/robot_ras_ros:/home/alves/ros2_ws/install/robot_ras_decision:/home/alves/ros2_ws/install/dep_example_cpp:/opt/ros/humble /usr/bin/cmake --build /home/alves/ros2_ws/build/count_action_cpp -- -j16 -l16
+[0.066s] [ 12%] [32mBuilding CXX object CMakeFiles/CountClient.dir/src/count_client.cpp.o[0m
+[0.071s] [ 37%] Built target count_server
+[0.072s] [ 62%] Built target action_server
+[0.076s] [01m[K/home/alves/ros2_ws/src/count_action_cpp/src/count_client.cpp:1:1:[m[K [01;35m[Kwarning: [m[KISO C++ forbids declaration of ‘[01m[Kmain[m[K’ with no type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[0.076s]     1 | [01;35m[Kmain[m[K(){
+[0.076s]       | [01;35m[K^~~~[m[K
+[0.077s] [ 87%] Built target CountServer
+[0.089s] [100%] [32m[1mLinking CXX executable CountClient[0m
+[0.162s] [100%] Built target CountClient
+[0.172s] Invoked command in '/home/alves/ros2_ws/build/count_action_cpp' returned '0': CMAKE_PREFIX_PATH=/home/alves/ros2_ws/install/count_interfaces:/home/alves/ros2_ws/install/robot_ras_ros:/home/alves/ros2_ws/install/robot_ras_decision:/home/alves/ros2_ws/install/dep_example_cpp:/opt/ros/humble /usr/bin/cmake --build /home/alves/ros2_ws/build/count_action_cpp -- -j16 -l16
+[0.173s] Invoking command in '/home/alves/ros2_ws/build/count_action_cpp': CMAKE_PREFIX_PATH=/home/alves/ros2_ws/install/count_interfaces:/home/alves/ros2_ws/install/robot_ras_ros:/home/alves/ros2_ws/install/robot_ras_decision:/home/alves/ros2_ws/install/dep_example_cpp:/opt/ros/humble /usr/bin/cmake --install /home/alves/ros2_ws/build/count_action_cpp
+[0.179s] -- Install configuration: ""
+[0.179s] -- Installing: /home/alves/ros2_ws/install/count_action_cpp/lib/count_action_cpp/count_server
+[0.179s] -- Set runtime path of "/home/alves/ros2_ws/install/count_action_cpp/lib/count_action_cpp/count_server" to ""
+[0.179s] -- Installing: /home/alves/ros2_ws/install/count_action_cpp/lib/libaction_server.so
+[0.180s] -- Set runtime path of "/home/alves/ros2_ws/install/count_action_cpp/lib/libaction_server.so" to ""
+[0.180s] -- Installing: /home/alves/ros2_ws/install/count_action_cpp/lib/count_action_cpp/CountServer
+[0.180s] -- Set runtime path of "/home/alves/ros2_ws/install/count_action_cpp/lib/count_action_cpp/CountServer" to ""
+[0.181s] -- Installing: /home/alves/ros2_ws/install/count_action_cpp/lib/count_action_cpp/CountClient
+[0.181s] -- Set runtime path of "/home/alves/ros2_ws/install/count_action_cpp/lib/count_action_cpp/CountClient" to ""
+[0.181s] -- Installing: /home/alves/ros2_ws/install/count_action_cpp/share/ament_index/resource_index/package_run_dependencies/count_action_cpp
+[0.181s] -- Installing: /home/alves/ros2_ws/install/count_action_cpp/share/ament_index/resource_index/parent_prefix_path/count_action_cpp
+[0.181s] -- Installing: /home/alves/ros2_ws/install/count_action_cpp/share/count_action_cpp/environment/ament_prefix_path.sh
+[0.181s] -- Installing: /home/alves/ros2_ws/install/count_action_cpp/share/count_action_cpp/environment/ament_prefix_path.dsv
+[0.181s] -- Installing: /home/alves/ros2_ws/install/count_action_cpp/share/count_action_cpp/environment/path.sh
+[0.181s] -- Installing: /home/alves/ros2_ws/install/count_action_cpp/share/count_action_cpp/environment/path.dsv
+[0.181s] -- Installing: /home/alves/ros2_ws/install/count_action_cpp/share/count_action_cpp/local_setup.bash
+[0.181s] -- Installing: /home/alves/ros2_ws/install/count_action_cpp/share/count_action_cpp/local_setup.sh
+[0.182s] -- Installing: /home/alves/ros2_ws/install/count_action_cpp/share/count_action_cpp/local_setup.zsh
+[0.182s] -- Installing: /home/alves/ros2_ws/install/count_action_cpp/share/count_action_cpp/local_setup.dsv
+[0.182s] -- Installing: /home/alves/ros2_ws/install/count_action_cpp/share/count_action_cpp/package.dsv
+[0.182s] -- Installing: /home/alves/ros2_ws/install/count_action_cpp/share/ament_index/resource_index/packages/count_action_cpp
+[0.182s] -- Installing: /home/alves/ros2_ws/install/count_action_cpp/share/ament_index/resource_index/rclcpp_components/count_action_cpp
+[0.182s] -- Installing: /home/alves/ros2_ws/install/count_action_cpp/share/count_action_cpp/cmake/count_action_cppConfig.cmake
+[0.182s] -- Installing: /home/alves/ros2_ws/install/count_action_cpp/share/count_action_cpp/cmake/count_action_cppConfig-version.cmake
+[0.182s] -- Installing: /home/alves/ros2_ws/install/count_action_cpp/share/count_action_cpp/package.xml
+[0.184s] Invoked command in '/home/alves/ros2_ws/build/count_action_cpp' returned '0': CMAKE_PREFIX_PATH=/home/alves/ros2_ws/install/count_interfaces:/home/alves/ros2_ws/install/robot_ras_ros:/home/alves/ros2_ws/install/robot_ras_decision:/home/alves/ros2_ws/install/dep_example_cpp:/opt/ros/humble /usr/bin/cmake --install /home/alves/ros2_ws/build/count_action_cpp

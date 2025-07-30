@@ -1,0 +1,8 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/MovementControl.dir/src/movement_control.cpp.o[0m
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/movement_control.cpp:6:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/msg/float64MultiArray.hpp: No such file or directory
+    6 | #include [01;31m[K<std_msgs/msg/float64MultiArray.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/MovementControl.dir/build.make:76: CMakeFiles/MovementControl.dir/src/movement_control.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/MovementControl.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

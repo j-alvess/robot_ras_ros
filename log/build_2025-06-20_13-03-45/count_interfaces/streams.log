@@ -1,0 +1,223 @@
+[0.018s] Invoking command in '/home/alves/ros2_ws/build/count_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/alves/ros2_ws/build/count_interfaces -- -j16 -l16
+[0.039s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.160s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.178s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.180s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.184s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.190s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.198s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.222s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.223s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.294s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.337s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.577s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.875s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.002s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.022s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.023s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.042s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.042s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.042s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.042s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.069s] -- Found PythonExtra: .so  
+[1.112s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.124s] -- Added test 'lint_cmake' to check CMake code style
+[1.125s] -- Added test 'xmllint' to check XML markup files
+[1.126s] -- Configuring done
+[1.144s] -- Generating done
+[1.153s] -- Build files have been written to: /home/alves/ros2_ws/build/count_interfaces
+[1.175s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.184s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.187s] [  6%] Built target ament_cmake_python_copy_count_interfaces
+[1.346s] running egg_info
+[1.346s] creating count_interfaces.egg-info
+[1.346s] writing count_interfaces.egg-info/PKG-INFO
+[1.346s] writing dependency_links to count_interfaces.egg-info/dependency_links.txt
+[1.346s] writing top-level names to count_interfaces.egg-info/top_level.txt
+[1.347s] writing manifest file 'count_interfaces.egg-info/SOURCES.txt'
+[1.348s] reading manifest file 'count_interfaces.egg-info/SOURCES.txt'
+[1.348s] writing manifest file 'count_interfaces.egg-info/SOURCES.txt'
+[1.367s] [  6%] Built target ament_cmake_python_build_count_interfaces_egg
+[1.456s] [  9%] [32mBuilding C object CMakeFiles/count_interfaces__rosidl_generator_c.dir/rosidl_generator_c/count_interfaces/action/detail/count__functions.c.o[0m
+[1.458s] [  9%] Built target count_interfaces__cpp
+[1.465s] [ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.466s] [ 16%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.467s] [ 19%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.553s] [ 22%] [32m[1mLinking C shared library libcount_interfaces__rosidl_generator_c.so[0m
+[1.582s] [ 22%] Built target count_interfaces__rosidl_generator_c
+[1.589s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.590s] [ 29%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.590s] [ 32%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.655s] [ 35%] [32mBuilding CXX object CMakeFiles/count_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/count_interfaces/action/count__type_support.cpp.o[0m
+[1.700s] [ 38%] [32mBuilding CXX object CMakeFiles/count_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/count_interfaces/action/detail/count__type_support.cpp.o[0m
+[1.722s] [ 41%] [32mBuilding CXX object CMakeFiles/count_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/count_interfaces/action/detail/dds_fastrtps/count__type_support.cpp.o[0m
+[1.784s] [ 45%] [32mBuilding CXX object CMakeFiles/count_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/count_interfaces/action/count__type_support.cpp.o[0m
+[1.822s] [ 48%] [32m[1mLinking CXX shared library libcount_interfaces__rosidl_typesupport_c.so[0m
+[1.837s] [ 51%] [32mBuilding C object CMakeFiles/count_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/count_interfaces/action/detail/count__type_support.c.o[0m
+[1.844s] [ 54%] [32mBuilding CXX object CMakeFiles/count_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/count_interfaces/action/detail/count__type_support_c.cpp.o[0m
+[1.857s] [ 54%] Built target count_interfaces__rosidl_typesupport_c
+[1.876s] [ 58%] [32m[1mLinking C shared library libcount_interfaces__rosidl_typesupport_introspection_c.so[0m
+[1.910s] [ 58%] Built target count_interfaces__rosidl_typesupport_introspection_c
+[1.989s] [ 61%] [32m[1mLinking CXX shared library libcount_interfaces__rosidl_typesupport_cpp.so[0m
+[2.026s] [ 61%] Built target count_interfaces__rosidl_typesupport_cpp
+[2.097s] [ 64%] [32m[1mLinking CXX shared library libcount_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[2.103s] [ 67%] [32m[1mLinking CXX shared library libcount_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.109s] [ 70%] [32m[1mLinking CXX shared library libcount_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[2.164s] [ 70%] Built target count_interfaces__rosidl_typesupport_fastrtps_c
+[2.167s] [ 70%] Built target count_interfaces__rosidl_typesupport_fastrtps_cpp
+[2.174s] [ 70%] Built target count_interfaces__rosidl_typesupport_introspection_cpp
+[2.195s] [ 70%] Built target count_interfaces
+[2.225s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[2.681s] [ 74%] Built target count_interfaces__py
+[2.702s] [ 77%] [32mBuilding C object CMakeFiles/count_interfaces__rosidl_generator_py.dir/rosidl_generator_py/count_interfaces/action/_count_s.c.o[0m
+[2.837s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/count_interfaces/libcount_interfaces__rosidl_generator_py.so[0m
+[2.874s] [ 80%] Built target count_interfaces__rosidl_generator_py
+[2.895s] [ 83%] [32mBuilding C object CMakeFiles/count_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/count_interfaces/_count_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[2.897s] [ 87%] [32mBuilding C object CMakeFiles/count_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/count_interfaces/_count_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[2.898s] [ 90%] [32mBuilding C object CMakeFiles/count_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/count_interfaces/_count_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[2.993s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/count_interfaces/count_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.995s] [100%] [32m[1mLinking C shared library rosidl_generator_py/count_interfaces/count_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.995s] [100%] [32m[1mLinking C shared library rosidl_generator_py/count_interfaces/count_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.022s] [100%] Built target count_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[3.027s] [100%] Built target count_interfaces__rosidl_typesupport_introspection_c__pyext
+[3.028s] [100%] Built target count_interfaces__rosidl_typesupport_c__pyext
+[3.040s] Invoked command in '/home/alves/ros2_ws/build/count_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/alves/ros2_ws/build/count_interfaces -- -j16 -l16
+[3.041s] Invoking command in '/home/alves/ros2_ws/build/count_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/alves/ros2_ws/build/count_interfaces
+[3.046s] -- Install configuration: ""
+[3.046s] -- Installing: /home/alves/ros2_ws/install/count_interfaces/share/ament_index/resource_index/rosidl_interfaces/count_interfaces
+[3.046s] -- Installing: /home/alves/ros2_ws/install/count_interfaces/include/count_interfaces/count_interfaces
+[3.046s] -- Installing: /home/alves/ros2_ws/install/count_interfaces/include/count_interfaces/count_interfaces/msg
+[3.046s] -- Installing: /home/alves/ros2_ws/install/count_interfaces/include/count_interfaces/count_interfaces/msg/rosidl_generator_c__visibility_control.h
+[3.046s] -- Installing: /home/alves/ros2_ws/install/count_interfaces/include/count_interfaces/count_interfaces/action
+[3.046s] -- Installing: /home/alves/ros2_ws/install/count_interfaces/include/count_interfaces/count_interfaces/action/count.h
+[3.046s] -- Installing: /home/alves/ros2_ws/install/count_interfaces/include/count_interfaces/count_interfaces/action/detail
+[3.047s] -- Installing: /home/alves/ros2_ws/install/count_interfaces/include/count_interfaces/count_interfaces/action/detail/count__type_support.h
+[3.047s] -- Installing: /home/alves/ros2_ws/install/count_interfaces/include/count_interfaces/count_interfaces/action/detail/count__struct.h
+[3.047s] -- Installing: /home/alves/ros2_ws/install/count_interfaces/include/count_interfaces/count_interfaces/action/detail/count__functions.c
+[3.047s] -- Installing: /home/alves/ros2_ws/install/count_interfaces/include/count_interfaces/count_interfaces/action/detail/count__functions.h
+[3.047s] -- Installing: /home/alves/ros2_ws/install/count_interfaces/share/count_interfaces/environment/library_path.sh
+[3.047s] -- Installing: /home/alves/ros2_ws/install/count_interfaces/share/count_interfaces/environment/library_path.dsv
+[3.047s] -- Installing: /home/alves/ros2_ws/install/count_interfaces/lib/libcount_interfaces__rosidl_generator_c.so
+[3.047s] -- Set runtime path of "/home/alves/ros2_ws/install/count_interfaces/lib/libcount_interfaces__rosidl_generator_c.so" to ""
+[3.047s] -- Up-to-date: /home/alves/ros2_ws/install/count_interfaces/include/count_interfaces/count_interfaces
+[3.047s] -- Up-to-date: /home/alves/ros2_ws/install/count_interfaces/include/count_interfaces/count_interfaces/msg
+[3.047s] -- Installing: /home/alves/ros2_ws/install/count_interfaces/include/count_interfaces/count_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.047s] -- Up-to-date: /home/alves/ros2_ws/install/count_interfaces/include/count_interfaces/count_interfaces/action
+[3.047s] -- Up-to-date: /home/alves/ros2_ws/install/count_interfaces/include/count_interfaces/count_interfaces/action/detail
+[3.047s] -- Installing: /home/alves/ros2_ws/install/count_interfaces/include/count_interfaces/count_interfaces/action/detail/count__rosidl_typesupport_fastrtps_c.h
+[3.047s] -- Installing: /home/alves/ros2_ws/install/count_interfaces/lib/libcount_interfaces__rosidl_typesupport_fastrtps_c.so
+[3.047s] -- Set runtime path of "/home/alves/ros2_ws/install/count_interfaces/lib/libcount_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[3.048s] -- Up-to-date: /home/alves/ros2_ws/install/count_interfaces/include/count_interfaces/count_interfaces
+[3.048s] -- Up-to-date: /home/alves/ros2_ws/install/count_interfaces/include/count_interfaces/count_interfaces/msg
+[3.048s] -- Installing: /home/alves/ros2_ws/install/count_interfaces/include/count_interfaces/count_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[3.048s] -- Up-to-date: /home/alves/ros2_ws/install/count_interfaces/include/count_interfaces/count_interfaces/action
+[3.048s] -- Installing: /home/alves/ros2_ws/install/count_interfaces/include/count_interfaces/count_interfaces/action/count.hpp
+[3.048s] -- Up-to-date: /home/alves/ros2_ws/install/count_interfaces/include/count_interfaces/count_interfaces/action/detail
+[3.048s] -- Installing: /home/alves/ros2_ws/install/count_interfaces/include/count_interfaces/count_interfaces/action/detail/count__struct.hpp
+[3.048s] -- Installing: /home/alves/ros2_ws/install/count_interfaces/include/count_interfaces/count_interfaces/action/detail/count__builder.hpp
+[3.048s] -- Installing: /home/alves/ros2_ws/install/count_interfaces/include/count_interfaces/count_interfaces/action/detail/count__type_support.hpp
+[3.048s] -- Installing: /home/alves/ros2_ws/install/count_interfaces/include/count_interfaces/count_interfaces/action/detail/count__traits.hpp
+[3.048s] -- Up-to-date: /home/alves/ros2_ws/install/count_interfaces/include/count_interfaces/count_interfaces
+[3.048s] -- Up-to-date: /home/alves/ros2_ws/install/count_interfaces/include/count_interfaces/count_interfaces/msg
+[3.048s] -- Installing: /home/alves/ros2_ws/install/count_interfaces/include/count_interfaces/count_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.048s] -- Up-to-date: /home/alves/ros2_ws/install/count_interfaces/include/count_interfaces/count_interfaces/action
+[3.048s] -- Up-to-date: /home/alves/ros2_ws/install/count_interfaces/include/count_interfaces/count_interfaces/action/detail
+[3.048s] -- Installing: /home/alves/ros2_ws/install/count_interfaces/include/count_interfaces/count_interfaces/action/detail/dds_fastrtps
+[3.048s] -- Installing: /home/alves/ros2_ws/install/count_interfaces/include/count_interfaces/count_interfaces/action/detail/count__rosidl_typesupport_fastrtps_cpp.hpp
+[3.048s] -- Installing: /home/alves/ros2_ws/install/count_interfaces/lib/libcount_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[3.048s] -- Set runtime path of "/home/alves/ros2_ws/install/count_interfaces/lib/libcount_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[3.048s] -- Up-to-date: /home/alves/ros2_ws/install/count_interfaces/include/count_interfaces/count_interfaces
+[3.048s] -- Up-to-date: /home/alves/ros2_ws/install/count_interfaces/include/count_interfaces/count_interfaces/msg
+[3.049s] -- Installing: /home/alves/ros2_ws/install/count_interfaces/include/count_interfaces/count_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.049s] -- Up-to-date: /home/alves/ros2_ws/install/count_interfaces/include/count_interfaces/count_interfaces/action
+[3.049s] -- Up-to-date: /home/alves/ros2_ws/install/count_interfaces/include/count_interfaces/count_interfaces/action/detail
+[3.049s] -- Installing: /home/alves/ros2_ws/install/count_interfaces/include/count_interfaces/count_interfaces/action/detail/count__type_support.c
+[3.049s] -- Installing: /home/alves/ros2_ws/install/count_interfaces/include/count_interfaces/count_interfaces/action/detail/count__rosidl_typesupport_introspection_c.h
+[3.049s] -- Installing: /home/alves/ros2_ws/install/count_interfaces/lib/libcount_interfaces__rosidl_typesupport_introspection_c.so
+[3.049s] -- Set runtime path of "/home/alves/ros2_ws/install/count_interfaces/lib/libcount_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[3.049s] -- Installing: /home/alves/ros2_ws/install/count_interfaces/lib/libcount_interfaces__rosidl_typesupport_c.so
+[3.049s] -- Set runtime path of "/home/alves/ros2_ws/install/count_interfaces/lib/libcount_interfaces__rosidl_typesupport_c.so" to ""
+[3.049s] -- Up-to-date: /home/alves/ros2_ws/install/count_interfaces/include/count_interfaces/count_interfaces
+[3.049s] -- Up-to-date: /home/alves/ros2_ws/install/count_interfaces/include/count_interfaces/count_interfaces/action
+[3.049s] -- Up-to-date: /home/alves/ros2_ws/install/count_interfaces/include/count_interfaces/count_interfaces/action/detail
+[3.049s] -- Installing: /home/alves/ros2_ws/install/count_interfaces/include/count_interfaces/count_interfaces/action/detail/count__rosidl_typesupport_introspection_cpp.hpp
+[3.049s] -- Installing: /home/alves/ros2_ws/install/count_interfaces/include/count_interfaces/count_interfaces/action/detail/count__type_support.cpp
+[3.049s] -- Installing: /home/alves/ros2_ws/install/count_interfaces/lib/libcount_interfaces__rosidl_typesupport_introspection_cpp.so
+[3.049s] -- Set runtime path of "/home/alves/ros2_ws/install/count_interfaces/lib/libcount_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[3.049s] -- Installing: /home/alves/ros2_ws/install/count_interfaces/lib/libcount_interfaces__rosidl_typesupport_cpp.so
+[3.050s] -- Set runtime path of "/home/alves/ros2_ws/install/count_interfaces/lib/libcount_interfaces__rosidl_typesupport_cpp.so" to ""
+[3.050s] -- Installing: /home/alves/ros2_ws/install/count_interfaces/share/count_interfaces/environment/pythonpath.sh
+[3.050s] -- Installing: /home/alves/ros2_ws/install/count_interfaces/share/count_interfaces/environment/pythonpath.dsv
+[3.050s] -- Installing: /home/alves/ros2_ws/install/count_interfaces/local/lib/python3.10/dist-packages/count_interfaces-0.0.0-py3.10.egg-info
+[3.050s] -- Installing: /home/alves/ros2_ws/install/count_interfaces/local/lib/python3.10/dist-packages/count_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[3.050s] -- Installing: /home/alves/ros2_ws/install/count_interfaces/local/lib/python3.10/dist-packages/count_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[3.050s] -- Installing: /home/alves/ros2_ws/install/count_interfaces/local/lib/python3.10/dist-packages/count_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[3.050s] -- Installing: /home/alves/ros2_ws/install/count_interfaces/local/lib/python3.10/dist-packages/count_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[3.050s] -- Installing: /home/alves/ros2_ws/install/count_interfaces/local/lib/python3.10/dist-packages/count_interfaces
+[3.050s] -- Installing: /home/alves/ros2_ws/install/count_interfaces/local/lib/python3.10/dist-packages/count_interfaces/count_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.050s] -- Installing: /home/alves/ros2_ws/install/count_interfaces/local/lib/python3.10/dist-packages/count_interfaces/_count_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[3.050s] -- Installing: /home/alves/ros2_ws/install/count_interfaces/local/lib/python3.10/dist-packages/count_interfaces/count_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.050s] -- Installing: /home/alves/ros2_ws/install/count_interfaces/local/lib/python3.10/dist-packages/count_interfaces/__init__.py
+[3.050s] -- Installing: /home/alves/ros2_ws/install/count_interfaces/local/lib/python3.10/dist-packages/count_interfaces/_count_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[3.050s] -- Installing: /home/alves/ros2_ws/install/count_interfaces/local/lib/python3.10/dist-packages/count_interfaces/action
+[3.050s] -- Installing: /home/alves/ros2_ws/install/count_interfaces/local/lib/python3.10/dist-packages/count_interfaces/action/_count_s.c
+[3.051s] -- Installing: /home/alves/ros2_ws/install/count_interfaces/local/lib/python3.10/dist-packages/count_interfaces/action/__init__.py
+[3.051s] -- Installing: /home/alves/ros2_ws/install/count_interfaces/local/lib/python3.10/dist-packages/count_interfaces/action/_count.py
+[3.051s] -- Installing: /home/alves/ros2_ws/install/count_interfaces/local/lib/python3.10/dist-packages/count_interfaces/libcount_interfaces__rosidl_generator_py.so
+[3.051s] -- Installing: /home/alves/ros2_ws/install/count_interfaces/local/lib/python3.10/dist-packages/count_interfaces/count_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.051s] -- Installing: /home/alves/ros2_ws/install/count_interfaces/local/lib/python3.10/dist-packages/count_interfaces/_count_interfaces_s.ep.rosidl_typesupport_c.c
+[3.078s] Listing '/home/alves/ros2_ws/install/count_interfaces/local/lib/python3.10/dist-packages/count_interfaces'...
+[3.078s] Compiling '/home/alves/ros2_ws/install/count_interfaces/local/lib/python3.10/dist-packages/count_interfaces/__init__.py'...
+[3.078s] Listing '/home/alves/ros2_ws/install/count_interfaces/local/lib/python3.10/dist-packages/count_interfaces/action'...
+[3.078s] Compiling '/home/alves/ros2_ws/install/count_interfaces/local/lib/python3.10/dist-packages/count_interfaces/action/__init__.py'...
+[3.078s] Compiling '/home/alves/ros2_ws/install/count_interfaces/local/lib/python3.10/dist-packages/count_interfaces/action/_count.py'...
+[3.082s] -- Installing: /home/alves/ros2_ws/install/count_interfaces/local/lib/python3.10/dist-packages/count_interfaces/count_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.082s] -- Set runtime path of "/home/alves/ros2_ws/install/count_interfaces/local/lib/python3.10/dist-packages/count_interfaces/count_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.082s] -- Installing: /home/alves/ros2_ws/install/count_interfaces/local/lib/python3.10/dist-packages/count_interfaces/count_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.082s] -- Set runtime path of "/home/alves/ros2_ws/install/count_interfaces/local/lib/python3.10/dist-packages/count_interfaces/count_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.082s] -- Installing: /home/alves/ros2_ws/install/count_interfaces/local/lib/python3.10/dist-packages/count_interfaces/count_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.082s] -- Set runtime path of "/home/alves/ros2_ws/install/count_interfaces/local/lib/python3.10/dist-packages/count_interfaces/count_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.082s] -- Installing: /home/alves/ros2_ws/install/count_interfaces/lib/libcount_interfaces__rosidl_generator_py.so
+[3.082s] -- Set runtime path of "/home/alves/ros2_ws/install/count_interfaces/lib/libcount_interfaces__rosidl_generator_py.so" to ""
+[3.082s] -- Installing: /home/alves/ros2_ws/install/count_interfaces/share/count_interfaces/action/Count.idl
+[3.082s] -- Installing: /home/alves/ros2_ws/install/count_interfaces/share/count_interfaces/action/Count.action
+[3.082s] -- Installing: /home/alves/ros2_ws/install/count_interfaces/share/ament_index/resource_index/package_run_dependencies/count_interfaces
+[3.083s] -- Installing: /home/alves/ros2_ws/install/count_interfaces/share/ament_index/resource_index/parent_prefix_path/count_interfaces
+[3.083s] -- Up-to-date: /home/alves/ros2_ws/install/count_interfaces/share/count_interfaces/environment/ament_prefix_path.sh
+[3.083s] -- Installing: /home/alves/ros2_ws/install/count_interfaces/share/count_interfaces/environment/ament_prefix_path.dsv
+[3.083s] -- Up-to-date: /home/alves/ros2_ws/install/count_interfaces/share/count_interfaces/environment/path.sh
+[3.083s] -- Installing: /home/alves/ros2_ws/install/count_interfaces/share/count_interfaces/environment/path.dsv
+[3.083s] -- Up-to-date: /home/alves/ros2_ws/install/count_interfaces/share/count_interfaces/local_setup.bash
+[3.083s] -- Installing: /home/alves/ros2_ws/install/count_interfaces/share/count_interfaces/local_setup.sh
+[3.083s] -- Up-to-date: /home/alves/ros2_ws/install/count_interfaces/share/count_interfaces/local_setup.zsh
+[3.083s] -- Installing: /home/alves/ros2_ws/install/count_interfaces/share/count_interfaces/local_setup.dsv
+[3.083s] -- Installing: /home/alves/ros2_ws/install/count_interfaces/share/count_interfaces/package.dsv
+[3.083s] -- Up-to-date: /home/alves/ros2_ws/install/count_interfaces/share/ament_index/resource_index/packages/count_interfaces
+[3.083s] -- Installing: /home/alves/ros2_ws/install/count_interfaces/share/count_interfaces/cmake/export_count_interfaces__rosidl_generator_cExport.cmake
+[3.083s] -- Installing: /home/alves/ros2_ws/install/count_interfaces/share/count_interfaces/cmake/export_count_interfaces__rosidl_generator_cExport-noconfig.cmake
+[3.083s] -- Installing: /home/alves/ros2_ws/install/count_interfaces/share/count_interfaces/cmake/export_count_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[3.083s] -- Installing: /home/alves/ros2_ws/install/count_interfaces/share/count_interfaces/cmake/export_count_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[3.083s] -- Installing: /home/alves/ros2_ws/install/count_interfaces/share/count_interfaces/cmake/export_count_interfaces__rosidl_generator_cppExport.cmake
+[3.084s] -- Installing: /home/alves/ros2_ws/install/count_interfaces/share/count_interfaces/cmake/export_count_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[3.084s] -- Installing: /home/alves/ros2_ws/install/count_interfaces/share/count_interfaces/cmake/export_count_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[3.084s] -- Installing: /home/alves/ros2_ws/install/count_interfaces/share/count_interfaces/cmake/count_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[3.084s] -- Installing: /home/alves/ros2_ws/install/count_interfaces/share/count_interfaces/cmake/count_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.084s] -- Installing: /home/alves/ros2_ws/install/count_interfaces/share/count_interfaces/cmake/count_interfaces__rosidl_typesupport_cExport.cmake
+[3.084s] -- Installing: /home/alves/ros2_ws/install/count_interfaces/share/count_interfaces/cmake/count_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[3.084s] -- Installing: /home/alves/ros2_ws/install/count_interfaces/share/count_interfaces/cmake/count_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[3.084s] -- Installing: /home/alves/ros2_ws/install/count_interfaces/share/count_interfaces/cmake/count_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.084s] -- Installing: /home/alves/ros2_ws/install/count_interfaces/share/count_interfaces/cmake/count_interfaces__rosidl_typesupport_cppExport.cmake
+[3.084s] -- Installing: /home/alves/ros2_ws/install/count_interfaces/share/count_interfaces/cmake/count_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[3.084s] -- Installing: /home/alves/ros2_ws/install/count_interfaces/share/count_interfaces/cmake/export_count_interfaces__rosidl_generator_pyExport.cmake
+[3.084s] -- Installing: /home/alves/ros2_ws/install/count_interfaces/share/count_interfaces/cmake/export_count_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[3.084s] -- Installing: /home/alves/ros2_ws/install/count_interfaces/share/count_interfaces/cmake/rosidl_cmake-extras.cmake
+[3.084s] -- Installing: /home/alves/ros2_ws/install/count_interfaces/share/count_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.085s] -- Installing: /home/alves/ros2_ws/install/count_interfaces/share/count_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.085s] -- Installing: /home/alves/ros2_ws/install/count_interfaces/share/count_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[3.085s] -- Installing: /home/alves/ros2_ws/install/count_interfaces/share/count_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[3.085s] -- Installing: /home/alves/ros2_ws/install/count_interfaces/share/count_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.085s] -- Installing: /home/alves/ros2_ws/install/count_interfaces/share/count_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.085s] -- Installing: /home/alves/ros2_ws/install/count_interfaces/share/count_interfaces/cmake/count_interfacesConfig.cmake
+[3.085s] -- Up-to-date: /home/alves/ros2_ws/install/count_interfaces/share/count_interfaces/cmake/count_interfacesConfig-version.cmake
+[3.085s] -- Installing: /home/alves/ros2_ws/install/count_interfaces/share/count_interfaces/package.xml
+[3.087s] Invoked command in '/home/alves/ros2_ws/build/count_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/alves/ros2_ws/build/count_interfaces

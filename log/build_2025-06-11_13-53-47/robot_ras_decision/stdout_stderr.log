@@ -1,0 +1,14 @@
+[35m[1mConsolidate compiler generated dependencies of target Manager[0m
+[ 50%] Built target MovementControl
+[ 75%] [32mBuilding CXX object CMakeFiles/Manager.dir/src/manager.cpp.o[0m
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/manager.cpp:[m[K In member function ‘[01m[Kvoid Manager::movement_callback()[m[K’:
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/manager.cpp:65:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kstring[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’; did you mean ‘[01m[KString[m[K’?
+   65 |             std_msgs::msg::[01;31m[Kstring[m[K mensagem;
+      |                            [01;31m[K^~~~~~[m[K
+      |                            [32m[KString[m[K
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/manager.cpp:79:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kmensagem[m[K’ was not declared in this scope
+   79 |             [01;31m[Kmensagem[m[K.data = "front";
+      |             [01;31m[K^~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/Manager.dir/build.make:76: CMakeFiles/Manager.dir/src/manager.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/Manager.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

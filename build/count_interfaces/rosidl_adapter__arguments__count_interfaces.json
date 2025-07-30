@@ -1,0 +1,6 @@
+{
+  "package_name": "count_interfaces",
+  "non_idl_tuples": [
+    "/home/alves/ros2_ws/src/count_interfaces:action/Count.action"
+  ]
+}

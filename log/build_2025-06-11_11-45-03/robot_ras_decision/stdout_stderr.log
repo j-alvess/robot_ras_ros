@@ -1,0 +1,36 @@
+[35m[1mConsolidate compiler generated dependencies of target Manager[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/Manager.dir/src/manager.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/MovementControl.dir/src/movement_control.cpp.o[0m
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/manager.cpp:8:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/msg/range.hpp: No such file or directory
+    8 | #include [01;31m[K<std_msgs/msg/range.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/Manager.dir/build.make:76: CMakeFiles/Manager.dir/src/manager.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/Manager.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/movement_control.cpp:21:45:[m[K [01;31m[Kerror: [m[K‘[01m[KRange[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’
+   21 |         rclcpp::Subscription<std_msgs::msg::[01;31m[KRange[m[K>::SharedPtr sub_front_manager_;
+      |                                             [01;31m[K^~~~~[m[K
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/movement_control.cpp:21:50:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   21 |         rclcpp::Subscription<std_msgs::msg::Range[01;31m[K>[m[K::SharedPtr sub_front_manager_;
+      |                                                  [01;31m[K^[m[K
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/movement_control.cpp:21:50:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/movement_control.cpp:21:50:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/movement_control.cpp:21:50:[m[K [01;31m[Kerror: [m[Ktemplate argument 5 is invalid
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/movement_control.cpp:21:53:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   21 |         rclcpp::Subscription<std_msgs::msg::Range>::[01;31m[KSharedPtr[m[K sub_front_manager_;
+      |                                                     [01;31m[K^~~~~~~~~[m[K
+      |                                                              [32m[K;[m[K
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/movement_control.cpp:21:63:[m[K [01;31m[Kerror: [m[K‘[01m[Ksub_front_manager_[m[K’ does not name a type
+   21 |         rclcpp::Subscription<std_msgs::msg::Range>::SharedPtr [01;31m[Ksub_front_manager_[m[K;
+      |                                                               [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/movement_control.cpp:[m[K In member function ‘[01m[Kvoid MovementControl::movement_callback(const String&) const[m[K’:
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/movement_control.cpp:45:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing _data_type = class std::vector<double, std::allocator<double> >[m[K’ {aka ‘[01m[Kclass std::vector<double, std::allocator<double> >[m[K’} has no member named ‘[01m[Kresi[m[K’
+   45 |       motor2.data.[01;31m[Kresi[m[K            mensagem.data = direcao;ze(1);
+      |                   [01;31m[K^~~~[m[K
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/movement_control.cpp:45:59:[m[K [01;31m[Kerror: [m[K‘[01m[Kze[m[K’ was not declared in this scope
+   45 |       motor2.data.resi            mensagem.data = direcao;[01;31m[Kze[m[K(1);
+      |                                                           [01;31m[K^~[m[K
+gmake[2]: *** [CMakeFiles/MovementControl.dir/build.make:76: CMakeFiles/MovementControl.dir/src/movement_control.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/MovementControl.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

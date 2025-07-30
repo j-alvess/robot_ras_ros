@@ -1,0 +1,54 @@
+[0.011s] Invoking command in '/home/alves/ros2_ws/build/count_action_cpp': CMAKE_PREFIX_PATH=/home/alves/ros2_ws/install/count_interfaces:/home/alves/ros2_ws/install/robot_ras_ros:/home/alves/ros2_ws/install/robot_ras_decision:/home/alves/ros2_ws/install/dep_example_cpp:/opt/ros/humble /usr/bin/cmake /home/alves/ros2_ws/src/count_action_cpp -DCMAKE_INSTALL_PREFIX=/home/alves/ros2_ws/install/count_action_cpp
+[0.024s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.139s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.157s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.159s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.164s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.173s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.181s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.207s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.207s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.281s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.316s] -- Found rclcpp_action: 16.0.12 (/opt/ros/humble/share/rclcpp_action/cmake)
+[0.335s] -- Found count_interfaces: 0.0.0 (/home/alves/ros2_ws/install/count_interfaces/share/count_interfaces/cmake)
+[0.344s] -- Found rclcpp_components: 16.0.12 (/opt/ros/humble/share/rclcpp_components/cmake)
+[0.359s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.407s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.407s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/alves/ros2_ws/src/count_action_cpp/include>
+[0.407s] -- Configured cppcheck exclude dirs and/or files: 
+[0.408s] -- Added test 'lint_cmake' to check CMake code style
+[0.408s] -- Added test 'uncrustify' to check C / C++ code style
+[0.408s] -- Configured uncrustify additional arguments: 
+[0.409s] -- Added test 'xmllint' to check XML markup files
+[0.409s] -- Configuring done
+[0.420s] -- Generating done
+[0.425s] -- Build files have been written to: /home/alves/ros2_ws/build/count_action_cpp
+[0.430s] Invoked command in '/home/alves/ros2_ws/build/count_action_cpp' returned '0': CMAKE_PREFIX_PATH=/home/alves/ros2_ws/install/count_interfaces:/home/alves/ros2_ws/install/robot_ras_ros:/home/alves/ros2_ws/install/robot_ras_decision:/home/alves/ros2_ws/install/dep_example_cpp:/opt/ros/humble /usr/bin/cmake /home/alves/ros2_ws/src/count_action_cpp -DCMAKE_INSTALL_PREFIX=/home/alves/ros2_ws/install/count_action_cpp
+[0.432s] Invoking command in '/home/alves/ros2_ws/build/count_action_cpp': CMAKE_PREFIX_PATH=/home/alves/ros2_ws/install/count_interfaces:/home/alves/ros2_ws/install/robot_ras_ros:/home/alves/ros2_ws/install/robot_ras_decision:/home/alves/ros2_ws/install/dep_example_cpp:/opt/ros/humble /usr/bin/cmake --build /home/alves/ros2_ws/build/count_action_cpp -- -j16 -l16
+[0.469s] [ 25%] [32mBuilding CXX object CMakeFiles/action_server.dir/src/count_server.cpp.o[0m
+[0.469s] [ 25%] [32mBuilding CXX object CMakeFiles/CountServer.dir/src/count_server.cpp.o[0m
+[0.470s] [ 37%] [32mBuilding CXX object CMakeFiles/CountClient.dir/src/count_client.cpp.o[0m
+[0.471s] [ 50%] [32mBuilding CXX object CMakeFiles/count_server.dir/rclcpp_components/node_main_count_server.cpp.o[0m
+[0.485s] [ 62%] [32m[1mLinking CXX executable CountClient[0m
+[0.526s] [01m[K/home/alves/ros2_ws/src/count_action_cpp/src/count_server.cpp:5:10:[m[K [01;31m[Kfatal error: [m[Kcount_interfaces/action/Count.hpp: Arquivo ou diretório inexistente
+[0.526s]     5 | #include [01;31m[K"count_interfaces/action/Count.hpp"[m[K
+[0.526s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.526s] compilation terminated.
+[0.527s] gmake[2]: *** [CMakeFiles/CountServer.dir/build.make:76: CMakeFiles/CountServer.dir/src/count_server.cpp.o] Erro 1
+[0.527s] gmake[1]: *** [CMakeFiles/Makefile2:195: CMakeFiles/CountServer.dir/all] Erro 2
+[0.527s] gmake[1]: ** Esperando que outros processos terminem.
+[0.529s] [01m[K/home/alves/ros2_ws/src/count_action_cpp/src/count_server.cpp:5:10:[m[K [01;31m[Kfatal error: [m[Kcount_interfaces/action/Count.hpp: Arquivo ou diretório inexistente
+[0.529s]     5 | #include [01;31m[K"count_interfaces/action/Count.hpp"[m[K
+[0.529s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.529s] compilation terminated.
+[0.531s] gmake[2]: *** [CMakeFiles/action_server.dir/build.make:76: CMakeFiles/action_server.dir/src/count_server.cpp.o] Erro 1
+[0.531s] gmake[1]: *** [CMakeFiles/Makefile2:143: CMakeFiles/action_server.dir/all] Erro 2
+[0.539s] /usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: na função "_start":
+[0.539s] (.text+0x1b): referência não definida para "main"
+[0.540s] collect2: error: ld returned 1 exit status
+[0.541s] gmake[2]: *** [CMakeFiles/CountClient.dir/build.make:177: CountClient] Erro 1
+[0.541s] gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/CountClient.dir/all] Erro 2
+[2.437s] [ 75%] [32m[1mLinking CXX executable count_server[0m
+[2.545s] [ 75%] Built target count_server
+[2.546s] gmake: *** [Makefile:146: all] Erro 2
+[2.547s] Invoked command in '/home/alves/ros2_ws/build/count_action_cpp' returned '2': CMAKE_PREFIX_PATH=/home/alves/ros2_ws/install/count_interfaces:/home/alves/ros2_ws/install/robot_ras_ros:/home/alves/ros2_ws/install/robot_ras_decision:/home/alves/ros2_ws/install/dep_example_cpp:/opt/ros/humble /usr/bin/cmake --build /home/alves/ros2_ws/build/count_action_cpp -- -j16 -l16

@@ -1,0 +1,63 @@
+[35m[1mConsolidate compiler generated dependencies of target action_server[0m
+[ 25%] [32m[1mLinking CXX executable CountClient[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/CountServer.dir/src/count_server.cpp.o[0m
+[ 50%] Built target count_server
+[ 62%] [32mBuilding CXX object CMakeFiles/action_server.dir/src/count_server.cpp.o[0m
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: na função "_start":
+(.text+0x1b): referência não definida para "main"
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/CountClient.dir/build.make:177: CountClient] Erro 1
+gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/CountClient.dir/all] Erro 2
+gmake[1]: ** Esperando que outros processos terminem.
+[01m[K/home/alves/ros2_ws/src/count_action_cpp/src/count_server.cpp:8:10:[m[K [01;31m[Kfatal error: [m[Krclcpp_components/register_node_macro.hpp: Arquivo ou diretório inexistente
+    8 | #include [01;31m[K"rclcpp_components/register_node_macro.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/CountServer.dir/build.make:76: CMakeFiles/CountServer.dir/src/count_server.cpp.o] Erro 1
+gmake[1]: *** [CMakeFiles/Makefile2:195: CMakeFiles/CountServer.dir/all] Erro 2
+[01m[K/home/alves/ros2_ws/src/count_action_cpp/src/count_server.cpp:44:69:[m[K [01;31m[Kerror: [m[K‘[01m[KGoalHandleFibonacci[m[K’ was not declared in this scope
+   44 |   rclcpp_action::CancelResponse handle_cancel(const std::shared_ptr<[01;31m[KGoalHandleFibonacci[m[K> goal_handle)
+      |                                                                     [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/alves/ros2_ws/src/count_action_cpp/src/count_server.cpp:44:88:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   44 |   rclcpp_action::CancelResponse handle_cancel(const std::shared_ptr<GoalHandleFibonacci[01;31m[K>[m[K goal_handle)
+      |                                                                                        [01;31m[K^[m[K
+[01m[K/home/alves/ros2_ws/src/count_action_cpp/src/count_server.cpp:[m[K In constructor ‘[01m[Kcount_action_cpp::CountActionServer::CountActionServer(const rclcpp::NodeOptions&)[m[K’:
+[01m[K/home/alves/ros2_ws/src/count_action_cpp/src/count_server.cpp:26:63:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kcreate_server<count_action_cpp::CountActionServer::Count>(count_action_cpp::CountActionServer*, const char [10], std::_Bind_helper<false, rclcpp_action::GoalResponse (count_action_cpp::CountActionServer::*)(const std::array<unsigned char, 16>&, std::shared_ptr<const count_interfaces::action::Count_Goal_<std::allocator<void> > >), count_action_cpp::CountActionServer*, const std::_Placeholder<1>&, const std::_Placeholder<2>&>::type, std::_Bind_helper<false, rclcpp_action::CancelResponse (count_action_cpp::CountActionServer::*)(int), count_action_cpp::CountActionServer*, const std::_Placeholder<1>&>::type, std::_Bind_helper<false, void (count_action_cpp::CountActionServer::*)(std::shared_ptr<rclcpp_action::ServerGoalHandle<count_interfaces::action::Count> >), count_action_cpp::CountActionServer*, const std::_Placeholder<1>&>::type)[m[K’
+   26 |     this->action_server_ = [01;31m[Krclcpp_action::create_server<Count>([m[K
+      |                            [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+   27 | [01;31m[K      this,[m[K
+      |       [01;31m[K~~~~~[m[K                                                    
+   28 | [01;31m[K      "fibonacci",[m[K
+      |       [01;31m[K~~~~~~~~~~~~[m[K                                             
+   29 | [01;31m[K      std::bind(&CountActionServer::handle_goal, this, _1, _2),[m[K
+      |       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   30 | [01;31m[K      std::bind(&CountActionServer::handle_cancel, this, _1),[m[K
+      |       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K  
+   31 | [01;31m[K      std::bind(&CountActionServer::handle_accepted, this, _1))[m[K;
+      |       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/rclcpp_action.hpp:39[m[K,
+                 from [01m[K/home/alves/ros2_ws/src/count_action_cpp/src/count_server.cpp:7[m[K:
+[01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/create_server.hpp:58:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktypename rclcpp_action::Server<ActionT>::SharedPtr rclcpp_action::create_server(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr, rclcpp::node_interfaces::NodeClockInterface::SharedPtr, rclcpp::node_interfaces::NodeLoggingInterface::SharedPtr, rclcpp::node_interfaces::NodeWaitablesInterface::SharedPtr, const string&, typename rclcpp_action::Server<ActionT>::GoalCallback, typename rclcpp_action::Server<ActionT>::CancelCallback, typename rclcpp_action::Server<ActionT>::AcceptedCallback, const rcl_action_server_options_t&, rclcpp::CallbackGroup::SharedPtr) [with ActionT = count_interfaces::action::Count; typename rclcpp_action::Server<ActionT>::SharedPtr = std::shared_ptr<rclcpp_action::Server<count_interfaces::action::Count> >; rclcpp::node_interfaces::NodeBaseInterface::SharedPtr = std::shared_ptr<rclcpp::node_interfaces::NodeBaseInterface>; rclcpp::node_interfaces::NodeClockInterface::SharedPtr = std::shared_ptr<rclcpp::node_interfaces::NodeClockInterface>; rclcpp::node_interfaces::NodeLoggingInterface::SharedPtr = std::shared_ptr<rclcpp::node_interfaces::NodeLoggingInterface>; rclcpp::node_interfaces::NodeWaitablesInterface::SharedPtr = std::shared_ptr<rclcpp::node_interfaces::NodeWaitablesInterface>; std::string = std::__cxx11::basic_string<char>; typename rclcpp_action::Server<ActionT>::GoalCallback = std::function<rclcpp_action::GoalResponse(const std::array<unsigned char, 16>&, std::shared_ptr<const count_interfaces::action::Count_Goal_<std::allocator<void> > >)>; typename rclcpp_action::Server<ActionT>::CancelCallback = std::function<rclcpp_action::CancelResponse(std::shared_ptr<rclcpp_action::ServerGoalHandle<count_interfaces::action::Count> >)>; typename rclcpp_action::Server<ActionT>::AcceptedCallback = std::function<void(std::shared_ptr<rclcpp_action::ServerGoalHandle<count_interfaces::action::Count> >)>; rcl_action_server_options_t = rcl_action_server_options_s; rclcpp::CallbackGroup::SharedPtr = std::shared_ptr<rclcpp::CallbackGroup>][m[K’
+   58 | [01;36m[Kcreate_server[m[K(
+      | [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/create_server.hpp:58:1:[m[K [01;36m[Knote: [m[K  candidate expects 10 arguments, 5 provided
+[01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/create_server.hpp:132:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ActionT, class NodeT> typename rclcpp_action::Server<ActionT>::SharedPtr rclcpp_action::create_server(NodeT, const string&, typename rclcpp_action::Server<ActionT>::GoalCallback, typename rclcpp_action::Server<ActionT>::CancelCallback, typename rclcpp_action::Server<ActionT>::AcceptedCallback, const rcl_action_server_options_t&, rclcpp::CallbackGroup::SharedPtr)[m[K’
+  132 | [01;36m[Kcreate_server[m[K(
+      | [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/create_server.hpp:132:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/alves/ros2_ws/src/count_action_cpp/src/count_server.cpp:30:16:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Kstd::bind(_Func&&, _BoundArgs&& ...) [with _Func = rclcpp_action::CancelResponse (count_action_cpp::CountActionServer::*)(int); _BoundArgs = {count_action_cpp::CountActionServer*, const std::_Placeholder<1>&}; typename std::_Bind_helper<std::__is_socketlike<_Func>::value, _Func, _BoundArgs ...>::type = std::_Bind_helper<false, rclcpp_action::CancelResponse (count_action_cpp::CountActionServer::*)(int), count_action_cpp::CountActionServer*, const std::_Placeholder<1>&>::type; std::__is_socketlike<_Func> = std::__is_socketlike<rclcpp_action::CancelResponse (count_action_cpp::CountActionServer::*)(int), rclcpp_action::CancelResponse (count_action_cpp::CountActionServer::*)(int)>; typename std::decay<_Tp>::type = rclcpp_action::CancelResponse (count_action_cpp::CountActionServer::*)(int)](((count_action_cpp::CountActionServer*)this), std::placeholders::_1)[m[K’ (type ‘[01m[Kstd::_Bind_helper<false, rclcpp_action::CancelResponse (count_action_cpp::CountActionServer::*)(int), count_action_cpp::CountActionServer*, const std::_Placeholder<1>&>::type[m[K’) to type ‘[01m[Krclcpp_action::Server<count_interfaces::action::Count>::CancelCallback[m[K’ {aka ‘[01m[Kstd::function<rclcpp_action::CancelResponse(std::shared_ptr<rclcpp_action::ServerGoalHandle<count_interfaces::action::Count> >)>[m[K’}
+   30 |       [01;36m[Kstd::bind(&CountActionServer::handle_cancel, this, _1)[m[K,
+      |       [01;36m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/alves/ros2_ws/src/count_action_cpp/src/count_server.cpp:[m[K In member function ‘[01m[Kvoid count_action_cpp::CountActionServer::execute(std::shared_ptr<rclcpp_action::ServerGoalHandle<count_interfaces::action::Count> >)[m[K’:
+[01m[K/home/alves/ros2_ws/src/count_action_cpp/src/count_server.cpp:69:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = const struct count_interfaces::action::Count_Goal_<std::allocator<void> >[m[K’ {aka ‘[01m[Kconst struct count_interfaces::action::Count_Goal_<std::allocator<void> >[m[K’} has no member named ‘[01m[Korder[m[K’
+   69 |     for (int i = 1; (i < goal->[01;31m[Korder[m[K) && rclcpp::ok(); ++i) {
+      |                                [01;31m[K^~~~~[m[K
+[01m[K/home/alves/ros2_ws/src/count_action_cpp/src/count_server.cpp:72:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct count_interfaces::action::Count_Result_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct count_interfaces::action::Count_Result_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ksequence[m[K’
+   72 |         result->[01;31m[Ksequence[m[K = sequence;
+      |                 [01;31m[K^~~~~~~~[m[K
+[01m[K/home/alves/ros2_ws/src/count_action_cpp/src/count_server.cpp:88:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct count_interfaces::action::Count_Result_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct count_interfaces::action::Count_Result_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ksequence[m[K’
+   88 |       result->[01;31m[Ksequence[m[K = sequence;
+      |               [01;31m[K^~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/action_server.dir/build.make:76: CMakeFiles/action_server.dir/src/count_server.cpp.o] Erro 1
+gmake[1]: *** [CMakeFiles/Makefile2:143: CMakeFiles/action_server.dir/all] Erro 2
+gmake: *** [Makefile:146: all] Erro 2

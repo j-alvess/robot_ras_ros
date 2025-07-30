@@ -1,0 +1,13 @@
+[35m[1mConsolidate compiler generated dependencies of target Manager[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/MovementControl.dir/src/movement_control.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/Manager.dir/src/manager.cpp.o[0m
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/movement_control.cpp:[m[K In member function ‘[01m[Kvoid MovementControl::movement_callback(const String&) const[m[K’:
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/movement_control.cpp:44:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing _data_type = class std::vector<double, std::allocator<double> >[m[K’ {aka ‘[01m[Kclass std::vector<double, std::allocator<double> >[m[K’} has no member named ‘[01m[Kresi[m[K’
+   44 |       motor2.data.[01;31m[Kresi[m[K  ze(1);
+      |                   [01;31m[K^~~~[m[K
+gmake[2]: *** [CMakeFiles/MovementControl.dir/build.make:76: CMakeFiles/MovementControl.dir/src/movement_control.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/MovementControl.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[ 75%] [32m[1mLinking CXX executable Manager[0m
+[ 75%] Built target Manager
+gmake: *** [Makefile:146: all] Error 2

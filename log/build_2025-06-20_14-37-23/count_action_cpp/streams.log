@@ -1,0 +1,47 @@
+[0.016s] Invoking command in '/home/alves/ros2_ws/build/count_action_cpp': CMAKE_PREFIX_PATH=/home/alves/ros2_ws/install/count_interfaces:/home/alves/ros2_ws/install/robot_ras_ros:/home/alves/ros2_ws/install/robot_ras_decision:/home/alves/ros2_ws/install/dep_example_cpp:/opt/ros/humble /usr/bin/cmake --build /home/alves/ros2_ws/build/count_action_cpp -- -j16 -l16
+[0.036s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.134s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.153s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.155s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.159s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.165s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.173s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.196s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.197s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.268s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.303s] -- Found rclcpp_action: 16.0.12 (/opt/ros/humble/share/rclcpp_action/cmake)
+[0.322s] -- Found count_interfaces: 0.0.0 (/home/alves/ros2_ws/install/count_interfaces/share/count_interfaces/cmake)
+[0.331s] -- Found rclcpp_components: 16.0.12 (/opt/ros/humble/share/rclcpp_components/cmake)
+[0.342s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.350s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.406s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.407s] -- Configured cppcheck include dirs: /home/alves/ros2_ws/src/count_action_cpp/include;$<BUILD_INTERFACE:/home/alves/ros2_ws/src/count_action_cpp/include>
+[0.407s] -- Configured cppcheck exclude dirs and/or files: 
+[0.407s] -- Added test 'lint_cmake' to check CMake code style
+[0.408s] -- Added test 'uncrustify' to check C / C++ code style
+[0.408s] -- Configured uncrustify additional arguments: 
+[0.408s] -- Added test 'xmllint' to check XML markup files
+[0.408s] -- Configuring done
+[0.420s] -- Generating done
+[0.425s] -- Build files have been written to: /home/alves/ros2_ws/build/count_action_cpp
+[0.445s] [35m[1mConsolidate compiler generated dependencies of target CountClient[0m
+[0.445s] [35m[1mConsolidate compiler generated dependencies of target action_server[0m
+[0.448s] [35m[1mConsolidate compiler generated dependencies of target count_server[0m
+[0.454s] [ 12%] [32mBuilding CXX object CMakeFiles/CountServer.dir/src/count_server.cpp.o[0m
+[0.454s] [ 25%] [32m[1mLinking CXX executable CountClient[0m
+[0.462s] [ 50%] Built target count_server
+[0.463s] [ 75%] Built target action_server
+[0.510s] /usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: na função "_start":
+[0.510s] (.text+0x1b): referência não definida para "main"
+[0.511s] collect2: error: ld returned 1 exit status
+[0.512s] gmake[2]: *** [CMakeFiles/CountClient.dir/build.make:177: CountClient] Erro 1
+[0.512s] gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/CountClient.dir/all] Erro 2
+[0.512s] gmake[1]: ** Esperando que outros processos terminem.
+[0.607s] [01m[K/home/alves/ros2_ws/src/count_action_cpp/src/count_server.cpp:8:10:[m[K [01;31m[Kfatal error: [m[Krclcpp_components/register_node_macro.hpp: Arquivo ou diretório inexistente
+[0.607s]     8 | #include [01;31m[K"rclcpp_components/register_node_macro.hpp"[m[K
+[0.607s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.607s] compilation terminated.
+[0.610s] gmake[2]: *** [CMakeFiles/CountServer.dir/build.make:76: CMakeFiles/CountServer.dir/src/count_server.cpp.o] Erro 1
+[0.610s] gmake[1]: *** [CMakeFiles/Makefile2:195: CMakeFiles/CountServer.dir/all] Erro 2
+[0.610s] gmake: *** [Makefile:146: all] Erro 2
+[0.612s] Invoked command in '/home/alves/ros2_ws/build/count_action_cpp' returned '2': CMAKE_PREFIX_PATH=/home/alves/ros2_ws/install/count_interfaces:/home/alves/ros2_ws/install/robot_ras_ros:/home/alves/ros2_ws/install/robot_ras_decision:/home/alves/ros2_ws/install/dep_example_cpp:/opt/ros/humble /usr/bin/cmake --build /home/alves/ros2_ws/build/count_action_cpp -- -j16 -l16

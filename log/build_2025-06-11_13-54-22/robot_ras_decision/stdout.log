@@ -1,0 +1,26 @@
+[35m[1mConsolidate compiler generated dependencies of target MovementControl[0m
+[35m[1mConsolidate compiler generated dependencies of target Manager[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/MovementControl.dir/src/movement_control.cpp.o[0m
+[ 75%] Built target Manager
+[100%] [32m[1mLinking CXX executable MovementControl[0m
+[100%] Built target MovementControl
+-- Install configuration: ""
+-- Installing: /home/alves/ros2_ws/install/robot_ras_decision/lib/robot_ras_decision/MovementControl
+-- Set runtime path of "/home/alves/ros2_ws/install/robot_ras_decision/lib/robot_ras_decision/MovementControl" to ""
+-- Installing: /home/alves/ros2_ws/install/robot_ras_decision/lib/robot_ras_decision/Manager
+-- Set runtime path of "/home/alves/ros2_ws/install/robot_ras_decision/lib/robot_ras_decision/Manager" to ""
+-- Up-to-date: /home/alves/ros2_ws/install/robot_ras_decision/share/ament_index/resource_index/package_run_dependencies/robot_ras_decision
+-- Up-to-date: /home/alves/ros2_ws/install/robot_ras_decision/share/ament_index/resource_index/parent_prefix_path/robot_ras_decision
+-- Up-to-date: /home/alves/ros2_ws/install/robot_ras_decision/share/robot_ras_decision/environment/ament_prefix_path.sh
+-- Up-to-date: /home/alves/ros2_ws/install/robot_ras_decision/share/robot_ras_decision/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/alves/ros2_ws/install/robot_ras_decision/share/robot_ras_decision/environment/path.sh
+-- Up-to-date: /home/alves/ros2_ws/install/robot_ras_decision/share/robot_ras_decision/environment/path.dsv
+-- Up-to-date: /home/alves/ros2_ws/install/robot_ras_decision/share/robot_ras_decision/local_setup.bash
+-- Up-to-date: /home/alves/ros2_ws/install/robot_ras_decision/share/robot_ras_decision/local_setup.sh
+-- Up-to-date: /home/alves/ros2_ws/install/robot_ras_decision/share/robot_ras_decision/local_setup.zsh
+-- Up-to-date: /home/alves/ros2_ws/install/robot_ras_decision/share/robot_ras_decision/local_setup.dsv
+-- Installing: /home/alves/ros2_ws/install/robot_ras_decision/share/robot_ras_decision/package.dsv
+-- Up-to-date: /home/alves/ros2_ws/install/robot_ras_decision/share/ament_index/resource_index/packages/robot_ras_decision
+-- Up-to-date: /home/alves/ros2_ws/install/robot_ras_decision/share/robot_ras_decision/cmake/robot_ras_decisionConfig.cmake
+-- Up-to-date: /home/alves/ros2_ws/install/robot_ras_decision/share/robot_ras_decision/cmake/robot_ras_decisionConfig-version.cmake
+-- Up-to-date: /home/alves/ros2_ws/install/robot_ras_decision/share/robot_ras_decision/package.xml

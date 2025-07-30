@@ -1,0 +1,19 @@
+[01m[K/home/alves/ros2_ws/src/count_action_cpp/src/count_server.cpp:5:10:[m[K [01;31m[Kfatal error: [m[Kcount_interfaces/action/Count.hpp: Arquivo ou diretório inexistente
+    5 | #include [01;31m[K"count_interfaces/action/Count.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/action_server.dir/build.make:76: CMakeFiles/action_server.dir/src/count_server.cpp.o] Erro 1
+[01m[K/home/alves/ros2_ws/src/count_action_cpp/src/count_server.cpp:5:10:[m[K [01;31m[Kfatal error: [m[Kcount_interfaces/action/Count.hpp: Arquivo ou diretório inexistente
+    5 | #include [01;31m[K"count_interfaces/action/Count.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[1]: *** [CMakeFiles/Makefile2:143: CMakeFiles/action_server.dir/all] Erro 2
+gmake[1]: ** Esperando que outros processos terminem.
+gmake[2]: *** [CMakeFiles/CountServer.dir/build.make:76: CMakeFiles/CountServer.dir/src/count_server.cpp.o] Erro 1
+gmake[1]: *** [CMakeFiles/Makefile2:195: CMakeFiles/CountServer.dir/all] Erro 2
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: na função "_start":
+(.text+0x1b): referência não definida para "main"
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/CountClient.dir/build.make:177: CountClient] Erro 1
+gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/CountClient.dir/all] Erro 2
+gmake: *** [Makefile:146: all] Erro 2

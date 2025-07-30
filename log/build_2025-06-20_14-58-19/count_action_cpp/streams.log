@@ -1,0 +1,25 @@
+[0.017s] Invoking command in '/home/alves/ros2_ws/build/count_action_cpp': CMAKE_PREFIX_PATH=/home/alves/ros2_ws/install/count_interfaces:/home/alves/ros2_ws/install/robot_ras_ros:/home/alves/ros2_ws/install/robot_ras_decision:/home/alves/ros2_ws/install/dep_example_cpp:/opt/ros/humble /usr/bin/cmake --build /home/alves/ros2_ws/build/count_action_cpp -- -j16 -l16
+[0.062s] [35m[1mConsolidate compiler generated dependencies of target action_server[0m
+[0.063s] [35m[1mConsolidate compiler generated dependencies of target CountServer[0m
+[0.071s] [ 12%] [32m[1mLinking CXX executable CountClient[0m
+[0.073s] [ 37%] Built target count_server
+[0.074s] [ 50%] [32mBuilding CXX object CMakeFiles/action_server.dir/src/count_server.cpp.o[0m
+[0.075s] [ 62%] [32mBuilding CXX object CMakeFiles/CountServer.dir/src/count_server.cpp.o[0m
+[0.136s] /usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: na função "_start":
+[0.136s] (.text+0x1b): referência não definida para "main"
+[0.137s] collect2: error: ld returned 1 exit status
+[0.139s] gmake[2]: *** [CMakeFiles/CountClient.dir/build.make:177: CountClient] Erro 1
+[0.139s] gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/CountClient.dir/all] Erro 2
+[0.139s] gmake[1]: ** Esperando que outros processos terminem.
+[1.692s] [01m[K/home/alves/ros2_ws/src/count_action_cpp/src/count_server.cpp:94:69:[m[K [01;31m[Kerror: [m[Kexpected constructor, destructor, or type conversion at end of input
+[1.692s]    94 | RCLCPP_COMPONENTS_REGISTER_NODE(count_action_cpp::CountActionServer)
+[1.692s]       |                                                                     [01;31m[K^[m[K
+[1.709s] [01m[K/home/alves/ros2_ws/src/count_action_cpp/src/count_server.cpp:94:69:[m[K [01;31m[Kerror: [m[Kexpected constructor, destructor, or type conversion at end of input
+[1.709s]    94 | RCLCPP_COMPONENTS_REGISTER_NODE(count_action_cpp::CountActionServer)
+[1.709s]       |                                                                     [01;31m[K^[m[K
+[2.095s] gmake[2]: *** [CMakeFiles/CountServer.dir/build.make:76: CMakeFiles/CountServer.dir/src/count_server.cpp.o] Erro 1
+[2.096s] gmake[1]: *** [CMakeFiles/Makefile2:195: CMakeFiles/CountServer.dir/all] Erro 2
+[2.117s] gmake[2]: *** [CMakeFiles/action_server.dir/build.make:76: CMakeFiles/action_server.dir/src/count_server.cpp.o] Erro 1
+[2.117s] gmake[1]: *** [CMakeFiles/Makefile2:143: CMakeFiles/action_server.dir/all] Erro 2
+[2.117s] gmake: *** [Makefile:146: all] Erro 2
+[2.119s] Invoked command in '/home/alves/ros2_ws/build/count_action_cpp' returned '2': CMAKE_PREFIX_PATH=/home/alves/ros2_ws/install/count_interfaces:/home/alves/ros2_ws/install/robot_ras_ros:/home/alves/ros2_ws/install/robot_ras_decision:/home/alves/ros2_ws/install/dep_example_cpp:/opt/ros/humble /usr/bin/cmake --build /home/alves/ros2_ws/build/count_action_cpp -- -j16 -l16

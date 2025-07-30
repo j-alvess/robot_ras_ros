@@ -1,0 +1,33 @@
+[0.011s] Invoking command in '/home/alves/ros2_ws/build/robot_ras_decision': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/alves/ros2_ws/build/robot_ras_decision -- -j16 -l16
+[0.072s] [35m[1mConsolidate compiler generated dependencies of target MovementControl[0m
+[0.086s] [ 50%] [32mBuilding CXX object CMakeFiles/MovementControl.dir/src/movement_control.cpp.o[0m
+[1.652s] [01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/movement_control.cpp:[m[K In constructor ‘[01m[KMovementControl::MovementControl()[m[K’:
+[1.652s] [01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/movement_control.cpp:20:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kvel1[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.653s]    20 |       float [01;35m[Kvel1[m[K, vel2;
+[1.653s]       |             [01;35m[K^~~~[m[K
+[1.653s] [01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/movement_control.cpp:20:19:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kvel2[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.653s]    20 |       float vel1, [01;35m[Kvel2[m[K;
+[1.653s]       |                   [01;35m[K^~~~[m[K
+[5.823s] [100%] [32m[1mLinking CXX executable MovementControl[0m
+[6.124s] [100%] Built target MovementControl
+[6.134s] Invoked command in '/home/alves/ros2_ws/build/robot_ras_decision' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/alves/ros2_ws/build/robot_ras_decision -- -j16 -l16
+[6.139s] Invoking command in '/home/alves/ros2_ws/build/robot_ras_decision': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/alves/ros2_ws/build/robot_ras_decision
+[6.160s] -- Install configuration: ""
+[6.160s] -- Installing: /home/alves/ros2_ws/install/robot_ras_decision/lib/robot_ras_decision/MovementControl
+[6.170s] -- Set runtime path of "/home/alves/ros2_ws/install/robot_ras_decision/lib/robot_ras_decision/MovementControl" to ""
+[6.170s] -- Installing: /home/alves/ros2_ws/install/robot_ras_decision/share/ament_index/resource_index/package_run_dependencies/robot_ras_decision
+[6.171s] -- Up-to-date: /home/alves/ros2_ws/install/robot_ras_decision/share/ament_index/resource_index/parent_prefix_path/robot_ras_decision
+[6.173s] -- Up-to-date: /home/alves/ros2_ws/install/robot_ras_decision/share/robot_ras_decision/environment/ament_prefix_path.sh
+[6.173s] -- Installing: /home/alves/ros2_ws/install/robot_ras_decision/share/robot_ras_decision/environment/ament_prefix_path.dsv
+[6.174s] -- Up-to-date: /home/alves/ros2_ws/install/robot_ras_decision/share/robot_ras_decision/environment/path.sh
+[6.174s] -- Installing: /home/alves/ros2_ws/install/robot_ras_decision/share/robot_ras_decision/environment/path.dsv
+[6.174s] -- Up-to-date: /home/alves/ros2_ws/install/robot_ras_decision/share/robot_ras_decision/local_setup.bash
+[6.174s] -- Up-to-date: /home/alves/ros2_ws/install/robot_ras_decision/share/robot_ras_decision/local_setup.sh
+[6.174s] -- Up-to-date: /home/alves/ros2_ws/install/robot_ras_decision/share/robot_ras_decision/local_setup.zsh
+[6.175s] -- Installing: /home/alves/ros2_ws/install/robot_ras_decision/share/robot_ras_decision/local_setup.dsv
+[6.175s] -- Installing: /home/alves/ros2_ws/install/robot_ras_decision/share/robot_ras_decision/package.dsv
+[6.175s] -- Up-to-date: /home/alves/ros2_ws/install/robot_ras_decision/share/ament_index/resource_index/packages/robot_ras_decision
+[6.175s] -- Up-to-date: /home/alves/ros2_ws/install/robot_ras_decision/share/robot_ras_decision/cmake/robot_ras_decisionConfig.cmake
+[6.175s] -- Up-to-date: /home/alves/ros2_ws/install/robot_ras_decision/share/robot_ras_decision/cmake/robot_ras_decisionConfig-version.cmake
+[6.175s] -- Installing: /home/alves/ros2_ws/install/robot_ras_decision/share/robot_ras_decision/package.xml
+[6.180s] Invoked command in '/home/alves/ros2_ws/build/robot_ras_decision' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/alves/ros2_ws/build/robot_ras_decision

@@ -1,0 +1,17 @@
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/manager.cpp:[m[K In member function ‘[01m[Kvoid Manager::sub_front_callback(const Range&)[m[K’:
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/manager.cpp:37:59:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst Range[m[K’ {aka ‘[01m[Kconst struct sensor_msgs::msg::Range_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kdata[m[K’
+   37 |             sensor_msgs::msg::Range distancia_front = msg.[01;31m[Kdata[m[K;
+      |                                                           [01;31m[K^~~~[m[K
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/movement_control.cpp:[m[K In member function ‘[01m[Kvoid MovementControl::movement_callback(const String&) const[m[K’:
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/movement_control.cpp:44:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing _data_type = class std::vector<double, std::allocator<double> >[m[K’ {aka ‘[01m[Kclass std::vector<double, std::allocator<double> >[m[K’} has no member named ‘[01m[Kresi[m[K’
+   44 |       motor2.data.[01;31m[Kresi[m[K            mensagem.data = direcao;ze(1);
+      |                   [01;31m[K^~~~[m[K
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/movement_control.cpp:44:59:[m[K [01;31m[Kerror: [m[K‘[01m[Kze[m[K’ was not declared in this scope
+   44 |       motor2.data.resi            mensagem.data = direcao;[01;31m[Kze[m[K(1);
+      |                                                           [01;31m[K^~[m[K
+gmake[2]: *** [CMakeFiles/Manager.dir/build.make:76: CMakeFiles/Manager.dir/src/manager.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/Manager.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/MovementControl.dir/build.make:76: CMakeFiles/MovementControl.dir/src/movement_control.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/MovementControl.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,13 @@
+/home/alves/ros2_ws/build/count_action_cpp/CMakeFiles/uninstall.dir
+/home/alves/ros2_ws/build/count_action_cpp/CMakeFiles/count_action_cpp_uninstall.dir
+/home/alves/ros2_ws/build/count_action_cpp/CMakeFiles/action_server.dir
+/home/alves/ros2_ws/build/count_action_cpp/CMakeFiles/count_server.dir
+/home/alves/ros2_ws/build/count_action_cpp/CMakeFiles/CountServer.dir
+/home/alves/ros2_ws/build/count_action_cpp/CMakeFiles/CountClient.dir
+/home/alves/ros2_ws/build/count_action_cpp/CMakeFiles/test.dir
+/home/alves/ros2_ws/build/count_action_cpp/CMakeFiles/edit_cache.dir
+/home/alves/ros2_ws/build/count_action_cpp/CMakeFiles/rebuild_cache.dir
+/home/alves/ros2_ws/build/count_action_cpp/CMakeFiles/list_install_components.dir
+/home/alves/ros2_ws/build/count_action_cpp/CMakeFiles/install.dir
+/home/alves/ros2_ws/build/count_action_cpp/CMakeFiles/install/local.dir
+/home/alves/ros2_ws/build/count_action_cpp/CMakeFiles/install/strip.dir

@@ -1,0 +1,354 @@
+[35m[1mConsolidate compiler generated dependencies of target MovementControl[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/Manager.dir/src/manager.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/MovementControl.dir/src/movement_control.cpp.o[0m
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/movement_control.cpp:21:45:[m[K [01;31m[Kerror: [m[K‘[01m[KRange[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’
+   21 |         rclcpp::Subscription<std_msgs::msg::[01;31m[KRange[m[K>::SharedPtr sub_front_manager_;
+      |                                             [01;31m[K^~~~~[m[K
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/movement_control.cpp:21:50:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   21 |         rclcpp::Subscription<std_msgs::msg::Range[01;31m[K>[m[K::SharedPtr sub_front_manager_;
+      |                                                  [01;31m[K^[m[K
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/movement_control.cpp:21:50:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/movement_control.cpp:21:50:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/movement_control.cpp:21:50:[m[K [01;31m[Kerror: [m[Ktemplate argument 5 is invalid
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/movement_control.cpp:21:53:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   21 |         rclcpp::Subscription<std_msgs::msg::Range>::[01;31m[KSharedPtr[m[K sub_front_manager_;
+      |                                                     [01;31m[K^~~~~~~~~[m[K
+      |                                                              [32m[K;[m[K
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/movement_control.cpp:21:63:[m[K [01;31m[Kerror: [m[K‘[01m[Ksub_front_manager_[m[K’ does not name a type
+   21 |         rclcpp::Subscription<std_msgs::msg::Range>::SharedPtr [01;31m[Ksub_front_manager_[m[K;
+      |                                                               [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/manager.cpp:13:14:[m[K [01;31m[Kerror: [m[K‘[01m[Krange[m[K’ in namespace ‘[01m[Kstd[m[K’ does not name a type
+   13 |         std::[01;31m[Krange[m[K distancia[];
+      |              [01;31m[K^~~~~[m[K
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/manager.cpp:14:45:[m[K [01;31m[Kerror: [m[K‘[01m[KRange[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’; did you mean ‘[01m[Ksensor_msgs::msg::Range[m[K’?
+   14 |         rclcpp::Subscription<std_msgs::msg::[01;31m[KRange[m[K>::SharedPtr sub_front_manager_;
+      |                                             [01;31m[K^~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/range.hpp:7[m[K,
+                 from [01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/manager.cpp:8[m[K:
+[01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/range__struct.hpp:199:7:[m[K [01;36m[Knote: [m[K‘[01m[Ksensor_msgs::msg::Range[m[K’ declared here
+  199 | using [01;36m[KRange[m[K =
+      |       [01;36m[K^~~~~[m[K
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/manager.cpp:14:50:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   14 |         rclcpp::Subscription<std_msgs::msg::Range[01;31m[K>[m[K::SharedPtr sub_front_manager_;
+      |                                                  [01;31m[K^[m[K
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/manager.cpp:14:50:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/manager.cpp:14:50:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/manager.cpp:14:50:[m[K [01;31m[Kerror: [m[Ktemplate argument 5 is invalid
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/manager.cpp:14:53:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   14 |         rclcpp::Subscription<std_msgs::msg::Range>::[01;31m[KSharedPtr[m[K sub_front_manager_;
+      |                                                     [01;31m[K^~~~~~~~~[m[K
+      |                                                              [32m[K;[m[K
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/manager.cpp:14:63:[m[K [01;31m[Kerror: [m[K‘[01m[Ksub_front_manager_[m[K’ does not name a type
+   14 |         rclcpp::Subscription<std_msgs::msg::Range>::SharedPtr [01;31m[Ksub_front_manager_[m[K;
+      |                                                               [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/manager.cpp:15:45:[m[K [01;31m[Kerror: [m[K‘[01m[KRange[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’; did you mean ‘[01m[Ksensor_msgs::msg::Range[m[K’?
+   15 |         rclcpp::Subscription<std_msgs::msg::[01;31m[KRange[m[K>::SharedPtr sub_rear_manager_;
+      |                                             [01;31m[K^~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/range.hpp:7[m[K,
+                 from [01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/manager.cpp:8[m[K:
+[01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/range__struct.hpp:199:7:[m[K [01;36m[Knote: [m[K‘[01m[Ksensor_msgs::msg::Range[m[K’ declared here
+  199 | using [01;36m[KRange[m[K =
+      |       [01;36m[K^~~~~[m[K
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/manager.cpp:15:50:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   15 |         rclcpp::Subscription<std_msgs::msg::Range[01;31m[K>[m[K::SharedPtr sub_rear_manager_;
+      |                                                  [01;31m[K^[m[K
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/manager.cpp:15:50:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/manager.cpp:15:50:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/manager.cpp:15:50:[m[K [01;31m[Kerror: [m[Ktemplate argument 5 is invalid
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/manager.cpp:15:53:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   15 |         rclcpp::Subscription<std_msgs::msg::Range>::[01;31m[KSharedPtr[m[K sub_rear_manager_;
+      |                                                     [01;31m[K^~~~~~~~~[m[K
+      |                                                              [32m[K;[m[K
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/manager.cpp:15:53:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kint Manager::SharedPtr[m[K’
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/manager.cpp:14:53:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint Manager::SharedPtr[m[K’
+   14 |         rclcpp::Subscription<std_msgs::msg::Range>::[01;36m[KSharedPtr[m[K sub_front_manager_;
+      |                                                     [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/manager.cpp:15:63:[m[K [01;31m[Kerror: [m[K‘[01m[Ksub_rear_manager_[m[K’ does not name a type
+   15 |         rclcpp::Subscription<std_msgs::msg::Range>::SharedPtr [01;31m[Ksub_rear_manager_[m[K;
+      |                                                               [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/manager.cpp:16:45:[m[K [01;31m[Kerror: [m[K‘[01m[KRange[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’; did you mean ‘[01m[Ksensor_msgs::msg::Range[m[K’?
+   16 |         rclcpp::Subscription<std_msgs::msg::[01;31m[KRange[m[K>::SharedPtr sub_left_manager_;
+      |                                             [01;31m[K^~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/range.hpp:7[m[K,
+                 from [01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/manager.cpp:8[m[K:
+[01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/range__struct.hpp:199:7:[m[K [01;36m[Knote: [m[K‘[01m[Ksensor_msgs::msg::Range[m[K’ declared here
+  199 | using [01;36m[KRange[m[K =
+      |       [01;36m[K^~~~~[m[K
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/manager.cpp:16:50:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   16 |         rclcpp::Subscription<std_msgs::msg::Range[01;31m[K>[m[K::SharedPtr sub_left_manager_;
+      |                                                  [01;31m[K^[m[K
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/manager.cpp:16:50:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/manager.cpp:16:50:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/manager.cpp:16:50:[m[K [01;31m[Kerror: [m[Ktemplate argument 5 is invalid
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/manager.cpp:16:53:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   16 |         rclcpp::Subscription<std_msgs::msg::Range>::[01;31m[KSharedPtr[m[K sub_left_manager_;
+      |                                                     [01;31m[K^~~~~~~~~[m[K
+      |                                                              [32m[K;[m[K
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/manager.cpp:16:53:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kint Manager::SharedPtr[m[K’
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/manager.cpp:14:53:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint Manager::SharedPtr[m[K’
+   14 |         rclcpp::Subscription<std_msgs::msg::Range>::[01;36m[KSharedPtr[m[K sub_front_manager_;
+      |                                                     [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/manager.cpp:16:63:[m[K [01;31m[Kerror: [m[K‘[01m[Ksub_left_manager_[m[K’ does not name a type
+   16 |         rclcpp::Subscription<std_msgs::msg::Range>::SharedPtr [01;31m[Ksub_left_manager_[m[K;
+      |                                                               [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/manager.cpp:17:45:[m[K [01;31m[Kerror: [m[K‘[01m[KRange[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’; did you mean ‘[01m[Ksensor_msgs::msg::Range[m[K’?
+   17 |         rclcpp::Subscription<std_msgs::msg::[01;31m[KRange[m[K>::SharedPtr sub_right_manager_;
+      |                                             [01;31m[K^~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/range.hpp:7[m[K,
+                 from [01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/manager.cpp:8[m[K:
+[01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/range__struct.hpp:199:7:[m[K [01;36m[Knote: [m[K‘[01m[Ksensor_msgs::msg::Range[m[K’ declared here
+  199 | using [01;36m[KRange[m[K =
+      |       [01;36m[K^~~~~[m[K
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/manager.cpp:17:50:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   17 |         rclcpp::Subscription<std_msgs::msg::Range[01;31m[K>[m[K::SharedPtr sub_right_manager_;
+      |                                                  [01;31m[K^[m[K
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/manager.cpp:17:50:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/manager.cpp:17:50:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/manager.cpp:17:50:[m[K [01;31m[Kerror: [m[Ktemplate argument 5 is invalid
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/manager.cpp:17:53:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   17 |         rclcpp::Subscription<std_msgs::msg::Range>::[01;31m[KSharedPtr[m[K sub_right_manager_;
+      |                                                     [01;31m[K^~~~~~~~~[m[K
+      |                                                              [32m[K;[m[K
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/manager.cpp:17:53:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kint Manager::SharedPtr[m[K’
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/manager.cpp:14:53:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint Manager::SharedPtr[m[K’
+   14 |         rclcpp::Subscription<std_msgs::msg::Range>::[01;36m[KSharedPtr[m[K sub_front_manager_;
+      |                                                     [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/manager.cpp:17:63:[m[K [01;31m[Kerror: [m[K‘[01m[Ksub_right_manager_[m[K’ does not name a type
+   17 |         rclcpp::Subscription<std_msgs::msg::Range>::SharedPtr [01;31m[Ksub_right_manager_[m[K;
+      |                                                               [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/manager.cpp:35:54:[m[K [01;31m[Kerror: [m[K‘[01m[KRange[m[K’ in namespace ‘[01m[Kstd_msgs::msg[m[K’ does not name a type
+   35 |         void sub_front_callback(const std_msgs::msg::[01;31m[KRange[m[K & msg) const
+      |                                                      [01;31m[K^~~~~[m[K
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/manager.cpp:42:53:[m[K [01;31m[Kerror: [m[K‘[01m[KRange[m[K’ in namespace ‘[01m[Kstd_msgs::msg[m[K’ does not name a type
+   42 |         void sub_rear_callback(const std_msgs::msg::[01;31m[KRange[m[K & msg) const
+      |                                                     [01;31m[K^~~~~[m[K
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/manager.cpp:49:53:[m[K [01;31m[Kerror: [m[K‘[01m[KRange[m[K’ in namespace ‘[01m[Kstd_msgs::msg[m[K’ does not name a type
+   49 |         void sub_left_callback(const std_msgs::msg::[01;31m[KRange[m[K & msg) const
+      |                                                     [01;31m[K^~~~~[m[K
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/manager.cpp:56:54:[m[K [01;31m[Kerror: [m[K‘[01m[KRange[m[K’ in namespace ‘[01m[Kstd_msgs::msg[m[K’ does not name a type
+   56 |         void sub_right_callback(const std_msgs::msg::[01;31m[KRange[m[K & msg) const
+      |                                                      [01;31m[K^~~~~[m[K
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/manager.cpp:63:53:[m[K [01;31m[Kerror: [m[K‘[01m[KRange[m[K’ in namespace ‘[01m[Kstd_msgs::msg[m[K’ does not name a type
+   63 |         void movement_callback(const std_msgs::msg::[01;31m[KRange[m[K & msg) const
+      |                                                     [01;31m[K^~~~~[m[K
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/manager.cpp:86:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+   86 | }
+      |  [01;31m[K^[m[K
+      |  [32m[K;[m[K
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/manager.cpp:[m[K In constructor ‘[01m[KManager::Manager()[m[K’:
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/manager.cpp:23:13:[m[K [01;31m[Kerror: [m[K‘[01m[Ksub_front_manager_[m[K’ was not declared in this scope
+   23 |             [01;31m[Ksub_front_manager_[m[K = this->create_subscription<std_msgs::msg::Range>(
+      |             [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/manager.cpp:23:75:[m[K [01;31m[Kerror: [m[K‘[01m[KRange[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’; did you mean ‘[01m[Ksensor_msgs::msg::Range[m[K’?
+   23 |             sub_front_manager_ = this->create_subscription<std_msgs::msg::[01;31m[KRange[m[K>(
+      |                                                                           [01;31m[K^~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/range.hpp:7[m[K,
+                 from [01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/manager.cpp:8[m[K:
+[01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/range__struct.hpp:199:7:[m[K [01;36m[Knote: [m[K‘[01m[Ksensor_msgs::msg::Range[m[K’ declared here
+  199 | using [01;36m[KRange[m[K =
+      |       [01;36m[K^~~~~[m[K
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/manager.cpp:23:81:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KManager::create_subscription<<expression error> >(const char [19], int, std::_Bind_helper<false, void (Manager::*)(const int&) const, Manager*, const std::_Placeholder<1>&>::type)[m[K’
+   23 |             sub_front_manager_ = [01;31m[Kthis->create_subscription<std_msgs::msg::Range>([m[K
+      |                                  [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+   24 | [01;31m[K            "sensor_range/front", 10, std::bind(&Manager::sub_front_callback, this, std::placeholders::_1))[m[K;
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/manager.cpp:5[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:219:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<ROSMessageT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)[m[K’
+  219 |   [01;36m[Kcreate_subscription[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:219:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/manager.cpp:23:81:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   23 |             sub_front_manager_ = [01;31m[Kthis->create_subscription<std_msgs::msg::Range>([m[K
+      |                                  [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+   24 | [01;31m[K            "sensor_range/front", 10, std::bind(&Manager::sub_front_callback, this, std::placeholders::_1))[m[K;
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/manager.cpp:25:13:[m[K [01;31m[Kerror: [m[K‘[01m[Ksub_rear_manager_[m[K’ was not declared in this scope; did you mean ‘[01m[Kpub_manager_[m[K’?
+   25 |             [01;31m[Ksub_rear_manager_[m[K = this->create_subscription<std_msgs::msg::Range>(
+      |             [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+      |             [32m[Kpub_manager_[m[K
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/manager.cpp:25:74:[m[K [01;31m[Kerror: [m[K‘[01m[KRange[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’; did you mean ‘[01m[Ksensor_msgs::msg::Range[m[K’?
+   25 |             sub_rear_manager_ = this->create_subscription<std_msgs::msg::[01;31m[KRange[m[K>(
+      |                                                                          [01;31m[K^~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/range.hpp:7[m[K,
+                 from [01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/manager.cpp:8[m[K:
+[01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/range__struct.hpp:199:7:[m[K [01;36m[Knote: [m[K‘[01m[Ksensor_msgs::msg::Range[m[K’ declared here
+  199 | using [01;36m[KRange[m[K =
+      |       [01;36m[K^~~~~[m[K
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/manager.cpp:25:80:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KManager::create_subscription<<expression error> >(const char [18], int, std::_Bind_helper<false, void (Manager::*)(const int&) const, Manager*, const std::_Placeholder<1>&>::type)[m[K’
+   25 |             sub_rear_manager_ = [01;31m[Kthis->create_subscription<std_msgs::msg::Range>([m[K
+      |                                 [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+   26 | [01;31m[K            "sensor_range/rear", 10, std::bind(&Manager::sub_rear_callback, this, std::placeholders::_1))[m[K;
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/manager.cpp:5[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:219:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<ROSMessageT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)[m[K’
+  219 |   [01;36m[Kcreate_subscription[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:219:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/manager.cpp:25:80:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   25 |             sub_rear_manager_ = [01;31m[Kthis->create_subscription<std_msgs::msg::Range>([m[K
+      |                                 [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+   26 | [01;31m[K            "sensor_range/rear", 10, std::bind(&Manager::sub_rear_callback, this, std::placeholders::_1))[m[K;
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/movement_control.cpp:[m[K In member function ‘[01m[Kvoid MovementControl::movement_callback(const String&) const[m[K’:
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/movement_control.cpp:45:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing _data_type = class std::vector<double, std::allocator<double> >[m[K’ {aka ‘[01m[Kclass std::vector<double, std::allocator<double> >[m[K’} has no member named ‘[01m[Kresi[m[K’
+   45 |       motor2.data.[01;31m[Kresi[m[K            mensagem.data = direcao;ze(1);
+      |                   [01;31m[K^~~~[m[K
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/manager.cpp:27:13:[m[K [01;31m[Kerror: [m[K‘[01m[Ksub_left_manager_[m[K’ was not declared in this scope; did you mean ‘[01m[Kpub_manager_[m[K’?
+   27 |             [01;31m[Ksub_left_manager_[m[K = this->create_subscription<std_msgs::msg::Range>(
+      |             [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+      |             [32m[Kpub_manager_[m[K
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/manager.cpp:27:74:[m[K [01;31m[Kerror: [m[K‘[01m[KRange[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’; did you mean ‘[01m[Ksensor_msgs::msg::Range[m[K’?
+   27 |             sub_left_manager_ = this->create_subscription<std_msgs::msg::[01;31m[KRange[m[K>(
+      |                                                                          [01;31m[K^~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/range.hpp:7[m[K,
+                 from [01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/manager.cpp:8[m[K:
+[01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/range__struct.hpp:199:7:[m[K [01;36m[Knote: [m[K‘[01m[Ksensor_msgs::msg::Range[m[K’ declared here
+  199 | using [01;36m[KRange[m[K =
+      |       [01;36m[K^~~~~[m[K
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/manager.cpp:27:80:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KManager::create_subscription<<expression error> >(const char [18], int, std::_Bind_helper<false, void (Manager::*)(const int&) const, Manager*, const std::_Placeholder<1>&>::type)[m[K’
+   27 |             sub_left_manager_ = [01;31m[Kthis->create_subscription<std_msgs::msg::Range>([m[K
+      |                                 [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+   28 | [01;31m[K            "sensor_range/left", 10, std::bind(&Manager::sub_left_callback, this, std::placeholders::_1))[m[K;
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/manager.cpp:5[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:219:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<ROSMessageT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)[m[K’
+  219 |   [01;36m[Kcreate_subscription[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:219:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/manager.cpp:27:80:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   27 |             sub_left_manager_ = [01;31m[Kthis->create_subscription<std_msgs::msg::Range>([m[K
+      |                                 [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+   28 | [01;31m[K            "sensor_range/left", 10, std::bind(&Manager::sub_left_callback, this, std::placeholders::_1))[m[K;
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/movement_control.cpp:45:59:[m[K [01;31m[Kerror: [m[K‘[01m[Kze[m[K’ was not declared in this scope
+   45 |       motor2.data.resi            mensagem.data = direcao;[01;31m[Kze[m[K(1);
+      |                                                           [01;31m[K^~[m[K
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/manager.cpp:29:13:[m[K [01;31m[Kerror: [m[K‘[01m[Ksub_right_manager_[m[K’ was not declared in this scope
+   29 |             [01;31m[Ksub_right_manager_[m[K = this->create_subscription<std_msgs::msg::Range>(
+      |             [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/manager.cpp:29:75:[m[K [01;31m[Kerror: [m[K‘[01m[KRange[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’; did you mean ‘[01m[Ksensor_msgs::msg::Range[m[K’?
+   29 |             sub_right_manager_ = this->create_subscription<std_msgs::msg::[01;31m[KRange[m[K>(
+      |                                                                           [01;31m[K^~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/range.hpp:7[m[K,
+                 from [01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/manager.cpp:8[m[K:
+[01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/range__struct.hpp:199:7:[m[K [01;36m[Knote: [m[K‘[01m[Ksensor_msgs::msg::Range[m[K’ declared here
+  199 | using [01;36m[KRange[m[K =
+      |       [01;36m[K^~~~~[m[K
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/manager.cpp:29:81:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KManager::create_subscription<<expression error> >(const char [19], int, std::_Bind_helper<false, void (Manager::*)(const int&) const, Manager*, const std::_Placeholder<1>&>::type)[m[K’
+   29 |             sub_right_manager_ = [01;31m[Kthis->create_subscription<std_msgs::msg::Range>([m[K
+      |                                  [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+   30 | [01;31m[K            "sensor_range/right", 10, std::bind(&Manager::sub_right_callback, this, std::placeholders::_1))[m[K;
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/manager.cpp:5[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:219:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<ROSMessageT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)[m[K’
+  219 |   [01;36m[Kcreate_subscription[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:219:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/manager.cpp:29:81:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   29 |             sub_right_manager_ = [01;31m[Kthis->create_subscription<std_msgs::msg::Range>([m[K
+      |                                  [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+   30 | [01;31m[K            "sensor_range/right", 10, std::bind(&Manager::sub_right_callback, this, std::placeholders::_1))[m[K;
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/manager.cpp:[m[K In member function ‘[01m[Kvoid Manager::sub_front_callback(const int&) const[m[K’:
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/manager.cpp:37:28:[m[K [01;31m[Kerror: [m[K‘[01m[KRange[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’; did you mean ‘[01m[Ksensor_msgs::msg::Range[m[K’?
+   37 |             std_msgs::msg::[01;31m[KRange[m[K distancia_front = msg.data;
+      |                            [01;31m[K^~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/range.hpp:7[m[K,
+                 from [01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/manager.cpp:8[m[K:
+[01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/range__struct.hpp:199:7:[m[K [01;36m[Knote: [m[K‘[01m[Ksensor_msgs::msg::Range[m[K’ declared here
+  199 | using [01;36m[KRange[m[K =
+      |       [01;36m[K^~~~~[m[K
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/manager.cpp:38:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kdistancia[m[K’ was not declared in this scope
+   38 |             [01;31m[Kdistancia[m[K[0] = distancia_front;
+      |             [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/manager.cpp:38:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kdistancia_front[m[K’ was not declared in this scope
+   38 |             distancia[0] = [01;31m[Kdistancia_front[m[K;
+      |                            [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/manager.cpp:35:62:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   35 |         void sub_front_callback([01;35m[Kconst std_msgs::msg::Range & msg[m[K) const
+      |                                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/manager.cpp:[m[K In member function ‘[01m[Kvoid Manager::sub_rear_callback(const int&) const[m[K’:
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/manager.cpp:44:28:[m[K [01;31m[Kerror: [m[K‘[01m[KRange[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’; did you mean ‘[01m[Ksensor_msgs::msg::Range[m[K’?
+   44 |             std_msgs::msg::[01;31m[KRange[m[K distancia_rear = msg.data;
+      |                            [01;31m[K^~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/range.hpp:7[m[K,
+                 from [01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/manager.cpp:8[m[K:
+[01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/range__struct.hpp:199:7:[m[K [01;36m[Knote: [m[K‘[01m[Ksensor_msgs::msg::Range[m[K’ declared here
+  199 | using [01;36m[KRange[m[K =
+      |       [01;36m[K^~~~~[m[K
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/manager.cpp:45:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kdistancia[m[K’ was not declared in this scope
+   45 |             [01;31m[Kdistancia[m[K[1] = distancia_rear;
+      |             [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/manager.cpp:45:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kdistancia_rear[m[K’ was not declared in this scope
+   45 |             distancia[1] = [01;31m[Kdistancia_rear[m[K;
+      |                            [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/manager.cpp:42:61:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   42 |         void sub_rear_callback([01;35m[Kconst std_msgs::msg::Range & msg[m[K) const
+      |                                [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/manager.cpp:[m[K In member function ‘[01m[Kvoid Manager::sub_left_callback(const int&) const[m[K’:
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/manager.cpp:51:28:[m[K [01;31m[Kerror: [m[K‘[01m[KRange[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’; did you mean ‘[01m[Ksensor_msgs::msg::Range[m[K’?
+   51 |             std_msgs::msg::[01;31m[KRange[m[K distancia_left = msg.data;
+      |                            [01;31m[K^~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/range.hpp:7[m[K,
+                 from [01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/manager.cpp:8[m[K:
+[01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/range__struct.hpp:199:7:[m[K [01;36m[Knote: [m[K‘[01m[Ksensor_msgs::msg::Range[m[K’ declared here
+  199 | using [01;36m[KRange[m[K =
+      |       [01;36m[K^~~~~[m[K
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/manager.cpp:52:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kdistancia[m[K’ was not declared in this scope
+   52 |             [01;31m[Kdistancia[m[K[2] = distancia_left;
+      |             [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/manager.cpp:52:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kdistancia_left[m[K’ was not declared in this scope
+   52 |             distancia[2] = [01;31m[Kdistancia_left[m[K;
+      |                            [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/manager.cpp:49:61:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   49 |         void sub_left_callback([01;35m[Kconst std_msgs::msg::Range & msg[m[K) const
+      |                                [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/manager.cpp:[m[K In member function ‘[01m[Kvoid Manager::sub_right_callback(const int&) const[m[K’:
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/manager.cpp:58:28:[m[K [01;31m[Kerror: [m[K‘[01m[KRange[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’; did you mean ‘[01m[Ksensor_msgs::msg::Range[m[K’?
+   58 |             std_msgs::msg::[01;31m[KRange[m[K distancia_right = msg.data;
+      |                            [01;31m[K^~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/range.hpp:7[m[K,
+                 from [01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/manager.cpp:8[m[K:
+[01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/range__struct.hpp:199:7:[m[K [01;36m[Knote: [m[K‘[01m[Ksensor_msgs::msg::Range[m[K’ declared here
+  199 | using [01;36m[KRange[m[K =
+      |       [01;36m[K^~~~~[m[K
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/manager.cpp:59:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kdistancia[m[K’ was not declared in this scope
+   59 |             [01;31m[Kdistancia[m[K[3] = distancia_right;
+      |             [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/manager.cpp:59:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kdistancia_right[m[K’ was not declared in this scope
+   59 |             distancia[3] = [01;31m[Kdistancia_right[m[K;
+      |                            [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/manager.cpp:56:62:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   56 |         void sub_right_callback([01;35m[Kconst std_msgs::msg::Range & msg[m[K) const
+      |                                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/manager.cpp:[m[K In member function ‘[01m[Kvoid Manager::movement_callback(const int&) const[m[K’:
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/manager.cpp:67:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kdistancia[m[K’ was not declared in this scope
+   67 |             if([01;31m[Kdistancia[m[K[2]> 0.1 && disancia[3]> 0.1 && distancia[0] > 0.1) {
+      |                [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/manager.cpp:67:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kdisancia[m[K’ was not declared in this scope
+   67 |             if(distancia[2]> 0.1 && [01;31m[Kdisancia[m[K[3]> 0.1 && distancia[0] > 0.1) {
+      |                                     [01;31m[K^~~~~~~~[m[K
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/manager.cpp:82:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+   82 |         [01;31m[K}[m[K
+      |         [01;31m[K^[m[K
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/manager.cpp:63:61:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   63 |         void movement_callback([01;35m[Kconst std_msgs::msg::Range & msg[m[K) const
+      |                                [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+gmake[2]: *** [CMakeFiles/Manager.dir/build.make:76: CMakeFiles/Manager.dir/src/manager.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/Manager.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/MovementControl.dir/build.make:76: CMakeFiles/MovementControl.dir/src/movement_control.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/MovementControl.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

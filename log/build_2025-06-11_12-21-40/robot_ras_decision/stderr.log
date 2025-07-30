@@ -1,0 +1,55 @@
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/manager.cpp:63:74:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before ‘[01m[K&[m[K’ token
+   63 |         void movement_callback(const sensor_msgs::msg::Range distancia[] [01;31m[K&[m[K msg) const
+      |                                                                          [01;31m[K^[m[K
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/manager.cpp:[m[K In member function ‘[01m[Kvoid Manager::sub_front_callback(const Range&) const[m[K’:
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/manager.cpp:37:59:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst Range[m[K’ {aka ‘[01m[Kconst struct sensor_msgs::msg::Range_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kdata[m[K’
+   37 |             sensor_msgs::msg::Range distancia_front = msg.[01;31m[Kdata[m[K;
+      |                                                           [01;31m[K^~~~[m[K
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/manager.cpp:38:28:[m[K [01;31m[Kerror: [m[Kpassing ‘[01m[Kconst Range[m[K’ {aka ‘[01m[Kconst sensor_msgs::msg::Range_<std::allocator<void> >[m[K’} as ‘[01m[Kthis[m[K’ argument discards qualifiers [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   38 |             distancia[0] = [01;31m[Kdistancia_front[m[K;
+      |                            [01;31m[K^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/range.hpp:7[m[K,
+                 from [01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/manager.cpp:8[m[K:
+[01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/range__struct.hpp:36:8:[m[K [01;36m[Knote: [m[K  in call to ‘[01m[Ksensor_msgs::msg::Range_<std::allocator<void> >& sensor_msgs::msg::Range_<std::allocator<void> >::operator=(const sensor_msgs::msg::Range_<std::allocator<void> >&)[m[K’
+   36 | struct [01;36m[KRange_[m[K
+      |        [01;36m[K^~~~~~[m[K
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/manager.cpp:[m[K In member function ‘[01m[Kvoid Manager::sub_rear_callback(const Range&) const[m[K’:
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/manager.cpp:45:28:[m[K [01;31m[Kerror: [m[Kpassing ‘[01m[Kconst Range[m[K’ {aka ‘[01m[Kconst sensor_msgs::msg::Range_<std::allocator<void> >[m[K’} as ‘[01m[Kthis[m[K’ argument discards qualifiers [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   45 |             distancia[1] = [01;31m[Kdistancia_rear[m[K;
+      |                            [01;31m[K^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/range.hpp:7[m[K,
+                 from [01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/manager.cpp:8[m[K:
+[01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/range__struct.hpp:36:8:[m[K [01;36m[Knote: [m[K  in call to ‘[01m[Ksensor_msgs::msg::Range_<std::allocator<void> >& sensor_msgs::msg::Range_<std::allocator<void> >::operator=(const sensor_msgs::msg::Range_<std::allocator<void> >&)[m[K’
+   36 | struct [01;36m[KRange_[m[K
+      |        [01;36m[K^~~~~~[m[K
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/manager.cpp:[m[K In member function ‘[01m[Kvoid Manager::sub_left_callback(const Range&) const[m[K’:
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/manager.cpp:52:28:[m[K [01;31m[Kerror: [m[Kpassing ‘[01m[Kconst Range[m[K’ {aka ‘[01m[Kconst sensor_msgs::msg::Range_<std::allocator<void> >[m[K’} as ‘[01m[Kthis[m[K’ argument discards qualifiers [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   52 |             distancia[2] = [01;31m[Kdistancia_left[m[K;
+      |                            [01;31m[K^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/range.hpp:7[m[K,
+                 from [01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/manager.cpp:8[m[K:
+[01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/range__struct.hpp:36:8:[m[K [01;36m[Knote: [m[K  in call to ‘[01m[Ksensor_msgs::msg::Range_<std::allocator<void> >& sensor_msgs::msg::Range_<std::allocator<void> >::operator=(const sensor_msgs::msg::Range_<std::allocator<void> >&)[m[K’
+   36 | struct [01;36m[KRange_[m[K
+      |        [01;36m[K^~~~~~[m[K
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/manager.cpp:[m[K In member function ‘[01m[Kvoid Manager::sub_right_callback(const Range&) const[m[K’:
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/manager.cpp:59:28:[m[K [01;31m[Kerror: [m[Kpassing ‘[01m[Kconst Range[m[K’ {aka ‘[01m[Kconst sensor_msgs::msg::Range_<std::allocator<void> >[m[K’} as ‘[01m[Kthis[m[K’ argument discards qualifiers [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   59 |             distancia[3] = [01;31m[Kdistancia_right[m[K;
+      |                            [01;31m[K^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/range.hpp:7[m[K,
+                 from [01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/manager.cpp:8[m[K:
+[01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/range__struct.hpp:36:8:[m[K [01;36m[Knote: [m[K  in call to ‘[01m[Ksensor_msgs::msg::Range_<std::allocator<void> >& sensor_msgs::msg::Range_<std::allocator<void> >::operator=(const sensor_msgs::msg::Range_<std::allocator<void> >&)[m[K’
+   36 | struct [01;36m[KRange_[m[K
+      |        [01;36m[K^~~~~~[m[K
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/movement_control.cpp:[m[K In member function ‘[01m[Kvoid MovementControl::movement_callback(const String&) const[m[K’:
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/movement_control.cpp:44:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing _data_type = class std::vector<double, std::allocator<double> >[m[K’ {aka ‘[01m[Kclass std::vector<double, std::allocator<double> >[m[K’} has no member named ‘[01m[Kresi[m[K’
+   44 |       motor2.data.[01;31m[Kresi[m[K            mensagem.data = direcao;ze(1);
+      |                   [01;31m[K^~~~[m[K
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/movement_control.cpp:44:59:[m[K [01;31m[Kerror: [m[K‘[01m[Kze[m[K’ was not declared in this scope
+   44 |       motor2.data.resi            mensagem.data = direcao;[01;31m[Kze[m[K(1);
+      |                                                           [01;31m[K^~[m[K
+gmake[2]: *** [CMakeFiles/Manager.dir/build.make:76: CMakeFiles/Manager.dir/src/manager.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/Manager.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/MovementControl.dir/build.make:76: CMakeFiles/MovementControl.dir/src/movement_control.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/MovementControl.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

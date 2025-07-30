@@ -1,0 +1,32 @@
+[0.017s] Invoking command in '/home/alves/ros2_ws/build/count_action_cpp': CMAKE_PREFIX_PATH=/home/alves/ros2_ws/install/count_interfaces:/home/alves/ros2_ws/install/robot_ras_ros:/home/alves/ros2_ws/install/robot_ras_decision:/home/alves/ros2_ws/install/dep_example_cpp:/opt/ros/humble /usr/bin/cmake --build /home/alves/ros2_ws/build/count_action_cpp -- -j16 -l16
+[0.078s] [35m[1mConsolidate compiler generated dependencies of target action_server[0m
+[0.088s] [ 25%] [32m[1mLinking CXX executable CountClient[0m
+[0.088s] [ 25%] [32mBuilding CXX object CMakeFiles/CountServer.dir/src/count_server.cpp.o[0m
+[0.097s] [ 50%] Built target count_server
+[0.099s] [ 62%] [32mBuilding CXX object CMakeFiles/action_server.dir/src/count_server.cpp.o[0m
+[0.139s] /usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: na função "_start":
+[0.139s] (.text+0x1b): referência não definida para "main"
+[0.140s] collect2: error: ld returned 1 exit status
+[0.142s] gmake[2]: *** [CMakeFiles/CountClient.dir/build.make:177: CountClient] Erro 1
+[0.142s] gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/CountClient.dir/all] Erro 2
+[0.142s] gmake[1]: ** Esperando que outros processos terminem.
+[0.241s] [01m[K/home/alves/ros2_ws/src/count_action_cpp/src/count_server.cpp:8:10:[m[K [01;31m[Kfatal error: [m[Krclcpp_components/register_node_macro.hpp: Arquivo ou diretório inexistente
+[0.242s]     8 | #include [01;31m[K"rclcpp_components/register_node_macro.hpp"[m[K
+[0.242s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.242s] compilation terminated.
+[0.245s] gmake[2]: *** [CMakeFiles/CountServer.dir/build.make:76: CMakeFiles/CountServer.dir/src/count_server.cpp.o] Erro 1
+[0.245s] gmake[1]: *** [CMakeFiles/Makefile2:195: CMakeFiles/CountServer.dir/all] Erro 2
+[1.624s] [01m[K/home/alves/ros2_ws/src/count_action_cpp/src/count_server.cpp:[m[K In member function ‘[01m[Kvoid count_action_cpp::CountActionServer::execute(std::shared_ptr<rclcpp_action::ServerGoalHandle<count_interfaces::action::Count> >)[m[K’:
+[1.624s] [01m[K/home/alves/ros2_ws/src/count_action_cpp/src/count_server.cpp:69:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = const struct count_interfaces::action::Count_Goal_<std::allocator<void> >[m[K’ {aka ‘[01m[Kconst struct count_interfaces::action::Count_Goal_<std::allocator<void> >[m[K’} has no member named ‘[01m[Korder[m[K’
+[1.624s]    69 |     for (int i = 1; (i < goal->[01;31m[Korder[m[K) && rclcpp::ok(); ++i) {
+[1.624s]       |                                [01;31m[K^~~~~[m[K
+[1.624s] [01m[K/home/alves/ros2_ws/src/count_action_cpp/src/count_server.cpp:72:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct count_interfaces::action::Count_Result_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct count_interfaces::action::Count_Result_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ksequence[m[K’
+[1.624s]    72 |         result->[01;31m[Ksequence[m[K = sequence;
+[1.624s]       |                 [01;31m[K^~~~~~~~[m[K
+[1.625s] [01m[K/home/alves/ros2_ws/src/count_action_cpp/src/count_server.cpp:88:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct count_interfaces::action::Count_Result_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct count_interfaces::action::Count_Result_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ksequence[m[K’
+[1.625s]    88 |       result->[01;31m[Ksequence[m[K = sequence;
+[1.625s]       |               [01;31m[K^~~~~~~~[m[K
+[2.085s] gmake[2]: *** [CMakeFiles/action_server.dir/build.make:76: CMakeFiles/action_server.dir/src/count_server.cpp.o] Erro 1
+[2.085s] gmake[1]: *** [CMakeFiles/Makefile2:143: CMakeFiles/action_server.dir/all] Erro 2
+[2.085s] gmake: *** [Makefile:146: all] Erro 2
+[2.087s] Invoked command in '/home/alves/ros2_ws/build/count_action_cpp' returned '2': CMAKE_PREFIX_PATH=/home/alves/ros2_ws/install/count_interfaces:/home/alves/ros2_ws/install/robot_ras_ros:/home/alves/ros2_ws/install/robot_ras_decision:/home/alves/ros2_ws/install/dep_example_cpp:/opt/ros/humble /usr/bin/cmake --build /home/alves/ros2_ws/build/count_action_cpp -- -j16 -l16

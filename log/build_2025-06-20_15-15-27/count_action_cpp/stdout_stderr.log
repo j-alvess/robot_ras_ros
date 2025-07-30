@@ -1,0 +1,17 @@
+[35m[1mConsolidate compiler generated dependencies of target action_server[0m
+[35m[1mConsolidate compiler generated dependencies of target CountServer[0m
+[ 12%] [32m[1mLinking CXX executable CountClient[0m
+[ 50%] Built target count_server
+[ 50%] [32mBuilding CXX object CMakeFiles/action_server.dir/src/count_server.cpp.o[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/CountServer.dir/src/count_server.cpp.o[0m
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: na função "_start":
+(.text+0x1b): referência não definida para "main"
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/CountClient.dir/build.make:177: CountClient] Erro 1
+gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/CountClient.dir/all] Erro 2
+gmake[1]: ** Esperando que outros processos terminem.
+[ 75%] [32m[1mLinking CXX shared library libaction_server.so[0m
+[ 87%] [32m[1mLinking CXX executable CountServer[0m
+[ 87%] Built target action_server
+[ 87%] Built target CountServer
+gmake: *** [Makefile:146: all] Erro 2

@@ -1,0 +1,6 @@
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: na função "_start":
+(.text+0x1b): referência não definida para "main"
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/CountClient.dir/build.make:177: CountClient] Erro 1
+gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/CountClient.dir/all] Erro 2
+gmake: *** [Makefile:146: all] Erro 2

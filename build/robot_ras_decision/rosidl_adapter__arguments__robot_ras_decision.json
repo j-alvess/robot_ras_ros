@@ -1,0 +1,6 @@
+{
+  "package_name": "robot_ras_decision",
+  "non_idl_tuples": [
+    "/home/alves/ros2_ws/src/robot_ras_decision:msg/Movement.msg"
+  ]
+}

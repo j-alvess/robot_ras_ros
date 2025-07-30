@@ -1,0 +1,68 @@
+[0.008s] Invoking command in '/home/alves/ros2_ws/build/robot_ras_decision': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/alves/ros2_ws/src/robot_ras_decision -DCMAKE_INSTALL_PREFIX=/home/alves/ros2_ws/install/robot_ras_decision
+[0.079s] -- The C compiler identification is GNU 11.4.0
+[0.155s] -- The CXX compiler identification is GNU 11.4.0
+[0.163s] -- Detecting C compiler ABI info
+[0.246s] -- Detecting C compiler ABI info - done
+[0.252s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.253s] -- Detecting C compile features
+[0.253s] -- Detecting C compile features - done
+[0.256s] -- Detecting CXX compiler ABI info
+[0.366s] -- Detecting CXX compiler ABI info - done
+[0.372s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.372s] -- Detecting CXX compile features
+[0.372s] -- Detecting CXX compile features - done
+[0.374s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.502s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.586s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.642s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.645s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.652s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.660s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.673s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.703s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.705s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.786s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.821s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.865s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.877s] -- Looking for pthread.h
+[0.954s] -- Looking for pthread.h - found
+[0.954s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.060s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.061s] -- Found Threads: TRUE  
+[1.100s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.163s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.163s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/alves/ros2_ws/src/robot_ras_decision/include>
+[1.163s] -- Configured cppcheck exclude dirs and/or files: 
+[1.163s] -- Added test 'lint_cmake' to check CMake code style
+[1.164s] -- Added test 'uncrustify' to check C / C++ code style
+[1.164s] -- Configured uncrustify additional arguments: 
+[1.164s] -- Added test 'xmllint' to check XML markup files
+[1.165s] -- Configuring done
+[1.169s] -- Generating done
+[1.171s] -- Build files have been written to: /home/alves/ros2_ws/build/robot_ras_decision
+[1.177s] Invoked command in '/home/alves/ros2_ws/build/robot_ras_decision' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/alves/ros2_ws/src/robot_ras_decision -DCMAKE_INSTALL_PREFIX=/home/alves/ros2_ws/install/robot_ras_decision
+[1.178s] Invoking command in '/home/alves/ros2_ws/build/robot_ras_decision': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/alves/ros2_ws/build/robot_ras_decision -- -j16 -l16
+[1.228s] [ 50%] [32mBuilding CXX object CMakeFiles/manager.dir/src/manager.cpp.o[0m
+[1.262s] [100%] [32m[1mLinking CXX executable manager[0m
+[1.328s] [100%] Built target manager
+[1.336s] Invoked command in '/home/alves/ros2_ws/build/robot_ras_decision' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/alves/ros2_ws/build/robot_ras_decision -- -j16 -l16
+[1.337s] Invoking command in '/home/alves/ros2_ws/build/robot_ras_decision': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/alves/ros2_ws/build/robot_ras_decision
+[1.346s] -- Install configuration: ""
+[1.346s] -- Installing: /home/alves/ros2_ws/install/robot_ras_decision/lib/robot_ras_decision/manager
+[1.347s] -- Set runtime path of "/home/alves/ros2_ws/install/robot_ras_decision/lib/robot_ras_decision/manager" to ""
+[1.347s] -- Installing: /home/alves/ros2_ws/install/robot_ras_decision/share/ament_index/resource_index/package_run_dependencies/robot_ras_decision
+[1.347s] -- Installing: /home/alves/ros2_ws/install/robot_ras_decision/share/ament_index/resource_index/parent_prefix_path/robot_ras_decision
+[1.347s] -- Installing: /home/alves/ros2_ws/install/robot_ras_decision/share/robot_ras_decision/environment/ament_prefix_path.sh
+[1.347s] -- Installing: /home/alves/ros2_ws/install/robot_ras_decision/share/robot_ras_decision/environment/ament_prefix_path.dsv
+[1.348s] -- Installing: /home/alves/ros2_ws/install/robot_ras_decision/share/robot_ras_decision/environment/path.sh
+[1.348s] -- Installing: /home/alves/ros2_ws/install/robot_ras_decision/share/robot_ras_decision/environment/path.dsv
+[1.348s] -- Installing: /home/alves/ros2_ws/install/robot_ras_decision/share/robot_ras_decision/local_setup.bash
+[1.348s] -- Installing: /home/alves/ros2_ws/install/robot_ras_decision/share/robot_ras_decision/local_setup.sh
+[1.348s] -- Installing: /home/alves/ros2_ws/install/robot_ras_decision/share/robot_ras_decision/local_setup.zsh
+[1.349s] -- Installing: /home/alves/ros2_ws/install/robot_ras_decision/share/robot_ras_decision/local_setup.dsv
+[1.349s] -- Installing: /home/alves/ros2_ws/install/robot_ras_decision/share/robot_ras_decision/package.dsv
+[1.349s] -- Installing: /home/alves/ros2_ws/install/robot_ras_decision/share/ament_index/resource_index/packages/robot_ras_decision
+[1.349s] -- Installing: /home/alves/ros2_ws/install/robot_ras_decision/share/robot_ras_decision/cmake/robot_ras_decisionConfig.cmake
+[1.349s] -- Installing: /home/alves/ros2_ws/install/robot_ras_decision/share/robot_ras_decision/cmake/robot_ras_decisionConfig-version.cmake
+[1.349s] -- Installing: /home/alves/ros2_ws/install/robot_ras_decision/share/robot_ras_decision/package.xml
+[1.350s] Invoked command in '/home/alves/ros2_ws/build/robot_ras_decision' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/alves/ros2_ws/build/robot_ras_decision

@@ -1,0 +1,225 @@
+[0.015s] Invoking command in '/home/alves/ros2_ws/build/count_action_cpp': CMAKE_PREFIX_PATH=/home/alves/ros2_ws/install/count_interfaces:/home/alves/ros2_ws/install/robot_ras_ros:/home/alves/ros2_ws/install/robot_ras_decision:/home/alves/ros2_ws/install/dep_example_cpp:/opt/ros/humble /usr/bin/cmake --build /home/alves/ros2_ws/build/count_action_cpp -- -j16 -l16
+[0.069s] [35m[1mConsolidate compiler generated dependencies of target action_server[0m
+[0.076s] [35m[1mConsolidate compiler generated dependencies of target CountServer[0m
+[0.077s] [ 12%] [32m[1mLinking CXX executable CountClient[0m
+[0.082s] [ 37%] Built target count_server
+[0.090s] [ 50%] [32mBuilding CXX object CMakeFiles/action_server.dir/src/count_server.cpp.o[0m
+[0.095s] [ 62%] [32mBuilding CXX object CMakeFiles/CountServer.dir/src/count_server.cpp.o[0m
+[0.140s] /usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: na função "_start":
+[0.140s] (.text+0x1b): referência não definida para "main"
+[0.142s] collect2: error: ld returned 1 exit status
+[0.143s] gmake[2]: *** [CMakeFiles/CountClient.dir/build.make:177: CountClient] Erro 1
+[0.143s] gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/CountClient.dir/all] Erro 2
+[0.143s] gmake[1]: ** Esperando que outros processos terminem.
+[1.668s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[1.668s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[1.668s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[1.668s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.668s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.668s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.668s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.668s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.669s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.669s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.669s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.669s]                  from [01m[K/home/alves/ros2_ws/src/count_action_cpp/src/count_server.cpp:1[m[K:
+[1.669s] [01m[K/home/alves/ros2_ws/src/count_action_cpp/src/count_server.cpp:[m[K In member function ‘[01m[Krclcpp_action::GoalResponse CountServer::handle_goal(const GoalUUID&, std::shared_ptr<const count_interfaces::action::Count_Goal_<std::allocator<void> > >)[m[K’:
+[1.669s] [01m[K/home/alves/ros2_ws/src/count_action_cpp/src/count_server.cpp:23:31:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%ld[m[K’ expects argument of type ‘[01m[Klong int[m[K’, but argument 5 has type ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[1.669s]    23 |     RCLCPP_INFO(get_logger(), [01;35m[K"Goal recebido: %ld"[m[K, [32m[Kgoal->limit[m[K);
+[1.669s]       |                               [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~~~[m[K
+[1.669s]       |                                                           [32m[K|[m[K
+[1.669s]       |                                                           [32m[Kint[m[K
+[1.669s] [01m[K/home/alves/ros2_ws/src/count_action_cpp/src/count_server.cpp:23:49:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[1.669s]    23 |     RCLCPP_INFO(get_logger(), "Goal recebido: [01;36m[K%ld[m[K", goal->limit);
+[1.669s]       |                                               [01;36m[K~~^[m[K
+[1.669s]       |                                                 [01;36m[K|[m[K
+[1.669s]       |                                                 [01;36m[Klong int[m[K
+[1.669s]       |                                               [32m[K%d[m[K
+[1.669s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[1.669s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[1.669s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[1.669s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.669s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.669s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.669s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.669s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.669s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.669s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.669s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.669s]                  from [01m[K/home/alves/ros2_ws/src/count_action_cpp/src/count_server.cpp:1[m[K:
+[1.669s] [01m[K/home/alves/ros2_ws/src/count_action_cpp/src/count_server.cpp:[m[K In member function ‘[01m[Krclcpp_action::GoalResponse CountServer::handle_goal(const GoalUUID&, std::shared_ptr<const count_interfaces::action::Count_Goal_<std::allocator<void> > >)[m[K’:
+[1.669s] [01m[K/home/alves/ros2_ws/src/count_action_cpp/src/count_server.cpp:23:31:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%ld[m[K’ expects argument of type ‘[01m[Klong int[m[K’, but argument 5 has type ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[1.669s]    23 |     RCLCPP_INFO(get_logger(), [01;35m[K"Goal recebido: %ld"[m[K, [32m[Kgoal->limit[m[K);
+[1.669s]       |                               [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~~~[m[K
+[1.669s]       |                                                           [32m[K|[m[K
+[1.669s]       |                                                           [32m[Kint[m[K
+[1.670s] [01m[K/home/alves/ros2_ws/src/count_action_cpp/src/count_server.cpp:23:49:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[1.670s]    23 |     RCLCPP_INFO(get_logger(), "Goal recebido: [01;36m[K%ld[m[K", goal->limit);
+[1.670s]       |                                               [01;36m[K~~^[m[K
+[1.670s]       |                                                 [01;36m[K|[m[K
+[1.670s]       |                                                 [01;36m[Klong int[m[K
+[1.670s]       |                                               [32m[K%d[m[K
+[1.672s] [01m[K/home/alves/ros2_ws/src/count_action_cpp/src/count_server.cpp:[m[K In lambda function:
+[1.672s] [01m[K/home/alves/ros2_ws/src/count_action_cpp/src/count_server.cpp:38:29:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kcount_interfaces::action::Count_Feedback_<std::allocator<void> >::_current_type[m[K’ {aka ‘[01m[Kstd::vector<int>[m[K’} and ‘[01m[Kint64_t[m[K’ {aka ‘[01m[Klong int[m[K’})
+[1.672s]    38 |         feedback->current = [01;31m[Ki[m[K;
+[1.672s]       |                             [01;31m[K^[m[K
+[1.672s] In file included from [01m[K/usr/include/c++/11/vector:72[m[K,
+[1.672s]                  from [01m[K/usr/include/c++/11/functional:62[m[K,
+[1.672s]                  from [01m[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13[m[K,
+[1.672s]                  from [01m[K/usr/include/c++/11/algorithm:74[m[K,
+[1.672s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:18[m[K,
+[1.672s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.672s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.672s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.672s]                  from [01m[K/home/alves/ros2_ws/src/count_action_cpp/src/count_server.cpp:1[m[K:
+[1.672s] [01m[K/usr/include/c++/11/bits/vector.tcc:198:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::vector<_Tp, _Alloc>& std::vector<_Tp, _Alloc>::operator=(const std::vector<_Tp, _Alloc>&) [with _Tp = int; _Alloc = std::allocator<int>][m[K’
+[1.672s]   198 |     [01;36m[Kvector<_Tp, _Alloc>[m[K::
+[1.672s]       |     [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[1.672s] [01m[K/usr/include/c++/11/bits/vector.tcc:199:42:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kint64_t[m[K’ {aka ‘[01m[Klong int[m[K’} to ‘[01m[Kconst std::vector<int>&[m[K’
+[1.672s]   199 |     operator=([01;36m[Kconst vector<_Tp, _Alloc>& __x[m[K)
+[1.672s]       |               [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[1.672s] In file included from [01m[K/usr/include/c++/11/vector:67[m[K,
+[1.672s]                  from [01m[K/usr/include/c++/11/functional:62[m[K,
+[1.672s]                  from [01m[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13[m[K,
+[1.672s]                  from [01m[K/usr/include/c++/11/algorithm:74[m[K,
+[1.672s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:18[m[K,
+[1.672s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.672s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.672s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.672s]                  from [01m[K/home/alves/ros2_ws/src/count_action_cpp/src/count_server.cpp:1[m[K:
+[1.673s] [01m[K/usr/include/c++/11/bits/stl_vector.h:709:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::vector<_Tp, _Alloc>& std::vector<_Tp, _Alloc>::operator=(std::vector<_Tp, _Alloc>&&) [with _Tp = int; _Alloc = std::allocator<int>][m[K’
+[1.673s]   709 |       [01;36m[Koperator[m[K=(vector&& __x) noexcept(_Alloc_traits::_S_nothrow_move())
+[1.673s]       |       [01;36m[K^~~~~~~~[m[K
+[1.673s] [01m[K/usr/include/c++/11/bits/stl_vector.h:709:26:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kint64_t[m[K’ {aka ‘[01m[Klong int[m[K’} to ‘[01m[Kstd::vector<int>&&[m[K’
+[1.673s]   709 |       operator=([01;36m[Kvector&& __x[m[K) noexcept(_Alloc_traits::_S_nothrow_move())
+[1.673s]       |                 [01;36m[K~~~~~~~~~^~~[m[K
+[1.673s] [01m[K/usr/include/c++/11/bits/stl_vector.h:730:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::vector<_Tp, _Alloc>& std::vector<_Tp, _Alloc>::operator=(std::initializer_list<_Tp>) [with _Tp = int; _Alloc = std::allocator<int>][m[K’
+[1.673s]   730 |       [01;36m[Koperator[m[K=(initializer_list<value_type> __l)
+[1.673s]       |       [01;36m[K^~~~~~~~[m[K
+[1.673s] [01m[K/usr/include/c++/11/bits/stl_vector.h:730:46:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kint64_t[m[K’ {aka ‘[01m[Klong int[m[K’} to ‘[01m[Kstd::initializer_list<int>[m[K’
+[1.673s]   730 |       operator=([01;36m[Kinitializer_list<value_type> __l[m[K)
+[1.673s]       |                 [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[1.673s] [01m[K/home/alves/ros2_ws/src/count_action_cpp/src/count_server.cpp:[m[K In lambda function:
+[1.673s] [01m[K/home/alves/ros2_ws/src/count_action_cpp/src/count_server.cpp:38:29:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kcount_interfaces::action::Count_Feedback_<std::allocator<void> >::_current_type[m[K’ {aka ‘[01m[Kstd::vector<int>[m[K’} and ‘[01m[Kint64_t[m[K’ {aka ‘[01m[Klong int[m[K’})
+[1.673s]    38 |         feedback->current = [01;31m[Ki[m[K;
+[1.673s]       |                             [01;31m[K^[m[K
+[1.673s] In file included from [01m[K/usr/include/c++/11/vector:72[m[K,
+[1.673s]                  from [01m[K/usr/include/c++/11/functional:62[m[K,
+[1.673s]                  from [01m[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13[m[K,
+[1.673s]                  from [01m[K/usr/include/c++/11/algorithm:74[m[K,
+[1.673s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:18[m[K,
+[1.673s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.673s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.673s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.673s]                  from [01m[K/home/alves/ros2_ws/src/count_action_cpp/src/count_server.cpp:1[m[K:
+[1.673s] [01m[K/usr/include/c++/11/bits/vector.tcc:198:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::vector<_Tp, _Alloc>& std::vector<_Tp, _Alloc>::operator=(const std::vector<_Tp, _Alloc>&) [with _Tp = int; _Alloc = std::allocator<int>][m[K’
+[1.673s]   198 |     [01;36m[Kvector<_Tp, _Alloc>[m[K::
+[1.673s]       |     [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[1.674s] [01m[K/usr/include/c++/11/bits/vector.tcc:199:42:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kint64_t[m[K’ {aka ‘[01m[Klong int[m[K’} to ‘[01m[Kconst std::vector<int>&[m[K’
+[1.674s]   199 |     operator=([01;36m[Kconst vector<_Tp, _Alloc>& __x[m[K)
+[1.674s]       |               [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[1.674s] In file included from [01m[K/usr/include/c++/11/vector:67[m[K,
+[1.674s]                  from [01m[K/usr/include/c++/11/functional:62[m[K,
+[1.674s]                  from [01m[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13[m[K,
+[1.674s]                  from [01m[K/usr/include/c++/11/algorithm:74[m[K,
+[1.674s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:18[m[K,
+[1.674s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.674s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.674s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.674s]                  from [01m[K/home/alves/ros2_ws/src/count_action_cpp/src/count_server.cpp:1[m[K:
+[1.674s] [01m[K/usr/include/c++/11/bits/stl_vector.h:709:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::vector<_Tp, _Alloc>& std::vector<_Tp, _Alloc>::operator=(std::vector<_Tp, _Alloc>&&) [with _Tp = int; _Alloc = std::allocator<int>][m[K’
+[1.674s]   709 |       [01;36m[Koperator[m[K=(vector&& __x) noexcept(_Alloc_traits::_S_nothrow_move())
+[1.674s]       |       [01;36m[K^~~~~~~~[m[K
+[1.674s] [01m[K/usr/include/c++/11/bits/stl_vector.h:709:26:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kint64_t[m[K’ {aka ‘[01m[Klong int[m[K’} to ‘[01m[Kstd::vector<int>&&[m[K’
+[1.674s]   709 |       operator=([01;36m[Kvector&& __x[m[K) noexcept(_Alloc_traits::_S_nothrow_move())
+[1.674s]       |                 [01;36m[K~~~~~~~~~^~~[m[K
+[1.674s] [01m[K/usr/include/c++/11/bits/stl_vector.h:730:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::vector<_Tp, _Alloc>& std::vector<_Tp, _Alloc>::operator=(std::initializer_list<_Tp>) [with _Tp = int; _Alloc = std::allocator<int>][m[K’
+[1.674s]   730 |       [01;36m[Koperator[m[K=(initializer_list<value_type> __l)
+[1.674s]       |       [01;36m[K^~~~~~~~[m[K
+[1.674s] [01m[K/usr/include/c++/11/bits/stl_vector.h:730:46:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kint64_t[m[K’ {aka ‘[01m[Klong int[m[K’} to ‘[01m[Kstd::initializer_list<int>[m[K’
+[1.674s]   730 |       operator=([01;36m[Kinitializer_list<value_type> __l[m[K)
+[1.674s]       |                 [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[1.674s] [01m[K/home/alves/ros2_ws/src/count_action_cpp/src/count_server.cpp:44:62:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kcount_interfaces::action::Count_Result_<std::allocator<void> >::_total_type[m[K’ {aka ‘[01m[Kstd::vector<int>[m[K’} and ‘[01m[Kint[m[K’)
+[1.674s]    44 |                       (goal_handle->get_goal()->limit + 1) / [01;31m[K2[m[K;
+[1.674s]       |                                                              [01;31m[K^[m[K
+[1.674s] In file included from [01m[K/usr/include/c++/11/vector:72[m[K,
+[1.674s]                  from [01m[K/usr/include/c++/11/functional:62[m[K,
+[1.675s]                  from [01m[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13[m[K,
+[1.675s]                  from [01m[K/usr/include/c++/11/algorithm:74[m[K,
+[1.675s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:18[m[K,
+[1.675s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.675s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.675s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.675s]                  from [01m[K/home/alves/ros2_ws/src/count_action_cpp/src/count_server.cpp:1[m[K:
+[1.675s] [01m[K/usr/include/c++/11/bits/vector.tcc:198:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::vector<_Tp, _Alloc>& std::vector<_Tp, _Alloc>::operator=(const std::vector<_Tp, _Alloc>&) [with _Tp = int; _Alloc = std::allocator<int>][m[K’
+[1.675s]   198 |     [01;36m[Kvector<_Tp, _Alloc>[m[K::
+[1.675s]       |     [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[1.675s] [01m[K/usr/include/c++/11/bits/vector.tcc:199:42:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kint[m[K’ to ‘[01m[Kconst std::vector<int>&[m[K’
+[1.675s]   199 |     operator=([01;36m[Kconst vector<_Tp, _Alloc>& __x[m[K)
+[1.675s]       |               [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[1.675s] In file included from [01m[K/usr/include/c++/11/vector:67[m[K,
+[1.675s]                  from [01m[K/usr/include/c++/11/functional:62[m[K,
+[1.675s]                  from [01m[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13[m[K,
+[1.675s]                  from [01m[K/usr/include/c++/11/algorithm:74[m[K,
+[1.675s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:18[m[K,
+[1.675s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.675s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.675s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.675s]                  from [01m[K/home/alves/ros2_ws/src/count_action_cpp/src/count_server.cpp:1[m[K:
+[1.675s] [01m[K/usr/include/c++/11/bits/stl_vector.h:709:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::vector<_Tp, _Alloc>& std::vector<_Tp, _Alloc>::operator=(std::vector<_Tp, _Alloc>&&) [with _Tp = int; _Alloc = std::allocator<int>][m[K’
+[1.675s]   709 |       [01;36m[Koperator[m[K=(vector&& __x) noexcept(_Alloc_traits::_S_nothrow_move())
+[1.675s]       |       [01;36m[K^~~~~~~~[m[K
+[1.675s] [01m[K/usr/include/c++/11/bits/stl_vector.h:709:26:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kint[m[K’ to ‘[01m[Kstd::vector<int>&&[m[K’
+[1.675s]   709 |       operator=([01;36m[Kvector&& __x[m[K) noexcept(_Alloc_traits::_S_nothrow_move())
+[1.675s]       |                 [01;36m[K~~~~~~~~~^~~[m[K
+[1.675s] [01m[K/usr/include/c++/11/bits/stl_vector.h:730:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::vector<_Tp, _Alloc>& std::vector<_Tp, _Alloc>::operator=(std::initializer_list<_Tp>) [with _Tp = int; _Alloc = std::allocator<int>][m[K’
+[1.675s]   730 |       [01;36m[Koperator[m[K=(initializer_list<value_type> __l)
+[1.675s]       |       [01;36m[K^~~~~~~~[m[K
+[1.675s] [01m[K/usr/include/c++/11/bits/stl_vector.h:730:46:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kint[m[K’ to ‘[01m[Kstd::initializer_list<int>[m[K’
+[1.675s]   730 |       operator=([01;36m[Kinitializer_list<value_type> __l[m[K)
+[1.675s]       |                 [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[1.675s] [01m[K/home/alves/ros2_ws/src/count_action_cpp/src/count_server.cpp:44:62:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kcount_interfaces::action::Count_Result_<std::allocator<void> >::_total_type[m[K’ {aka ‘[01m[Kstd::vector<int>[m[K’} and ‘[01m[Kint[m[K’)
+[1.675s]    44 |                       (goal_handle->get_goal()->limit + 1) / [01;31m[K2[m[K;
+[1.675s]       |                                                              [01;31m[K^[m[K
+[1.675s] In file included from [01m[K/usr/include/c++/11/vector:72[m[K,
+[1.676s]                  from [01m[K/usr/include/c++/11/functional:62[m[K,
+[1.676s]                  from [01m[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13[m[K,
+[1.676s]                  from [01m[K/usr/include/c++/11/algorithm:74[m[K,
+[1.676s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:18[m[K,
+[1.676s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.676s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.676s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.676s]                  from [01m[K/home/alves/ros2_ws/src/count_action_cpp/src/count_server.cpp:1[m[K:
+[1.676s] [01m[K/usr/include/c++/11/bits/vector.tcc:198:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::vector<_Tp, _Alloc>& std::vector<_Tp, _Alloc>::operator=(const std::vector<_Tp, _Alloc>&) [with _Tp = int; _Alloc = std::allocator<int>][m[K’
+[1.676s]   198 |     [01;36m[Kvector<_Tp, _Alloc>[m[K::
+[1.676s]       |     [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[1.676s] [01m[K/usr/include/c++/11/bits/vector.tcc:199:42:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kint[m[K’ to ‘[01m[Kconst std::vector<int>&[m[K’
+[1.676s]   199 |     operator=([01;36m[Kconst vector<_Tp, _Alloc>& __x[m[K)
+[1.676s]       |               [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[1.676s] In file included from [01m[K/usr/include/c++/11/vector:67[m[K,
+[1.676s]                  from [01m[K/usr/include/c++/11/functional:62[m[K,
+[1.676s]                  from [01m[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13[m[K,
+[1.676s]                  from [01m[K/usr/include/c++/11/algorithm:74[m[K,
+[1.676s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:18[m[K,
+[1.676s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.676s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.676s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.676s]                  from [01m[K/home/alves/ros2_ws/src/count_action_cpp/src/count_server.cpp:1[m[K:
+[1.676s] [01m[K/usr/include/c++/11/bits/stl_vector.h:709:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::vector<_Tp, _Alloc>& std::vector<_Tp, _Alloc>::operator=(std::vector<_Tp, _Alloc>&&) [with _Tp = int; _Alloc = std::allocator<int>][m[K’
+[1.676s]   709 |       [01;36m[Koperator[m[K=(vector&& __x) noexcept(_Alloc_traits::_S_nothrow_move())
+[1.676s]       |       [01;36m[K^~~~~~~~[m[K
+[1.676s] [01m[K/usr/include/c++/11/bits/stl_vector.h:709:26:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kint[m[K’ to ‘[01m[Kstd::vector<int>&&[m[K’
+[1.676s]   709 |       operator=([01;36m[Kvector&& __x[m[K) noexcept(_Alloc_traits::_S_nothrow_move())
+[1.676s]       |                 [01;36m[K~~~~~~~~~^~~[m[K
+[1.676s] [01m[K/usr/include/c++/11/bits/stl_vector.h:730:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::vector<_Tp, _Alloc>& std::vector<_Tp, _Alloc>::operator=(std::initializer_list<_Tp>) [with _Tp = int; _Alloc = std::allocator<int>][m[K’
+[1.676s]   730 |       [01;36m[Koperator[m[K=(initializer_list<value_type> __l)
+[1.676s]       |       [01;36m[K^~~~~~~~[m[K
+[1.676s] [01m[K/usr/include/c++/11/bits/stl_vector.h:730:46:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kint[m[K’ to ‘[01m[Kstd::initializer_list<int>[m[K’
+[1.676s]   730 |       operator=([01;36m[Kinitializer_list<value_type> __l[m[K)
+[1.676s]       |                 [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[2.109s] gmake[2]: *** [CMakeFiles/action_server.dir/build.make:76: CMakeFiles/action_server.dir/src/count_server.cpp.o] Erro 1
+[2.109s] gmake[1]: *** [CMakeFiles/Makefile2:143: CMakeFiles/action_server.dir/all] Erro 2
+[2.112s] gmake[2]: *** [CMakeFiles/CountServer.dir/build.make:76: CMakeFiles/CountServer.dir/src/count_server.cpp.o] Erro 1
+[2.112s] gmake[1]: *** [CMakeFiles/Makefile2:195: CMakeFiles/CountServer.dir/all] Erro 2
+[2.113s] gmake: *** [Makefile:146: all] Erro 2
+[2.115s] Invoked command in '/home/alves/ros2_ws/build/count_action_cpp' returned '2': CMAKE_PREFIX_PATH=/home/alves/ros2_ws/install/count_interfaces:/home/alves/ros2_ws/install/robot_ras_ros:/home/alves/ros2_ws/install/robot_ras_decision:/home/alves/ros2_ws/install/dep_example_cpp:/opt/ros/humble /usr/bin/cmake --build /home/alves/ros2_ws/build/count_action_cpp -- -j16 -l16

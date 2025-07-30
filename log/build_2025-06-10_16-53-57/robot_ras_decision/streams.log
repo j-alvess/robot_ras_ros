@@ -1,0 +1,10 @@
+[0.015s] Invoking command in '/home/alves/ros2_ws/build/robot_ras_decision': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/alves/ros2_ws/build/robot_ras_decision -- -j16 -l16
+[0.074s] [ 50%] [32mBuilding CXX object CMakeFiles/MovementControl.dir/src/movement_control.cpp.o[0m
+[0.212s] [01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/movement_control.cpp:6:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/msg/float64MultiArray.hpp: No such file or directory
+[0.213s]     6 | #include [01;31m[K<std_msgs/msg/float64MultiArray.hpp>[m[K
+[0.213s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.213s] compilation terminated.
+[0.218s] gmake[2]: *** [CMakeFiles/MovementControl.dir/build.make:76: CMakeFiles/MovementControl.dir/src/movement_control.cpp.o] Error 1
+[0.219s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/MovementControl.dir/all] Error 2
+[0.219s] gmake: *** [Makefile:146: all] Error 2
+[0.224s] Invoked command in '/home/alves/ros2_ws/build/robot_ras_decision' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/alves/ros2_ws/build/robot_ras_decision -- -j16 -l16
