@@ -6,3 +6,5 @@ robot_ras_decision.egg-info/dependency_links.txt
 robot_ras_decision.egg-info/top_level.txt
 robot_ras_decision/msg/__init__.py
 robot_ras_decision/msg/_movement.py
+robot_ras_decision/srv/__init__.py
+robot_ras_decision/srv/_set_velocity.py

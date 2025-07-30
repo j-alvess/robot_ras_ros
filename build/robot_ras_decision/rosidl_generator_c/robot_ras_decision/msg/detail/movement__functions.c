@@ -26,7 +26,8 @@ robot_ras_decision__msg__Movement__init(robot_ras_decision__msg__Movement * msg)
     robot_ras_decision__msg__Movement__fini(msg);
     return false;
   }
-  // velocidade
+  // angulo
+  // distancia
   return true;
 }
 
@@ -38,7 +39,8 @@ robot_ras_decision__msg__Movement__fini(robot_ras_decision__msg__Movement * msg)
   }
   // direcao
   rosidl_runtime_c__String__fini(&msg->direcao);
-  // velocidade
+  // angulo
+  // distancia
 }
 
 bool
@@ -53,8 +55,12 @@ robot_ras_decision__msg__Movement__are_equal(const robot_ras_decision__msg__Move
   {
     return false;
   }
-  // velocidade
-  if (lhs->velocidade != rhs->velocidade) {
+  // angulo
+  if (lhs->angulo != rhs->angulo) {
+    return false;
+  }
+  // distancia
+  if (lhs->distancia != rhs->distancia) {
     return false;
   }
   return true;
@@ -74,8 +80,10 @@ robot_ras_decision__msg__Movement__copy(
   {
     return false;
   }
-  // velocidade
-  output->velocidade = input->velocidade;
+  // angulo
+  output->angulo = input->angulo;
+  // distancia
+  output->distancia = input->distancia;
   return true;
 }
 

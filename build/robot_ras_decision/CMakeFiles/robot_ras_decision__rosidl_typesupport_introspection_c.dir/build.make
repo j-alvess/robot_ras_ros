@@ -78,11 +78,18 @@ rosidl_typesupport_introspection_c/robot_ras_decision/msg/detail/movement__rosid
 rosidl_typesupport_introspection_c/robot_ras_decision/msg/detail/movement__rosidl_typesupport_introspection_c.h: /opt/ros/humble/share/rosidl_typesupport_introspection_c/resource/srv__rosidl_typesupport_introspection_c.h.em
 rosidl_typesupport_introspection_c/robot_ras_decision/msg/detail/movement__rosidl_typesupport_introspection_c.h: /opt/ros/humble/share/rosidl_typesupport_introspection_c/resource/srv__type_support.c.em
 rosidl_typesupport_introspection_c/robot_ras_decision/msg/detail/movement__rosidl_typesupport_introspection_c.h: rosidl_adapter/robot_ras_decision/msg/Movement.idl
+rosidl_typesupport_introspection_c/robot_ras_decision/msg/detail/movement__rosidl_typesupport_introspection_c.h: rosidl_adapter/robot_ras_decision/srv/SetVelocity.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/alves/ros2_ws/build/robot_ras_decision/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C introspection for ROS interfaces"
 	/usr/bin/python3 /opt/ros/humble/lib/rosidl_typesupport_introspection_c/rosidl_typesupport_introspection_c --generator-arguments-file /home/alves/ros2_ws/build/robot_ras_decision/rosidl_typesupport_introspection_c__arguments.json
 
+rosidl_typesupport_introspection_c/robot_ras_decision/srv/detail/set_velocity__rosidl_typesupport_introspection_c.h: rosidl_typesupport_introspection_c/robot_ras_decision/msg/detail/movement__rosidl_typesupport_introspection_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/robot_ras_decision/srv/detail/set_velocity__rosidl_typesupport_introspection_c.h
+
 rosidl_typesupport_introspection_c/robot_ras_decision/msg/detail/movement__type_support.c: rosidl_typesupport_introspection_c/robot_ras_decision/msg/detail/movement__rosidl_typesupport_introspection_c.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/robot_ras_decision/msg/detail/movement__type_support.c
+
+rosidl_typesupport_introspection_c/robot_ras_decision/srv/detail/set_velocity__type_support.c: rosidl_typesupport_introspection_c/robot_ras_decision/msg/detail/movement__rosidl_typesupport_introspection_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/robot_ras_decision/srv/detail/set_velocity__type_support.c
 
 CMakeFiles/robot_ras_decision__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robot_ras_decision/msg/detail/movement__type_support.c.o: CMakeFiles/robot_ras_decision__rosidl_typesupport_introspection_c.dir/flags.make
 CMakeFiles/robot_ras_decision__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robot_ras_decision/msg/detail/movement__type_support.c.o: rosidl_typesupport_introspection_c/robot_ras_decision/msg/detail/movement__type_support.c
@@ -98,21 +105,37 @@ CMakeFiles/robot_ras_decision__rosidl_typesupport_introspection_c.dir/rosidl_typ
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/robot_ras_decision__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robot_ras_decision/msg/detail/movement__type_support.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/alves/ros2_ws/build/robot_ras_decision/rosidl_typesupport_introspection_c/robot_ras_decision/msg/detail/movement__type_support.c -o CMakeFiles/robot_ras_decision__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robot_ras_decision/msg/detail/movement__type_support.c.s
 
+CMakeFiles/robot_ras_decision__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robot_ras_decision/srv/detail/set_velocity__type_support.c.o: CMakeFiles/robot_ras_decision__rosidl_typesupport_introspection_c.dir/flags.make
+CMakeFiles/robot_ras_decision__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robot_ras_decision/srv/detail/set_velocity__type_support.c.o: rosidl_typesupport_introspection_c/robot_ras_decision/srv/detail/set_velocity__type_support.c
+CMakeFiles/robot_ras_decision__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robot_ras_decision/srv/detail/set_velocity__type_support.c.o: CMakeFiles/robot_ras_decision__rosidl_typesupport_introspection_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alves/ros2_ws/build/robot_ras_decision/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/robot_ras_decision__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robot_ras_decision/srv/detail/set_velocity__type_support.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/robot_ras_decision__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robot_ras_decision/srv/detail/set_velocity__type_support.c.o -MF CMakeFiles/robot_ras_decision__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robot_ras_decision/srv/detail/set_velocity__type_support.c.o.d -o CMakeFiles/robot_ras_decision__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robot_ras_decision/srv/detail/set_velocity__type_support.c.o -c /home/alves/ros2_ws/build/robot_ras_decision/rosidl_typesupport_introspection_c/robot_ras_decision/srv/detail/set_velocity__type_support.c
+
+CMakeFiles/robot_ras_decision__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robot_ras_decision/srv/detail/set_velocity__type_support.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/robot_ras_decision__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robot_ras_decision/srv/detail/set_velocity__type_support.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/alves/ros2_ws/build/robot_ras_decision/rosidl_typesupport_introspection_c/robot_ras_decision/srv/detail/set_velocity__type_support.c > CMakeFiles/robot_ras_decision__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robot_ras_decision/srv/detail/set_velocity__type_support.c.i
+
+CMakeFiles/robot_ras_decision__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robot_ras_decision/srv/detail/set_velocity__type_support.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/robot_ras_decision__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robot_ras_decision/srv/detail/set_velocity__type_support.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/alves/ros2_ws/build/robot_ras_decision/rosidl_typesupport_introspection_c/robot_ras_decision/srv/detail/set_velocity__type_support.c -o CMakeFiles/robot_ras_decision__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robot_ras_decision/srv/detail/set_velocity__type_support.c.s
+
 # Object files for target robot_ras_decision__rosidl_typesupport_introspection_c
 robot_ras_decision__rosidl_typesupport_introspection_c_OBJECTS = \
-"CMakeFiles/robot_ras_decision__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robot_ras_decision/msg/detail/movement__type_support.c.o"
+"CMakeFiles/robot_ras_decision__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robot_ras_decision/msg/detail/movement__type_support.c.o" \
+"CMakeFiles/robot_ras_decision__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robot_ras_decision/srv/detail/set_velocity__type_support.c.o"
 
 # External object files for target robot_ras_decision__rosidl_typesupport_introspection_c
 robot_ras_decision__rosidl_typesupport_introspection_c_EXTERNAL_OBJECTS =
 
 librobot_ras_decision__rosidl_typesupport_introspection_c.so: CMakeFiles/robot_ras_decision__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robot_ras_decision/msg/detail/movement__type_support.c.o
+librobot_ras_decision__rosidl_typesupport_introspection_c.so: CMakeFiles/robot_ras_decision__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robot_ras_decision/srv/detail/set_velocity__type_support.c.o
 librobot_ras_decision__rosidl_typesupport_introspection_c.so: CMakeFiles/robot_ras_decision__rosidl_typesupport_introspection_c.dir/build.make
 librobot_ras_decision__rosidl_typesupport_introspection_c.so: librobot_ras_decision__rosidl_generator_c.so
 librobot_ras_decision__rosidl_typesupport_introspection_c.so: /opt/ros/humble/lib/librosidl_typesupport_introspection_c.so
 librobot_ras_decision__rosidl_typesupport_introspection_c.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 librobot_ras_decision__rosidl_typesupport_introspection_c.so: /opt/ros/humble/lib/librcutils.so
 librobot_ras_decision__rosidl_typesupport_introspection_c.so: CMakeFiles/robot_ras_decision__rosidl_typesupport_introspection_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/alves/ros2_ws/build/robot_ras_decision/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C shared library librobot_ras_decision__rosidl_typesupport_introspection_c.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/alves/ros2_ws/build/robot_ras_decision/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C shared library librobot_ras_decision__rosidl_typesupport_introspection_c.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/robot_ras_decision__rosidl_typesupport_introspection_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -125,6 +148,8 @@ CMakeFiles/robot_ras_decision__rosidl_typesupport_introspection_c.dir/clean:
 
 CMakeFiles/robot_ras_decision__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/robot_ras_decision/msg/detail/movement__rosidl_typesupport_introspection_c.h
 CMakeFiles/robot_ras_decision__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/robot_ras_decision/msg/detail/movement__type_support.c
+CMakeFiles/robot_ras_decision__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/robot_ras_decision/srv/detail/set_velocity__rosidl_typesupport_introspection_c.h
+CMakeFiles/robot_ras_decision__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/robot_ras_decision/srv/detail/set_velocity__type_support.c
 	cd /home/alves/ros2_ws/build/robot_ras_decision && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/alves/ros2_ws/src/robot_ras_decision /home/alves/ros2_ws/src/robot_ras_decision /home/alves/ros2_ws/build/robot_ras_decision /home/alves/ros2_ws/build/robot_ras_decision /home/alves/ros2_ws/build/robot_ras_decision/CMakeFiles/robot_ras_decision__rosidl_typesupport_introspection_c.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/robot_ras_decision__rosidl_typesupport_introspection_c.dir/depend
 

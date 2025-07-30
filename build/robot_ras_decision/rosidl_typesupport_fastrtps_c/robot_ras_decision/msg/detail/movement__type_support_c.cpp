@@ -65,9 +65,14 @@ static bool _Movement__cdr_serialize(
     cdr << str->data;
   }
 
-  // Field name: velocidade
+  // Field name: angulo
   {
-    cdr << ros_message->velocidade;
+    cdr << ros_message->angulo;
+  }
+
+  // Field name: distancia
+  {
+    cdr << ros_message->distancia;
   }
 
   return true;
@@ -98,9 +103,14 @@ static bool _Movement__cdr_deserialize(
     }
   }
 
-  // Field name: velocidade
+  // Field name: angulo
   {
-    cdr >> ros_message->velocidade;
+    cdr >> ros_message->angulo;
+  }
+
+  // Field name: distancia
+  {
+    cdr >> ros_message->distancia;
   }
 
   return true;
@@ -124,9 +134,15 @@ size_t get_serialized_size_robot_ras_decision__msg__Movement(
   current_alignment += padding +
     eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
     (ros_message->direcao.size + 1);
-  // field.name velocidade
+  // field.name angulo
   {
-    size_t item_size = sizeof(ros_message->velocidade);
+    size_t item_size = sizeof(ros_message->angulo);
+    current_alignment += item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
+  // field.name distancia
+  {
+    size_t item_size = sizeof(ros_message->distancia);
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
@@ -171,7 +187,15 @@ size_t max_serialized_size_robot_ras_decision__msg__Movement(
         1;
     }
   }
-  // member: velocidade
+  // member: angulo
+  {
+    size_t array_size = 1;
+
+    last_member_size = array_size * sizeof(uint32_t);
+    current_alignment += array_size * sizeof(uint32_t) +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint32_t));
+  }
+  // member: distancia
   {
     size_t array_size = 1;
 
@@ -188,7 +212,7 @@ size_t max_serialized_size_robot_ras_decision__msg__Movement(
     using DataType = robot_ras_decision__msg__Movement;
     is_plain =
       (
-      offsetof(DataType, velocidade) +
+      offsetof(DataType, distancia) +
       last_member_size
       ) == ret_val;
   }

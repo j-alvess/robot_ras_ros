@@ -21,16 +21,32 @@ namespace msg
 namespace builder
 {
 
-class Init_Movement_velocidade
+class Init_Movement_distancia
 {
 public:
-  explicit Init_Movement_velocidade(::robot_ras_decision::msg::Movement & msg)
+  explicit Init_Movement_distancia(::robot_ras_decision::msg::Movement & msg)
   : msg_(msg)
   {}
-  ::robot_ras_decision::msg::Movement velocidade(::robot_ras_decision::msg::Movement::_velocidade_type arg)
+  ::robot_ras_decision::msg::Movement distancia(::robot_ras_decision::msg::Movement::_distancia_type arg)
   {
-    msg_.velocidade = std::move(arg);
+    msg_.distancia = std::move(arg);
     return std::move(msg_);
+  }
+
+private:
+  ::robot_ras_decision::msg::Movement msg_;
+};
+
+class Init_Movement_angulo
+{
+public:
+  explicit Init_Movement_angulo(::robot_ras_decision::msg::Movement & msg)
+  : msg_(msg)
+  {}
+  Init_Movement_distancia angulo(::robot_ras_decision::msg::Movement::_angulo_type arg)
+  {
+    msg_.angulo = std::move(arg);
+    return Init_Movement_distancia(msg_);
   }
 
 private:
@@ -43,10 +59,10 @@ public:
   Init_Movement_direcao()
   : msg_(::rosidl_runtime_cpp::MessageInitialization::SKIP)
   {}
-  Init_Movement_velocidade direcao(::robot_ras_decision::msg::Movement::_direcao_type arg)
+  Init_Movement_angulo direcao(::robot_ras_decision::msg::Movement::_direcao_type arg)
   {
     msg_.direcao = std::move(arg);
-    return Init_Movement_velocidade(msg_);
+    return Init_Movement_angulo(msg_);
   }
 
 private:

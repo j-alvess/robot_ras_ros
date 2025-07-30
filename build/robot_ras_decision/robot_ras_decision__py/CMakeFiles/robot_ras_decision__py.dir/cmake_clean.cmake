@@ -5,6 +5,9 @@ file(REMOVE_RECURSE
   "../rosidl_generator_py/robot_ras_decision/msg/__init__.py"
   "../rosidl_generator_py/robot_ras_decision/msg/_movement.py"
   "../rosidl_generator_py/robot_ras_decision/msg/_movement_s.c"
+  "../rosidl_generator_py/robot_ras_decision/srv/__init__.py"
+  "../rosidl_generator_py/robot_ras_decision/srv/_set_velocity.py"
+  "../rosidl_generator_py/robot_ras_decision/srv/_set_velocity_s.c"
   "CMakeFiles/robot_ras_decision__py"
 )
 

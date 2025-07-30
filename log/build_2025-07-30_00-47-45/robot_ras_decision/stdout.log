@@ -1,0 +1,101 @@
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/alves/ros2_ws/build/robot_ras_decision
+[  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[  4%] Built target ament_cmake_python_symlink_robot_ras_decision
+running egg_info
+writing robot_ras_decision.egg-info/PKG-INFO
+writing dependency_links to robot_ras_decision.egg-info/dependency_links.txt
+writing top-level names to robot_ras_decision.egg-info/top_level.txt
+reading manifest file 'robot_ras_decision.egg-info/SOURCES.txt'
+writing manifest file 'robot_ras_decision.egg-info/SOURCES.txt'
+[  4%] Built target ament_cmake_python_build_robot_ras_decision_egg
+[35m[1mConsolidate compiler generated dependencies of target robot_ras_decision__rosidl_generator_c[0m
+[  4%] Built target robot_ras_decision__cpp
+[  6%] [32mBuilding C object CMakeFiles/robot_ras_decision__rosidl_generator_c.dir/rosidl_generator_c/robot_ras_decision/msg/detail/movement__functions.c.o[0m
+[  9%] [32mBuilding C object CMakeFiles/robot_ras_decision__rosidl_generator_c.dir/rosidl_generator_c/robot_ras_decision/srv/detail/set_velocity__functions.c.o[0m
+[ 11%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[ 13%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[ 16%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[ 18%] [32m[1mLinking C shared library librobot_ras_decision__rosidl_generator_c.so[0m
+[ 18%] Built target robot_ras_decision__rosidl_generator_c
+[ 23%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[ 23%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[35m[1mConsolidate compiler generated dependencies of target robot_ras_decision__rosidl_typesupport_cpp[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/robot_ras_decision__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robot_ras_decision/srv/set_velocity__type_support.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/robot_ras_decision__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robot_ras_decision/msg/movement__type_support.cpp.o[0m
+[35m[1mConsolidate compiler generated dependencies of target robot_ras_decision__rosidl_typesupport_introspection_cpp[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/robot_ras_decision__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robot_ras_decision/msg/detail/movement__type_support.cpp.o[0m
+[35m[1mConsolidate compiler generated dependencies of target robot_ras_decision__rosidl_typesupport_fastrtps_cpp[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/robot_ras_decision__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robot_ras_decision/srv/detail/set_velocity__type_support.cpp.o[0m
+[ 39%] [32mBuilding CXX object CMakeFiles/robot_ras_decision__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robot_ras_decision/srv/detail/dds_fastrtps/set_velocity__type_support.cpp.o[0m
+[ 39%] [32mBuilding CXX object CMakeFiles/robot_ras_decision__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robot_ras_decision/msg/detail/dds_fastrtps/movement__type_support.cpp.o[0m
+[35m[1mConsolidate compiler generated dependencies of target robot_ras_decision__rosidl_typesupport_fastrtps_c[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/robot_ras_decision__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robot_ras_decision/msg/detail/movement__type_support_c.cpp.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/robot_ras_decision__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robot_ras_decision/srv/detail/set_velocity__type_support_c.cpp.o[0m
+[35m[1mConsolidate compiler generated dependencies of target robot_ras_decision__rosidl_typesupport_introspection_c[0m
+[ 46%] [32mBuilding C object CMakeFiles/robot_ras_decision__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robot_ras_decision/msg/detail/movement__type_support.c.o[0m
+[ 48%] [32mBuilding C object CMakeFiles/robot_ras_decision__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robot_ras_decision/srv/detail/set_velocity__type_support.c.o[0m
+[35m[1mConsolidate compiler generated dependencies of target robot_ras_decision__rosidl_typesupport_c[0m
+[ 51%] [32m[1mLinking C shared library librobot_ras_decision__rosidl_typesupport_introspection_c.so[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/robot_ras_decision__rosidl_typesupport_c.dir/rosidl_typesupport_c/robot_ras_decision/msg/movement__type_support.cpp.o[0m
+[ 55%] [32mBuilding CXX object CMakeFiles/robot_ras_decision__rosidl_typesupport_c.dir/rosidl_typesupport_c/robot_ras_decision/srv/set_velocity__type_support.cpp.o[0m
+[ 55%] Built target robot_ras_decision__rosidl_typesupport_introspection_c
+[ 58%] [32m[1mLinking CXX shared library librobot_ras_decision__rosidl_typesupport_c.so[0m
+[ 58%] Built target robot_ras_decision__rosidl_typesupport_c
+[ 60%] [32m[1mLinking CXX shared library librobot_ras_decision__rosidl_typesupport_cpp.so[0m
+[ 60%] Built target robot_ras_decision__rosidl_typesupport_cpp
+[ 62%] [32m[1mLinking CXX shared library librobot_ras_decision__rosidl_typesupport_fastrtps_c.so[0m
+[ 65%] [32m[1mLinking CXX shared library librobot_ras_decision__rosidl_typesupport_introspection_cpp.so[0m
+[ 65%] Built target robot_ras_decision__rosidl_typesupport_fastrtps_c
+[ 67%] [32m[1mLinking CXX shared library librobot_ras_decision__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 67%] Built target robot_ras_decision__rosidl_typesupport_introspection_cpp
+[ 67%] Built target robot_ras_decision__rosidl_typesupport_fastrtps_cpp
+[ 67%] Built target robot_ras_decision
+[35m[1mConsolidate compiler generated dependencies of target MotorControllerNode[0m
+[35m[1mConsolidate compiler generated dependencies of target DecisionNode[0m
+[ 69%] [34m[1mGenerating Python code for ROS interfaces[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/MotorControllerNode.dir/src/motor_controller_node.cpp.o[0m
+[ 74%] [32mBuilding CXX object CMakeFiles/DecisionNode.dir/src/decision_node.cpp.o[0m
+[ 74%] Built target robot_ras_decision__py
+[35m[1mConsolidate compiler generated dependencies of target robot_ras_decision__rosidl_generator_py[0m
+[ 76%] [32mBuilding C object CMakeFiles/robot_ras_decision__rosidl_generator_py.dir/rosidl_generator_py/robot_ras_decision/msg/_movement_s.c.o[0m
+[ 79%] [32mBuilding C object CMakeFiles/robot_ras_decision__rosidl_generator_py.dir/rosidl_generator_py/robot_ras_decision/srv/_set_velocity_s.c.o[0m
+[ 81%] [32m[1mLinking C shared library rosidl_generator_py/robot_ras_decision/librobot_ras_decision__rosidl_generator_py.so[0m
+[ 81%] Built target robot_ras_decision__rosidl_generator_py
+[35m[1mConsolidate compiler generated dependencies of target robot_ras_decision__rosidl_typesupport_introspection_c__pyext[0m
+[35m[1mConsolidate compiler generated dependencies of target robot_ras_decision__rosidl_typesupport_fastrtps_c__pyext[0m
+[35m[1mConsolidate compiler generated dependencies of target robot_ras_decision__rosidl_typesupport_c__pyext[0m
+[ 83%] [32mBuilding C object CMakeFiles/robot_ras_decision__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/robot_ras_decision/_robot_ras_decision_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 86%] [32mBuilding C object CMakeFiles/robot_ras_decision__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/robot_ras_decision/_robot_ras_decision_s.ep.rosidl_typesupport_c.c.o[0m
+[ 88%] [32mBuilding C object CMakeFiles/robot_ras_decision__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/robot_ras_decision/_robot_ras_decision_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[ 90%] [32m[1mLinking C shared library rosidl_generator_py/robot_ras_decision/robot_ras_decision_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[ 93%] [32m[1mLinking C shared library rosidl_generator_py/robot_ras_decision/robot_ras_decision_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[ 93%] Built target robot_ras_decision__rosidl_typesupport_c__pyext
+[ 93%] Built target robot_ras_decision__rosidl_typesupport_fastrtps_c__pyext
+[ 95%] [32m[1mLinking C shared library rosidl_generator_py/robot_ras_decision/robot_ras_decision_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[ 95%] Built target robot_ras_decision__rosidl_typesupport_introspection_c__pyext
+[ 97%] [32m[1mLinking CXX executable DecisionNode[0m
+[ 97%] Built target DecisionNode

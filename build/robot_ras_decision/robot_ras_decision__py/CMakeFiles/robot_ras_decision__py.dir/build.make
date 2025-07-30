@@ -70,8 +70,11 @@ robot_ras_decision__py/CMakeFiles/robot_ras_decision__py: rosidl_generator_py/ro
 robot_ras_decision__py/CMakeFiles/robot_ras_decision__py: rosidl_generator_py/robot_ras_decision/_robot_ras_decision_s.ep.rosidl_typesupport_introspection_c.c
 robot_ras_decision__py/CMakeFiles/robot_ras_decision__py: rosidl_generator_py/robot_ras_decision/_robot_ras_decision_s.ep.rosidl_typesupport_c.c
 robot_ras_decision__py/CMakeFiles/robot_ras_decision__py: rosidl_generator_py/robot_ras_decision/msg/_movement.py
+robot_ras_decision__py/CMakeFiles/robot_ras_decision__py: rosidl_generator_py/robot_ras_decision/srv/_set_velocity.py
 robot_ras_decision__py/CMakeFiles/robot_ras_decision__py: rosidl_generator_py/robot_ras_decision/msg/__init__.py
+robot_ras_decision__py/CMakeFiles/robot_ras_decision__py: rosidl_generator_py/robot_ras_decision/srv/__init__.py
 robot_ras_decision__py/CMakeFiles/robot_ras_decision__py: rosidl_generator_py/robot_ras_decision/msg/_movement_s.c
+robot_ras_decision__py/CMakeFiles/robot_ras_decision__py: rosidl_generator_py/robot_ras_decision/srv/_set_velocity_s.c
 
 rosidl_generator_py/robot_ras_decision/_robot_ras_decision_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/lib/rosidl_generator_py/rosidl_generator_py
 rosidl_generator_py/robot_ras_decision/_robot_ras_decision_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_py/__init__.py
@@ -87,6 +90,7 @@ rosidl_generator_py/robot_ras_decision/_robot_ras_decision_s.ep.rosidl_typesuppo
 rosidl_generator_py/robot_ras_decision/_robot_ras_decision_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/rosidl_generator_py/resource/_srv_pkg_typesupport_entry_point.c.em
 rosidl_generator_py/robot_ras_decision/_robot_ras_decision_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/rosidl_generator_py/resource/_srv.py.em
 rosidl_generator_py/robot_ras_decision/_robot_ras_decision_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/robot_ras_decision/msg/Movement.idl
+rosidl_generator_py/robot_ras_decision/_robot_ras_decision_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/robot_ras_decision/srv/SetVelocity.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/alves/ros2_ws/build/robot_ras_decision/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code for ROS interfaces"
 	cd /home/alves/ros2_ws/build/robot_ras_decision/robot_ras_decision__py && /usr/bin/python3 /opt/ros/humble/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py --generator-arguments-file /home/alves/ros2_ws/build/robot_ras_decision/rosidl_generator_py__arguments.json --typesupport-impls "rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_c"
 
@@ -99,11 +103,20 @@ rosidl_generator_py/robot_ras_decision/_robot_ras_decision_s.ep.rosidl_typesuppo
 rosidl_generator_py/robot_ras_decision/msg/_movement.py: rosidl_generator_py/robot_ras_decision/_robot_ras_decision_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/robot_ras_decision/msg/_movement.py
 
+rosidl_generator_py/robot_ras_decision/srv/_set_velocity.py: rosidl_generator_py/robot_ras_decision/_robot_ras_decision_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/robot_ras_decision/srv/_set_velocity.py
+
 rosidl_generator_py/robot_ras_decision/msg/__init__.py: rosidl_generator_py/robot_ras_decision/_robot_ras_decision_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/robot_ras_decision/msg/__init__.py
 
+rosidl_generator_py/robot_ras_decision/srv/__init__.py: rosidl_generator_py/robot_ras_decision/_robot_ras_decision_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/robot_ras_decision/srv/__init__.py
+
 rosidl_generator_py/robot_ras_decision/msg/_movement_s.c: rosidl_generator_py/robot_ras_decision/_robot_ras_decision_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/robot_ras_decision/msg/_movement_s.c
+
+rosidl_generator_py/robot_ras_decision/srv/_set_velocity_s.c: rosidl_generator_py/robot_ras_decision/_robot_ras_decision_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/robot_ras_decision/srv/_set_velocity_s.c
 
 robot_ras_decision__py: robot_ras_decision__py/CMakeFiles/robot_ras_decision__py
 robot_ras_decision__py: rosidl_generator_py/robot_ras_decision/_robot_ras_decision_s.ep.rosidl_typesupport_c.c
@@ -112,6 +125,9 @@ robot_ras_decision__py: rosidl_generator_py/robot_ras_decision/_robot_ras_decisi
 robot_ras_decision__py: rosidl_generator_py/robot_ras_decision/msg/__init__.py
 robot_ras_decision__py: rosidl_generator_py/robot_ras_decision/msg/_movement.py
 robot_ras_decision__py: rosidl_generator_py/robot_ras_decision/msg/_movement_s.c
+robot_ras_decision__py: rosidl_generator_py/robot_ras_decision/srv/__init__.py
+robot_ras_decision__py: rosidl_generator_py/robot_ras_decision/srv/_set_velocity.py
+robot_ras_decision__py: rosidl_generator_py/robot_ras_decision/srv/_set_velocity_s.c
 robot_ras_decision__py: robot_ras_decision__py/CMakeFiles/robot_ras_decision__py.dir/build.make
 .PHONY : robot_ras_decision__py
 

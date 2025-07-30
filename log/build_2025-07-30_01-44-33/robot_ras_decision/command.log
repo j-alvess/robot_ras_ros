@@ -1,0 +1,2 @@
+Invoking command in '/home/alves/ros2_ws/build/robot_ras_decision': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/alves/ros2_ws/build/robot_ras_decision -- -j16 -l16
+Invoked command in '/home/alves/ros2_ws/build/robot_ras_decision' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/alves/ros2_ws/build/robot_ras_decision -- -j16 -l16

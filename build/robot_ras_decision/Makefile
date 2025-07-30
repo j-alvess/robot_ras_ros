@@ -198,32 +198,6 @@ robot_ras_decision_uninstall/fast:
 .PHONY : robot_ras_decision_uninstall/fast
 
 #=============================================================================
-# Target rules for targets named MovementControl
-
-# Build rule for target.
-MovementControl: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MovementControl
-.PHONY : MovementControl
-
-# fast build rule for target.
-MovementControl/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MovementControl.dir/build.make CMakeFiles/MovementControl.dir/build
-.PHONY : MovementControl/fast
-
-#=============================================================================
-# Target rules for targets named Manager
-
-# Build rule for target.
-Manager: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Manager
-.PHONY : Manager
-
-# fast build rule for target.
-Manager/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Manager.dir/build.make CMakeFiles/Manager.dir/build
-.PHONY : Manager/fast
-
-#=============================================================================
 # Target rules for targets named robot_ras_decision
 
 # Build rule for target.
@@ -419,6 +393,32 @@ robot_ras_decision__rosidl_typesupport_c__pyext/fast:
 .PHONY : robot_ras_decision__rosidl_typesupport_c__pyext/fast
 
 #=============================================================================
+# Target rules for targets named MotorControllerNode
+
+# Build rule for target.
+MotorControllerNode: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MotorControllerNode
+.PHONY : MotorControllerNode
+
+# fast build rule for target.
+MotorControllerNode/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MotorControllerNode.dir/build.make CMakeFiles/MotorControllerNode.dir/build
+.PHONY : MotorControllerNode/fast
+
+#=============================================================================
+# Target rules for targets named DecisionNode
+
+# Build rule for target.
+DecisionNode: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 DecisionNode
+.PHONY : DecisionNode
+
+# fast build rule for target.
+DecisionNode/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DecisionNode.dir/build.make CMakeFiles/DecisionNode.dir/build
+.PHONY : DecisionNode/fast
+
+#=============================================================================
 # Target rules for targets named robot_ras_decision__py
 
 # Build rule for target.
@@ -454,6 +454,30 @@ rosidl_generator_c/robot_ras_decision/msg/detail/movement__functions.s: rosidl_g
 rosidl_generator_c/robot_ras_decision/msg/detail/movement__functions.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot_ras_decision__rosidl_generator_c.dir/build.make CMakeFiles/robot_ras_decision__rosidl_generator_c.dir/rosidl_generator_c/robot_ras_decision/msg/detail/movement__functions.c.s
 .PHONY : rosidl_generator_c/robot_ras_decision/msg/detail/movement__functions.c.s
+
+rosidl_generator_c/robot_ras_decision/srv/detail/set_velocity__functions.o: rosidl_generator_c/robot_ras_decision/srv/detail/set_velocity__functions.c.o
+.PHONY : rosidl_generator_c/robot_ras_decision/srv/detail/set_velocity__functions.o
+
+# target to build an object file
+rosidl_generator_c/robot_ras_decision/srv/detail/set_velocity__functions.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot_ras_decision__rosidl_generator_c.dir/build.make CMakeFiles/robot_ras_decision__rosidl_generator_c.dir/rosidl_generator_c/robot_ras_decision/srv/detail/set_velocity__functions.c.o
+.PHONY : rosidl_generator_c/robot_ras_decision/srv/detail/set_velocity__functions.c.o
+
+rosidl_generator_c/robot_ras_decision/srv/detail/set_velocity__functions.i: rosidl_generator_c/robot_ras_decision/srv/detail/set_velocity__functions.c.i
+.PHONY : rosidl_generator_c/robot_ras_decision/srv/detail/set_velocity__functions.i
+
+# target to preprocess a source file
+rosidl_generator_c/robot_ras_decision/srv/detail/set_velocity__functions.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot_ras_decision__rosidl_generator_c.dir/build.make CMakeFiles/robot_ras_decision__rosidl_generator_c.dir/rosidl_generator_c/robot_ras_decision/srv/detail/set_velocity__functions.c.i
+.PHONY : rosidl_generator_c/robot_ras_decision/srv/detail/set_velocity__functions.c.i
+
+rosidl_generator_c/robot_ras_decision/srv/detail/set_velocity__functions.s: rosidl_generator_c/robot_ras_decision/srv/detail/set_velocity__functions.c.s
+.PHONY : rosidl_generator_c/robot_ras_decision/srv/detail/set_velocity__functions.s
+
+# target to generate assembly for a file
+rosidl_generator_c/robot_ras_decision/srv/detail/set_velocity__functions.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot_ras_decision__rosidl_generator_c.dir/build.make CMakeFiles/robot_ras_decision__rosidl_generator_c.dir/rosidl_generator_c/robot_ras_decision/srv/detail/set_velocity__functions.c.s
+.PHONY : rosidl_generator_c/robot_ras_decision/srv/detail/set_velocity__functions.c.s
 
 rosidl_generator_py/robot_ras_decision/_robot_ras_decision_s.ep.rosidl_typesupport_c.o: rosidl_generator_py/robot_ras_decision/_robot_ras_decision_s.ep.rosidl_typesupport_c.c.o
 .PHONY : rosidl_generator_py/robot_ras_decision/_robot_ras_decision_s.ep.rosidl_typesupport_c.o
@@ -551,6 +575,30 @@ rosidl_generator_py/robot_ras_decision/msg/_movement_s.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot_ras_decision__rosidl_generator_py.dir/build.make CMakeFiles/robot_ras_decision__rosidl_generator_py.dir/rosidl_generator_py/robot_ras_decision/msg/_movement_s.c.s
 .PHONY : rosidl_generator_py/robot_ras_decision/msg/_movement_s.c.s
 
+rosidl_generator_py/robot_ras_decision/srv/_set_velocity_s.o: rosidl_generator_py/robot_ras_decision/srv/_set_velocity_s.c.o
+.PHONY : rosidl_generator_py/robot_ras_decision/srv/_set_velocity_s.o
+
+# target to build an object file
+rosidl_generator_py/robot_ras_decision/srv/_set_velocity_s.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot_ras_decision__rosidl_generator_py.dir/build.make CMakeFiles/robot_ras_decision__rosidl_generator_py.dir/rosidl_generator_py/robot_ras_decision/srv/_set_velocity_s.c.o
+.PHONY : rosidl_generator_py/robot_ras_decision/srv/_set_velocity_s.c.o
+
+rosidl_generator_py/robot_ras_decision/srv/_set_velocity_s.i: rosidl_generator_py/robot_ras_decision/srv/_set_velocity_s.c.i
+.PHONY : rosidl_generator_py/robot_ras_decision/srv/_set_velocity_s.i
+
+# target to preprocess a source file
+rosidl_generator_py/robot_ras_decision/srv/_set_velocity_s.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot_ras_decision__rosidl_generator_py.dir/build.make CMakeFiles/robot_ras_decision__rosidl_generator_py.dir/rosidl_generator_py/robot_ras_decision/srv/_set_velocity_s.c.i
+.PHONY : rosidl_generator_py/robot_ras_decision/srv/_set_velocity_s.c.i
+
+rosidl_generator_py/robot_ras_decision/srv/_set_velocity_s.s: rosidl_generator_py/robot_ras_decision/srv/_set_velocity_s.c.s
+.PHONY : rosidl_generator_py/robot_ras_decision/srv/_set_velocity_s.s
+
+# target to generate assembly for a file
+rosidl_generator_py/robot_ras_decision/srv/_set_velocity_s.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot_ras_decision__rosidl_generator_py.dir/build.make CMakeFiles/robot_ras_decision__rosidl_generator_py.dir/rosidl_generator_py/robot_ras_decision/srv/_set_velocity_s.c.s
+.PHONY : rosidl_generator_py/robot_ras_decision/srv/_set_velocity_s.c.s
+
 rosidl_typesupport_c/robot_ras_decision/msg/movement__type_support.o: rosidl_typesupport_c/robot_ras_decision/msg/movement__type_support.cpp.o
 .PHONY : rosidl_typesupport_c/robot_ras_decision/msg/movement__type_support.o
 
@@ -574,6 +622,30 @@ rosidl_typesupport_c/robot_ras_decision/msg/movement__type_support.s: rosidl_typ
 rosidl_typesupport_c/robot_ras_decision/msg/movement__type_support.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot_ras_decision__rosidl_typesupport_c.dir/build.make CMakeFiles/robot_ras_decision__rosidl_typesupport_c.dir/rosidl_typesupport_c/robot_ras_decision/msg/movement__type_support.cpp.s
 .PHONY : rosidl_typesupport_c/robot_ras_decision/msg/movement__type_support.cpp.s
+
+rosidl_typesupport_c/robot_ras_decision/srv/set_velocity__type_support.o: rosidl_typesupport_c/robot_ras_decision/srv/set_velocity__type_support.cpp.o
+.PHONY : rosidl_typesupport_c/robot_ras_decision/srv/set_velocity__type_support.o
+
+# target to build an object file
+rosidl_typesupport_c/robot_ras_decision/srv/set_velocity__type_support.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot_ras_decision__rosidl_typesupport_c.dir/build.make CMakeFiles/robot_ras_decision__rosidl_typesupport_c.dir/rosidl_typesupport_c/robot_ras_decision/srv/set_velocity__type_support.cpp.o
+.PHONY : rosidl_typesupport_c/robot_ras_decision/srv/set_velocity__type_support.cpp.o
+
+rosidl_typesupport_c/robot_ras_decision/srv/set_velocity__type_support.i: rosidl_typesupport_c/robot_ras_decision/srv/set_velocity__type_support.cpp.i
+.PHONY : rosidl_typesupport_c/robot_ras_decision/srv/set_velocity__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_c/robot_ras_decision/srv/set_velocity__type_support.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot_ras_decision__rosidl_typesupport_c.dir/build.make CMakeFiles/robot_ras_decision__rosidl_typesupport_c.dir/rosidl_typesupport_c/robot_ras_decision/srv/set_velocity__type_support.cpp.i
+.PHONY : rosidl_typesupport_c/robot_ras_decision/srv/set_velocity__type_support.cpp.i
+
+rosidl_typesupport_c/robot_ras_decision/srv/set_velocity__type_support.s: rosidl_typesupport_c/robot_ras_decision/srv/set_velocity__type_support.cpp.s
+.PHONY : rosidl_typesupport_c/robot_ras_decision/srv/set_velocity__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_c/robot_ras_decision/srv/set_velocity__type_support.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot_ras_decision__rosidl_typesupport_c.dir/build.make CMakeFiles/robot_ras_decision__rosidl_typesupport_c.dir/rosidl_typesupport_c/robot_ras_decision/srv/set_velocity__type_support.cpp.s
+.PHONY : rosidl_typesupport_c/robot_ras_decision/srv/set_velocity__type_support.cpp.s
 
 rosidl_typesupport_cpp/robot_ras_decision/msg/movement__type_support.o: rosidl_typesupport_cpp/robot_ras_decision/msg/movement__type_support.cpp.o
 .PHONY : rosidl_typesupport_cpp/robot_ras_decision/msg/movement__type_support.o
@@ -599,6 +671,30 @@ rosidl_typesupport_cpp/robot_ras_decision/msg/movement__type_support.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot_ras_decision__rosidl_typesupport_cpp.dir/build.make CMakeFiles/robot_ras_decision__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robot_ras_decision/msg/movement__type_support.cpp.s
 .PHONY : rosidl_typesupport_cpp/robot_ras_decision/msg/movement__type_support.cpp.s
 
+rosidl_typesupport_cpp/robot_ras_decision/srv/set_velocity__type_support.o: rosidl_typesupport_cpp/robot_ras_decision/srv/set_velocity__type_support.cpp.o
+.PHONY : rosidl_typesupport_cpp/robot_ras_decision/srv/set_velocity__type_support.o
+
+# target to build an object file
+rosidl_typesupport_cpp/robot_ras_decision/srv/set_velocity__type_support.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot_ras_decision__rosidl_typesupport_cpp.dir/build.make CMakeFiles/robot_ras_decision__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robot_ras_decision/srv/set_velocity__type_support.cpp.o
+.PHONY : rosidl_typesupport_cpp/robot_ras_decision/srv/set_velocity__type_support.cpp.o
+
+rosidl_typesupport_cpp/robot_ras_decision/srv/set_velocity__type_support.i: rosidl_typesupport_cpp/robot_ras_decision/srv/set_velocity__type_support.cpp.i
+.PHONY : rosidl_typesupport_cpp/robot_ras_decision/srv/set_velocity__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_cpp/robot_ras_decision/srv/set_velocity__type_support.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot_ras_decision__rosidl_typesupport_cpp.dir/build.make CMakeFiles/robot_ras_decision__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robot_ras_decision/srv/set_velocity__type_support.cpp.i
+.PHONY : rosidl_typesupport_cpp/robot_ras_decision/srv/set_velocity__type_support.cpp.i
+
+rosidl_typesupport_cpp/robot_ras_decision/srv/set_velocity__type_support.s: rosidl_typesupport_cpp/robot_ras_decision/srv/set_velocity__type_support.cpp.s
+.PHONY : rosidl_typesupport_cpp/robot_ras_decision/srv/set_velocity__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_cpp/robot_ras_decision/srv/set_velocity__type_support.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot_ras_decision__rosidl_typesupport_cpp.dir/build.make CMakeFiles/robot_ras_decision__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robot_ras_decision/srv/set_velocity__type_support.cpp.s
+.PHONY : rosidl_typesupport_cpp/robot_ras_decision/srv/set_velocity__type_support.cpp.s
+
 rosidl_typesupport_fastrtps_c/robot_ras_decision/msg/detail/movement__type_support_c.o: rosidl_typesupport_fastrtps_c/robot_ras_decision/msg/detail/movement__type_support_c.cpp.o
 .PHONY : rosidl_typesupport_fastrtps_c/robot_ras_decision/msg/detail/movement__type_support_c.o
 
@@ -622,6 +718,30 @@ rosidl_typesupport_fastrtps_c/robot_ras_decision/msg/detail/movement__type_suppo
 rosidl_typesupport_fastrtps_c/robot_ras_decision/msg/detail/movement__type_support_c.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot_ras_decision__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/robot_ras_decision__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robot_ras_decision/msg/detail/movement__type_support_c.cpp.s
 .PHONY : rosidl_typesupport_fastrtps_c/robot_ras_decision/msg/detail/movement__type_support_c.cpp.s
+
+rosidl_typesupport_fastrtps_c/robot_ras_decision/srv/detail/set_velocity__type_support_c.o: rosidl_typesupport_fastrtps_c/robot_ras_decision/srv/detail/set_velocity__type_support_c.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_c/robot_ras_decision/srv/detail/set_velocity__type_support_c.o
+
+# target to build an object file
+rosidl_typesupport_fastrtps_c/robot_ras_decision/srv/detail/set_velocity__type_support_c.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot_ras_decision__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/robot_ras_decision__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robot_ras_decision/srv/detail/set_velocity__type_support_c.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_c/robot_ras_decision/srv/detail/set_velocity__type_support_c.cpp.o
+
+rosidl_typesupport_fastrtps_c/robot_ras_decision/srv/detail/set_velocity__type_support_c.i: rosidl_typesupport_fastrtps_c/robot_ras_decision/srv/detail/set_velocity__type_support_c.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_c/robot_ras_decision/srv/detail/set_velocity__type_support_c.i
+
+# target to preprocess a source file
+rosidl_typesupport_fastrtps_c/robot_ras_decision/srv/detail/set_velocity__type_support_c.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot_ras_decision__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/robot_ras_decision__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robot_ras_decision/srv/detail/set_velocity__type_support_c.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_c/robot_ras_decision/srv/detail/set_velocity__type_support_c.cpp.i
+
+rosidl_typesupport_fastrtps_c/robot_ras_decision/srv/detail/set_velocity__type_support_c.s: rosidl_typesupport_fastrtps_c/robot_ras_decision/srv/detail/set_velocity__type_support_c.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_c/robot_ras_decision/srv/detail/set_velocity__type_support_c.s
+
+# target to generate assembly for a file
+rosidl_typesupport_fastrtps_c/robot_ras_decision/srv/detail/set_velocity__type_support_c.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot_ras_decision__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/robot_ras_decision__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robot_ras_decision/srv/detail/set_velocity__type_support_c.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_c/robot_ras_decision/srv/detail/set_velocity__type_support_c.cpp.s
 
 rosidl_typesupport_fastrtps_cpp/robot_ras_decision/msg/detail/dds_fastrtps/movement__type_support.o: rosidl_typesupport_fastrtps_cpp/robot_ras_decision/msg/detail/dds_fastrtps/movement__type_support.cpp.o
 .PHONY : rosidl_typesupport_fastrtps_cpp/robot_ras_decision/msg/detail/dds_fastrtps/movement__type_support.o
@@ -647,6 +767,30 @@ rosidl_typesupport_fastrtps_cpp/robot_ras_decision/msg/detail/dds_fastrtps/movem
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot_ras_decision__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/robot_ras_decision__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robot_ras_decision/msg/detail/dds_fastrtps/movement__type_support.cpp.s
 .PHONY : rosidl_typesupport_fastrtps_cpp/robot_ras_decision/msg/detail/dds_fastrtps/movement__type_support.cpp.s
 
+rosidl_typesupport_fastrtps_cpp/robot_ras_decision/srv/detail/dds_fastrtps/set_velocity__type_support.o: rosidl_typesupport_fastrtps_cpp/robot_ras_decision/srv/detail/dds_fastrtps/set_velocity__type_support.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_cpp/robot_ras_decision/srv/detail/dds_fastrtps/set_velocity__type_support.o
+
+# target to build an object file
+rosidl_typesupport_fastrtps_cpp/robot_ras_decision/srv/detail/dds_fastrtps/set_velocity__type_support.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot_ras_decision__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/robot_ras_decision__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robot_ras_decision/srv/detail/dds_fastrtps/set_velocity__type_support.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_cpp/robot_ras_decision/srv/detail/dds_fastrtps/set_velocity__type_support.cpp.o
+
+rosidl_typesupport_fastrtps_cpp/robot_ras_decision/srv/detail/dds_fastrtps/set_velocity__type_support.i: rosidl_typesupport_fastrtps_cpp/robot_ras_decision/srv/detail/dds_fastrtps/set_velocity__type_support.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_cpp/robot_ras_decision/srv/detail/dds_fastrtps/set_velocity__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_fastrtps_cpp/robot_ras_decision/srv/detail/dds_fastrtps/set_velocity__type_support.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot_ras_decision__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/robot_ras_decision__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robot_ras_decision/srv/detail/dds_fastrtps/set_velocity__type_support.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_cpp/robot_ras_decision/srv/detail/dds_fastrtps/set_velocity__type_support.cpp.i
+
+rosidl_typesupport_fastrtps_cpp/robot_ras_decision/srv/detail/dds_fastrtps/set_velocity__type_support.s: rosidl_typesupport_fastrtps_cpp/robot_ras_decision/srv/detail/dds_fastrtps/set_velocity__type_support.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_cpp/robot_ras_decision/srv/detail/dds_fastrtps/set_velocity__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_fastrtps_cpp/robot_ras_decision/srv/detail/dds_fastrtps/set_velocity__type_support.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot_ras_decision__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/robot_ras_decision__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robot_ras_decision/srv/detail/dds_fastrtps/set_velocity__type_support.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_cpp/robot_ras_decision/srv/detail/dds_fastrtps/set_velocity__type_support.cpp.s
+
 rosidl_typesupport_introspection_c/robot_ras_decision/msg/detail/movement__type_support.o: rosidl_typesupport_introspection_c/robot_ras_decision/msg/detail/movement__type_support.c.o
 .PHONY : rosidl_typesupport_introspection_c/robot_ras_decision/msg/detail/movement__type_support.o
 
@@ -670,6 +814,30 @@ rosidl_typesupport_introspection_c/robot_ras_decision/msg/detail/movement__type_
 rosidl_typesupport_introspection_c/robot_ras_decision/msg/detail/movement__type_support.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot_ras_decision__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/robot_ras_decision__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robot_ras_decision/msg/detail/movement__type_support.c.s
 .PHONY : rosidl_typesupport_introspection_c/robot_ras_decision/msg/detail/movement__type_support.c.s
+
+rosidl_typesupport_introspection_c/robot_ras_decision/srv/detail/set_velocity__type_support.o: rosidl_typesupport_introspection_c/robot_ras_decision/srv/detail/set_velocity__type_support.c.o
+.PHONY : rosidl_typesupport_introspection_c/robot_ras_decision/srv/detail/set_velocity__type_support.o
+
+# target to build an object file
+rosidl_typesupport_introspection_c/robot_ras_decision/srv/detail/set_velocity__type_support.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot_ras_decision__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/robot_ras_decision__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robot_ras_decision/srv/detail/set_velocity__type_support.c.o
+.PHONY : rosidl_typesupport_introspection_c/robot_ras_decision/srv/detail/set_velocity__type_support.c.o
+
+rosidl_typesupport_introspection_c/robot_ras_decision/srv/detail/set_velocity__type_support.i: rosidl_typesupport_introspection_c/robot_ras_decision/srv/detail/set_velocity__type_support.c.i
+.PHONY : rosidl_typesupport_introspection_c/robot_ras_decision/srv/detail/set_velocity__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_introspection_c/robot_ras_decision/srv/detail/set_velocity__type_support.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot_ras_decision__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/robot_ras_decision__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robot_ras_decision/srv/detail/set_velocity__type_support.c.i
+.PHONY : rosidl_typesupport_introspection_c/robot_ras_decision/srv/detail/set_velocity__type_support.c.i
+
+rosidl_typesupport_introspection_c/robot_ras_decision/srv/detail/set_velocity__type_support.s: rosidl_typesupport_introspection_c/robot_ras_decision/srv/detail/set_velocity__type_support.c.s
+.PHONY : rosidl_typesupport_introspection_c/robot_ras_decision/srv/detail/set_velocity__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_introspection_c/robot_ras_decision/srv/detail/set_velocity__type_support.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot_ras_decision__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/robot_ras_decision__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robot_ras_decision/srv/detail/set_velocity__type_support.c.s
+.PHONY : rosidl_typesupport_introspection_c/robot_ras_decision/srv/detail/set_velocity__type_support.c.s
 
 rosidl_typesupport_introspection_cpp/robot_ras_decision/msg/detail/movement__type_support.o: rosidl_typesupport_introspection_cpp/robot_ras_decision/msg/detail/movement__type_support.cpp.o
 .PHONY : rosidl_typesupport_introspection_cpp/robot_ras_decision/msg/detail/movement__type_support.o
@@ -695,53 +863,77 @@ rosidl_typesupport_introspection_cpp/robot_ras_decision/msg/detail/movement__typ
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot_ras_decision__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/robot_ras_decision__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robot_ras_decision/msg/detail/movement__type_support.cpp.s
 .PHONY : rosidl_typesupport_introspection_cpp/robot_ras_decision/msg/detail/movement__type_support.cpp.s
 
-src/manager.o: src/manager.cpp.o
-.PHONY : src/manager.o
+rosidl_typesupport_introspection_cpp/robot_ras_decision/srv/detail/set_velocity__type_support.o: rosidl_typesupport_introspection_cpp/robot_ras_decision/srv/detail/set_velocity__type_support.cpp.o
+.PHONY : rosidl_typesupport_introspection_cpp/robot_ras_decision/srv/detail/set_velocity__type_support.o
 
 # target to build an object file
-src/manager.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Manager.dir/build.make CMakeFiles/Manager.dir/src/manager.cpp.o
-.PHONY : src/manager.cpp.o
+rosidl_typesupport_introspection_cpp/robot_ras_decision/srv/detail/set_velocity__type_support.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot_ras_decision__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/robot_ras_decision__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robot_ras_decision/srv/detail/set_velocity__type_support.cpp.o
+.PHONY : rosidl_typesupport_introspection_cpp/robot_ras_decision/srv/detail/set_velocity__type_support.cpp.o
 
-src/manager.i: src/manager.cpp.i
-.PHONY : src/manager.i
+rosidl_typesupport_introspection_cpp/robot_ras_decision/srv/detail/set_velocity__type_support.i: rosidl_typesupport_introspection_cpp/robot_ras_decision/srv/detail/set_velocity__type_support.cpp.i
+.PHONY : rosidl_typesupport_introspection_cpp/robot_ras_decision/srv/detail/set_velocity__type_support.i
 
 # target to preprocess a source file
-src/manager.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Manager.dir/build.make CMakeFiles/Manager.dir/src/manager.cpp.i
-.PHONY : src/manager.cpp.i
+rosidl_typesupport_introspection_cpp/robot_ras_decision/srv/detail/set_velocity__type_support.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot_ras_decision__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/robot_ras_decision__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robot_ras_decision/srv/detail/set_velocity__type_support.cpp.i
+.PHONY : rosidl_typesupport_introspection_cpp/robot_ras_decision/srv/detail/set_velocity__type_support.cpp.i
 
-src/manager.s: src/manager.cpp.s
-.PHONY : src/manager.s
+rosidl_typesupport_introspection_cpp/robot_ras_decision/srv/detail/set_velocity__type_support.s: rosidl_typesupport_introspection_cpp/robot_ras_decision/srv/detail/set_velocity__type_support.cpp.s
+.PHONY : rosidl_typesupport_introspection_cpp/robot_ras_decision/srv/detail/set_velocity__type_support.s
 
 # target to generate assembly for a file
-src/manager.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Manager.dir/build.make CMakeFiles/Manager.dir/src/manager.cpp.s
-.PHONY : src/manager.cpp.s
+rosidl_typesupport_introspection_cpp/robot_ras_decision/srv/detail/set_velocity__type_support.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot_ras_decision__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/robot_ras_decision__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robot_ras_decision/srv/detail/set_velocity__type_support.cpp.s
+.PHONY : rosidl_typesupport_introspection_cpp/robot_ras_decision/srv/detail/set_velocity__type_support.cpp.s
 
-src/movement_control.o: src/movement_control.cpp.o
-.PHONY : src/movement_control.o
+src/decision_node.o: src/decision_node.cpp.o
+.PHONY : src/decision_node.o
 
 # target to build an object file
-src/movement_control.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MovementControl.dir/build.make CMakeFiles/MovementControl.dir/src/movement_control.cpp.o
-.PHONY : src/movement_control.cpp.o
+src/decision_node.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DecisionNode.dir/build.make CMakeFiles/DecisionNode.dir/src/decision_node.cpp.o
+.PHONY : src/decision_node.cpp.o
 
-src/movement_control.i: src/movement_control.cpp.i
-.PHONY : src/movement_control.i
+src/decision_node.i: src/decision_node.cpp.i
+.PHONY : src/decision_node.i
 
 # target to preprocess a source file
-src/movement_control.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MovementControl.dir/build.make CMakeFiles/MovementControl.dir/src/movement_control.cpp.i
-.PHONY : src/movement_control.cpp.i
+src/decision_node.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DecisionNode.dir/build.make CMakeFiles/DecisionNode.dir/src/decision_node.cpp.i
+.PHONY : src/decision_node.cpp.i
 
-src/movement_control.s: src/movement_control.cpp.s
-.PHONY : src/movement_control.s
+src/decision_node.s: src/decision_node.cpp.s
+.PHONY : src/decision_node.s
 
 # target to generate assembly for a file
-src/movement_control.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MovementControl.dir/build.make CMakeFiles/MovementControl.dir/src/movement_control.cpp.s
-.PHONY : src/movement_control.cpp.s
+src/decision_node.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DecisionNode.dir/build.make CMakeFiles/DecisionNode.dir/src/decision_node.cpp.s
+.PHONY : src/decision_node.cpp.s
+
+src/motor_controller_node.o: src/motor_controller_node.cpp.o
+.PHONY : src/motor_controller_node.o
+
+# target to build an object file
+src/motor_controller_node.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MotorControllerNode.dir/build.make CMakeFiles/MotorControllerNode.dir/src/motor_controller_node.cpp.o
+.PHONY : src/motor_controller_node.cpp.o
+
+src/motor_controller_node.i: src/motor_controller_node.cpp.i
+.PHONY : src/motor_controller_node.i
+
+# target to preprocess a source file
+src/motor_controller_node.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MotorControllerNode.dir/build.make CMakeFiles/MotorControllerNode.dir/src/motor_controller_node.cpp.i
+.PHONY : src/motor_controller_node.cpp.i
+
+src/motor_controller_node.s: src/motor_controller_node.cpp.s
+.PHONY : src/motor_controller_node.s
+
+# target to generate assembly for a file
+src/motor_controller_node.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MotorControllerNode.dir/build.make CMakeFiles/MotorControllerNode.dir/src/motor_controller_node.cpp.s
+.PHONY : src/motor_controller_node.cpp.s
 
 # Help Target
 help:
@@ -763,8 +955,8 @@ help:
 	@echo "... robot_ras_decision__py"
 	@echo "... robot_ras_decision_uninstall"
 	@echo "... uninstall"
-	@echo "... Manager"
-	@echo "... MovementControl"
+	@echo "... DecisionNode"
+	@echo "... MotorControllerNode"
 	@echo "... robot_ras_decision__rosidl_generator_c"
 	@echo "... robot_ras_decision__rosidl_generator_py"
 	@echo "... robot_ras_decision__rosidl_typesupport_c"
@@ -779,6 +971,9 @@ help:
 	@echo "... rosidl_generator_c/robot_ras_decision/msg/detail/movement__functions.o"
 	@echo "... rosidl_generator_c/robot_ras_decision/msg/detail/movement__functions.i"
 	@echo "... rosidl_generator_c/robot_ras_decision/msg/detail/movement__functions.s"
+	@echo "... rosidl_generator_c/robot_ras_decision/srv/detail/set_velocity__functions.o"
+	@echo "... rosidl_generator_c/robot_ras_decision/srv/detail/set_velocity__functions.i"
+	@echo "... rosidl_generator_c/robot_ras_decision/srv/detail/set_velocity__functions.s"
 	@echo "... rosidl_generator_py/robot_ras_decision/_robot_ras_decision_s.ep.rosidl_typesupport_c.o"
 	@echo "... rosidl_generator_py/robot_ras_decision/_robot_ras_decision_s.ep.rosidl_typesupport_c.i"
 	@echo "... rosidl_generator_py/robot_ras_decision/_robot_ras_decision_s.ep.rosidl_typesupport_c.s"
@@ -791,30 +986,51 @@ help:
 	@echo "... rosidl_generator_py/robot_ras_decision/msg/_movement_s.o"
 	@echo "... rosidl_generator_py/robot_ras_decision/msg/_movement_s.i"
 	@echo "... rosidl_generator_py/robot_ras_decision/msg/_movement_s.s"
+	@echo "... rosidl_generator_py/robot_ras_decision/srv/_set_velocity_s.o"
+	@echo "... rosidl_generator_py/robot_ras_decision/srv/_set_velocity_s.i"
+	@echo "... rosidl_generator_py/robot_ras_decision/srv/_set_velocity_s.s"
 	@echo "... rosidl_typesupport_c/robot_ras_decision/msg/movement__type_support.o"
 	@echo "... rosidl_typesupport_c/robot_ras_decision/msg/movement__type_support.i"
 	@echo "... rosidl_typesupport_c/robot_ras_decision/msg/movement__type_support.s"
+	@echo "... rosidl_typesupport_c/robot_ras_decision/srv/set_velocity__type_support.o"
+	@echo "... rosidl_typesupport_c/robot_ras_decision/srv/set_velocity__type_support.i"
+	@echo "... rosidl_typesupport_c/robot_ras_decision/srv/set_velocity__type_support.s"
 	@echo "... rosidl_typesupport_cpp/robot_ras_decision/msg/movement__type_support.o"
 	@echo "... rosidl_typesupport_cpp/robot_ras_decision/msg/movement__type_support.i"
 	@echo "... rosidl_typesupport_cpp/robot_ras_decision/msg/movement__type_support.s"
+	@echo "... rosidl_typesupport_cpp/robot_ras_decision/srv/set_velocity__type_support.o"
+	@echo "... rosidl_typesupport_cpp/robot_ras_decision/srv/set_velocity__type_support.i"
+	@echo "... rosidl_typesupport_cpp/robot_ras_decision/srv/set_velocity__type_support.s"
 	@echo "... rosidl_typesupport_fastrtps_c/robot_ras_decision/msg/detail/movement__type_support_c.o"
 	@echo "... rosidl_typesupport_fastrtps_c/robot_ras_decision/msg/detail/movement__type_support_c.i"
 	@echo "... rosidl_typesupport_fastrtps_c/robot_ras_decision/msg/detail/movement__type_support_c.s"
+	@echo "... rosidl_typesupport_fastrtps_c/robot_ras_decision/srv/detail/set_velocity__type_support_c.o"
+	@echo "... rosidl_typesupport_fastrtps_c/robot_ras_decision/srv/detail/set_velocity__type_support_c.i"
+	@echo "... rosidl_typesupport_fastrtps_c/robot_ras_decision/srv/detail/set_velocity__type_support_c.s"
 	@echo "... rosidl_typesupport_fastrtps_cpp/robot_ras_decision/msg/detail/dds_fastrtps/movement__type_support.o"
 	@echo "... rosidl_typesupport_fastrtps_cpp/robot_ras_decision/msg/detail/dds_fastrtps/movement__type_support.i"
 	@echo "... rosidl_typesupport_fastrtps_cpp/robot_ras_decision/msg/detail/dds_fastrtps/movement__type_support.s"
+	@echo "... rosidl_typesupport_fastrtps_cpp/robot_ras_decision/srv/detail/dds_fastrtps/set_velocity__type_support.o"
+	@echo "... rosidl_typesupport_fastrtps_cpp/robot_ras_decision/srv/detail/dds_fastrtps/set_velocity__type_support.i"
+	@echo "... rosidl_typesupport_fastrtps_cpp/robot_ras_decision/srv/detail/dds_fastrtps/set_velocity__type_support.s"
 	@echo "... rosidl_typesupport_introspection_c/robot_ras_decision/msg/detail/movement__type_support.o"
 	@echo "... rosidl_typesupport_introspection_c/robot_ras_decision/msg/detail/movement__type_support.i"
 	@echo "... rosidl_typesupport_introspection_c/robot_ras_decision/msg/detail/movement__type_support.s"
+	@echo "... rosidl_typesupport_introspection_c/robot_ras_decision/srv/detail/set_velocity__type_support.o"
+	@echo "... rosidl_typesupport_introspection_c/robot_ras_decision/srv/detail/set_velocity__type_support.i"
+	@echo "... rosidl_typesupport_introspection_c/robot_ras_decision/srv/detail/set_velocity__type_support.s"
 	@echo "... rosidl_typesupport_introspection_cpp/robot_ras_decision/msg/detail/movement__type_support.o"
 	@echo "... rosidl_typesupport_introspection_cpp/robot_ras_decision/msg/detail/movement__type_support.i"
 	@echo "... rosidl_typesupport_introspection_cpp/robot_ras_decision/msg/detail/movement__type_support.s"
-	@echo "... src/manager.o"
-	@echo "... src/manager.i"
-	@echo "... src/manager.s"
-	@echo "... src/movement_control.o"
-	@echo "... src/movement_control.i"
-	@echo "... src/movement_control.s"
+	@echo "... rosidl_typesupport_introspection_cpp/robot_ras_decision/srv/detail/set_velocity__type_support.o"
+	@echo "... rosidl_typesupport_introspection_cpp/robot_ras_decision/srv/detail/set_velocity__type_support.i"
+	@echo "... rosidl_typesupport_introspection_cpp/robot_ras_decision/srv/detail/set_velocity__type_support.s"
+	@echo "... src/decision_node.o"
+	@echo "... src/decision_node.i"
+	@echo "... src/decision_node.s"
+	@echo "... src/motor_controller_node.o"
+	@echo "... src/motor_controller_node.i"
+	@echo "... src/motor_controller_node.s"
 .PHONY : help
 
 

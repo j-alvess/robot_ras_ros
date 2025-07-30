@@ -39,7 +39,8 @@ struct Movement_
       rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
     {
       this->direcao = "";
-      this->velocidade = 0.0f;
+      this->angulo = 0.0f;
+      this->distancia = 0.0f;
     }
   }
 
@@ -50,7 +51,8 @@ struct Movement_
       rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
     {
       this->direcao = "";
-      this->velocidade = 0.0f;
+      this->angulo = 0.0f;
+      this->distancia = 0.0f;
     }
   }
 
@@ -58,9 +60,12 @@ struct Movement_
   using _direcao_type =
     std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>;
   _direcao_type direcao;
-  using _velocidade_type =
+  using _angulo_type =
     float;
-  _velocidade_type velocidade;
+  _angulo_type angulo;
+  using _distancia_type =
+    float;
+  _distancia_type distancia;
 
   // setters for named parameter idiom
   Type & set__direcao(
@@ -69,10 +74,16 @@ struct Movement_
     this->direcao = _arg;
     return *this;
   }
-  Type & set__velocidade(
+  Type & set__angulo(
     const float & _arg)
   {
-    this->velocidade = _arg;
+    this->angulo = _arg;
+    return *this;
+  }
+  Type & set__distancia(
+    const float & _arg)
+  {
+    this->distancia = _arg;
     return *this;
   }
 
@@ -121,7 +132,10 @@ struct Movement_
     if (this->direcao != other.direcao) {
       return false;
     }
-    if (this->velocidade != other.velocidade) {
+    if (this->angulo != other.angulo) {
+      return false;
+    }
+    if (this->distancia != other.distancia) {
       return false;
     }
     return true;

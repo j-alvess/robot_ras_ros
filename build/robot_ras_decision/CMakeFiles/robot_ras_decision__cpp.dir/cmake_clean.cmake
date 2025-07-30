@@ -5,6 +5,11 @@ file(REMOVE_RECURSE
   "rosidl_generator_cpp/robot_ras_decision/msg/detail/movement__traits.hpp"
   "rosidl_generator_cpp/robot_ras_decision/msg/detail/movement__type_support.hpp"
   "rosidl_generator_cpp/robot_ras_decision/msg/movement.hpp"
+  "rosidl_generator_cpp/robot_ras_decision/srv/detail/set_velocity__builder.hpp"
+  "rosidl_generator_cpp/robot_ras_decision/srv/detail/set_velocity__struct.hpp"
+  "rosidl_generator_cpp/robot_ras_decision/srv/detail/set_velocity__traits.hpp"
+  "rosidl_generator_cpp/robot_ras_decision/srv/detail/set_velocity__type_support.hpp"
+  "rosidl_generator_cpp/robot_ras_decision/srv/set_velocity.hpp"
 )
 
 # Per-language clean rules from dependency scanning.

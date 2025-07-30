@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from robot_ras_decision/srv/SetVelocity.srv
+// generated code does not contain a copyright notice
+
+
+module robot_ras_decision {
+  module srv {
+    struct SetVelocity_Request {
+      float linear_velocity;
+    };
+    struct SetVelocity_Response {
+      boolean sucesso;
+    };
+  };
+};

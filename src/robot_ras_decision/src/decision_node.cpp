@@ -21,13 +21,13 @@ class DecisionNode : public rclcpp::Node
         rclcpp::Subscription<sensor_msgs::msg::Range>::SharedPtr sub_rear_manager_;
         rclcpp::Subscription<sensor_msgs::msg::Range>::SharedPtr sub_left_manager_;
         rclcpp::Subscription<sensor_msgs::msg::Range>::SharedPtr sub_right_manager_;
-        rclcpp::Publisher<std_msgs::msg::String>::SharedPtr pub_manager_;
+        rclcpp::Publisher<robot_ras_decision::msg::Movement>::SharedPtr pub_manager_;
         rclcpp::TimerBase::SharedPtr timer_;
         rclcpp::Publisher<std_msgs::msg::String>::SharedPtr publisher_;
         size_t count_;
 
     public:
-        Manager() : Node ("decision") {
+        DecisionNode() : Node ("decision") {
             
             sub_front_manager_ = this->create_subscription<sensor_msgs::msg::Range>(
             "sensor_range/front", 10, std::bind(&DecisionNode::sub_front_callback, this, std::placeholders::_1));
@@ -38,7 +38,7 @@ class DecisionNode : public rclcpp::Node
             sub_right_manager_ = this->create_subscription<sensor_msgs::msg::Range>(
             "sensor_range/right", 10, std::bind(&DecisionNode::sub_right_callback, this, std::placeholders::_1));
 
-            pub_manager_ = this->create_publisher<std_msgs::msg::String>("/movement", 10);
+            pub_manager_ = this->create_publisher<robot_ras_decision::msg::Movement>("/movement", 10);
 
             timer_ = this->create_wall_timer(0.1s, std::bind(&DecisionNode::movement_callback, this));
         }
@@ -75,21 +75,27 @@ class DecisionNode : public rclcpp::Node
             if(distancia[2].range> 0.3 && distancia[3].range> 0.15 && distancia[0].range > 0.6) {
                 instruction.direcao = "front";
                 instruction.distancia = distancia[0].range - 0.6;
-            } else if(distancia[2].range< 0.15 && distancia[0].range > 0.15) {
+                instruction.angulo = 0.0;
+            } else if(distancia[2].range< 0.15 && distancia[3].range > 0.15) {
                 instruction.direcao = "right";
-                instruction.distancia = distancia[3].range - 0.15;
+                instruction.distancia = 0;
+                instruction.angulo = 0.15;
             } else if(distancia[3].range< 0.1 && distancia[0].range > 0.15) {
                 instruction.direcao = "left";
-                instruction.distancia = distancia[2].range - 0.15;
+                instruction.distancia = 0;
+                instruction.angulo = -0.15;
             } else if(distancia[2].range> 0.3) {                    
                 instruction.direcao = "left";
-                instruction.distancia = distancia[2].range - 0.3;
+                instruction.distancia = 0;
+                instruction.angulo = 1.57;
             } else if(distancia[3].range> 0.3) {
                 instruction.direcao = "rigth";
-                instruction.distancia = distancia[3].range - 0.3;
+                instruction.distancia = 0;
+                instruction.angulo = -1.57;
             } else if (distancia[0].range < 0.1) {
                 instruction.direcao = "rear";
                 instruction.distancia = distancia[0].range - 0.4;
+                instruction.angulo = 0.0;
             }
             
 

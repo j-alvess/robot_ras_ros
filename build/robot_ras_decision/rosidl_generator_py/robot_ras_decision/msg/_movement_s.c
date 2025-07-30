@@ -68,13 +68,22 @@ bool robot_ras_decision__msg__movement__convert_from_py(PyObject * _pymsg, void 
     Py_DECREF(encoded_field);
     Py_DECREF(field);
   }
-  {  // velocidade
-    PyObject * field = PyObject_GetAttrString(_pymsg, "velocidade");
+  {  // angulo
+    PyObject * field = PyObject_GetAttrString(_pymsg, "angulo");
     if (!field) {
       return false;
     }
     assert(PyFloat_Check(field));
-    ros_message->velocidade = (float)PyFloat_AS_DOUBLE(field);
+    ros_message->angulo = (float)PyFloat_AS_DOUBLE(field);
+    Py_DECREF(field);
+  }
+  {  // distancia
+    PyObject * field = PyObject_GetAttrString(_pymsg, "distancia");
+    if (!field) {
+      return false;
+    }
+    assert(PyFloat_Check(field));
+    ros_message->distancia = (float)PyFloat_AS_DOUBLE(field);
     Py_DECREF(field);
   }
 
@@ -116,11 +125,22 @@ PyObject * robot_ras_decision__msg__movement__convert_to_py(void * raw_ros_messa
       }
     }
   }
-  {  // velocidade
+  {  // angulo
     PyObject * field = NULL;
-    field = PyFloat_FromDouble(ros_message->velocidade);
+    field = PyFloat_FromDouble(ros_message->angulo);
     {
-      int rc = PyObject_SetAttrString(_pymessage, "velocidade", field);
+      int rc = PyObject_SetAttrString(_pymessage, "angulo", field);
+      Py_DECREF(field);
+      if (rc) {
+        return NULL;
+      }
+    }
+  }
+  {  // distancia
+    PyObject * field = NULL;
+    field = PyFloat_FromDouble(ros_message->distancia);
+    {
+      int rc = PyObject_SetAttrString(_pymessage, "distancia", field);
       Py_DECREF(field);
       if (rc) {
         return NULL;

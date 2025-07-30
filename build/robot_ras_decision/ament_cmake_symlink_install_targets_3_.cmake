@@ -1,1 +1,1 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/alves/ros2_ws/build/robot_ras_decision/MovementControl" "/home/alves/ros2_ws/build/robot_ras_decision/Manager" "TARGETS" "MovementControl" "Manager" "DESTINATION" "lib/robot_ras_decision")
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/alves/ros2_ws/build/robot_ras_decision/MotorControllerNode" "/home/alves/ros2_ws/build/robot_ras_decision/DecisionNode" "TARGETS" "MotorControllerNode" "DecisionNode" "DESTINATION" "lib/robot_ras_decision")

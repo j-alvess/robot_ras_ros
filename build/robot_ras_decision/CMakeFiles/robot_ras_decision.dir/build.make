@@ -67,6 +67,9 @@ include CMakeFiles/robot_ras_decision.dir/compiler_depend.make
 include CMakeFiles/robot_ras_decision.dir/progress.make
 
 CMakeFiles/robot_ras_decision: /home/alves/ros2_ws/src/robot_ras_decision/msg/Movement.msg
+CMakeFiles/robot_ras_decision: /home/alves/ros2_ws/src/robot_ras_decision/srv/SetVelocity.srv
+CMakeFiles/robot_ras_decision: rosidl_cmake/srv/SetVelocity_Request.msg
+CMakeFiles/robot_ras_decision: rosidl_cmake/srv/SetVelocity_Response.msg
 
 robot_ras_decision: CMakeFiles/robot_ras_decision
 robot_ras_decision: CMakeFiles/robot_ras_decision.dir/build.make

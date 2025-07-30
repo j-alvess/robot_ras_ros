@@ -1,0 +1,1 @@
+/home/alves/ros2_ws/build/robot_ras_decision/rosidl_cmake/srv/SetVelocity_Response.msg

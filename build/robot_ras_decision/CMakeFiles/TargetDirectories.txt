@@ -1,7 +1,5 @@
 /home/alves/ros2_ws/build/robot_ras_decision/CMakeFiles/uninstall.dir
 /home/alves/ros2_ws/build/robot_ras_decision/CMakeFiles/robot_ras_decision_uninstall.dir
-/home/alves/ros2_ws/build/robot_ras_decision/CMakeFiles/MovementControl.dir
-/home/alves/ros2_ws/build/robot_ras_decision/CMakeFiles/Manager.dir
 /home/alves/ros2_ws/build/robot_ras_decision/CMakeFiles/robot_ras_decision.dir
 /home/alves/ros2_ws/build/robot_ras_decision/CMakeFiles/robot_ras_decision__rosidl_generator_c.dir
 /home/alves/ros2_ws/build/robot_ras_decision/CMakeFiles/robot_ras_decision__rosidl_typesupport_fastrtps_c.dir
@@ -17,6 +15,8 @@
 /home/alves/ros2_ws/build/robot_ras_decision/CMakeFiles/robot_ras_decision__rosidl_typesupport_fastrtps_c__pyext.dir
 /home/alves/ros2_ws/build/robot_ras_decision/CMakeFiles/robot_ras_decision__rosidl_typesupport_introspection_c__pyext.dir
 /home/alves/ros2_ws/build/robot_ras_decision/CMakeFiles/robot_ras_decision__rosidl_typesupport_c__pyext.dir
+/home/alves/ros2_ws/build/robot_ras_decision/CMakeFiles/MotorControllerNode.dir
+/home/alves/ros2_ws/build/robot_ras_decision/CMakeFiles/DecisionNode.dir
 /home/alves/ros2_ws/build/robot_ras_decision/CMakeFiles/test.dir
 /home/alves/ros2_ws/build/robot_ras_decision/CMakeFiles/edit_cache.dir
 /home/alves/ros2_ws/build/robot_ras_decision/CMakeFiles/rebuild_cache.dir

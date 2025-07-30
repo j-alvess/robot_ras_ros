@@ -1,0 +1,101 @@
+[35m[1mConsolidate compiler generated dependencies of target robot_ras_decision__rosidl_generator_c[0m
+[  2%] Built target robot_ras_decision__cpp
+[ 11%] Built target robot_ras_decision__rosidl_generator_c
+[ 11%] Built target ament_cmake_python_symlink_robot_ras_decision
+[35m[1mConsolidate compiler generated dependencies of target robot_ras_decision__rosidl_typesupport_fastrtps_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target robot_ras_decision__rosidl_typesupport_introspection_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target robot_ras_decision__rosidl_typesupport_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target robot_ras_decision__rosidl_typesupport_c[0m
+[35m[1mConsolidate compiler generated dependencies of target robot_ras_decision__rosidl_typesupport_fastrtps_c[0m
+[35m[1mConsolidate compiler generated dependencies of target robot_ras_decision__rosidl_typesupport_introspection_c[0m
+[ 20%] Built target robot_ras_decision__rosidl_typesupport_c
+[ 37%] Built target robot_ras_decision__rosidl_typesupport_introspection_cpp
+[ 39%] Built target robot_ras_decision__rosidl_typesupport_fastrtps_cpp
+[ 48%] Built target robot_ras_decision__rosidl_typesupport_introspection_c
+[ 58%] Built target robot_ras_decision__rosidl_typesupport_cpp
+[ 67%] Built target robot_ras_decision__rosidl_typesupport_fastrtps_c
+[ 67%] Built target robot_ras_decision
+[35m[1mConsolidate compiler generated dependencies of target MotorControllerNode[0m
+[35m[1mConsolidate compiler generated dependencies of target DecisionNode[0m
+[ 69%] Built target robot_ras_decision__py
+[ 72%] [32mBuilding CXX object CMakeFiles/MotorControllerNode.dir/src/motor_controller_node.cpp.o[0m
+[35m[1mConsolidate compiler generated dependencies of target robot_ras_decision__rosidl_generator_py[0m
+[ 76%] Built target DecisionNode
+[ 83%] Built target robot_ras_decision__rosidl_generator_py
+[35m[1mConsolidate compiler generated dependencies of target robot_ras_decision__rosidl_typesupport_c__pyext[0m
+[35m[1mConsolidate compiler generated dependencies of target robot_ras_decision__rosidl_typesupport_introspection_c__pyext[0m
+[35m[1mConsolidate compiler generated dependencies of target robot_ras_decision__rosidl_typesupport_fastrtps_c__pyext[0m
+[ 93%] Built target robot_ras_decision__rosidl_typesupport_c__pyext
+[ 93%] Built target robot_ras_decision__rosidl_typesupport_introspection_c__pyext
+[ 97%] Built target robot_ras_decision__rosidl_typesupport_fastrtps_c__pyext
+running egg_info
+writing robot_ras_decision.egg-info/PKG-INFO
+writing dependency_links to robot_ras_decision.egg-info/dependency_links.txt
+writing top-level names to robot_ras_decision.egg-info/top_level.txt
+reading manifest file 'robot_ras_decision.egg-info/SOURCES.txt'
+writing manifest file 'robot_ras_decision.egg-info/SOURCES.txt'
+[ 97%] Built target ament_cmake_python_build_robot_ras_decision_egg
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/motor_controller_node.cpp:[m[K In constructor ‘[01m[KMotorControllerNode::MotorControllerNode()[m[K’:
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/motor_controller_node.cpp:26:54:[m[K [01;31m[Kerror: [m[K‘[01m[Kvelocidade_angular_[m[K’ was not declared in this scope; did you mean ‘[01m[Kvelocidade_linear_[m[K’?
+   26 |       this -> get_parameter (" velocidade_angular ", [01;31m[Kvelocidade_angular_[m[K ) ;
+      |                                                      [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+      |                                                      [32m[Kvelocidade_linear_[m[K
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/motor_controller_node.cpp:[m[K In member function ‘[01m[Kvoid MotorControllerNode::movement_callback(const Movement&) const[m[K’:
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/motor_controller_node.cpp:33:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kfloat32[m[K’ is not a member of ‘[01m[Kstd[m[K’; did you mean ‘[01m[Kfloat_t[m[K’?
+   33 |       std::[01;31m[Kfloat32[m[K angulo = movimento.angulo;
+      |            [01;31m[K^~~~~~~[m[K
+      |            [32m[Kfloat_t[m[K
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/motor_controller_node.cpp:34:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kfloat32[m[K’ is not a member of ‘[01m[Kstd[m[K’; did you mean ‘[01m[Kfloat_t[m[K’?
+   34 |       std::[01;31m[Kfloat32[m[K distancia = movimento.distancia;
+      |            [01;31m[K^~~~~~~[m[K
+      |            [32m[Kfloat_t[m[K
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/motor_controller_node.cpp:36:45:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Krclcpp::Time[m[K’ to ‘[01m[Kfloat[m[K’ in initialization
+   36 |       float tempoAtual = [01;31m[Krclcpp::Clock().now()[m[K;
+      |                          [01;31m[K~~~~~~~~~~~~~~~~~~~^~[m[K
+      |                                             [01;31m[K|[m[K
+      |                                             [01;31m[Krclcpp::Time[m[K
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/motor_controller_node.cpp:39:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kvelocidade_linear[m[K’ was not declared in this scope; did you mean ‘[01m[Kvelocidade_linear_[m[K’?
+   39 |       velocidade_angular = 2 * [01;31m[Kvelocidade_linear[m[K;
+      |                                [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+      |                                [32m[Kvelocidade_linear_[m[K
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/motor_controller_node.cpp:42:19:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kconst Movement[m[K’ {aka ‘[01m[Kconst robot_ras_decision::msg::Movement_<std::allocator<void> >[m[K’}
+   42 |       if(movimento[01;31m[K->[m[Kdirecao = "front") {
+      |                   [01;31m[K^~[m[K
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/motor_controller_node.cpp:43:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kdistancia[m[K’ was not declared in this scope
+   43 |         tempoExec = [01;31m[Kdistancia[m[K/velocidade_linear_;
+      |                     [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/motor_controller_node.cpp:48:26:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kconst Movement[m[K’ {aka ‘[01m[Kconst robot_ras_decision::msg::Movement_<std::allocator<void> >[m[K’}
+   48 |       } else if(movimento[01;31m[K->[m[Kdirecao = "rear") {
+      |                          [01;31m[K^~[m[K
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/motor_controller_node.cpp:49:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kdistancia[m[K’ was not declared in this scope
+   49 |         tempoExec = [01;31m[Kdistancia[m[K/velocidade_linear_;
+      |                     [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/motor_controller_node.cpp:54:26:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kconst Movement[m[K’ {aka ‘[01m[Kconst robot_ras_decision::msg::Movement_<std::allocator<void> >[m[K’}
+   54 |       } else if(movimento[01;31m[K->[m[Kdirecao = "left") {
+      |                          [01;31m[K^~[m[K
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/motor_controller_node.cpp:55:32:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kconst Movement[m[K’ {aka ‘[01m[Kconst robot_ras_decision::msg::Movement_<std::allocator<void> >[m[K’}
+   55 |         tempoExec = -(movimento[01;31m[K->[m[Kangulo/velocidade_angular);
+      |                                [01;31m[K^~[m[K
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/motor_controller_node.cpp:60:21:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kconst Movement[m[K’ {aka ‘[01m[Kconst robot_ras_decision::msg::Movement_<std::allocator<void> >[m[K’}
+   60 |       } if(movimento[01;31m[K->[m[Kdirecao = "left") {
+      |                     [01;31m[K^~[m[K
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/motor_controller_node.cpp:61:32:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kconst Movement[m[K’ {aka ‘[01m[Kconst robot_ras_decision::msg::Movement_<std::allocator<void> >[m[K’}
+   61 |         tempoExec = -(movimento[01;31m[K->[m[Kangulo/velocidade_angular);
+      |                                [01;31m[K^~[m[K
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/motor_controller_node.cpp:[m[K In member function ‘[01m[Kvoid MotorControllerNode::setVelocity(const std::shared_ptr<robot_ras_decision::srv::SetVelocity_Request_<std::allocator<void> > >&, std::shared_ptr<robot_ras_decision::srv::SetVelocity_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/motor_controller_node.cpp:82:80:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresponse[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   82 |           [01;35m[Kstd::shared_ptr<robot_ras_decision::srv::SetVelocity::Response>      response[m[K) {
+      |           [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/motor_controller_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/motor_controller_node.cpp:103:3:[m[K [01;31m[Kerror: [m[K‘[01m[Knode[m[K’ was not declared in this scope
+  103 |   [01;31m[Knode[m[K->create_service<robot_ras_decision::srv::SetVelocity>("mudar_velocidade", &setVelocity);
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/motor_controller_node.cpp:103:60:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+  103 |   node->create_service<robot_ras_decision::srv::SetVelocity[01;31m[K>[m[K("mudar_velocidade", &setVelocity);
+      |                                                            [01;31m[K^[m[K
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/motor_controller_node.cpp:103:62:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+  103 |   node->create_service<robot_ras_decision::srv::SetVelocity>([01;35m[K"mudar_velocidade"[m[K, &setVelocity);
+      |                                                              [01;35m[K^~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/MotorControllerNode.dir/build.make:76: CMakeFiles/MotorControllerNode.dir/src/motor_controller_node.cpp.o] Erro 1
+gmake[1]: *** [CMakeFiles/Makefile2:596: CMakeFiles/MotorControllerNode.dir/all] Erro 2
+gmake: *** [Makefile:146: all] Erro 2

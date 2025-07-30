@@ -23,6 +23,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/alves/ros2_ws/src/robot_ras_decision/CMakeLists.txt"
   "/home/alves/ros2_ws/src/robot_ras_decision/msg/Movement.msg"
   "/home/alves/ros2_ws/src/robot_ras_decision/package.xml"
+  "/home/alves/ros2_ws/src/robot_ras_decision/srv/SetVelocity.srv"
   "/opt/ros/humble/cmake/yamlConfig.cmake"
   "/opt/ros/humble/cmake/yamlConfigVersion.cmake"
   "/opt/ros/humble/cmake/yamlTargets-none.cmake"
@@ -731,6 +732,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "ament_cmake_symlink_install/ament_cmake_symlink_install_uninstall_script.cmake"
   "CTestConfiguration.ini"
   "ament_cmake_core/stamps/Movement.msg.stamp"
+  "ament_cmake_core/stamps/SetVelocity.srv.stamp"
   "ament_cmake_core/stamps/package.xml.stamp"
   "ament_cmake_core/stamps/package_xml_2_cmake.py.stamp"
   "rosidl_generator_c/robot_ras_decision/msg/rosidl_generator_c__visibility_control.h"
@@ -781,8 +783,6 @@ set(CMAKE_MAKEFILE_PRODUCTS
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/uninstall.dir/DependInfo.cmake"
   "CMakeFiles/robot_ras_decision_uninstall.dir/DependInfo.cmake"
-  "CMakeFiles/MovementControl.dir/DependInfo.cmake"
-  "CMakeFiles/Manager.dir/DependInfo.cmake"
   "CMakeFiles/robot_ras_decision.dir/DependInfo.cmake"
   "CMakeFiles/robot_ras_decision__rosidl_generator_c.dir/DependInfo.cmake"
   "CMakeFiles/robot_ras_decision__rosidl_typesupport_fastrtps_c.dir/DependInfo.cmake"
@@ -798,5 +798,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/robot_ras_decision__rosidl_typesupport_fastrtps_c__pyext.dir/DependInfo.cmake"
   "CMakeFiles/robot_ras_decision__rosidl_typesupport_introspection_c__pyext.dir/DependInfo.cmake"
   "CMakeFiles/robot_ras_decision__rosidl_typesupport_c__pyext.dir/DependInfo.cmake"
+  "CMakeFiles/MotorControllerNode.dir/DependInfo.cmake"
+  "CMakeFiles/DecisionNode.dir/DependInfo.cmake"
   "robot_ras_decision__py/CMakeFiles/robot_ras_decision__py.dir/DependInfo.cmake"
   )

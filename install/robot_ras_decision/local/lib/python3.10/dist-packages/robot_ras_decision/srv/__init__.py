@@ -1,0 +1,1 @@
+/home/alves/ros2_ws/build/robot_ras_decision/rosidl_generator_py/robot_ras_decision/srv/__init__.py

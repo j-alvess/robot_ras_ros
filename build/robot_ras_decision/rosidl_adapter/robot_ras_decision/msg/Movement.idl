@@ -5,10 +5,20 @@
 
 module robot_ras_decision {
   module msg {
+    @verbatim (language="comment", text=
+      "msg / Movimento .msg")
     struct Movement {
+      @verbatim (language="comment", text=
+        "\" frente \" , \" tras \" , \" direita \" , \" esquerda \"")
       string direcao;
 
-      float velocidade;
+      @verbatim (language="comment", text=
+        "O angulo para a curva (em radianos)")
+      float angulo;
+
+      @verbatim (language="comment", text=
+        "A distancia para o movimento retilineo (em metros)")
+      float distancia;
     };
   };
 };

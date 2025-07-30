@@ -35,7 +35,7 @@ void robot_ras_decision__msg__Movement__rosidl_typesupport_introspection_c__Move
   robot_ras_decision__msg__Movement__fini(message_memory);
 }
 
-static rosidl_typesupport_introspection_c__MessageMember robot_ras_decision__msg__Movement__rosidl_typesupport_introspection_c__Movement_message_member_array[2] = {
+static rosidl_typesupport_introspection_c__MessageMember robot_ras_decision__msg__Movement__rosidl_typesupport_introspection_c__Movement_message_member_array[3] = {
   {
     "direcao",  // name
     rosidl_typesupport_introspection_c__ROS_TYPE_STRING,  // type
@@ -54,14 +54,31 @@ static rosidl_typesupport_introspection_c__MessageMember robot_ras_decision__msg
     NULL  // resize(index) function pointer
   },
   {
-    "velocidade",  // name
+    "angulo",  // name
     rosidl_typesupport_introspection_c__ROS_TYPE_FLOAT,  // type
     0,  // upper bound of string
     NULL,  // members of sub message
     false,  // is array
     0,  // array size
     false,  // is upper bound
-    offsetof(robot_ras_decision__msg__Movement, velocidade),  // bytes offset in struct
+    offsetof(robot_ras_decision__msg__Movement, angulo),  // bytes offset in struct
+    NULL,  // default value
+    NULL,  // size() function pointer
+    NULL,  // get_const(index) function pointer
+    NULL,  // get(index) function pointer
+    NULL,  // fetch(index, &value) function pointer
+    NULL,  // assign(index, value) function pointer
+    NULL  // resize(index) function pointer
+  },
+  {
+    "distancia",  // name
+    rosidl_typesupport_introspection_c__ROS_TYPE_FLOAT,  // type
+    0,  // upper bound of string
+    NULL,  // members of sub message
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(robot_ras_decision__msg__Movement, distancia),  // bytes offset in struct
     NULL,  // default value
     NULL,  // size() function pointer
     NULL,  // get_const(index) function pointer
@@ -75,7 +92,7 @@ static rosidl_typesupport_introspection_c__MessageMember robot_ras_decision__msg
 static const rosidl_typesupport_introspection_c__MessageMembers robot_ras_decision__msg__Movement__rosidl_typesupport_introspection_c__Movement_message_members = {
   "robot_ras_decision__msg",  // message namespace
   "Movement",  // message name
-  2,  // number of fields
+  3,  // number of fields
   sizeof(robot_ras_decision__msg__Movement),
   robot_ras_decision__msg__Movement__rosidl_typesupport_introspection_c__Movement_message_member_array,  // message members
   robot_ras_decision__msg__Movement__rosidl_typesupport_introspection_c__Movement_init_function,  // function to initialize message memory (memory has to be allocated)

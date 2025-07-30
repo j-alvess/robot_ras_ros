@@ -1,0 +1,153 @@
+[0mCMake Deprecation Warning at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):
+  Use rosidl_get_typesupport_target() and target_link_libraries() instead of
+  rosidl_target_interfaces()
+Call Stack (most recent call first):
+  CMakeLists.txt:29 (rosidl_target_interfaces)
+
+[0m
+[0mCMake Deprecation Warning at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):
+  Use rosidl_get_typesupport_target() and target_link_libraries() instead of
+  rosidl_target_interfaces()
+Call Stack (most recent call first):
+  CMakeLists.txt:35 (rosidl_target_interfaces)
+
+[0m
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/motor_controller_node.cpp:80:64:[m[K [01;31m[Kerror: [m[K‘[01m[Ksrv[m[K’ is not a member of ‘[01m[Krobot_ras_decision[m[K’; did you mean ‘[01m[Krcl_interfaces::srv[m[K’?
+   80 |     void setVelocity(const std::shared_ptr<robot_ras_decision::[01;31m[Ksrv[m[K::SetVelocity::Request> &request,
+      |                                                                [01;31m[K^~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/describe_parameters.hpp:7[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_client.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:159[m[K,
+                 from [01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/motor_controller_node.cpp:6[m[K:
+[01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K‘[01m[Krcl_interfaces::srv[m[K’ declared here
+   27 | namespace [01;36m[Ksrv[m[K
+      |           [01;36m[K^~~[m[K
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/motor_controller_node.cpp:80:89:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   80 |     void setVelocity(const std::shared_ptr<robot_ras_decision::srv::SetVelocity::Request[01;31m[K>[m[K &request,
+      |                                                                                         [01;31m[K^[m[K
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/motor_controller_node.cpp:80:64:[m[K [01;31m[Kerror: [m[K‘[01m[Ksrv[m[K’ is not a member of ‘[01m[Krobot_ras_decision[m[K’; did you mean ‘[01m[Krcl_interfaces::srv[m[K’?
+   80 |     void setVelocity(const std::shared_ptr<robot_ras_decision::[01;31m[Ksrv[m[K::SetVelocity::Request> &request,
+      |                                                                [01;31m[K^~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/describe_parameters.hpp:7[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_client.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:159[m[K,
+                 from [01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/motor_controller_node.cpp:6[m[K:
+[01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K‘[01m[Krcl_interfaces::srv[m[K’ declared here
+   27 | namespace [01;36m[Ksrv[m[K
+      |           [01;36m[K^~~[m[K
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/motor_controller_node.cpp:80:89:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   80 |     void setVelocity(const std::shared_ptr<robot_ras_decision::srv::SetVelocity::Request[01;31m[K>[m[K &request,
+      |                                                                                         [01;31m[K^[m[K
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/motor_controller_node.cpp:80:64:[m[K [01;31m[Kerror: [m[K‘[01m[Ksrv[m[K’ is not a member of ‘[01m[Krobot_ras_decision[m[K’; did you mean ‘[01m[Krcl_interfaces::srv[m[K’?
+   80 |     void setVelocity(const std::shared_ptr<robot_ras_decision::[01;31m[Ksrv[m[K::SetVelocity::Request> &request,
+      |                                                                [01;31m[K^~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/describe_parameters.hpp:7[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_client.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:159[m[K,
+                 from [01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/motor_controller_node.cpp:6[m[K:
+[01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K‘[01m[Krcl_interfaces::srv[m[K’ declared here
+   27 | namespace [01;36m[Ksrv[m[K
+      |           [01;36m[K^~~[m[K
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/motor_controller_node.cpp:80:89:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   80 |     void setVelocity(const std::shared_ptr<robot_ras_decision::srv::SetVelocity::Request[01;31m[K>[m[K &request,
+      |                                                                                         [01;31m[K^[m[K
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/motor_controller_node.cpp:80:28:[m[K [01;31m[Kerror: [m[Kinvalid template-id
+   80 |     void setVelocity(const [01;31m[Kstd[m[K::shared_ptr<robot_ras_decision::srv::SetVelocity::Request> &request,
+      |                            [01;31m[K^~~[m[K
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/motor_controller_node.cpp:80:64:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_ras_decision::srv[m[K’ has not been declared
+   80 |     void setVelocity(const std::shared_ptr<robot_ras_decision::[01;31m[Ksrv[m[K::SetVelocity::Request> &request,
+      |                                                                [01;31m[K^~~[m[K
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/motor_controller_node.cpp:80:22:[m[K [01;31m[Kerror: [m[Ktemplate placeholder type ‘[01m[Kconst shared_ptr<...auto...>[m[K’ must be followed by a simple declarator-id
+   80 |     void setVelocity([01;31m[Kconst[m[K std::shared_ptr<robot_ras_decision::srv::SetVelocity::Request> &request,
+      |                      [01;31m[K^~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/bits/shared_ptr.h:53[m[K,
+                 from [01m[K/usr/include/c++/11/memory:77[m[K,
+                 from [01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/motor_controller_node.cpp:2[m[K:
+[01m[K/usr/include/c++/11/bits/shared_ptr_base.h:319:11:[m[K [01;36m[Knote: [m[K‘[01m[Ktemplate<class _Tp> class std::shared_ptr[m[K’ declared here
+  319 |     class [01;36m[Kshared_ptr[m[K;
+      |           [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/motor_controller_node.cpp:80:99:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K,[m[K’ token
+   80 |     void setVelocity[34m[K([m[Kconst std::shared_ptr<robot_ras_decision::srv::SetVelocity::Request> &request[01;31m[K,[m[K
+      |                     [34m[K~[m[K                                                                             [01;31m[K^[m[K
+      |                                                                                                   [32m[K)[m[K
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/motor_controller_node.cpp:81:47:[m[K [01;31m[Kerror: [m[K‘[01m[Ksrv[m[K’ is not a member of ‘[01m[Krobot_ras_decision[m[K’; did you mean ‘[01m[Krcl_interfaces::srv[m[K’?
+   81 |           std::shared_ptr<robot_ras_decision::[01;31m[Ksrv[m[K::SetVelocity::Response>      response) {
+      |                                               [01;31m[K^~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/describe_parameters.hpp:7[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_client.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:159[m[K,
+                 from [01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/motor_controller_node.cpp:6[m[K:
+[01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K‘[01m[Krcl_interfaces::srv[m[K’ declared here
+   27 | namespace [01;36m[Ksrv[m[K
+      |           [01;36m[K^~~[m[K
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/motor_controller_node.cpp:81:73:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   81 |           std::shared_ptr<robot_ras_decision::srv::SetVelocity::Response[01;31m[K>[m[K      response) {
+      |                                                                         [01;31m[K^[m[K
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/motor_controller_node.cpp:[m[K In constructor ‘[01m[KMotorControllerNode::MotorControllerNode()[m[K’:
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/motor_controller_node.cpp:25:54:[m[K [01;31m[Kerror: [m[K‘[01m[Kvelocidade_angular_[m[K’ was not declared in this scope; did you mean ‘[01m[Kvelocidade_linear_[m[K’?
+   25 |       this -> get_parameter (" velocidade_angular ", [01;31m[Kvelocidade_angular_[m[K ) ;
+      |                                                      [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+      |                                                      [32m[Kvelocidade_linear_[m[K
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/motor_controller_node.cpp:[m[K In member function ‘[01m[Kvoid MotorControllerNode::movement_callback(const Movement&) const[m[K’:
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/motor_controller_node.cpp:32:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kfloat32[m[K’ is not a member of ‘[01m[Kstd[m[K’; did you mean ‘[01m[Kfloat_t[m[K’?
+   32 |       std::[01;31m[Kfloat32[m[K angulo = movimento.angulo;
+      |            [01;31m[K^~~~~~~[m[K
+      |            [32m[Kfloat_t[m[K
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/motor_controller_node.cpp:33:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kfloat32[m[K’ is not a member of ‘[01m[Kstd[m[K’; did you mean ‘[01m[Kfloat_t[m[K’?
+   33 |       std::[01;31m[Kfloat32[m[K distancia = movimento.distancia;
+      |            [01;31m[K^~~~~~~[m[K
+      |            [32m[Kfloat_t[m[K
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/motor_controller_node.cpp:35:45:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Krclcpp::Time[m[K’ to ‘[01m[Kfloat[m[K’ in initialization
+   35 |       float tempoAtual = [01;31m[Krclcpp::Clock().now()[m[K;
+      |                          [01;31m[K~~~~~~~~~~~~~~~~~~~^~[m[K
+      |                                             [01;31m[K|[m[K
+      |                                             [01;31m[Krclcpp::Time[m[K
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/motor_controller_node.cpp:38:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kvelocidade_linear[m[K’ was not declared in this scope; did you mean ‘[01m[Kvelocidade_linear_[m[K’?
+   38 |       velocidade_angular = 2 * [01;31m[Kvelocidade_linear[m[K;
+      |                                [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+      |                                [32m[Kvelocidade_linear_[m[K
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/motor_controller_node.cpp:41:19:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kconst Movement[m[K’ {aka ‘[01m[Kconst robot_ras_decision::msg::Movement_<std::allocator<void> >[m[K’}
+   41 |       if(movimento[01;31m[K->[m[Kdirecao = "front") {
+      |                   [01;31m[K^~[m[K
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/motor_controller_node.cpp:42:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kdistancia[m[K’ was not declared in this scope
+   42 |         tempoExec = [01;31m[Kdistancia[m[K/velocidade_linear_;
+      |                     [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/motor_controller_node.cpp:47:26:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kconst Movement[m[K’ {aka ‘[01m[Kconst robot_ras_decision::msg::Movement_<std::allocator<void> >[m[K’}
+   47 |       } else if(movimento[01;31m[K->[m[Kdirecao = "rear") {
+      |                          [01;31m[K^~[m[K
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/motor_controller_node.cpp:48:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kdistancia[m[K’ was not declared in this scope
+   48 |         tempoExec = [01;31m[Kdistancia[m[K/velocidade_linear_;
+      |                     [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/motor_controller_node.cpp:53:26:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kconst Movement[m[K’ {aka ‘[01m[Kconst robot_ras_decision::msg::Movement_<std::allocator<void> >[m[K’}
+   53 |       } else if(movimento[01;31m[K->[m[Kdirecao = "left") {
+      |                          [01;31m[K^~[m[K
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/motor_controller_node.cpp:54:32:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kconst Movement[m[K’ {aka ‘[01m[Kconst robot_ras_decision::msg::Movement_<std::allocator<void> >[m[K’}
+   54 |         tempoExec = -(movimento[01;31m[K->[m[Kangulo/velocidade_angular);
+      |                                [01;31m[K^~[m[K
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/motor_controller_node.cpp:59:21:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kconst Movement[m[K’ {aka ‘[01m[Kconst robot_ras_decision::msg::Movement_<std::allocator<void> >[m[K’}
+   59 |       } if(movimento[01;31m[K->[m[Kdirecao = "left") {
+      |                     [01;31m[K^~[m[K
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/motor_controller_node.cpp:60:32:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kconst Movement[m[K’ {aka ‘[01m[Kconst robot_ras_decision::msg::Movement_<std::allocator<void> >[m[K’}
+   60 |         tempoExec = -(movimento[01;31m[K->[m[Kangulo/velocidade_angular);
+      |                                [01;31m[K^~[m[K
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/motor_controller_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/motor_controller_node.cpp:101:39:[m[K [01;31m[Kerror: [m[K‘[01m[Ksrv[m[K’ is not a member of ‘[01m[Krobot_ras_decision[m[K’; did you mean ‘[01m[Krcl_interfaces::srv[m[K’?
+  101 |   rclcpp::Service<robot_ras_decision::[01;31m[Ksrv[m[K::SetVelocity>::SharedPtr setVelocity =
+      |                                       [01;31m[K^~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/describe_parameters.hpp:7[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_client.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:159[m[K,
+                 from [01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/motor_controller_node.cpp:6[m[K:
+[01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K‘[01m[Krcl_interfaces::srv[m[K’ declared here
+   27 | namespace [01;36m[Ksrv[m[K
+      |           [01;36m[K^~~[m[K
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/motor_controller_node.cpp:101:55:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  101 |   rclcpp::Service<robot_ras_decision::srv::SetVelocity[01;31m[K>[m[K::SharedPtr setVelocity =
+      |                                                       [01;31m[K^[m[K
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/motor_controller_node.cpp:101:68:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[KsetVelocity[m[K’
+  101 |   rclcpp::Service<robot_ras_decision::srv::SetVelocity>::SharedPtr [01;31m[KsetVelocity[m[K =
+      |                                                                    [01;31m[K^~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/MotorControllerNode.dir/build.make:76: CMakeFiles/MotorControllerNode.dir/src/motor_controller_node.cpp.o] Erro 1
+gmake[1]: *** [CMakeFiles/Makefile2:596: CMakeFiles/MotorControllerNode.dir/all] Erro 2
+gmake[1]: ** Esperando que outros processos terminem.
+gmake: *** [Makefile:146: all] Erro 2

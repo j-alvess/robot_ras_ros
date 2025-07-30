@@ -71,6 +71,11 @@ CMakeFiles/robot_ras_decision__cpp: rosidl_generator_cpp/robot_ras_decision/msg/
 CMakeFiles/robot_ras_decision__cpp: rosidl_generator_cpp/robot_ras_decision/msg/detail/movement__struct.hpp
 CMakeFiles/robot_ras_decision__cpp: rosidl_generator_cpp/robot_ras_decision/msg/detail/movement__traits.hpp
 CMakeFiles/robot_ras_decision__cpp: rosidl_generator_cpp/robot_ras_decision/msg/detail/movement__type_support.hpp
+CMakeFiles/robot_ras_decision__cpp: rosidl_generator_cpp/robot_ras_decision/srv/set_velocity.hpp
+CMakeFiles/robot_ras_decision__cpp: rosidl_generator_cpp/robot_ras_decision/srv/detail/set_velocity__builder.hpp
+CMakeFiles/robot_ras_decision__cpp: rosidl_generator_cpp/robot_ras_decision/srv/detail/set_velocity__struct.hpp
+CMakeFiles/robot_ras_decision__cpp: rosidl_generator_cpp/robot_ras_decision/srv/detail/set_velocity__traits.hpp
+CMakeFiles/robot_ras_decision__cpp: rosidl_generator_cpp/robot_ras_decision/srv/detail/set_velocity__type_support.hpp
 CMakeFiles/robot_ras_decision__cpp: rosidl_generator_cpp/robot_ras_decision/msg/rosidl_generator_cpp__visibility_control.hpp
 
 rosidl_generator_cpp/robot_ras_decision/msg/movement.hpp: /opt/ros/humble/lib/rosidl_generator_cpp/rosidl_generator_cpp
@@ -89,6 +94,7 @@ rosidl_generator_cpp/robot_ras_decision/msg/movement.hpp: /opt/ros/humble/share/
 rosidl_generator_cpp/robot_ras_decision/msg/movement.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/srv__struct.hpp.em
 rosidl_generator_cpp/robot_ras_decision/msg/movement.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/srv__traits.hpp.em
 rosidl_generator_cpp/robot_ras_decision/msg/movement.hpp: rosidl_adapter/robot_ras_decision/msg/Movement.idl
+rosidl_generator_cpp/robot_ras_decision/msg/movement.hpp: rosidl_adapter/robot_ras_decision/srv/SetVelocity.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/alves/ros2_ws/build/robot_ras_decision/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
 	/usr/bin/python3 /opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/alves/ros2_ws/build/robot_ras_decision/rosidl_generator_cpp__arguments.json
 
@@ -104,12 +110,32 @@ rosidl_generator_cpp/robot_ras_decision/msg/detail/movement__traits.hpp: rosidl_
 rosidl_generator_cpp/robot_ras_decision/msg/detail/movement__type_support.hpp: rosidl_generator_cpp/robot_ras_decision/msg/movement.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/robot_ras_decision/msg/detail/movement__type_support.hpp
 
+rosidl_generator_cpp/robot_ras_decision/srv/set_velocity.hpp: rosidl_generator_cpp/robot_ras_decision/msg/movement.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/robot_ras_decision/srv/set_velocity.hpp
+
+rosidl_generator_cpp/robot_ras_decision/srv/detail/set_velocity__builder.hpp: rosidl_generator_cpp/robot_ras_decision/msg/movement.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/robot_ras_decision/srv/detail/set_velocity__builder.hpp
+
+rosidl_generator_cpp/robot_ras_decision/srv/detail/set_velocity__struct.hpp: rosidl_generator_cpp/robot_ras_decision/msg/movement.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/robot_ras_decision/srv/detail/set_velocity__struct.hpp
+
+rosidl_generator_cpp/robot_ras_decision/srv/detail/set_velocity__traits.hpp: rosidl_generator_cpp/robot_ras_decision/msg/movement.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/robot_ras_decision/srv/detail/set_velocity__traits.hpp
+
+rosidl_generator_cpp/robot_ras_decision/srv/detail/set_velocity__type_support.hpp: rosidl_generator_cpp/robot_ras_decision/msg/movement.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/robot_ras_decision/srv/detail/set_velocity__type_support.hpp
+
 robot_ras_decision__cpp: CMakeFiles/robot_ras_decision__cpp
 robot_ras_decision__cpp: rosidl_generator_cpp/robot_ras_decision/msg/detail/movement__builder.hpp
 robot_ras_decision__cpp: rosidl_generator_cpp/robot_ras_decision/msg/detail/movement__struct.hpp
 robot_ras_decision__cpp: rosidl_generator_cpp/robot_ras_decision/msg/detail/movement__traits.hpp
 robot_ras_decision__cpp: rosidl_generator_cpp/robot_ras_decision/msg/detail/movement__type_support.hpp
 robot_ras_decision__cpp: rosidl_generator_cpp/robot_ras_decision/msg/movement.hpp
+robot_ras_decision__cpp: rosidl_generator_cpp/robot_ras_decision/srv/detail/set_velocity__builder.hpp
+robot_ras_decision__cpp: rosidl_generator_cpp/robot_ras_decision/srv/detail/set_velocity__struct.hpp
+robot_ras_decision__cpp: rosidl_generator_cpp/robot_ras_decision/srv/detail/set_velocity__traits.hpp
+robot_ras_decision__cpp: rosidl_generator_cpp/robot_ras_decision/srv/detail/set_velocity__type_support.hpp
+robot_ras_decision__cpp: rosidl_generator_cpp/robot_ras_decision/srv/set_velocity.hpp
 robot_ras_decision__cpp: CMakeFiles/robot_ras_decision__cpp.dir/build.make
 .PHONY : robot_ras_decision__cpp
 

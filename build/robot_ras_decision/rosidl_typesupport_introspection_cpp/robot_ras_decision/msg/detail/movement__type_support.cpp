@@ -37,7 +37,7 @@ void Movement_fini_function(void * message_memory)
   typed_message->~Movement();
 }
 
-static const ::rosidl_typesupport_introspection_cpp::MessageMember Movement_message_member_array[2] = {
+static const ::rosidl_typesupport_introspection_cpp::MessageMember Movement_message_member_array[3] = {
   {
     "direcao",  // name
     ::rosidl_typesupport_introspection_cpp::ROS_TYPE_STRING,  // type
@@ -56,14 +56,31 @@ static const ::rosidl_typesupport_introspection_cpp::MessageMember Movement_mess
     nullptr  // resize(index) function pointer
   },
   {
-    "velocidade",  // name
+    "angulo",  // name
     ::rosidl_typesupport_introspection_cpp::ROS_TYPE_FLOAT,  // type
     0,  // upper bound of string
     nullptr,  // members of sub message
     false,  // is array
     0,  // array size
     false,  // is upper bound
-    offsetof(robot_ras_decision::msg::Movement, velocidade),  // bytes offset in struct
+    offsetof(robot_ras_decision::msg::Movement, angulo),  // bytes offset in struct
+    nullptr,  // default value
+    nullptr,  // size() function pointer
+    nullptr,  // get_const(index) function pointer
+    nullptr,  // get(index) function pointer
+    nullptr,  // fetch(index, &value) function pointer
+    nullptr,  // assign(index, value) function pointer
+    nullptr  // resize(index) function pointer
+  },
+  {
+    "distancia",  // name
+    ::rosidl_typesupport_introspection_cpp::ROS_TYPE_FLOAT,  // type
+    0,  // upper bound of string
+    nullptr,  // members of sub message
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(robot_ras_decision::msg::Movement, distancia),  // bytes offset in struct
     nullptr,  // default value
     nullptr,  // size() function pointer
     nullptr,  // get_const(index) function pointer
@@ -77,7 +94,7 @@ static const ::rosidl_typesupport_introspection_cpp::MessageMember Movement_mess
 static const ::rosidl_typesupport_introspection_cpp::MessageMembers Movement_message_members = {
   "robot_ras_decision::msg",  // message namespace
   "Movement",  // message name
-  2,  // number of fields
+  3,  // number of fields
   sizeof(robot_ras_decision::msg::Movement),
   Movement_message_member_array,  // message members
   Movement_init_function,  // function to initialize message memory (memory has to be allocated)

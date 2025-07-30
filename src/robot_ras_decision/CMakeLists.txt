@@ -18,6 +18,7 @@ find_package(rosidl_default_generators REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/Movement.msg"
+  "srv/SetVelocity.srv"
 )
 
 ament_export_dependencies(rosidl_default_runtime)
@@ -35,8 +36,8 @@ rosidl_target_interfaces(DecisionNode
   ${PROJECT_NAME} "rosidl_typesupport_cpp")
 
 install(TARGETS
-  MovementControl
-  Manager
+  MotorControllerNode
+  DecisionNode
   DESTINATION lib/${PROJECT_NAME})
 
 ament_package()

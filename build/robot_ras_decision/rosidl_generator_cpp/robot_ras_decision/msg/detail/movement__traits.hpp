@@ -32,10 +32,17 @@ inline void to_flow_style_yaml(
     out << ", ";
   }
 
-  // member: velocidade
+  // member: angulo
   {
-    out << "velocidade: ";
-    rosidl_generator_traits::value_to_yaml(msg.velocidade, out);
+    out << "angulo: ";
+    rosidl_generator_traits::value_to_yaml(msg.angulo, out);
+    out << ", ";
+  }
+
+  // member: distancia
+  {
+    out << "distancia: ";
+    rosidl_generator_traits::value_to_yaml(msg.distancia, out);
   }
   out << "}";
 }  // NOLINT(readability/fn_size)
@@ -54,13 +61,23 @@ inline void to_block_style_yaml(
     out << "\n";
   }
 
-  // member: velocidade
+  // member: angulo
   {
     if (indentation > 0) {
       out << std::string(indentation, ' ');
     }
-    out << "velocidade: ";
-    rosidl_generator_traits::value_to_yaml(msg.velocidade, out);
+    out << "angulo: ";
+    rosidl_generator_traits::value_to_yaml(msg.angulo, out);
+    out << "\n";
+  }
+
+  // member: distancia
+  {
+    if (indentation > 0) {
+      out << std::string(indentation, ' ');
+    }
+    out << "distancia: ";
+    rosidl_generator_traits::value_to_yaml(msg.distancia, out);
     out << "\n";
   }
 }  // NOLINT(readability/fn_size)

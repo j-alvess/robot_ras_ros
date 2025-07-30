@@ -58,16 +58,19 @@ class Movement(metaclass=Metaclass_Movement):
 
     __slots__ = [
         '_direcao',
-        '_velocidade',
+        '_angulo',
+        '_distancia',
     ]
 
     _fields_and_field_types = {
         'direcao': 'string',
-        'velocidade': 'float',
+        'angulo': 'float',
+        'distancia': 'float',
     }
 
     SLOT_TYPES = (
         rosidl_parser.definition.UnboundedString(),  # noqa: E501
+        rosidl_parser.definition.BasicType('float'),  # noqa: E501
         rosidl_parser.definition.BasicType('float'),  # noqa: E501
     )
 
@@ -76,7 +79,8 @@ class Movement(metaclass=Metaclass_Movement):
             'Invalid arguments passed to constructor: %s' % \
             ', '.join(sorted(k for k in kwargs.keys() if '_' + k not in self.__slots__))
         self.direcao = kwargs.get('direcao', str())
-        self.velocidade = kwargs.get('velocidade', float())
+        self.angulo = kwargs.get('angulo', float())
+        self.distancia = kwargs.get('distancia', float())
 
     def __repr__(self):
         typename = self.__class__.__module__.split('.')
@@ -109,7 +113,9 @@ class Movement(metaclass=Metaclass_Movement):
             return False
         if self.direcao != other.direcao:
             return False
-        if self.velocidade != other.velocidade:
+        if self.angulo != other.angulo:
+            return False
+        if self.distancia != other.distancia:
             return False
         return True
 
@@ -132,16 +138,31 @@ class Movement(metaclass=Metaclass_Movement):
         self._direcao = value
 
     @builtins.property
-    def velocidade(self):
-        """Message field 'velocidade'."""
-        return self._velocidade
+    def angulo(self):
+        """Message field 'angulo'."""
+        return self._angulo
 
-    @velocidade.setter
-    def velocidade(self, value):
+    @angulo.setter
+    def angulo(self, value):
         if __debug__:
             assert \
                 isinstance(value, float), \
-                "The 'velocidade' field must be of type 'float'"
+                "The 'angulo' field must be of type 'float'"
             assert not (value < -3.402823466e+38 or value > 3.402823466e+38) or math.isinf(value), \
-                "The 'velocidade' field must be a float in [-3.402823466e+38, 3.402823466e+38]"
-        self._velocidade = value
+                "The 'angulo' field must be a float in [-3.402823466e+38, 3.402823466e+38]"
+        self._angulo = value
+
+    @builtins.property
+    def distancia(self):
+        """Message field 'distancia'."""
+        return self._distancia
+
+    @distancia.setter
+    def distancia(self, value):
+        if __debug__:
+            assert \
+                isinstance(value, float), \
+                "The 'distancia' field must be of type 'float'"
+            assert not (value < -3.402823466e+38 or value > 3.402823466e+38) or math.isinf(value), \
+                "The 'distancia' field must be a float in [-3.402823466e+38, 3.402823466e+38]"
+        self._distancia = value

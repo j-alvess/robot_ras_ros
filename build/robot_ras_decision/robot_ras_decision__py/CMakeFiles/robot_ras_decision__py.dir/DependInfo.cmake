@@ -17,6 +17,9 @@ set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/home/alves/ros2_ws/build/robot_ras_decision/rosidl_generator_py/robot_ras_decision/msg/__init__.py" "/home/alves/ros2_ws/build/robot_ras_decision/rosidl_generator_py/robot_ras_decision/_robot_ras_decision_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/alves/ros2_ws/build/robot_ras_decision/rosidl_generator_py/robot_ras_decision/msg/_movement.py" "/home/alves/ros2_ws/build/robot_ras_decision/rosidl_generator_py/robot_ras_decision/_robot_ras_decision_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/alves/ros2_ws/build/robot_ras_decision/rosidl_generator_py/robot_ras_decision/msg/_movement_s.c" "/home/alves/ros2_ws/build/robot_ras_decision/rosidl_generator_py/robot_ras_decision/_robot_ras_decision_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/alves/ros2_ws/build/robot_ras_decision/rosidl_generator_py/robot_ras_decision/srv/__init__.py" "/home/alves/ros2_ws/build/robot_ras_decision/rosidl_generator_py/robot_ras_decision/_robot_ras_decision_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/alves/ros2_ws/build/robot_ras_decision/rosidl_generator_py/robot_ras_decision/srv/_set_velocity.py" "/home/alves/ros2_ws/build/robot_ras_decision/rosidl_generator_py/robot_ras_decision/_robot_ras_decision_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/alves/ros2_ws/build/robot_ras_decision/rosidl_generator_py/robot_ras_decision/srv/_set_velocity_s.c" "/home/alves/ros2_ws/build/robot_ras_decision/rosidl_generator_py/robot_ras_decision/_robot_ras_decision_s.ep.rosidl_typesupport_fastrtps_c.c"
   )
 
 

@@ -22,10 +22,17 @@ extern "C"
 #include "rosidl_runtime_c/string.h"
 
 /// Struct defined in msg/Movement in the package robot_ras_decision.
+/**
+  * msg / Movimento .msg
+ */
 typedef struct robot_ras_decision__msg__Movement
 {
+  /// " frente " , " tras " , " direita " , " esquerda "
   rosidl_runtime_c__String direcao;
-  float velocidade;
+  /// O angulo para a curva (em radianos)
+  float angulo;
+  /// A distancia para o movimento retilineo (em metros)
+  float distancia;
 } robot_ras_decision__msg__Movement;
 
 // Struct for a sequence of robot_ras_decision__msg__Movement.

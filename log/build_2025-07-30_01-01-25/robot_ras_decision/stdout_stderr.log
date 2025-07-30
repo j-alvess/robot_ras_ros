@@ -1,0 +1,198 @@
+[  2%] Built target robot_ras_decision__cpp
+[ 11%] Built target robot_ras_decision__rosidl_generator_c
+[ 11%] Built target ament_cmake_python_symlink_robot_ras_decision
+[ 20%] Built target robot_ras_decision__rosidl_typesupport_fastrtps_cpp
+[ 30%] Built target robot_ras_decision__rosidl_typesupport_cpp
+[ 39%] Built target robot_ras_decision__rosidl_typesupport_fastrtps_c
+[ 48%] Built target robot_ras_decision__rosidl_typesupport_introspection_c
+[ 58%] Built target robot_ras_decision__rosidl_typesupport_introspection_cpp
+[ 67%] Built target robot_ras_decision__rosidl_typesupport_c
+[ 67%] Built target robot_ras_decision
+[35m[1mConsolidate compiler generated dependencies of target MotorControllerNode[0m
+[ 69%] Built target robot_ras_decision__py
+[ 74%] Built target DecisionNode
+[ 76%] [32mBuilding CXX object CMakeFiles/MotorControllerNode.dir/src/motor_controller_node.cpp.o[0m
+[ 83%] Built target robot_ras_decision__rosidl_generator_py
+[ 93%] Built target robot_ras_decision__rosidl_typesupport_c__pyext
+[ 93%] Built target robot_ras_decision__rosidl_typesupport_fastrtps_c__pyext
+[ 97%] Built target robot_ras_decision__rosidl_typesupport_introspection_c__pyext
+running egg_info
+writing robot_ras_decision.egg-info/PKG-INFO
+writing dependency_links to robot_ras_decision.egg-info/dependency_links.txt
+writing top-level names to robot_ras_decision.egg-info/top_level.txt
+reading manifest file 'robot_ras_decision.egg-info/SOURCES.txt'
+writing manifest file 'robot_ras_decision.egg-info/SOURCES.txt'
+[ 97%] Built target ament_cmake_python_build_robot_ras_decision_egg
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/motor_controller_node.cpp:[m[K In member function ‘[01m[Kvoid MotorControllerNode::movement_callback(const Movement&) const[m[K’:
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/motor_controller_node.cpp:41:18:[m[K [01;31m[Kerror: [m[Kcould not convert ‘[01m[Kdirecao.std::__cxx11::basic_string<char>::operator=(((const char*)"front"))[m[K’ from ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’ to ‘[01m[Kbool[m[K’
+   41 |       if([01;31m[Kdirecao = "front"[m[K) {
+      |          [01;31m[K~~~~~~~~^~~~~~~~~[m[K
+      |                  [01;31m[K|[m[K
+      |                  [01;31m[Kstd::__cxx11::basic_string<char>[m[K
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/motor_controller_node.cpp:43:26:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator-[m[K’ (operand types are ‘[01m[Krclcpp::Time[m[K’ and ‘[01m[Kfloat[m[K’)
+   43 |         while([32m[KtempoAtual[m[K [01;31m[K-[m[K [34m[KtempoInicial[m[K < tempoExec) {
+      |               [32m[K~~~~~~~~~~[m[K [01;31m[K^[m[K [34m[K~~~~~~~~~~~~[m[K
+      |               [32m[K|[m[K            [34m[K|[m[K
+      |               [32m[Krclcpp::Time[m[K [34m[Kfloat[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/clock.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/timer.hpp:27[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:30[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/motor_controller_node.cpp:6[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/time.hpp:155:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Duration rclcpp::Time::operator-(const rclcpp::Time&) const[m[K’
+  155 |   [01;36m[Koperator[m[K-(const rclcpp::Time & rhs) const;
+      |   [01;36m[K^~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/time.hpp:155:34:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kfloat[m[K’ to ‘[01m[Kconst rclcpp::Time&[m[K’
+  155 |   operator-([01;36m[Kconst rclcpp::Time & rhs[m[K) const;
+      |             [01;36m[K~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/time.hpp:162:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Time rclcpp::Time::operator-(const rclcpp::Duration&) const[m[K’
+  162 |   [01;36m[Koperator[m[K-(const rclcpp::Duration & rhs) const;
+      |   [01;36m[K^~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/time.hpp:162:38:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kfloat[m[K’ to ‘[01m[Kconst rclcpp::Duration&[m[K’
+  162 |   operator-([01;36m[Kconst rclcpp::Duration & rhs[m[K) const;
+      |             [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/motor_controller_node.cpp:44:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kvelocidade_linear[m[K’ was not declared in this scope; did you mean ‘[01m[Kvelocidade_linear_[m[K’?
+   44 |           vel1 = [01;31m[Kvelocidade_linear[m[K;
+      |                  [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+      |                  [32m[Kvelocidade_linear_[m[K
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/motor_controller_node.cpp:47:25:[m[K [01;31m[Kerror: [m[Kcould not convert ‘[01m[Kdirecao.std::__cxx11::basic_string<char>::operator=(((const char*)"rear"))[m[K’ from ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’ to ‘[01m[Kbool[m[K’
+   47 |       } else if([01;31m[Kdirecao = "rear"[m[K) {
+      |                 [01;31m[K~~~~~~~~^~~~~~~~[m[K
+      |                         [01;31m[K|[m[K
+      |                         [01;31m[Kstd::__cxx11::basic_string<char>[m[K
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/motor_controller_node.cpp:49:26:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator-[m[K’ (operand types are ‘[01m[Krclcpp::Time[m[K’ and ‘[01m[Kfloat[m[K’)
+   49 |         while([32m[KtempoAtual[m[K [01;31m[K-[m[K [34m[KtempoInicial[m[K < tempoExec) {
+      |               [32m[K~~~~~~~~~~[m[K [01;31m[K^[m[K [34m[K~~~~~~~~~~~~[m[K
+      |               [32m[K|[m[K            [34m[K|[m[K
+      |               [32m[Krclcpp::Time[m[K [34m[Kfloat[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/clock.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/timer.hpp:27[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:30[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/motor_controller_node.cpp:6[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/time.hpp:155:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Duration rclcpp::Time::operator-(const rclcpp::Time&) const[m[K’
+  155 |   [01;36m[Koperator[m[K-(const rclcpp::Time & rhs) const;
+      |   [01;36m[K^~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/time.hpp:155:34:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kfloat[m[K’ to ‘[01m[Kconst rclcpp::Time&[m[K’
+  155 |   operator-([01;36m[Kconst rclcpp::Time & rhs[m[K) const;
+      |             [01;36m[K~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/time.hpp:162:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Time rclcpp::Time::operator-(const rclcpp::Duration&) const[m[K’
+  162 |   [01;36m[Koperator[m[K-(const rclcpp::Duration & rhs) const;
+      |   [01;36m[K^~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/time.hpp:162:38:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kfloat[m[K’ to ‘[01m[Kconst rclcpp::Duration&[m[K’
+  162 |   operator-([01;36m[Kconst rclcpp::Duration & rhs[m[K) const;
+      |             [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/motor_controller_node.cpp:50:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kvelocidade_linear[m[K’ was not declared in this scope; did you mean ‘[01m[Kvelocidade_linear_[m[K’?
+   50 |           vel1 = -[01;31m[Kvelocidade_linear[m[K;
+      |                   [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+      |                   [32m[Kvelocidade_linear_[m[K
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/motor_controller_node.cpp:53:25:[m[K [01;31m[Kerror: [m[Kcould not convert ‘[01m[Kdirecao.std::__cxx11::basic_string<char>::operator=(((const char*)"left"))[m[K’ from ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’ to ‘[01m[Kbool[m[K’
+   53 |       } else if([01;31m[Kdirecao = "left"[m[K) {
+      |                 [01;31m[K~~~~~~~~^~~~~~~~[m[K
+      |                         [01;31m[K|[m[K
+      |                         [01;31m[Kstd::__cxx11::basic_string<char>[m[K
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/motor_controller_node.cpp:55:26:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator-[m[K’ (operand types are ‘[01m[Krclcpp::Time[m[K’ and ‘[01m[Kfloat[m[K’)
+   55 |         while([32m[KtempoAtual[m[K [01;31m[K-[m[K [34m[KtempoInicial[m[K < tempoExec) {
+      |               [32m[K~~~~~~~~~~[m[K [01;31m[K^[m[K [34m[K~~~~~~~~~~~~[m[K
+      |               [32m[K|[m[K            [34m[K|[m[K
+      |               [32m[Krclcpp::Time[m[K [34m[Kfloat[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/clock.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/timer.hpp:27[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:30[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/motor_controller_node.cpp:6[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/time.hpp:155:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Duration rclcpp::Time::operator-(const rclcpp::Time&) const[m[K’
+  155 |   [01;36m[Koperator[m[K-(const rclcpp::Time & rhs) const;
+      |   [01;36m[K^~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/time.hpp:155:34:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kfloat[m[K’ to ‘[01m[Kconst rclcpp::Time&[m[K’
+  155 |   operator-([01;36m[Kconst rclcpp::Time & rhs[m[K) const;
+      |             [01;36m[K~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/time.hpp:162:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Time rclcpp::Time::operator-(const rclcpp::Duration&) const[m[K’
+  162 |   [01;36m[Koperator[m[K-(const rclcpp::Duration & rhs) const;
+      |   [01;36m[K^~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/time.hpp:162:38:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kfloat[m[K’ to ‘[01m[Kconst rclcpp::Duration&[m[K’
+  162 |   operator-([01;36m[Kconst rclcpp::Duration & rhs[m[K) const;
+      |             [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/motor_controller_node.cpp:57:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kvelocidade_linear[m[K’ was not declared in this scope; did you mean ‘[01m[Kvelocidade_linear_[m[K’?
+   57 |           vel2 = [01;31m[Kvelocidade_linear[m[K;
+      |                  [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+      |                  [32m[Kvelocidade_linear_[m[K
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/motor_controller_node.cpp:59:20:[m[K [01;31m[Kerror: [m[Kcould not convert ‘[01m[Kdirecao.std::__cxx11::basic_string<char>::operator=(((const char*)"left"))[m[K’ from ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’ to ‘[01m[Kbool[m[K’
+   59 |       } if([01;31m[Kdirecao = "left"[m[K) {
+      |            [01;31m[K~~~~~~~~^~~~~~~~[m[K
+      |                    [01;31m[K|[m[K
+      |                    [01;31m[Kstd::__cxx11::basic_string<char>[m[K
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/motor_controller_node.cpp:60:32:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kconst Movement[m[K’ {aka ‘[01m[Kconst robot_ras_decision::msg::Movement_<std::allocator<void> >[m[K’}
+   60 |         tempoExec = -(movimento[01;31m[K->[m[Kangulo/velocidade_angular);
+      |                                [01;31m[K^~[m[K
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/motor_controller_node.cpp:61:26:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator-[m[K’ (operand types are ‘[01m[Krclcpp::Time[m[K’ and ‘[01m[Kfloat[m[K’)
+   61 |         while([32m[KtempoAtual[m[K [01;31m[K-[m[K [34m[KtempoInicial[m[K < tempoExec) {
+      |               [32m[K~~~~~~~~~~[m[K [01;31m[K^[m[K [34m[K~~~~~~~~~~~~[m[K
+      |               [32m[K|[m[K            [34m[K|[m[K
+      |               [32m[Krclcpp::Time[m[K [34m[Kfloat[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/clock.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/timer.hpp:27[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:30[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/motor_controller_node.cpp:6[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/time.hpp:155:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Duration rclcpp::Time::operator-(const rclcpp::Time&) const[m[K’
+  155 |   [01;36m[Koperator[m[K-(const rclcpp::Time & rhs) const;
+      |   [01;36m[K^~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/time.hpp:155:34:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kfloat[m[K’ to ‘[01m[Kconst rclcpp::Time&[m[K’
+  155 |   operator-([01;36m[Kconst rclcpp::Time & rhs[m[K) const;
+      |             [01;36m[K~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/time.hpp:162:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Time rclcpp::Time::operator-(const rclcpp::Duration&) const[m[K’
+  162 |   [01;36m[Koperator[m[K-(const rclcpp::Duration & rhs) const;
+      |   [01;36m[K^~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/time.hpp:162:38:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kfloat[m[K’ to ‘[01m[Kconst rclcpp::Duration&[m[K’
+  162 |   operator-([01;36m[Kconst rclcpp::Duration & rhs[m[K) const;
+      |             [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/motor_controller_node.cpp:62:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kvelocidade_linear[m[K’ was not declared in this scope; did you mean ‘[01m[Kvelocidade_linear_[m[K’?
+   62 |           vel1 = [01;31m[Kvelocidade_linear[m[K;
+      |                  [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+      |                  [32m[Kvelocidade_linear_[m[K
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/motor_controller_node.cpp:[m[K In member function ‘[01m[Kvoid MotorControllerNode::setVelocity(const std::shared_ptr<robot_ras_decision::srv::SetVelocity_Request_<std::allocator<void> > >&, std::shared_ptr<robot_ras_decision::srv::SetVelocity_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/motor_controller_node.cpp:81:80:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresponse[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   81 |           [01;35m[Kstd::shared_ptr<robot_ras_decision::srv::SetVelocity::Response>      response[m[K) {
+      |           [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/motor_controller_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/motor_controller_node.cpp:102:3:[m[K [01;31m[Kerror: [m[K‘[01m[Knode[m[K’ was not declared in this scope
+  102 |   [01;31m[Knode[m[K->create_service<robot_ras_decision::srv::SetVelocity>("mudar_velocidade", &setVelocity);
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/motor_controller_node.cpp:102:60:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+  102 |   node->create_service<robot_ras_decision::srv::SetVelocity[01;31m[K>[m[K("mudar_velocidade", &setVelocity);
+      |                                                            [01;31m[K^[m[K
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/motor_controller_node.cpp:102:62:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+  102 |   node->create_service<robot_ras_decision::srv::SetVelocity>([01;35m[K"mudar_velocidade"[m[K, &setVelocity);
+      |                                                              [01;35m[K^~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/MotorControllerNode.dir/build.make:76: CMakeFiles/MotorControllerNode.dir/src/motor_controller_node.cpp.o] Erro 1
+gmake[1]: *** [CMakeFiles/Makefile2:596: CMakeFiles/MotorControllerNode.dir/all] Erro 2
+gmake: *** [Makefile:146: all] Erro 2

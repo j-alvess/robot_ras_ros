@@ -1,0 +1,1 @@
+/home/alves/ros2_ws/build/robot_ras_decision/rosidl_generator_c/robot_ras_decision/srv/detail/set_velocity__type_support.h

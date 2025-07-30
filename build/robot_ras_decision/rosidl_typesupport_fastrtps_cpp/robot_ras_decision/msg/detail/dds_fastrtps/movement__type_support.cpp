@@ -34,8 +34,10 @@ cdr_serialize(
 {
   // Member: direcao
   cdr << ros_message.direcao;
-  // Member: velocidade
-  cdr << ros_message.velocidade;
+  // Member: angulo
+  cdr << ros_message.angulo;
+  // Member: distancia
+  cdr << ros_message.distancia;
   return true;
 }
 
@@ -48,8 +50,11 @@ cdr_deserialize(
   // Member: direcao
   cdr >> ros_message.direcao;
 
-  // Member: velocidade
-  cdr >> ros_message.velocidade;
+  // Member: angulo
+  cdr >> ros_message.angulo;
+
+  // Member: distancia
+  cdr >> ros_message.distancia;
 
   return true;
 }
@@ -71,9 +76,15 @@ get_serialized_size(
   current_alignment += padding +
     eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
     (ros_message.direcao.size() + 1);
-  // Member: velocidade
+  // Member: angulo
   {
-    size_t item_size = sizeof(ros_message.velocidade);
+    size_t item_size = sizeof(ros_message.angulo);
+    current_alignment += item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
+  // Member: distancia
+  {
+    size_t item_size = sizeof(ros_message.distancia);
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
@@ -114,7 +125,16 @@ max_serialized_size_Movement(
     }
   }
 
-  // Member: velocidade
+  // Member: angulo
+  {
+    size_t array_size = 1;
+
+    last_member_size = array_size * sizeof(uint32_t);
+    current_alignment += array_size * sizeof(uint32_t) +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint32_t));
+  }
+
+  // Member: distancia
   {
     size_t array_size = 1;
 
@@ -131,7 +151,7 @@ max_serialized_size_Movement(
     using DataType = robot_ras_decision::msg::Movement;
     is_plain =
       (
-      offsetof(DataType, velocidade) +
+      offsetof(DataType, distancia) +
       last_member_size
       ) == ret_val;
   }

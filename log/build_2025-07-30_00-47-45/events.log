@@ -1,0 +1,401 @@
+[0.000000] (-) TimerEvent: {}
+[0.000514] (robot_ras_decision) JobQueued: {'identifier': 'robot_ras_decision', 'dependencies': OrderedDict()}
+[0.000661] (robot_ras_ros) JobQueued: {'identifier': 'robot_ras_ros', 'dependencies': OrderedDict()}
+[0.000697] (robot_ras_decision) JobStarted: {'identifier': 'robot_ras_decision'}
+[0.004237] (robot_ras_ros) JobStarted: {'identifier': 'robot_ras_ros'}
+[0.007268] (robot_ras_decision) JobProgress: {'identifier': 'robot_ras_decision', 'progress': 'cmake'}
+[0.008090] (robot_ras_decision) JobProgress: {'identifier': 'robot_ras_decision', 'progress': 'build'}
+[0.008776] (robot_ras_decision) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/alves/ros2_ws/build/robot_ras_decision', '--', '-j16', '-l16'], 'cwd': '/home/alves/ros2_ws/build/robot_ras_decision', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'pt_BR:en'), ('USER', 'alves'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/alves'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.102.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '2193'), ('SYSTEMD_EXEC_PID', '2713'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '6432'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'alves'), ('JOURNAL_STREAM', '8:7783'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'alves'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/alves/.local/bin:/opt/ros/humble/bin:/home/alves/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/alves-Nitro-ANV15-51:@/tmp/.ICE-unix/2685,unix/alves-Nitro-ANV15-51:/tmp/.ICE-unix/2685'), ('INVOCATION_ID', 'dde67489167f44958e2d3f1ed149e507'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'pt_BR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-6f692281ea.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/alves/ros2_ws/build/robot_ras_decision'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/home/alves/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.011577] (robot_ras_ros) JobProgress: {'identifier': 'robot_ras_ros', 'progress': 'cmake'}
+[0.012242] (robot_ras_ros) JobProgress: {'identifier': 'robot_ras_ros', 'progress': 'build'}
+[0.012512] (robot_ras_ros) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/alves/ros2_ws/build/robot_ras_ros', '--', '-j16', '-l16'], 'cwd': '/home/alves/ros2_ws/build/robot_ras_ros', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'pt_BR:en'), ('USER', 'alves'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/alves'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.102.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '2193'), ('SYSTEMD_EXEC_PID', '2713'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '6432'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'alves'), ('JOURNAL_STREAM', '8:7783'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'alves'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/alves/.local/bin:/opt/ros/humble/bin:/home/alves/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/alves-Nitro-ANV15-51:@/tmp/.ICE-unix/2685,unix/alves-Nitro-ANV15-51:/tmp/.ICE-unix/2685'), ('INVOCATION_ID', 'dde67489167f44958e2d3f1ed149e507'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'pt_BR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-6f692281ea.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/alves/ros2_ws/build/robot_ras_ros'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/home/alves/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.031165] (robot_ras_decision) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.046754] (robot_ras_ros) CommandEnded: {'returncode': 0}
+[0.047600] (robot_ras_ros) JobProgress: {'identifier': 'robot_ras_ros', 'progress': 'install'}
+[0.055189] (robot_ras_ros) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/alves/ros2_ws/build/robot_ras_ros'], 'cwd': '/home/alves/ros2_ws/build/robot_ras_ros', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'pt_BR:en'), ('USER', 'alves'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/alves'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.102.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '2193'), ('SYSTEMD_EXEC_PID', '2713'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '6432'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'alves'), ('JOURNAL_STREAM', '8:7783'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'alves'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/alves/.local/bin:/opt/ros/humble/bin:/home/alves/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/alves-Nitro-ANV15-51:@/tmp/.ICE-unix/2685,unix/alves-Nitro-ANV15-51:/tmp/.ICE-unix/2685'), ('INVOCATION_ID', 'dde67489167f44958e2d3f1ed149e507'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'pt_BR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-6f692281ea.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/alves/ros2_ws/build/robot_ras_ros'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/home/alves/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.061400] (robot_ras_ros) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.061746] (robot_ras_ros) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.062199] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/urdf/chassis.xacro\n'}
+[0.062370] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/urdf/gazebo_elementos.xacro\n'}
+[0.062541] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/urdf/lidar.xacro\n'}
+[0.062637] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/urdf/materiais.xacro\n'}
+[0.062705] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/urdf/propriedades.xacro\n'}
+[0.062752] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/urdf/robot.urdf.xacro\n'}
+[0.062802] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/urdf/roda.xacro\n'}
+[0.062850] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/urdf/roda_boba.xacro\n'}
+[0.063000] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/launch/gazebo.launch.py\n'}
+[0.063054] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/launch/spawn.launch.py\n'}
+[0.063175] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/worlds/hacka_labirinth.world\n'}
+[0.063225] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/worlds/labirinth.world\n'}
+[0.063335] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/params/ros2_control.yaml\n'}
+[0.063481] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/rviz/default.rviz\n'}
+[0.063658] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/models/hacka_labirinth/model.config\n'}
+[0.063782] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/models/hacka_labirinth/model.sdf\n'}
+[0.063908] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/models/hacka_wall/model.config\n'}
+[0.064000] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/models/hacka_wall/model.sdf\n'}
+[0.064131] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/models/labirinth/model.config\n'}
+[0.064249] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/models/labirinth/model.sdf\n'}
+[0.064349] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/models/walls/model.config\n'}
+[0.064397] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/models/walls/model.sdf\n'}
+[0.064459] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/package.xml\n'}
+[0.064506] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_ros/share/ament_index/resource_index/package_run_dependencies/robot_ras_ros\n'}
+[0.064553] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_ros/share/ament_index/resource_index/parent_prefix_path/robot_ras_ros\n'}
+[0.064596] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/environment/ament_prefix_path.sh\n'}
+[0.064655] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/environment/ament_prefix_path.dsv\n'}
+[0.064714] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/environment/path.sh\n'}
+[0.064772] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/environment/path.dsv\n'}
+[0.064827] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/local_setup.bash\n'}
+[0.064885] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/local_setup.sh\n'}
+[0.064942] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/local_setup.zsh\n'}
+[0.064997] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/local_setup.dsv\n'}
+[0.065052] (robot_ras_ros) StdoutLine: {'line': b'-- Symlinking: /home/alves/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/package.dsv\n'}
+[0.073495] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_ros/share/ament_index/resource_index/packages/robot_ras_ros\n'}
+[0.073712] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/cmake/robot_ras_rosConfig.cmake\n'}
+[0.073847] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/cmake/robot_ras_rosConfig-version.cmake\n'}
+[0.074075] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alves/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/package.xml\n'}
+[0.076527] (robot_ras_ros) CommandEnded: {'returncode': 0}
+[0.087788] (robot_ras_ros) JobEnded: {'identifier': 'robot_ras_ros', 'rc': 0}
+[0.099762] (-) TimerEvent: {}
+[0.124611] (robot_ras_decision) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.128929] (robot_ras_decision) StdoutLine: {'line': b'-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.147851] (robot_ras_decision) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.149397] (robot_ras_decision) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.153158] (robot_ras_decision) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.159259] (robot_ras_decision) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.167277] (robot_ras_decision) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.188302] (robot_ras_decision) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.189125] (robot_ras_decision) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.199828] (-) TimerEvent: {}
+[0.259531] (robot_ras_decision) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.292096] (robot_ras_decision) StdoutLine: {'line': b'-- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.299958] (-) TimerEvent: {}
+[0.311094] (robot_ras_decision) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.400089] (-) TimerEvent: {}
+[0.500382] (-) TimerEvent: {}
+[0.557311] (robot_ras_decision) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.600466] (-) TimerEvent: {}
+[0.700787] (-) TimerEvent: {}
+[0.801224] (-) TimerEvent: {}
+[0.863398] (robot_ras_decision) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.901441] (-) TimerEvent: {}
+[1.002214] (-) TimerEvent: {}
+[1.007411] (robot_ras_decision) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.025826] (robot_ras_decision) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.044876] (robot_ras_decision) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.045006] (robot_ras_decision) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.045048] (robot_ras_decision) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.055116] (robot_ras_decision) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):\n'}
+[1.055255] (robot_ras_decision) StderrLine: {'line': b'  Use rosidl_get_typesupport_target() and target_link_libraries() instead of\n'}
+[1.055299] (robot_ras_decision) StderrLine: {'line': b'  rosidl_target_interfaces()\n'}
+[1.055335] (robot_ras_decision) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.055371] (robot_ras_decision) StderrLine: {'line': b'  CMakeLists.txt:29 (rosidl_target_interfaces)\n'}
+[1.055411] (robot_ras_decision) StderrLine: {'line': b'\n'}
+[1.055445] (robot_ras_decision) StderrLine: {'line': b'\x1b[0m\n'}
+[1.055948] (robot_ras_decision) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):\n'}
+[1.055987] (robot_ras_decision) StderrLine: {'line': b'  Use rosidl_get_typesupport_target() and target_link_libraries() instead of\n'}
+[1.056022] (robot_ras_decision) StderrLine: {'line': b'  rosidl_target_interfaces()\n'}
+[1.056055] (robot_ras_decision) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.056087] (robot_ras_decision) StderrLine: {'line': b'  CMakeLists.txt:35 (rosidl_target_interfaces)\n'}
+[1.056120] (robot_ras_decision) StderrLine: {'line': b'\n'}
+[1.056152] (robot_ras_decision) StderrLine: {'line': b'\x1b[0m\n'}
+[1.060415] (robot_ras_decision) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.086756] (robot_ras_decision) StdoutLine: {'line': b'-- Generating done\n'}
+[1.095781] (robot_ras_decision) StdoutLine: {'line': b'-- Build files have been written to: /home/alves/ros2_ws/build/robot_ras_decision\n'}
+[1.102289] (-) TimerEvent: {}
+[1.119070] (robot_ras_decision) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[1.127848] (robot_ras_decision) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.133553] (robot_ras_decision) StdoutLine: {'line': b'[  4%] Built target ament_cmake_python_symlink_robot_ras_decision\n'}
+[1.202427] (-) TimerEvent: {}
+[1.302914] (-) TimerEvent: {}
+[1.306500] (robot_ras_decision) StdoutLine: {'line': b'running egg_info\n'}
+[1.307072] (robot_ras_decision) StdoutLine: {'line': b'writing robot_ras_decision.egg-info/PKG-INFO\n'}
+[1.307229] (robot_ras_decision) StdoutLine: {'line': b'writing dependency_links to robot_ras_decision.egg-info/dependency_links.txt\n'}
+[1.307337] (robot_ras_decision) StdoutLine: {'line': b'writing top-level names to robot_ras_decision.egg-info/top_level.txt\n'}
+[1.308942] (robot_ras_decision) StdoutLine: {'line': b"reading manifest file 'robot_ras_decision.egg-info/SOURCES.txt'\n"}
+[1.309299] (robot_ras_decision) StdoutLine: {'line': b"writing manifest file 'robot_ras_decision.egg-info/SOURCES.txt'\n"}
+[1.331094] (robot_ras_decision) StdoutLine: {'line': b'[  4%] Built target ament_cmake_python_build_robot_ras_decision_egg\n'}
+[1.369595] (robot_ras_decision) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target robot_ras_decision__rosidl_generator_c\x1b[0m\n'}
+[1.373837] (robot_ras_decision) StdoutLine: {'line': b'[  4%] Built target robot_ras_decision__cpp\n'}
+[1.380966] (robot_ras_decision) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object CMakeFiles/robot_ras_decision__rosidl_generator_c.dir/rosidl_generator_c/robot_ras_decision/msg/detail/movement__functions.c.o\x1b[0m\n'}
+[1.381393] (robot_ras_decision) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/robot_ras_decision__rosidl_generator_c.dir/rosidl_generator_c/robot_ras_decision/srv/detail/set_velocity__functions.c.o\x1b[0m\n'}
+[1.383320] (robot_ras_decision) StdoutLine: {'line': b'[ 11%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[1.383769] (robot_ras_decision) StdoutLine: {'line': b'[ 13%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.384852] (robot_ras_decision) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.403124] (-) TimerEvent: {}
+[1.428829] (robot_ras_decision) StdoutLine: {'line': b'[ 18%] \x1b[32m\x1b[1mLinking C shared library librobot_ras_decision__rosidl_generator_c.so\x1b[0m\n'}
+[1.460098] (robot_ras_decision) StdoutLine: {'line': b'[ 18%] Built target robot_ras_decision__rosidl_generator_c\n'}
+[1.467045] (robot_ras_decision) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.467317] (robot_ras_decision) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[1.468742] (robot_ras_decision) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.503208] (-) TimerEvent: {}
+[1.580979] (robot_ras_decision) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target robot_ras_decision__rosidl_typesupport_cpp\x1b[0m\n'}
+[1.591240] (robot_ras_decision) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/robot_ras_decision__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robot_ras_decision/srv/set_velocity__type_support.cpp.o\x1b[0m\n'}
+[1.593517] (robot_ras_decision) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/robot_ras_decision__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robot_ras_decision/msg/movement__type_support.cpp.o\x1b[0m\n'}
+[1.603377] (-) TimerEvent: {}
+[1.608785] (robot_ras_decision) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target robot_ras_decision__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[1.617840] (robot_ras_decision) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/robot_ras_decision__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robot_ras_decision/msg/detail/movement__type_support.cpp.o\x1b[0m\n'}
+[1.618456] (robot_ras_decision) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target robot_ras_decision__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[1.621825] (robot_ras_decision) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/robot_ras_decision__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robot_ras_decision/srv/detail/set_velocity__type_support.cpp.o\x1b[0m\n'}
+[1.631715] (robot_ras_decision) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/robot_ras_decision__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robot_ras_decision/srv/detail/dds_fastrtps/set_velocity__type_support.cpp.o\x1b[0m\n'}
+[1.631893] (robot_ras_decision) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/robot_ras_decision__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robot_ras_decision/msg/detail/dds_fastrtps/movement__type_support.cpp.o\x1b[0m\n'}
+[1.684475] (robot_ras_decision) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target robot_ras_decision__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[1.697324] (robot_ras_decision) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/robot_ras_decision__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robot_ras_decision/msg/detail/movement__type_support_c.cpp.o\x1b[0m\n'}
+[1.697562] (robot_ras_decision) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/robot_ras_decision__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robot_ras_decision/srv/detail/set_velocity__type_support_c.cpp.o\x1b[0m\n'}
+[1.703585] (-) TimerEvent: {}
+[1.724151] (robot_ras_decision) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target robot_ras_decision__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[1.737820] (robot_ras_decision) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding C object CMakeFiles/robot_ras_decision__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robot_ras_decision/msg/detail/movement__type_support.c.o\x1b[0m\n'}
+[1.738880] (robot_ras_decision) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding C object CMakeFiles/robot_ras_decision__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robot_ras_decision/srv/detail/set_velocity__type_support.c.o\x1b[0m\n'}
+[1.775538] (robot_ras_decision) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target robot_ras_decision__rosidl_typesupport_c\x1b[0m\n'}
+[1.779708] (robot_ras_decision) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking C shared library librobot_ras_decision__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[1.786924] (robot_ras_decision) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/robot_ras_decision__rosidl_typesupport_c.dir/rosidl_typesupport_c/robot_ras_decision/msg/movement__type_support.cpp.o\x1b[0m\n'}
+[1.788989] (robot_ras_decision) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/robot_ras_decision__rosidl_typesupport_c.dir/rosidl_typesupport_c/robot_ras_decision/srv/set_velocity__type_support.cpp.o\x1b[0m\n'}
+[1.803748] (-) TimerEvent: {}
+[1.813308] (robot_ras_decision) StdoutLine: {'line': b'[ 55%] Built target robot_ras_decision__rosidl_typesupport_introspection_c\n'}
+[1.822803] (robot_ras_decision) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX shared library librobot_ras_decision__rosidl_typesupport_c.so\x1b[0m\n'}
+[1.864213] (robot_ras_decision) StdoutLine: {'line': b'[ 58%] Built target robot_ras_decision__rosidl_typesupport_c\n'}
+[1.887999] (robot_ras_decision) StdoutLine: {'line': b'[ 60%] \x1b[32m\x1b[1mLinking CXX shared library librobot_ras_decision__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[1.903889] (-) TimerEvent: {}
+[1.921259] (robot_ras_decision) StdoutLine: {'line': b'[ 60%] Built target robot_ras_decision__rosidl_typesupport_cpp\n'}
+[1.969199] (robot_ras_decision) StdoutLine: {'line': b'[ 62%] \x1b[32m\x1b[1mLinking CXX shared library librobot_ras_decision__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[1.996003] (robot_ras_decision) StdoutLine: {'line': b'[ 65%] \x1b[32m\x1b[1mLinking CXX shared library librobot_ras_decision__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[2.003993] (-) TimerEvent: {}
+[2.049833] (robot_ras_decision) StdoutLine: {'line': b'[ 65%] Built target robot_ras_decision__rosidl_typesupport_fastrtps_c\n'}
+[2.053189] (robot_ras_decision) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking CXX shared library librobot_ras_decision__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[2.053432] (robot_ras_decision) StdoutLine: {'line': b'[ 67%] Built target robot_ras_decision__rosidl_typesupport_introspection_cpp\n'}
+[2.104236] (-) TimerEvent: {}
+[2.112666] (robot_ras_decision) StdoutLine: {'line': b'[ 67%] Built target robot_ras_decision__rosidl_typesupport_fastrtps_cpp\n'}
+[2.128041] (robot_ras_decision) StdoutLine: {'line': b'[ 67%] Built target robot_ras_decision\n'}
+[2.137071] (robot_ras_decision) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target MotorControllerNode\x1b[0m\n'}
+[2.137270] (robot_ras_decision) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target DecisionNode\x1b[0m\n'}
+[2.146027] (robot_ras_decision) StdoutLine: {'line': b'[ 69%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[2.149016] (robot_ras_decision) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/MotorControllerNode.dir/src/motor_controller_node.cpp.o\x1b[0m\n'}
+[2.152862] (robot_ras_decision) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/DecisionNode.dir/src/decision_node.cpp.o\x1b[0m\n'}
+[2.204303] (-) TimerEvent: {}
+[2.304634] (-) TimerEvent: {}
+[2.406519] (-) TimerEvent: {}
+[2.482058] (robot_ras_decision) StdoutLine: {'line': b'[ 74%] Built target robot_ras_decision__py\n'}
+[2.491428] (robot_ras_decision) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target robot_ras_decision__rosidl_generator_py\x1b[0m\n'}
+[2.502530] (robot_ras_decision) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding C object CMakeFiles/robot_ras_decision__rosidl_generator_py.dir/rosidl_generator_py/robot_ras_decision/msg/_movement_s.c.o\x1b[0m\n'}
+[2.502844] (robot_ras_decision) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding C object CMakeFiles/robot_ras_decision__rosidl_generator_py.dir/rosidl_generator_py/robot_ras_decision/srv/_set_velocity_s.c.o\x1b[0m\n'}
+[2.506615] (-) TimerEvent: {}
+[2.594050] (robot_ras_decision) StdoutLine: {'line': b'[ 81%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/robot_ras_decision/librobot_ras_decision__rosidl_generator_py.so\x1b[0m\n'}
+[2.606711] (-) TimerEvent: {}
+[2.631971] (robot_ras_decision) StdoutLine: {'line': b'[ 81%] Built target robot_ras_decision__rosidl_generator_py\n'}
+[2.641775] (robot_ras_decision) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target robot_ras_decision__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[2.641997] (robot_ras_decision) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target robot_ras_decision__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[2.643131] (robot_ras_decision) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target robot_ras_decision__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[2.650487] (robot_ras_decision) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/robot_ras_decision__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/robot_ras_decision/_robot_ras_decision_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[2.653199] (robot_ras_decision) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding C object CMakeFiles/robot_ras_decision__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/robot_ras_decision/_robot_ras_decision_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[2.653513] (robot_ras_decision) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/robot_ras_decision__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/robot_ras_decision/_robot_ras_decision_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[2.706826] (-) TimerEvent: {}
+[2.724186] (robot_ras_decision) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/robot_ras_decision/robot_ras_decision_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[2.724589] (robot_ras_decision) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/robot_ras_decision/robot_ras_decision_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[2.752024] (robot_ras_decision) StdoutLine: {'line': b'[ 93%] Built target robot_ras_decision__rosidl_typesupport_c__pyext\n'}
+[2.752294] (robot_ras_decision) StdoutLine: {'line': b'[ 93%] Built target robot_ras_decision__rosidl_typesupport_fastrtps_c__pyext\n'}
+[2.774576] (robot_ras_decision) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/robot_ras_decision/robot_ras_decision_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[2.806965] (-) TimerEvent: {}
+[2.807289] (robot_ras_decision) StdoutLine: {'line': b'[ 95%] Built target robot_ras_decision__rosidl_typesupport_introspection_c__pyext\n'}
+[2.907061] (-) TimerEvent: {}
+[3.007510] (-) TimerEvent: {}
+[3.107829] (-) TimerEvent: {}
+[3.208086] (-) TimerEvent: {}
+[3.308370] (-) TimerEvent: {}
+[3.408669] (-) TimerEvent: {}
+[3.508984] (-) TimerEvent: {}
+[3.609272] (-) TimerEvent: {}
+[3.709602] (-) TimerEvent: {}
+[3.809997] (-) TimerEvent: {}
+[3.910264] (-) TimerEvent: {}
+[3.995297] (robot_ras_decision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/alves/ros2_ws/src/robot_ras_decision/src/motor_controller_node.cpp:80:64:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksrv\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Krobot_ras_decision\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Krcl_interfaces::srv\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[3.995553] (robot_ras_decision) StderrLine: {'line': b'   80 |     void setVelocity(const std::shared_ptr<robot_ras_decision::\x1b[01;31m\x1b[Ksrv\x1b[m\x1b[K::SetVelocity::Request> &request,\n'}
+[3.995606] (robot_ras_decision) StderrLine: {'line': b'      |                                                                \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.995640] (robot_ras_decision) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/describe_parameters.hpp:7\x1b[m\x1b[K,\n'}
+[3.995671] (robot_ras_decision) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_client.hpp:28\x1b[m\x1b[K,\n'}
+[3.995700] (robot_ras_decision) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:159\x1b[m\x1b[K,\n'}
+[3.995728] (robot_ras_decision) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/alves/ros2_ws/src/robot_ras_decision/src/motor_controller_node.cpp:6\x1b[m\x1b[K:\n'}
+[3.995755] (robot_ras_decision) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__struct.hpp:27:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krcl_interfaces::srv\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[3.995784] (robot_ras_decision) StderrLine: {'line': b'   27 | namespace \x1b[01;36m\x1b[Ksrv\x1b[m\x1b[K\n'}
+[3.995811] (robot_ras_decision) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.995838] (robot_ras_decision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/alves/ros2_ws/src/robot_ras_decision/src/motor_controller_node.cpp:80:89:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[3.995865] (robot_ras_decision) StderrLine: {'line': b'   80 |     void setVelocity(const std::shared_ptr<robot_ras_decision::srv::SetVelocity::Request\x1b[01;31m\x1b[K>\x1b[m\x1b[K &request,\n'}
+[3.995894] (robot_ras_decision) StderrLine: {'line': b'      |                                                                                         \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[3.995983] (robot_ras_decision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/alves/ros2_ws/src/robot_ras_decision/src/motor_controller_node.cpp:80:64:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksrv\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Krobot_ras_decision\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Krcl_interfaces::srv\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[3.996020] (robot_ras_decision) StderrLine: {'line': b'   80 |     void setVelocity(const std::shared_ptr<robot_ras_decision::\x1b[01;31m\x1b[Ksrv\x1b[m\x1b[K::SetVelocity::Request> &request,\n'}
+[3.996050] (robot_ras_decision) StderrLine: {'line': b'      |                                                                \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.996081] (robot_ras_decision) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/describe_parameters.hpp:7\x1b[m\x1b[K,\n'}
+[3.996110] (robot_ras_decision) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_client.hpp:28\x1b[m\x1b[K,\n'}
+[3.996140] (robot_ras_decision) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:159\x1b[m\x1b[K,\n'}
+[3.996169] (robot_ras_decision) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/alves/ros2_ws/src/robot_ras_decision/src/motor_controller_node.cpp:6\x1b[m\x1b[K:\n'}
+[3.996198] (robot_ras_decision) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__struct.hpp:27:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krcl_interfaces::srv\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[3.996228] (robot_ras_decision) StderrLine: {'line': b'   27 | namespace \x1b[01;36m\x1b[Ksrv\x1b[m\x1b[K\n'}
+[3.996257] (robot_ras_decision) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.996286] (robot_ras_decision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/alves/ros2_ws/src/robot_ras_decision/src/motor_controller_node.cpp:80:89:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[3.996316] (robot_ras_decision) StderrLine: {'line': b'   80 |     void setVelocity(const std::shared_ptr<robot_ras_decision::srv::SetVelocity::Request\x1b[01;31m\x1b[K>\x1b[m\x1b[K &request,\n'}
+[3.996346] (robot_ras_decision) StderrLine: {'line': b'      |                                                                                         \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[3.996425] (robot_ras_decision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/alves/ros2_ws/src/robot_ras_decision/src/motor_controller_node.cpp:80:64:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksrv\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Krobot_ras_decision\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Krcl_interfaces::srv\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[3.996513] (robot_ras_decision) StderrLine: {'line': b'   80 |     void setVelocity(const std::shared_ptr<robot_ras_decision::\x1b[01;31m\x1b[Ksrv\x1b[m\x1b[K::SetVelocity::Request> &request,\n'}
+[3.996545] (robot_ras_decision) StderrLine: {'line': b'      |                                                                \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.996573] (robot_ras_decision) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/describe_parameters.hpp:7\x1b[m\x1b[K,\n'}
+[3.996602] (robot_ras_decision) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_client.hpp:28\x1b[m\x1b[K,\n'}
+[3.996628] (robot_ras_decision) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:159\x1b[m\x1b[K,\n'}
+[3.996655] (robot_ras_decision) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/alves/ros2_ws/src/robot_ras_decision/src/motor_controller_node.cpp:6\x1b[m\x1b[K:\n'}
+[3.996683] (robot_ras_decision) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__struct.hpp:27:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krcl_interfaces::srv\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[3.996712] (robot_ras_decision) StderrLine: {'line': b'   27 | namespace \x1b[01;36m\x1b[Ksrv\x1b[m\x1b[K\n'}
+[3.996738] (robot_ras_decision) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.996765] (robot_ras_decision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/alves/ros2_ws/src/robot_ras_decision/src/motor_controller_node.cpp:80:89:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[3.996791] (robot_ras_decision) StderrLine: {'line': b'   80 |     void setVelocity(const std::shared_ptr<robot_ras_decision::srv::SetVelocity::Request\x1b[01;31m\x1b[K>\x1b[m\x1b[K &request,\n'}
+[3.996816] (robot_ras_decision) StderrLine: {'line': b'      |                                                                                         \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[3.996843] (robot_ras_decision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/alves/ros2_ws/src/robot_ras_decision/src/motor_controller_node.cpp:80:28:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid template-id\n'}
+[3.996870] (robot_ras_decision) StderrLine: {'line': b'   80 |     void setVelocity(const \x1b[01;31m\x1b[Kstd\x1b[m\x1b[K::shared_ptr<robot_ras_decision::srv::SetVelocity::Request> &request,\n'}
+[3.996897] (robot_ras_decision) StderrLine: {'line': b'      |                            \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.996924] (robot_ras_decision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/alves/ros2_ws/src/robot_ras_decision/src/motor_controller_node.cpp:80:64:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krobot_ras_decision::srv\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[3.996950] (robot_ras_decision) StderrLine: {'line': b'   80 |     void setVelocity(const std::shared_ptr<robot_ras_decision::\x1b[01;31m\x1b[Ksrv\x1b[m\x1b[K::SetVelocity::Request> &request,\n'}
+[3.996976] (robot_ras_decision) StderrLine: {'line': b'      |                                                                \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.997002] (robot_ras_decision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/alves/ros2_ws/src/robot_ras_decision/src/motor_controller_node.cpp:80:22:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate placeholder type \xe2\x80\x98\x1b[01m\x1b[Kconst shared_ptr<...auto...>\x1b[m\x1b[K\xe2\x80\x99 must be followed by a simple declarator-id\n'}
+[3.997031] (robot_ras_decision) StderrLine: {'line': b'   80 |     void setVelocity(\x1b[01;31m\x1b[Kconst\x1b[m\x1b[K std::shared_ptr<robot_ras_decision::srv::SetVelocity::Request> &request,\n'}
+[3.997057] (robot_ras_decision) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[3.997083] (robot_ras_decision) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:53\x1b[m\x1b[K,\n'}
+[3.997109] (robot_ras_decision) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[3.997135] (robot_ras_decision) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/alves/ros2_ws/src/robot_ras_decision/src/motor_controller_node.cpp:2\x1b[m\x1b[K:\n'}
+[3.997161] (robot_ras_decision) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:319:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> class std::shared_ptr\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[3.997189] (robot_ras_decision) StderrLine: {'line': b'  319 |     class \x1b[01;36m\x1b[Kshared_ptr\x1b[m\x1b[K;\n'}
+[3.997215] (robot_ras_decision) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.997241] (robot_ras_decision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/alves/ros2_ws/src/robot_ras_decision/src/motor_controller_node.cpp:80:99:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K,\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[3.997268] (robot_ras_decision) StderrLine: {'line': b'   80 |     void setVelocity\x1b[34m\x1b[K(\x1b[m\x1b[Kconst std::shared_ptr<robot_ras_decision::srv::SetVelocity::Request> &request\x1b[01;31m\x1b[K,\x1b[m\x1b[K\n'}
+[3.997296] (robot_ras_decision) StderrLine: {'line': b'      |                     \x1b[34m\x1b[K~\x1b[m\x1b[K                                                                             \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[3.997321] (robot_ras_decision) StderrLine: {'line': b'      |                                                                                                   \x1b[32m\x1b[K)\x1b[m\x1b[K\n'}
+[3.997347] (robot_ras_decision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/alves/ros2_ws/src/robot_ras_decision/src/motor_controller_node.cpp:81:47:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksrv\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Krobot_ras_decision\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Krcl_interfaces::srv\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[3.997375] (robot_ras_decision) StderrLine: {'line': b'   81 |           std::shared_ptr<robot_ras_decision::\x1b[01;31m\x1b[Ksrv\x1b[m\x1b[K::SetVelocity::Response>      response) {\n'}
+[3.997409] (robot_ras_decision) StderrLine: {'line': b'      |                                               \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.997436] (robot_ras_decision) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/describe_parameters.hpp:7\x1b[m\x1b[K,\n'}
+[3.997462] (robot_ras_decision) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_client.hpp:28\x1b[m\x1b[K,\n'}
+[3.997490] (robot_ras_decision) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:159\x1b[m\x1b[K,\n'}
+[3.997516] (robot_ras_decision) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/alves/ros2_ws/src/robot_ras_decision/src/motor_controller_node.cpp:6\x1b[m\x1b[K:\n'}
+[3.997542] (robot_ras_decision) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__struct.hpp:27:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krcl_interfaces::srv\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[3.997568] (robot_ras_decision) StderrLine: {'line': b'   27 | namespace \x1b[01;36m\x1b[Ksrv\x1b[m\x1b[K\n'}
+[3.997594] (robot_ras_decision) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.997619] (robot_ras_decision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/alves/ros2_ws/src/robot_ras_decision/src/motor_controller_node.cpp:81:73:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[3.997645] (robot_ras_decision) StderrLine: {'line': b'   81 |           std::shared_ptr<robot_ras_decision::srv::SetVelocity::Response\x1b[01;31m\x1b[K>\x1b[m\x1b[K      response) {\n'}
+[3.997671] (robot_ras_decision) StderrLine: {'line': b'      |                                                                         \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.010383] (-) TimerEvent: {}
+[4.044759] (robot_ras_decision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/alves/ros2_ws/src/robot_ras_decision/src/motor_controller_node.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KMotorControllerNode::MotorControllerNode()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.044900] (robot_ras_decision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/alves/ros2_ws/src/robot_ras_decision/src/motor_controller_node.cpp:25:54:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvelocidade_angular_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kvelocidade_linear_\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.044942] (robot_ras_decision) StderrLine: {'line': b'   25 |       this -> get_parameter (" velocidade_angular ", \x1b[01;31m\x1b[Kvelocidade_angular_\x1b[m\x1b[K ) ;\n'}
+[4.044974] (robot_ras_decision) StderrLine: {'line': b'      |                                                      \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.045011] (robot_ras_decision) StderrLine: {'line': b'      |                                                      \x1b[32m\x1b[Kvelocidade_linear_\x1b[m\x1b[K\n'}
+[4.045868] (robot_ras_decision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/alves/ros2_ws/src/robot_ras_decision/src/motor_controller_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MotorControllerNode::movement_callback(const Movement&) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.045950] (robot_ras_decision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/alves/ros2_ws/src/robot_ras_decision/src/motor_controller_node.cpp:32:12:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kfloat32\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kfloat_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.045989] (robot_ras_decision) StderrLine: {'line': b'   32 |       std::\x1b[01;31m\x1b[Kfloat32\x1b[m\x1b[K angulo = movimento.angulo;\n'}
+[4.046026] (robot_ras_decision) StderrLine: {'line': b'      |            \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[4.046058] (robot_ras_decision) StderrLine: {'line': b'      |            \x1b[32m\x1b[Kfloat_t\x1b[m\x1b[K\n'}
+[4.046471] (robot_ras_decision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/alves/ros2_ws/src/robot_ras_decision/src/motor_controller_node.cpp:33:12:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kfloat32\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kfloat_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.046519] (robot_ras_decision) StderrLine: {'line': b'   33 |       std::\x1b[01;31m\x1b[Kfloat32\x1b[m\x1b[K distancia = movimento.distancia;\n'}
+[4.046553] (robot_ras_decision) StderrLine: {'line': b'      |            \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[4.046584] (robot_ras_decision) StderrLine: {'line': b'      |            \x1b[32m\x1b[Kfloat_t\x1b[m\x1b[K\n'}
+[4.046715] (robot_ras_decision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/alves/ros2_ws/src/robot_ras_decision/src/motor_controller_node.cpp:35:45:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot convert \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Time\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99 in initialization\n'}
+[4.046794] (robot_ras_decision) StderrLine: {'line': b'   35 |       float tempoAtual = \x1b[01;31m\x1b[Krclcpp::Clock().now()\x1b[m\x1b[K;\n'}
+[4.046830] (robot_ras_decision) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[4.046864] (robot_ras_decision) StderrLine: {'line': b'      |                                             \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[4.046894] (robot_ras_decision) StderrLine: {'line': b'      |                                             \x1b[01;31m\x1b[Krclcpp::Time\x1b[m\x1b[K\n'}
+[4.050419] (robot_ras_decision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/alves/ros2_ws/src/robot_ras_decision/src/motor_controller_node.cpp:38:32:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvelocidade_linear\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kvelocidade_linear_\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.050721] (robot_ras_decision) StderrLine: {'line': b'   38 |       velocidade_angular = 2 * \x1b[01;31m\x1b[Kvelocidade_linear\x1b[m\x1b[K;\n'}
+[4.050763] (robot_ras_decision) StderrLine: {'line': b'      |                                \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.050794] (robot_ras_decision) StderrLine: {'line': b'      |                                \x1b[32m\x1b[Kvelocidade_linear_\x1b[m\x1b[K\n'}
+[4.050824] (robot_ras_decision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/alves/ros2_ws/src/robot_ras_decision/src/motor_controller_node.cpp:41:19:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kbase operand of \xe2\x80\x98\x1b[01m\x1b[K->\x1b[m\x1b[K\xe2\x80\x99 has non-pointer type \xe2\x80\x98\x1b[01m\x1b[Kconst Movement\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst robot_ras_decision::msg::Movement_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[4.050864] (robot_ras_decision) StderrLine: {'line': b'   41 |       if(movimento\x1b[01;31m\x1b[K->\x1b[m\x1b[Kdirecao = "front") {\n'}
+[4.050893] (robot_ras_decision) StderrLine: {'line': b'      |                   \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[4.056814] (robot_ras_decision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/alves/ros2_ws/src/robot_ras_decision/src/motor_controller_node.cpp:42:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kdistancia\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.057043] (robot_ras_decision) StderrLine: {'line': b'   42 |         tempoExec = \x1b[01;31m\x1b[Kdistancia\x1b[m\x1b[K/velocidade_linear_;\n'}
+[4.057089] (robot_ras_decision) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.057122] (robot_ras_decision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/alves/ros2_ws/src/robot_ras_decision/src/motor_controller_node.cpp:47:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kbase operand of \xe2\x80\x98\x1b[01m\x1b[K->\x1b[m\x1b[K\xe2\x80\x99 has non-pointer type \xe2\x80\x98\x1b[01m\x1b[Kconst Movement\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst robot_ras_decision::msg::Movement_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[4.057160] (robot_ras_decision) StderrLine: {'line': b'   47 |       } else if(movimento\x1b[01;31m\x1b[K->\x1b[m\x1b[Kdirecao = "rear") {\n'}
+[4.057191] (robot_ras_decision) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[4.062044] (robot_ras_decision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/alves/ros2_ws/src/robot_ras_decision/src/motor_controller_node.cpp:48:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kdistancia\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.062245] (robot_ras_decision) StderrLine: {'line': b'   48 |         tempoExec = \x1b[01;31m\x1b[Kdistancia\x1b[m\x1b[K/velocidade_linear_;\n'}
+[4.062282] (robot_ras_decision) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.062314] (robot_ras_decision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/alves/ros2_ws/src/robot_ras_decision/src/motor_controller_node.cpp:53:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kbase operand of \xe2\x80\x98\x1b[01m\x1b[K->\x1b[m\x1b[K\xe2\x80\x99 has non-pointer type \xe2\x80\x98\x1b[01m\x1b[Kconst Movement\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst robot_ras_decision::msg::Movement_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[4.062350] (robot_ras_decision) StderrLine: {'line': b'   53 |       } else if(movimento\x1b[01;31m\x1b[K->\x1b[m\x1b[Kdirecao = "left") {\n'}
+[4.062379] (robot_ras_decision) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[4.062418] (robot_ras_decision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/alves/ros2_ws/src/robot_ras_decision/src/motor_controller_node.cpp:54:32:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kbase operand of \xe2\x80\x98\x1b[01m\x1b[K->\x1b[m\x1b[K\xe2\x80\x99 has non-pointer type \xe2\x80\x98\x1b[01m\x1b[Kconst Movement\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst robot_ras_decision::msg::Movement_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[4.062448] (robot_ras_decision) StderrLine: {'line': b'   54 |         tempoExec = -(movimento\x1b[01;31m\x1b[K->\x1b[m\x1b[Kangulo/velocidade_angular);\n'}
+[4.062476] (robot_ras_decision) StderrLine: {'line': b'      |                                \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[4.062503] (robot_ras_decision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/alves/ros2_ws/src/robot_ras_decision/src/motor_controller_node.cpp:59:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kbase operand of \xe2\x80\x98\x1b[01m\x1b[K->\x1b[m\x1b[K\xe2\x80\x99 has non-pointer type \xe2\x80\x98\x1b[01m\x1b[Kconst Movement\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst robot_ras_decision::msg::Movement_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[4.062540] (robot_ras_decision) StderrLine: {'line': b'   59 |       } if(movimento\x1b[01;31m\x1b[K->\x1b[m\x1b[Kdirecao = "left") {\n'}
+[4.062567] (robot_ras_decision) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[4.062595] (robot_ras_decision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/alves/ros2_ws/src/robot_ras_decision/src/motor_controller_node.cpp:60:32:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kbase operand of \xe2\x80\x98\x1b[01m\x1b[K->\x1b[m\x1b[K\xe2\x80\x99 has non-pointer type \xe2\x80\x98\x1b[01m\x1b[Kconst Movement\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst robot_ras_decision::msg::Movement_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[4.062625] (robot_ras_decision) StderrLine: {'line': b'   60 |         tempoExec = -(movimento\x1b[01;31m\x1b[K->\x1b[m\x1b[Kangulo/velocidade_angular);\n'}
+[4.062652] (robot_ras_decision) StderrLine: {'line': b'      |                                \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[4.063605] (robot_ras_decision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/alves/ros2_ws/src/robot_ras_decision/src/motor_controller_node.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.063690] (robot_ras_decision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/alves/ros2_ws/src/robot_ras_decision/src/motor_controller_node.cpp:101:39:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksrv\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Krobot_ras_decision\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Krcl_interfaces::srv\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.063728] (robot_ras_decision) StderrLine: {'line': b'  101 |   rclcpp::Service<robot_ras_decision::\x1b[01;31m\x1b[Ksrv\x1b[m\x1b[K::SetVelocity>::SharedPtr setVelocity =\n'}
+[4.063758] (robot_ras_decision) StderrLine: {'line': b'      |                                       \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[4.063788] (robot_ras_decision) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/describe_parameters.hpp:7\x1b[m\x1b[K,\n'}
+[4.063817] (robot_ras_decision) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_client.hpp:28\x1b[m\x1b[K,\n'}
+[4.063845] (robot_ras_decision) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:159\x1b[m\x1b[K,\n'}
+[4.063872] (robot_ras_decision) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/alves/ros2_ws/src/robot_ras_decision/src/motor_controller_node.cpp:6\x1b[m\x1b[K:\n'}
+[4.063898] (robot_ras_decision) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__struct.hpp:27:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krcl_interfaces::srv\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[4.063932] (robot_ras_decision) StderrLine: {'line': b'   27 | namespace \x1b[01;36m\x1b[Ksrv\x1b[m\x1b[K\n'}
+[4.063958] (robot_ras_decision) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[4.063984] (robot_ras_decision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/alves/ros2_ws/src/robot_ras_decision/src/motor_controller_node.cpp:101:55:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[4.064010] (robot_ras_decision) StderrLine: {'line': b'  101 |   rclcpp::Service<robot_ras_decision::srv::SetVelocity\x1b[01;31m\x1b[K>\x1b[m\x1b[K::SharedPtr setVelocity =\n'}
+[4.064037] (robot_ras_decision) StderrLine: {'line': b'      |                                                       \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.064062] (robot_ras_decision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/alves/ros2_ws/src/robot_ras_decision/src/motor_controller_node.cpp:101:68:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kqualified-id in declaration before \xe2\x80\x98\x1b[01m\x1b[KsetVelocity\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.064090] (robot_ras_decision) StderrLine: {'line': b'  101 |   rclcpp::Service<robot_ras_decision::srv::SetVelocity>::SharedPtr \x1b[01;31m\x1b[KsetVelocity\x1b[m\x1b[K =\n'}
+[4.064116] (robot_ras_decision) StderrLine: {'line': b'      |                                                                    \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.110447] (-) TimerEvent: {}
+[4.210706] (-) TimerEvent: {}
+[4.310982] (-) TimerEvent: {}
+[4.411332] (-) TimerEvent: {}
+[4.511660] (-) TimerEvent: {}
+[4.611976] (-) TimerEvent: {}
+[4.712505] (-) TimerEvent: {}
+[4.813028] (-) TimerEvent: {}
+[4.913444] (-) TimerEvent: {}
+[5.013889] (-) TimerEvent: {}
+[5.114409] (-) TimerEvent: {}
+[5.214766] (-) TimerEvent: {}
+[5.315229] (-) TimerEvent: {}
+[5.415617] (-) TimerEvent: {}
+[5.516094] (-) TimerEvent: {}
+[5.616461] (-) TimerEvent: {}
+[5.716703] (-) TimerEvent: {}
+[5.817105] (-) TimerEvent: {}
+[5.917563] (-) TimerEvent: {}
+[6.018042] (-) TimerEvent: {}
+[6.079041] (robot_ras_decision) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/MotorControllerNode.dir/build.make:76: CMakeFiles/MotorControllerNode.dir/src/motor_controller_node.cpp.o] Erro 1\n'}
+[6.079216] (robot_ras_decision) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:596: CMakeFiles/MotorControllerNode.dir/all] Erro 2\n'}
+[6.079289] (robot_ras_decision) StderrLine: {'line': b'gmake[1]: ** Esperando que outros processos terminem.\n'}
+[6.118197] (-) TimerEvent: {}
+[6.218549] (-) TimerEvent: {}
+[6.318824] (-) TimerEvent: {}
+[6.419096] (-) TimerEvent: {}
+[6.519343] (-) TimerEvent: {}
+[6.619593] (-) TimerEvent: {}
+[6.719833] (-) TimerEvent: {}
+[6.820225] (-) TimerEvent: {}
+[6.920584] (-) TimerEvent: {}
+[7.020860] (-) TimerEvent: {}
+[7.121132] (-) TimerEvent: {}
+[7.221396] (-) TimerEvent: {}
+[7.321620] (-) TimerEvent: {}
+[7.421926] (-) TimerEvent: {}
+[7.522362] (-) TimerEvent: {}
+[7.622604] (-) TimerEvent: {}
+[7.722888] (-) TimerEvent: {}
+[7.823224] (-) TimerEvent: {}
+[7.923523] (-) TimerEvent: {}
+[8.023904] (-) TimerEvent: {}
+[8.124150] (-) TimerEvent: {}
+[8.224557] (-) TimerEvent: {}
+[8.324859] (-) TimerEvent: {}
+[8.425237] (-) TimerEvent: {}
+[8.525473] (-) TimerEvent: {}
+[8.572737] (robot_ras_decision) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking CXX executable DecisionNode\x1b[0m\n'}
+[8.625615] (-) TimerEvent: {}
+[8.725970] (-) TimerEvent: {}
+[8.826276] (-) TimerEvent: {}
+[8.879832] (robot_ras_decision) StdoutLine: {'line': b'[ 97%] Built target DecisionNode\n'}
+[8.881010] (robot_ras_decision) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Erro 2\n'}
+[8.883138] (robot_ras_decision) CommandEnded: {'returncode': 2}
+[8.889819] (robot_ras_decision) JobEnded: {'identifier': 'robot_ras_decision', 'rc': 2}
+[8.900283] (-) EventReactorShutdown: {}

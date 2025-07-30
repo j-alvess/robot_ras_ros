@@ -83,6 +83,7 @@ rosidl_generator_c/robot_ras_decision/msg/movement.h: /opt/ros/humble/share/rosi
 rosidl_generator_c/robot_ras_decision/msg/movement.h: /opt/ros/humble/share/rosidl_generator_c/resource/msg__type_support.h.em
 rosidl_generator_c/robot_ras_decision/msg/movement.h: /opt/ros/humble/share/rosidl_generator_c/resource/srv__type_support.h.em
 rosidl_generator_c/robot_ras_decision/msg/movement.h: rosidl_adapter/robot_ras_decision/msg/Movement.idl
+rosidl_generator_c/robot_ras_decision/msg/movement.h: rosidl_adapter/robot_ras_decision/srv/SetVelocity.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/alves/ros2_ws/build/robot_ras_decision/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C code for ROS interfaces"
 	/usr/bin/python3 /opt/ros/humble/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c --generator-arguments-file /home/alves/ros2_ws/build/robot_ras_decision/rosidl_generator_c__arguments.json
 
@@ -95,8 +96,23 @@ rosidl_generator_c/robot_ras_decision/msg/detail/movement__struct.h: rosidl_gene
 rosidl_generator_c/robot_ras_decision/msg/detail/movement__type_support.h: rosidl_generator_c/robot_ras_decision/msg/movement.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/robot_ras_decision/msg/detail/movement__type_support.h
 
+rosidl_generator_c/robot_ras_decision/srv/set_velocity.h: rosidl_generator_c/robot_ras_decision/msg/movement.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/robot_ras_decision/srv/set_velocity.h
+
+rosidl_generator_c/robot_ras_decision/srv/detail/set_velocity__functions.h: rosidl_generator_c/robot_ras_decision/msg/movement.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/robot_ras_decision/srv/detail/set_velocity__functions.h
+
+rosidl_generator_c/robot_ras_decision/srv/detail/set_velocity__struct.h: rosidl_generator_c/robot_ras_decision/msg/movement.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/robot_ras_decision/srv/detail/set_velocity__struct.h
+
+rosidl_generator_c/robot_ras_decision/srv/detail/set_velocity__type_support.h: rosidl_generator_c/robot_ras_decision/msg/movement.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/robot_ras_decision/srv/detail/set_velocity__type_support.h
+
 rosidl_generator_c/robot_ras_decision/msg/detail/movement__functions.c: rosidl_generator_c/robot_ras_decision/msg/movement.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/robot_ras_decision/msg/detail/movement__functions.c
+
+rosidl_generator_c/robot_ras_decision/srv/detail/set_velocity__functions.c: rosidl_generator_c/robot_ras_decision/msg/movement.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/robot_ras_decision/srv/detail/set_velocity__functions.c
 
 CMakeFiles/robot_ras_decision__rosidl_generator_c.dir/rosidl_generator_c/robot_ras_decision/msg/detail/movement__functions.c.o: CMakeFiles/robot_ras_decision__rosidl_generator_c.dir/flags.make
 CMakeFiles/robot_ras_decision__rosidl_generator_c.dir/rosidl_generator_c/robot_ras_decision/msg/detail/movement__functions.c.o: rosidl_generator_c/robot_ras_decision/msg/detail/movement__functions.c
@@ -112,19 +128,35 @@ CMakeFiles/robot_ras_decision__rosidl_generator_c.dir/rosidl_generator_c/robot_r
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/robot_ras_decision__rosidl_generator_c.dir/rosidl_generator_c/robot_ras_decision/msg/detail/movement__functions.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/alves/ros2_ws/build/robot_ras_decision/rosidl_generator_c/robot_ras_decision/msg/detail/movement__functions.c -o CMakeFiles/robot_ras_decision__rosidl_generator_c.dir/rosidl_generator_c/robot_ras_decision/msg/detail/movement__functions.c.s
 
+CMakeFiles/robot_ras_decision__rosidl_generator_c.dir/rosidl_generator_c/robot_ras_decision/srv/detail/set_velocity__functions.c.o: CMakeFiles/robot_ras_decision__rosidl_generator_c.dir/flags.make
+CMakeFiles/robot_ras_decision__rosidl_generator_c.dir/rosidl_generator_c/robot_ras_decision/srv/detail/set_velocity__functions.c.o: rosidl_generator_c/robot_ras_decision/srv/detail/set_velocity__functions.c
+CMakeFiles/robot_ras_decision__rosidl_generator_c.dir/rosidl_generator_c/robot_ras_decision/srv/detail/set_velocity__functions.c.o: CMakeFiles/robot_ras_decision__rosidl_generator_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alves/ros2_ws/build/robot_ras_decision/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/robot_ras_decision__rosidl_generator_c.dir/rosidl_generator_c/robot_ras_decision/srv/detail/set_velocity__functions.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/robot_ras_decision__rosidl_generator_c.dir/rosidl_generator_c/robot_ras_decision/srv/detail/set_velocity__functions.c.o -MF CMakeFiles/robot_ras_decision__rosidl_generator_c.dir/rosidl_generator_c/robot_ras_decision/srv/detail/set_velocity__functions.c.o.d -o CMakeFiles/robot_ras_decision__rosidl_generator_c.dir/rosidl_generator_c/robot_ras_decision/srv/detail/set_velocity__functions.c.o -c /home/alves/ros2_ws/build/robot_ras_decision/rosidl_generator_c/robot_ras_decision/srv/detail/set_velocity__functions.c
+
+CMakeFiles/robot_ras_decision__rosidl_generator_c.dir/rosidl_generator_c/robot_ras_decision/srv/detail/set_velocity__functions.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/robot_ras_decision__rosidl_generator_c.dir/rosidl_generator_c/robot_ras_decision/srv/detail/set_velocity__functions.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/alves/ros2_ws/build/robot_ras_decision/rosidl_generator_c/robot_ras_decision/srv/detail/set_velocity__functions.c > CMakeFiles/robot_ras_decision__rosidl_generator_c.dir/rosidl_generator_c/robot_ras_decision/srv/detail/set_velocity__functions.c.i
+
+CMakeFiles/robot_ras_decision__rosidl_generator_c.dir/rosidl_generator_c/robot_ras_decision/srv/detail/set_velocity__functions.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/robot_ras_decision__rosidl_generator_c.dir/rosidl_generator_c/robot_ras_decision/srv/detail/set_velocity__functions.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/alves/ros2_ws/build/robot_ras_decision/rosidl_generator_c/robot_ras_decision/srv/detail/set_velocity__functions.c -o CMakeFiles/robot_ras_decision__rosidl_generator_c.dir/rosidl_generator_c/robot_ras_decision/srv/detail/set_velocity__functions.c.s
+
 # Object files for target robot_ras_decision__rosidl_generator_c
 robot_ras_decision__rosidl_generator_c_OBJECTS = \
-"CMakeFiles/robot_ras_decision__rosidl_generator_c.dir/rosidl_generator_c/robot_ras_decision/msg/detail/movement__functions.c.o"
+"CMakeFiles/robot_ras_decision__rosidl_generator_c.dir/rosidl_generator_c/robot_ras_decision/msg/detail/movement__functions.c.o" \
+"CMakeFiles/robot_ras_decision__rosidl_generator_c.dir/rosidl_generator_c/robot_ras_decision/srv/detail/set_velocity__functions.c.o"
 
 # External object files for target robot_ras_decision__rosidl_generator_c
 robot_ras_decision__rosidl_generator_c_EXTERNAL_OBJECTS =
 
 librobot_ras_decision__rosidl_generator_c.so: CMakeFiles/robot_ras_decision__rosidl_generator_c.dir/rosidl_generator_c/robot_ras_decision/msg/detail/movement__functions.c.o
+librobot_ras_decision__rosidl_generator_c.so: CMakeFiles/robot_ras_decision__rosidl_generator_c.dir/rosidl_generator_c/robot_ras_decision/srv/detail/set_velocity__functions.c.o
 librobot_ras_decision__rosidl_generator_c.so: CMakeFiles/robot_ras_decision__rosidl_generator_c.dir/build.make
 librobot_ras_decision__rosidl_generator_c.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 librobot_ras_decision__rosidl_generator_c.so: /opt/ros/humble/lib/librcutils.so
 librobot_ras_decision__rosidl_generator_c.so: CMakeFiles/robot_ras_decision__rosidl_generator_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/alves/ros2_ws/build/robot_ras_decision/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C shared library librobot_ras_decision__rosidl_generator_c.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/alves/ros2_ws/build/robot_ras_decision/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C shared library librobot_ras_decision__rosidl_generator_c.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/robot_ras_decision__rosidl_generator_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -140,6 +172,11 @@ CMakeFiles/robot_ras_decision__rosidl_generator_c.dir/depend: rosidl_generator_c
 CMakeFiles/robot_ras_decision__rosidl_generator_c.dir/depend: rosidl_generator_c/robot_ras_decision/msg/detail/movement__struct.h
 CMakeFiles/robot_ras_decision__rosidl_generator_c.dir/depend: rosidl_generator_c/robot_ras_decision/msg/detail/movement__type_support.h
 CMakeFiles/robot_ras_decision__rosidl_generator_c.dir/depend: rosidl_generator_c/robot_ras_decision/msg/movement.h
+CMakeFiles/robot_ras_decision__rosidl_generator_c.dir/depend: rosidl_generator_c/robot_ras_decision/srv/detail/set_velocity__functions.c
+CMakeFiles/robot_ras_decision__rosidl_generator_c.dir/depend: rosidl_generator_c/robot_ras_decision/srv/detail/set_velocity__functions.h
+CMakeFiles/robot_ras_decision__rosidl_generator_c.dir/depend: rosidl_generator_c/robot_ras_decision/srv/detail/set_velocity__struct.h
+CMakeFiles/robot_ras_decision__rosidl_generator_c.dir/depend: rosidl_generator_c/robot_ras_decision/srv/detail/set_velocity__type_support.h
+CMakeFiles/robot_ras_decision__rosidl_generator_c.dir/depend: rosidl_generator_c/robot_ras_decision/srv/set_velocity.h
 	cd /home/alves/ros2_ws/build/robot_ras_decision && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/alves/ros2_ws/src/robot_ras_decision /home/alves/ros2_ws/src/robot_ras_decision /home/alves/ros2_ws/build/robot_ras_decision /home/alves/ros2_ws/build/robot_ras_decision /home/alves/ros2_ws/build/robot_ras_decision/CMakeFiles/robot_ras_decision__rosidl_generator_c.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/robot_ras_decision__rosidl_generator_c.dir/depend
 

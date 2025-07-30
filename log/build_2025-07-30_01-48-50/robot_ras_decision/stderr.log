@@ -1,0 +1,11 @@
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/motor_controller_node.cpp:[m[K In member function ‘[01m[Kvoid MotorControllerNode::movement_callback(robot_ras_decision::msg::Movement_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/motor_controller_node.cpp:35:27:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kvelocidade_angular[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   35 |         float vel1, vel2, [01;35m[Kvelocidade_angular[m[K;
+      |                           [01;35m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/motor_controller_node.cpp:[m[K In member function ‘[01m[Kvoid MotorControllerNode::setVelocity(const std::shared_ptr<robot_ras_decision::srv::SetVelocity_Request_<std::allocator<void> > >&, std::shared_ptr<robot_ras_decision::srv::SetVelocity_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/alves/ros2_ws/src/robot_ras_decision/src/motor_controller_node.cpp:71:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass std::shared_ptr<robot_ras_decision::srv::SetVelocity_Response_<std::allocator<void> > >[m[K’ has no member named ‘[01m[Ksucesso[m[K’
+   71 |                 response.[01;31m[Ksucesso[m[K = 1;
+      |                          [01;31m[K^~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/MotorControllerNode.dir/build.make:76: CMakeFiles/MotorControllerNode.dir/src/motor_controller_node.cpp.o] Erro 1
+gmake[1]: *** [CMakeFiles/Makefile2:596: CMakeFiles/MotorControllerNode.dir/all] Erro 2
+gmake: *** [Makefile:146: all] Erro 2
